@@ -1,0 +1,7 @@
+# Bewuste uitzonderingen op SEO-regels (false positives). Voorbeeld:
+# - rule: LOW-004
+#   url: /contact/
+#   reason: Contactpagina is bewust kort
+- rule: LOW-001
+  url: /contact/
+  reason: Geen zoekwoordpagina

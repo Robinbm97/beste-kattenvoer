@@ -1,0 +1,35 @@
+# Accessoires uit dezelfde Daisycon-productfeed (opgehaald: zie checked in products.yaml).
+# kg / units alleen invullen als het in de producttitel staat; anders null.
+zakken:
+  - { name: "Petkit afvalzakken (Pura Max 2 & Purobot Max Pro)", shop: BricoInn, price: 10.99, units: 20, note: "20 stuks" }
+  - { name: "Petkit Waste Bag", shop: BricoInn, price: 4.99, units: null, note: "8 units (rollen of stuks staat er niet bij)" }
+  - { name: "Catlink Baymax Lite hygiënische zakken", shop: TechInn, price: 10.99, units: null, note: "2 verpakkingen" }
+  - { name: "Catlink Open-X zakken", shop: BricoInn, price: 11.49, units: null, note: "2 verpakkingen" }
+  - { name: "Catlink Pro-X zakken", shop: TechInn, price: 11.99, units: null, note: "aantal niet opgegeven" }
+  - { name: "Nobleza zakken 50 x 50 cm", shop: BricoInn, price: 6.49, units: null, note: "aantal niet opgegeven" }
+  - { name: "Nobleza zakken 55 x 30 cm", shop: BricoInn, price: 14.99, units: null, note: "aantal niet opgegeven" }
+  - { name: "JC Pets kattenbakzakken", shop: JC Pets, price: 21.95, units: null, note: "aantal niet opgegeven" }
+vulling:
+  - { name: "pidan 3-in-1 mix", shop: Joybuy, price: 37.39, kg: 23.2, liter: null, type: "Mix (tofu/bentoniet)" }
+  - { name: "Photonspace tofu & cassave, 4 x 2,5 kg", shop: Joybuy, price: 16.96, kg: 10, liter: null, type: "Tofu & cassave" }
+  - { name: "Photonspace tofu & cassave, 2,5 kg", shop: Joybuy, price: 5.49, kg: 2.5, liter: null, type: "Tofu & cassave" }
+  - { name: "pidan tofu, 4 x 2,4 kg", shop: Joybuy, price: 21.30, kg: 9.6, liter: null, type: "Tofu" }
+  - { name: "pidan tofu, 4 x 2,4 kg (andere aanbieding)", shop: Joybuy, price: 24.69, kg: 9.6, liter: null, type: "Tofu" }
+  - { name: "pidan tofu, 2 x 2,4 kg", shop: Joybuy, price: 14.96, kg: 4.8, liter: null, type: "Tofu" }
+  - { name: "Poopy Fusion Grit, 3 kg", shop: Coolshop, price: 10.00, kg: 3, liter: null, type: "Klontvormend grit" }
+  - { name: "Cocosi tofu, 6 liter", shop: BricoInn, price: 9.49, kg: null, liter: 6, type: "Tofu" }
+  - { name: "Revolitter klontvormend met actieve kool, 5 liter", shop: Productpine, price: 11.50, kg: null, liter: 5, type: "Klontvormend" }
+geur:
+  - { name: "Beeztees Moeza filters, 12 stuks", shop: Plein.nl, price: 4.85, units: 12 }
+  - { name: "Nobleza deodorizer 125 g", shop: BricoInn, price: 4.89, units: null }
+  - { name: "Petkit Purobot Ultra filter", shop: BricoInn, price: 13.99, units: 1 }
+  - { name: "JC Pets kattenbak geurverdrijver", shop: JC Pets, price: 16.95, units: 1 }
+  - { name: "Petoneer Smart Odor Eliminator Pro", shop: BricoInn, price: 22.99, units: 1 }
+  - { name: "Rojeco geurverdrijver (oplaadbaar)", shop: BricoInn, price: 23.99, units: 1 }
+  - { name: "Petkit Pura Air Smart Spray", shop: BricoInn, price: 35.49, units: 1 }
+  - { name: "Catlink CL-D-01 geurverwijderaar", shop: BricoInn, price: 53.99, units: 1 }
+overig:
+  - { name: "Catlink verhoger (lagere instap)", shop: AliExpress, price: 30.99 }
+  - { name: "Petkit Pura Max kattenbakmat", shop: BricoInn, price: 30.99 }
+  - { name: "Revo-loo Band (RFID-herkenning)", shop: Productpine, price: 11.00 }
+  - { name: "LitterHopper navulsysteem voor Litter-Robot 4", shop: Productpine, price: 110.50 }

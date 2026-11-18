@@ -1,0 +1,62 @@
+# Foto's van Unsplash. Unsplash vraagt om hotlinken via images.unsplash.com en naamsvermelding.
+# Downloads zijn geregistreerd via de Unsplash API op 2026-11-17.
+kat-in-kattenbak:
+  src: https://images.unsplash.com/photo-1727510153658-643787acb16a
+  alt: Bengaalse kat zit ontspannen in een grijze automatische kattenbak
+  credit: Neakasa
+  credit_url: https://unsplash.com/@neakasa
+oranje-kat-kattenbak:
+  src: https://images.unsplash.com/photo-1727510152683-a212cf8e49ad
+  alt: Rode kat zit in een moderne automatische kattenbak
+  credit: Neakasa
+  credit_url: https://unsplash.com/@neakasa
+kattenbak-woonkamer:
+  src: https://images.unsplash.com/photo-1727510155089-721c9c729a46
+  alt: Automatische kattenbak met mat ervoor in een lichte woonkamer
+  credit: Neakasa
+  credit_url: https://unsplash.com/@neakasa
+afvalzak-legen:
+  src: https://images.unsplash.com/photo-1727510153682-bd4570ad05ce
+  alt: Iemand haalt een dichtgeknoopte afvalzak uit een automatische kattenbak
+  credit: Neakasa
+  credit_url: https://unsplash.com/@neakasa
+kat-nieuwsgierig:
+  src: https://images.unsplash.com/photo-1727510152600-199102202dcf
+  alt: Rode kat staat op zijn achterpootjes en snuffelt aan een automatische kattenbak
+  credit: Neakasa
+  credit_url: https://unsplash.com/@neakasa
+kitten-grijs:
+  src: https://images.unsplash.com/photo-1516750105099-4b8a83e217ee
+  alt: Grijze kitten zit op een lichte vloer en kijkt in de camera
+  credit: Kim Davies
+  credit_url: https://unsplash.com/@flowerchildkimmi
+grote-rode-kat:
+  src: https://images.unsplash.com/photo-1569591159212-b02ea8a9f239
+  alt: Grote rode langharige kat kijkt opzij
+  credit: Zoë Gayah Jonker
+  credit_url: https://unsplash.com/@zoegayah
+twee-katten:
+  src: https://images.unsplash.com/photo-1532386236358-a33d8a9434e3
+  alt: Bruine kat ligt bovenop een zwarte kat, samen op de bank
+  credit: Raul Varzar
+  credit_url: https://unsplash.com/@calypso999
+
+# Eigen foto's van Robin (Mila & Nala). Lokaal gehost als WebP in static/media/.
+mila-nala-samen:
+  local: /media/mila-nala-samen
+  widths: [480, 960]
+  alt: Nala (zilvergrijze Britse korthaar) en Mila (zwarte Europese korthaar) zitten samen op de vloer en kijken in de camera
+  credit: Robin
+  credit_url: /auteur/robin/
+grijze-kat-stoel:
+  local: /media/grijze-kat-stoel
+  widths: [480, 960, 1440]
+  alt: Nala, de zilvergrijze Britse korthaar van Robin, ligt opgerold op een fauteuil bij het raam en kijkt omhoog
+  credit: Robin
+  credit_url: /auteur/robin/
+grijze-kat-bank:
+  local: /media/grijze-kat-bank
+  widths: [480, 960]
+  alt: Nala ligt languit op de bank met haar pootjes naar voren
+  credit: Robin
+  credit_url: /auteur/robin/

@@ -1,0 +1,17 @@
+{
+  "name": "bestekattenverzekering",
+  "private": true,
+  "type": "module",
+  "description": "SEO-first vergelijkingssite voor kattenverzekeringen. Statisch gebouwd, gehost op Cloudflare Pages.",
+  "scripts": {
+    "build": "node src/build.mjs && node src/seo-check.mjs",
+    "seo": "node src/seo-check.mjs",
+    "links": "node src/link-check.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "marked": "^14.1.0",
+    "node-html-parser": "^6.1.13"
+  }
+}

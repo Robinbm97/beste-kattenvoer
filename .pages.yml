@@ -1,0 +1,65 @@
+# Pages CMS (https://pagescms.org) – bewerk alle content in een webinterface.
+# Log in op app.pagescms.org met GitHub en kies deze repo. Elke wijziging is een commit → Cloudflare bouwt automatisch.
+media:
+  input: static/media
+  output: /media
+content:
+  - name: pages
+    label: Pagina's
+    type: collection
+    path: content/pages
+    subfolders: true
+    filename: "{fields.slug}.md"
+    view:
+      fields: [title, slug, template, status, updated]
+      primary: title
+      sort: [updated, title]
+    fields:
+      - { name: title, label: Paginatitel, type: string, required: true }
+      - { name: slug, label: URL (blijft vast als je de titel wijzigt), type: string, required: true, pattern: { regex: "^/([a-z0-9-]+/)*$", message: "Kleine letters, koppeltekens en een / aan begin en eind" } }
+      - { name: template, label: Paginatype, type: select, options: { values: [home, vergelijker, review, landing, article, hub-kattenbakken, hub-kennisbank, about, contact, page, search, notfound] } }
+      - { name: status, label: Contentstatus, type: select, default: draft, options: { values: [draft, published] } }
+      - { name: h1, label: H1, type: string, required: true }
+      - { name: kicker, label: Bovenregel, type: string }
+      - { name: lead, label: Intro, type: text }
+      - { name: breadcrumb, label: Naam in kruimelpad, type: string }
+      - { name: seo_title, label: SEO title (50–60 tekens), type: string, required: true }
+      - { name: meta_description, label: Meta description (140–160 tekens), type: text, required: true }
+      - { name: canonical, label: Afwijkende canonical (meestal leeg laten), type: string }
+      - { name: primary_keyword, label: Primair zoekwoord, type: string }
+      - { name: secondary_keywords, label: Secundaire zoekwoorden, type: string, list: true }
+      - { name: search_intent, label: Zoekintentie, type: select, options: { values: [informational, commercial, transactional, navigational] } }
+      - { name: image, label: Hoofdafbeelding (sleutel uit images.yaml), type: string }
+      - { name: author, label: Auteur, type: string, default: redactie }
+      - { name: published, label: Publicatiedatum, type: date }
+      - { name: updated, label: Laatst gewijzigd, type: date }
+      - { name: index, label: Indexeren, type: boolean, default: true }
+      - { name: follow, label: Links volgen, type: boolean, default: true }
+      - { name: og_title, label: Open Graph titel (optioneel), type: string }
+      - { name: og_description, label: Open Graph beschrijving (optioneel), type: text }
+      - { name: sources, label: Bronnen (sleutels uit insurers.yaml), type: string, list: true }
+      - { name: related, label: Gerelateerde pagina’s (URL’s), type: string, list: true }
+      - name: faq
+        label: Veelgestelde vragen (worden FAQPage-schema)
+        type: object
+        list: true
+        fields:
+          - { name: q, label: Vraag, type: string }
+          - { name: a, label: Antwoord, type: text }
+      - { name: body, label: Inhoud (Markdown, H2/H3; shortcodes [[top3]] [[tabel]] [[prod:id]] [[cta:id]] [[lijst:camera]] [[img:sleutel]]), type: rich-text }
+  - name: products
+    label: Kattenbakken, prijzen & partnerlinks
+    type: file
+    path: content/products.yaml
+  - name: site
+    label: Site-instellingen & menu
+    type: file
+    path: content/site.yaml
+  - name: images
+    label: Afbeeldingen
+    type: file
+    path: content/images.yaml
+  - name: seo-exceptions
+    label: SEO-uitzonderingen
+    type: file
+    path: content/seo-exceptions.yaml

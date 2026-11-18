@@ -1,0 +1,900 @@
+# Automatische kattenbakken – productdata.
+# Prijzen, winkels, links en productfoto's komen uit de Daisycon-productfeed en van bol.com (opgehaald: zie `checked`).
+# bol.com-offers: url = gewone productpagina; de build maakt er een partnerlink van met bol.site_id uit site.yaml.
+# bol_rating/bol_reviews = gemiddelde klantbeoordeling op bol.com op de peildatum.
+# Specificaties komen uit de productomschrijving van de winkel/fabrikant in diezelfde feed.
+# Onbekend = null (de site toont dan "niet opgegeven"). Verzin nooit een spec.
+#
+# offers[].url bevat de Daisycon-placeholders #MEDIA_ID# en #SUBID#. De build vult die in
+# met `daisycon.media_id` uit site.yaml en het product-id als subid.
+# offers[].condition: new | refurbished (Productpine verkoopt gecontroleerde, gebruikte/refurbished producten)
+# shape: closed (dicht/koepel) | open (open bovenkant/lage instap) | globe (draaiende bol)
+# Onze score: zie /over-ons/#score. Op basis van specificaties, prijs en beschikbaarheid; we hebben de bakken niet zelf getest.
+
+checked: 2026-11-17
+products:
+- id: litter-robot-4
+  rank: 1
+  name: Litter-Robot 4
+  brand: Whisker
+  score: 9.2
+  badge: Onze nr. 1
+  tagline: De bekendste zelfreinigende kattenbak, met een draaiende bol en slimme sensoren
+  best_for: Wie het beste wil en één tot drie katten heeft
+  shape: globe
+  capacity_l: null
+  waste_days: null
+  cat_weight: vanaf 1,4 kg
+  min_cat_kg: 1.4
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: Stil (geen dB opgegeven)
+  litter: Klontvormende korrels
+  extras: Gewichtsregistratie per bezoek, nachtlampje, OmniSense-detectie
+  pros:
+  - Bewezen systeem met een draaiende bol die klonten scheidt van schone korrels
+  - App laat per bezoek gewicht en gebruik zien
+  - Geschikt voor meerdere katten
+  cons:
+  - Verreweg de duurste in deze vergelijking
+  - 'Groot en hoog: meet je plek vooraf op'
+  offers:
+  - shop: Coolshop
+    program_id: 15383
+    price: 870
+    condition: new
+    url: https://lt45.net/c/?si=15383&li=1666516&wi=#MEDIA_ID#&ws=#SUBID#&dl=product%2Fwhisker-litter-robot-4-white-lr4-0105-00-eu%2F23J98N%2F%3Futm_medium%3Daffiliate%26utm_source%3Ddaisycon_%25MEDIANAME%25%26utm_campaign%3Dnl_affiliate%26utm_content%3Daffiliate
+    image_pid: 1deab6dd6ef2d02974577d323064dc4b
+  - shop: bol.com
+    program_id: null
+    price: 728.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/litter-robot-4-eu-zwart/9300000156270099/
+    image: https://media.s-bol.com/Px22nL30rX0y/MQZJZ0P/550x747.jpg
+  bol_rating: 4.8
+  bol_reviews: 37
+- id: petkit-purobot-max-pro-2
+  rank: 2
+  name: Petkit Purobot Max Pro 2
+  brand: Petkit
+  score: 8.9
+  badge: Beste voor meerdere katten
+  tagline: Camera met gezichtsherkenning, zodat je per kat ziet wat er gebeurt
+  best_for: Huishoudens met meerdere katten die gezondheid willen volgen
+  shape: closed
+  capacity_l: null
+  waste_days: tot 17 dagen
+  cat_weight: null
+  min_cat_kg: null
+  max_cat_kg: null
+  app: true
+  camera: true
+  multi_cat: true
+  noise: Fluisterstil volgens fabrikant
+  litter: Meeste klonterende korrels
+  extras: AI-camera met gezichtsherkenning per kat, 12 sensoren, anti-knijpontwerp, contactloos afval weggooien
+  pros:
+  - Herkent je katten apart en houdt per kat een gezondheidslog bij
+  - Lang zonder legen, tot 17 dagen volgens Petkit
+  - Grote, toegankelijke ingang
+  cons:
+  - 'Prijzig: een van de duurdere bakken in deze vergelijking'
+  - Veel functies betekent ook veel app-meldingen
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 509.57
+    condition: new
+    url: https://www.bol.com/nl/nl/p/petkit-purobot-max-pro-with-camera-self-cleaning-cat-litter-box-2-automatische-kattenbak/9300000250317787/
+    image: https://media.s-bol.com/Q9Y5P4Jz2jn0/jYwmRxz/550x536.jpg
+- id: neakasa-m1
+  rank: 3
+  name: Neakasa M1
+  brand: Neakasa
+  score: 8.7
+  badge: Beste open kattenbak
+  tagline: Open bak zonder koepel, met een groot zandreservoir en ruimte voor grote katten
+  best_for: Grote katten en katten die een dichte bak niet vertrouwen
+  shape: open
+  capacity_l: 11.2
+  waste_days: tot 14 dagen
+  cat_weight: 1 tot 15 kg
+  min_cat_kg: 1
+  max_cat_kg: 15
+  app: true
+  camera: false
+  multi_cat: true
+  noise: Onder 50 dB
+  litter: Klonterende korrels
+  extras: Infraroodsensoren, inclusief mat, zandcontainer van 7,2 liter
+  pros:
+  - Open ontwerp, dus geen enge ingang voor schrikachtige katten
+  - Geschikt voor katten tot 15 kg, ook een Maine Coon
+  - Stil, onder 50 dB volgens Neakasa
+  cons:
+  - 'Open bak: korrels schoppen gaat makkelijker over de rand'
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 339.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/neakasa-m1-automatische-kattenbak-zelfreinigende-kattenbak-met-grote-opening-voor-katten-van-1-tot-10-kg-gratis-app-inclusief-gritmat-en-2-rollen-afvalzakken/9300000174453382/
+    image: https://media.s-bol.com/xK8ZR5ERR2Xl/MZ1GOMm/550x551.jpg
+- id: petkit-purobot-ultra
+  rank: 4
+  name: Petkit Purobot Ultra
+  brand: Petkit
+  score: 8.6
+  badge: Slimste camera
+  tagline: AI-camera die het reinigen afstemt op je kat
+  best_for: Wie alles in de app wil zien
+  shape: closed
+  capacity_l: null
+  waste_days: null
+  cat_weight: tot 10 kg
+  min_cat_kg: null
+  max_cat_kg: 10
+  app: true
+  camera: true
+  multi_cat: true
+  noise: Stil volgens fabrikant
+  litter: Klonterende korrels
+  extras: AI-camera met gezichtsherkenning
+  pros:
+  - Camera laat zien wie er op de bak zit
+  - Ook als refurbished te koop, dat scheelt fors
+  - Geschikt voor katten tot 10 kg
+  cons:
+  - Nieuw is hij duur (vanaf ongeveer €773)
+  - De goedkoopste aanbieding is refurbished
+  offers:
+  - shop: Coolshop
+    program_id: 15383
+    price: 772.95
+    condition: new
+    url: https://lt45.net/c/?si=15383&li=1666516&wi=#MEDIA_ID#&ws=#SUBID#&dl=product%2Fpetkit-litter-box-purobot-ultra-ai-camera-facial-recognition%2F23S8UZ%2F%3Futm_medium%3Daffiliate%26utm_source%3Ddaisycon_%25MEDIANAME%25%26utm_campaign%3Dnl_affiliate%26utm_content%3Daffiliate
+    image_pid: 49a16787d75d9767b283c28e329b746c
+  - shop: bol.com
+    program_id: null
+    price: 713
+    condition: new
+    url: https://www.bol.com/nl/nl/p/petkit-purobot-ultra-with-camera-self-cleaning-cat-litter-box/9300000192312588/
+    image: https://media.s-bol.com/K3P5l4XM3oVr/Z8Kx3J6/550x526.jpg
+  bol_rating: 4.8
+  bol_reviews: 5
+- id: zedar-k1200
+  rank: 5
+  name: Zedar K1200
+  brand: Zedar
+  score: 8.5
+  badge: Nederlands merk, veel reviews
+  tagline: Populaire XXL-bak van 82 liter van een merk uit Drachten
+  best_for: Wie een ruime, stille bak met app wil en hulp in het Nederlands
+  shape: closed
+  capacity_l: 82
+  waste_days: null
+  cat_weight: vanaf 0,6 kg
+  min_cat_kg: 0.6
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: Onder 40 dB volgens Zedar
+  litter: Klonterende korrels
+  extras: Geurpods, logboek in de app, inclusief kattenbakmat en 45 zakjes
+  size: 58,2 × 51,3 × 53 cm
+  pros:
+  - 82 liter binnenruimte
+  - Al vanaf 0,6 kg kattengewicht, dus ook voor kittens
+  - Nederlandse handleiding en fabrikant in Drachten
+  cons:
+  - Ook een duurdere variant met camera (K1200+); let op welke je kiest
+  - Eigen geurpods nodig voor het geurfilter
+  bol_rating: 4.2
+  bol_reviews: 355
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 275
+    condition: new
+    url: https://www.bol.com/nl/nl/p/zedar-k1200-automatische-kattenbak/9300000186027522/
+    image: https://media.s-bol.com/xAQKWvYV5kXr/W6ER51x/550x602.jpg
+- id: photonspace-xxl
+  rank: 6
+  name: Photonspace XXL
+  brand: Photonspace
+  score: 8.4
+  badge: Populairste op bol
+  tagline: 'De best verkochte automatische kattenbak op bol.com: 95 liter en een app'
+  best_for: Wie veel ruimte wil voor een normale prijs
+  shape: closed
+  capacity_l: 95
+  waste_days: null
+  cat_weight: vanaf 1,5 kg
+  min_cat_kg: 1.5
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: null
+  litter: Klonterende korrels
+  extras: Handsfree legen, geurfilter, inclusief kattenbakmat en 3 rollen zakjes
+  pros:
+  - 'Heel ruim: 95 liter'
+  - App met meldingen als de afvalbak vol is
+  - Geschikt voor 3 katten en voor kittens
+  cons:
+  - 'Hoog model (68 cm): meet je plek op'
+  - 'Zwaar: 11 kg'
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 209
+    condition: new
+    url: https://www.bol.com/nl/nl/p/automatische-kattenbak-zelfreinigende-kattenbak-inclusief-app-open-top-gebruikt/9300000198239545/
+    image: https://media.s-bol.com/Y3ZnRB2P2Wj0/mq7My40/550x550.jpg
+  size: 55 × 53 × 68 cm
+  bol_rating: 4.7
+  bol_reviews: 384
+- id: catlink-open-x
+  rank: 7
+  name: Catlink Open-X
+  brand: Catlink
+  score: 8.3
+  badge: Open en betaalbaar
+  tagline: Ruime open bak die gewicht, bezoeken en duur bijhoudt
+  best_for: Een open bak voor minder dan €300
+  shape: open
+  capacity_l: null
+  waste_days: null
+  cat_weight: vanaf 1,5 kg
+  min_cat_kg: 1.5
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: Stil volgens fabrikant
+  litter: Klonterende korrels
+  extras: Meerlaags veiligheidssysteem, registratie van gewicht, bezoeken en duur
+  pros:
+  - Open ontwerp voor katten die niet van een koepel houden
+  - App houdt gewicht en bezoeken bij
+  - Scherp geprijsd voor een slimme open bak
+  cons:
+  - Weinig harde specs over de afvalbak opgegeven
+  - Niet geschikt voor kittens volgens de productinformatie op bol.com
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 233.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/catlink-open-x-open-top-automatische-kattenbak-grijs/9300000260223657/
+    image: https://media.s-bol.com/mJRjADYzz4Br/MQy4ojm/550x513.jpg
+  size: 53 × 58 × 59 cm
+- id: pet-marvel-c1
+  rank: 8
+  name: Pet Marvel C1
+  brand: Pet Marvel
+  score: 8.3
+  badge: Grote opening
+  tagline: Open bak met een extra grote ingang en 67,5 liter ruimte
+  best_for: Grote katten en huizen met meerdere katten
+  shape: open
+  capacity_l: 67.5
+  waste_days: null
+  cat_weight: vanaf 1,5 kg
+  min_cat_kg: 1.5
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klonterende korrels
+  extras: Geurfilter, inclusief app en afvalzakken
+  size: 61,5 × 53,7 × 50,9 cm
+  pros:
+  - Grote opening, prettig voor grote katten
+  - Hoge beoordeling op bol.com (4,8 van 5)
+  - Geurfilter en app met logboek
+  cons:
+  - Niet geschikt voor kittens volgens de productinformatie
+  - Zwaar en breed (61,5 cm)
+  bol_rating: 4.8
+  bol_reviews: 97
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 259.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/pet-marvel-c1-automatische-kattenbak-zelfreinigende-kattenbak-grote-opening-67-5l-geschikt-voor-grote-en-meerdere-katten-geurloos-inclusief-app-en-afvalzakken/9300000231448835/
+    image: https://media.s-bol.com/qzXoYBN42XBG/nRNlv7p/550x550.jpg
+- id: vivex
+  rank: 9
+  name: Vivex automatische kattenbak 75L
+  brand: Vivex
+  score: 8.2
+  badge: Tot 4 katten
+  tagline: Ruime bak van 75 liter die volgens de fabrikant geschikt is voor 4 katten
+  best_for: Huishoudens met meerdere katten
+  shape: closed
+  capacity_l: 75
+  waste_days: null
+  cat_weight: vanaf 1 kg
+  min_cat_kg: 1
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: null
+  litter: Klonterende korrels
+  extras: Geurfilter, inclusief kattenbakmat en 5 rollen zakjes
+  size: 53,3 × 48 × 51 cm
+  pros:
+  - Geschikt voor tot 4 katten volgens de productinformatie
+  - 75 liter binnenruimte
+  - Ook voor kittens vanaf 1 kg
+  cons:
+  - Minder bekend merk
+  - Ook verkocht in bundels met fontein; let op welke variant je kiest
+  bol_rating: 4.6
+  bol_reviews: 64
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 249.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/vivex-automatische-kattenbak-zelfreinigende-kattenbak-inclusief-app-75l-incl-matje-en-5-rollen-opvangzakjes-xxl/9300000247820779/
+    image: https://media.s-bol.com/q149MwGp8g2R/VmRx6Wz/550x550.jpg
+- id: revo-loo-one
+  rank: 10
+  name: Revo-loo One
+  brand: Revo-loo
+  score: 8.1
+  badge: Met RFID-herkenning
+  tagline: Open XXL-bak van 80 liter met RFID-herkenning per kat
+  best_for: Meerdere katten die je apart wilt volgen
+  shape: open
+  capacity_l: 80
+  waste_days: null
+  cat_weight: vanaf 0,8 kg
+  min_cat_kg: 0.8
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: null
+  litter: Klonterende korrels
+  extras: RFID-herkenning, inclusief uitloopmat
+  size: 57,1 × 53,1 × 58,4 cm
+  pros:
+  - 80 liter en open instap
+  - Geschikt voor tot 4 katten en kittens vanaf 0,8 kg
+  - Testpanel van Review.nl gaf een 8,1
+  cons:
+  - Geen geurfilter volgens de productinformatie
+  - Neemt veel ruimte in (TechRadar)
+  bol_rating: 4.3
+  bol_reviews: 128
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 266.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/kattenbak-rvl/9300000173925979/
+    image: https://media.s-bol.com/Nq9QrM6o5K78/7LpvzWG/550x565.jpg
+- id: biokats-c1000
+  rank: 11
+  name: Biokat's C1000
+  brand: Biokat's
+  score: 8.0
+  badge: Koop je in Nederland
+  tagline: Volautomatische bak van een bekend kattenbakvullingmerk, met app
+  best_for: Wie bij een Nederlandse webshop wil kopen
+  shape: closed
+  capacity_l: null
+  waste_days: null
+  cat_weight: null
+  min_cat_kg: null
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klontvormende korrels
+  extras: App met tracking, eenvoudige montage
+  pros:
+  - Te koop bij Plein.nl en Petgamma, met Nederlandse service
+  - App houdt gebruik en routine bij
+  - Makkelijk in elkaar te zetten
+  cons:
+  - Weinig specificaties bekend (afvalbak, maximaal gewicht)
+  - Geen camera of herkenning per kat
+  offers:
+  - shop: Plein.nl
+    program_id: 3366
+    price: 329
+    condition: new
+    url: https://fr135.net/c/?si=3366&li=1483612&wi=#MEDIA_ID#&ws=#SUBID#&dl=biokats-zedar-c1000-automatische-kattenbak%3Fchannable%3D0045606964003131323230363534
+    image_pid: ee86b63bc61a367e2218a25462fa3429
+  - shop: Petgamma
+    program_id: 20686
+    price: 329
+    condition: new
+    url: https://fr135.net/c/?si=20686&li=1880978&wi=#MEDIA_ID#&ws=#SUBID#&dl=p%2Fbiokats-zedar-c1000-automatische-kattenbak
+    image_pid: ae959439e4cc33f3ac52cf1a15cc020e
+- id: viervoeter-fresh-3
+  rank: 12
+  name: Viervoeter Fresh 3
+  brand: Viervoeter
+  score: 8.0
+  badge: Meeste reviews op bol
+  tagline: 65 liter, app en geurfilter voor rond de €160
+  best_for: Een ruime bak met app op een klein budget
+  shape: closed
+  capacity_l: 65
+  waste_days: null
+  cat_weight: vanaf 0,7 kg
+  min_cat_kg: 0.7
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klonterende korrels
+  extras: Geurfilter, inclusief matje en 3 rollen opvangzakjes
+  pros:
+  - Ruim (65 liter)
+  - Met app, geurfilter, matje en zakjes
+  - Erg betaalbaar
+  cons:
+  - Volgens de productinformatie bedoeld voor 1 kat
+  - Weinig bekend over maximaal kattengewicht
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 229
+    condition: new
+    url: https://www.bol.com/nl/nl/p/viervoeter-automatische-kattenbak-2025-model-zelfreinigend-bedienen-via-app-65l-incl-matje-en-3-rollen-opvangzakjes-silver/9300000235052426/
+    image: https://media.s-bol.com/RxovXo8A3ZqY/7LpXvWA/550x550.jpg
+  size: 52,6 × 48 × 50,5 cm
+  bol_rating: 4.4
+  bol_reviews: 755
+- id: beeztees-moeza
+  rank: 13
+  name: Beeztees Moeza
+  brand: Beeztees
+  score: 7.9
+  badge: Nederlands merk
+  tagline: Automatische bak met bewegingssensor en geurwerende opvangbak
+  best_for: Wie een bekend Nederlands huisdiermerk wil
+  shape: closed
+  capacity_l: null
+  waste_days: null
+  cat_weight: null
+  min_cat_kg: null
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klontvormende korrels
+  extras: Bewegingssensor, geurwerende opvangbak, afmeting 57 x 56 cm
+  pros:
+  - Van Beeztees, een Nederlands huisdiermerk
+  - Bij drie Nederlandse en Belgische winkels te koop
+  - Gratis app voor iOS en Android
+  cons:
+  - Duurder dan vergelijkbare bakken met meer functies
+  - Weinig details over afvalbak en kattengewicht
+  offers:
+  - shop: Plein.nl
+    program_id: 3366
+    price: 398.99
+    condition: new
+    url: https://fr135.net/c/?si=3366&li=1483612&wi=#MEDIA_ID#&ws=#SUBID#&dl=beeztees-automatische-kattenbak-moeza-wit%3Fchannable%3D0045606964003131323332363393
+    image_pid: 091d8f09b6210ede586903261a3f9fe5
+  - shop: Petgamma
+    program_id: 20686
+    price: 398.99
+    condition: new
+    url: https://fr135.net/c/?si=20686&li=1880978&wi=#MEDIA_ID#&ws=#SUBID#&dl=p%2Fbeeztees-automatische-kattenbak-moeza-wit
+    image_pid: 485d71efeae69c0e688bbc008cb23d5d
+  - shop: bol.com
+    program_id: null
+    price: 299
+    condition: new
+    url: https://www.bol.com/nl/nl/p/beeztees-moeza-automatische-kattenbak-grijs-57x56x62-cm/9300000247274124/
+    image: https://media.s-bol.com/7R9o9KgX5Ln1/76xYvAj/550x573.jpg
+- id: photonspace-65l
+  rank: 14
+  name: Photonspace automatische kattenbak 65L
+  brand: Photonspace
+  score: 7.9
+  badge: Goedkope Photonspace
+  tagline: Het kleinere broertje van de populaire Photonspace XXL
+  best_for: Eén kat en een kleiner budget
+  shape: closed
+  capacity_l: 65
+  waste_days: null
+  cat_weight: vanaf 1 kg
+  min_cat_kg: 1
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klonterende korrels
+  extras: Geurfilter, app met logboek, inclusief kattenbakmat
+  size: 51 × 49 × 67 cm
+  pros:
+  - Scherp geprijsd
+  - Zelfde merk als de populairste bak op bol.com
+  - App met logboek
+  cons:
+  - Volgens de productinformatie voor 1 kat
+  - Niet geschikt voor kittens
+  bol_rating: 4.6
+  bol_reviews: 184
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 163
+    condition: new
+    url: https://www.bol.com/nl/nl/p/photonspace-automatische-kattenbak-zelfreinigend-electrische-kattenbak-bedienen-via-app-65l-10l-incl-kattenbakmat-en-1-rollen-kattenbakzakken-slimme-waarschuwing-gezondheidsbewaking/9300000339497291/
+    image: https://media.s-bol.com/J53YXr0WPxlD/AN5V3j9/550x550.jpg
+- id: poopy-nova-pro
+  rank: 15
+  name: Poopy Nova Pro
+  brand: Poopy
+  score: 7.8
+  badge: Strak design
+  tagline: Zelfreinigende bak in strak Polar White
+  best_for: Wie design belangrijk vindt
+  shape: closed
+  capacity_l: null
+  waste_days: null
+  cat_weight: null
+  min_cat_kg: null
+  max_cat_kg: null
+  app: null
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klonterende korrels
+  extras: null
+  pros:
+  - Bij Coolshop met snelle levering
+  - Strak, wit ontwerp
+  - Twee winkels, dus prijs vergelijken loont
+  cons:
+  - De winkel geeft weinig specificaties
+  - Geen camera
+  offers:
+  - shop: Coolshop
+    program_id: 15383
+    price: 309
+    condition: new
+    url: https://lt45.net/c/?si=15383&li=1666516&wi=#MEDIA_ID#&ws=#SUBID#&dl=product%2Fpoopy-nova-pro-automatische-zelfreinigende-kattenbak-polar-white%2F23XM6W%2F%3Futm_medium%3Daffiliate%26utm_source%3Ddaisycon_%25MEDIANAME%25%26utm_campaign%3Dnl_affiliate%26utm_content%3Daffiliate
+    image_pid: 80824152f50e24a836cf2bf314caedd5
+- id: infinity-goods-xxl
+  rank: 16
+  name: Infinity Goods automatische kattenbak XXL
+  brand: Infinity Goods
+  score: 7.8
+  badge: XXL onder €200
+  tagline: 75 liter met app en geurfilter voor onder de €200
+  best_for: Wie veel ruimte wil voor weinig geld
+  shape: closed
+  capacity_l: 75
+  waste_days: null
+  cat_weight: vanaf 1 kg
+  min_cat_kg: 1
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: null
+  litter: Klonterende korrels
+  extras: Geurfilter, inclusief kattenbakmat en 3 rollen zakjes
+  size: 55 × 50 × 53 cm
+  pros:
+  - 75 liter voor onder de €200
+  - Geschikt voor 3 katten en kittens
+  - Geurfilter en app
+  cons:
+  - Nog niet veel reviews (20)
+  - Minder bekend merk
+  bol_rating: 4.6
+  bol_reviews: 20
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 189.95
+    condition: new
+    url: https://www.bol.com/nl/nl/p/infinity-goods-automatische-kattenbak-xxl-zelfreinigende-kattenbak-incl-app-75l-met-kattenbakmat-en-3-rollen-opbergzakjes/9300000356565760/
+    image: https://media.s-bol.com/YgKz79LQDPAK/P7ozww1/550x550.jpg
+- id: cellavi-vi-a
+  rank: 17
+  name: Cellavi VI-A
+  brand: Cellavi
+  score: 7.8
+  badge: Voor grote katten
+  tagline: Open XXL-bak van 65 liter voor grote katten
+  best_for: Grote katten, tot 3 katten
+  shape: open
+  capacity_l: 65
+  waste_days: null
+  cat_weight: vanaf 1 kg
+  min_cat_kg: 1
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: null
+  litter: Klonterende korrels
+  extras: Geurfilter, app met logboek
+  size: 48 × 50,5 × 51,6 cm
+  pros:
+  - Open en ruim (65 liter)
+  - Geschikt voor 3 katten
+  - Veel reviews op bol.com (90)
+  cons:
+  - Niet geschikt voor kittens volgens de productinformatie
+  - Minder bekend merk
+  bol_rating: 4.3
+  bol_reviews: 90
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 189.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/cellavi-kattenbak-zelfreinigend-automatische-kattenbak-xxl-voor-grote-katten-xl-groot-litter-robot-met-app-65l/9300000113636936/
+    image: https://media.s-bol.com/mJ4lBj8MG1Qp/710lK2B/550x550.jpg
+- id: mova-lr10-prime
+  rank: 18
+  name: Mova LR10 Prime
+  brand: Mova
+  score: 7.7
+  badge: Ruim binnenin
+  tagline: Ruime automatische bak met app-bediening op afstand
+  best_for: Wie op afstand wil bijsturen
+  shape: closed
+  capacity_l: 60
+  waste_days: null
+  cat_weight: null
+  min_cat_kg: null
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klonterende korrels
+  extras: Bediening en status via app
+  pros:
+  - Ruime binnenkant (60 liter)
+  - Status en instellingen op afstand via de app
+  - Nu te koop bij bol.com
+  cons:
+  - Weinig details over de afvalbak
+  - Minder bekend merk voor kattenbakken
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 299
+    condition: new
+    url: https://www.bol.com/nl/nl/p/mova-lr10-prime-slimme-zelfreinigende-kattenbak-met-app-automatische-kattenbak-60l-groot-geschikt-voor-meerdere-katten-geurbestrijding-stille-werking-wifi-kattentoilet/9300000242889903/
+    image: https://media.s-bol.com/JpM5KAopx9VP/oY0r4ZA/550x707.jpg
+- id: maxipets-nova
+  rank: 19
+  name: Maxipets NOVA
+  brand: Maxipets
+  score: 7.7
+  badge: Met trapje
+  tagline: Dichte XXL-bak van 80 liter, met kattenbaktrapje
+  best_for: Wie een dichte bak met veel ruimte zoekt
+  shape: closed
+  capacity_l: 80
+  waste_days: null
+  cat_weight: vanaf 1,5 kg
+  min_cat_kg: 1.5
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klonterende korrels
+  extras: Geurfilter, inclusief kattenbaktrap en zakken
+  pros:
+  - 80 liter binnenruimte
+  - Trapje inbegrepen
+  - Geschikt voor kittens volgens de productinformatie
+  cons:
+  - Afmetingen en gewicht niet opgegeven
+  - Weinig reviews (22)
+  bol_rating: 4.5
+  bol_reviews: 22
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 189.05
+    condition: new
+    url: https://www.bol.com/nl/nl/p/maxipets-nova-black-automatische-kattenbak-zelfreinigend-elektrische-zelfreinigende-kattenbak-80l-xxl-incl-kattenbaktrap-app-zakken-zwart/9300000236100250/
+    image: https://media.s-bol.com/3DPqzX1R18mp/Wn8D17g/550x620.jpg
+- id: devoko-xxl-open
+  rank: 20
+  name: Devoko automatische kattenbak XXL open
+  brand: Devoko
+  score: 7.6
+  badge: Open voor weinig
+  tagline: Open XXL-bak met 12 liter opvangreservoir en 8 veiligheidssensoren
+  best_for: Wie een open bak zoekt voor weinig geld
+  shape: open
+  capacity_l: null
+  waste_days: null
+  cat_weight: vanaf 1,5 kg
+  min_cat_kg: 1.5
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: null
+  litter: Klonterende korrels
+  extras: 12 liter opvangreservoir, 8 veiligheidssensoren, geurfilter
+  size: 52,7 × 47,7 × 61,8 cm
+  pros:
+  - Een van de goedkoopste nieuwe bakken op bol.com
+  - Open ontwerp
+  - Groot opvangreservoir (12 liter)
+  cons:
+  - Nog maar 5 reviews
+  - Binnenruimte niet opgegeven
+  bol_rating: 4.8
+  bol_reviews: 5
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 150.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/devoko-automatische-kattenbak-xxl-kattenbak-met-open-en-ruim-ontwerp-groot-12l-opvangreservoir-voor-kattenbakkorrels-app-bediening-op-afstand-8-veiligheidssensoren-voor-meerdere-katten/9300000383467163/
+    image: https://media.s-bol.com/3L1NK38w5B7Q/K1KD5RG/550x550.jpg
+- id: nuvona-xxl
+  rank: 21
+  name: Nuvona XXL
+  brand: Nuvona
+  score: 7.5
+  badge: Veel reviews, lage prijs
+  tagline: Open bak van 65 liter met app en LED-touch
+  best_for: Twee katten en een beperkt budget
+  shape: open
+  capacity_l: 65
+  waste_days: null
+  cat_weight: vanaf 1 kg
+  min_cat_kg: 1
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: null
+  litter: Klonterende korrels
+  extras: LED-touchbediening, inclusief kattenbakmat en 5 rollen zakjes
+  size: 51,6 × 48 × 50,5 cm
+  pros:
+  - Lage prijs
+  - Veel reviews op bol.com (181)
+  - Geschikt voor 2 katten en kittens
+  cons:
+  - Geen geurfilter volgens de productinformatie
+  - Laagste beoordeling van deze lijst (4,0)
+  bol_rating: 4.0
+  bol_reviews: 181
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 169
+    condition: new
+    url: https://www.bol.com/nl/nl/p/nuvona-zelfreinigende-kattenbak-xxl-automatische-kattenbak-inclusief-app-led-touch-met-kattenbakmat-en-5-rollen-opvangzakjes-65l/9300000162177745/
+    image: https://media.s-bol.com/mmWLWvzJ8LXG/pYjvlrr/550x465.jpg
+- id: jc-pets
+  rank: 22
+  name: JC Pets Automatische Kattenbak
+  brand: JC Pets
+  score: 7.4
+  badge: Mag gezien worden
+  tagline: Strak, grijs design met een opvangbak van 8 liter
+  best_for: Wie de bak in de woonkamer zet
+  shape: closed
+  capacity_l: null
+  waste_days: opvangbak 8 liter
+  cat_weight: null
+  min_cat_kg: null
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: Fluisterstil volgens fabrikant
+  litter: Klonterende korrels
+  extras: Afgesloten opvangbak van 8 liter
+  pros:
+  - Mooi design dat niet als kattenbak oogt
+  - Nederlandse webshop
+  - Ook in sets met voerbak of drinkfontein
+  cons:
+  - Weinig technische details
+  - Geen camera of herkenning per kat
+  offers:
+  - shop: JC Pets
+    program_id: 20258
+    price: 199
+    condition: new
+    url: https://glp8.net/c/?si=20258&li=1864739&wi=#MEDIA_ID#&ws=#SUBID#&dl=products%2Fautomatische-kattenbak
+    image_pid: 7b0ccf62a50caccdbcc74ebd67e5e533
+- id: revo-loo-open
+  rank: 23
+  name: Revo-loo Open
+  brand: Revo-loo
+  score: 7.2
+  badge: Gewone vuilniszakken
+  tagline: Open instap en werkt met gewone vuilniszakken
+  best_for: Wie op lopende kosten wil besparen
+  shape: open
+  capacity_l: 11
+  waste_days: null
+  cat_weight: verschillende groottes volgens fabrikant
+  min_cat_kg: null
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: null
+  noise: null
+  litter: Klonterende korrels
+  extras: Infraroodsensor, waterdichte onderdelen, wachttijd instelbaar in de app
+  pros:
+  - Gewone vuilniszakken in plaats van dure merkzakken
+  - Open instap
+  - Alle onderdelen waterdicht en snel schoon
+  cons:
+  - Kleiner dan de meeste bakken (11 liter)
+  - Minder functies in de app dan duurdere bakken
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 173.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/revo-loo-open-automatische-kattenbak-zelfreinigend-elektrische-zelfreinigende-robot-incl-uitloopmat-afvalzakken/9300000279744909/
+    image: https://media.s-bol.com/YGqwRx0V39rW/9QLkyzx/550x544.jpg
+- id: cellavi-neo-b
+  rank: 24
+  name: Cellavi NEO-B
+  brand: Cellavi
+  score: 7.0
+  badge: Ruim voor weinig
+  tagline: 95 liter en een afvalbak van 13 liter, refurbished vanaf €105
+  best_for: Proberen of je kat een automatische bak accepteert
+  shape: closed
+  capacity_l: 95
+  waste_days: afvalopslag 13 liter
+  cat_weight: 1 tot 3 katten
+  min_cat_kg: null
+  max_cat_kg: null
+  app: true
+  camera: false
+  multi_cat: true
+  noise: null
+  litter: Klonterende korrels
+  extras: Geurbox zonder navullingen, LED-verlichting
+  pros:
+  - Nieuw voor rond de €200
+  - Grote afvalopslag (13 liter)
+  - Geschikt voor 1 tot 3 katten
+  cons:
+  - Minder bekend merk
+  - Weinig bekend over geluid
+  offers:
+  - shop: bol.com
+    program_id: null
+    price: 199.99
+    condition: new
+    url: https://www.bol.com/nl/nl/p/cellavi-zelfreinigende-kattenbak-neo-b-automatische-kattenbak-met-app-extra-groot-xxl-stankvrij-led-verlichting-voor-1-t-m-3-katten/9300000230658915/
+    image: https://media.s-bol.com/RG8E8REB8YLz/O78qDjp/550x584.jpg

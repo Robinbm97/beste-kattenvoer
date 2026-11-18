@@ -1,0 +1,31 @@
+name: Productfeeds ophalen
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    paths: ['scripts/fetch-feeds.mjs', '.github/workflows/feeds.yml']
+permissions:
+  contents: write
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Feeds ophalen
+        env:
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+          DAISYCON_MEDIA_ID: ${{ vars.DAISYCON_MEDIA_ID }}
+        run: node scripts/fetch-feeds.mjs
+      - name: Wijzigingen opslaan
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add data/feed
+          git diff --cached --quiet && echo "geen wijzigingen" && exit 0
+          git commit -m "Productfeeds bijgewerkt"
+          git pull --rebase
+          git push
