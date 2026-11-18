@@ -6,7 +6,7 @@ primary_keyword: beste kattenvoer
 breadcrumb: Beste kattenvoer 2026
 h1: Het beste kattenvoer van 2026, eerlijk gekozen
 lead: "Geen top 10 vol sponsors. Dit is mijn lijst met het beste kattenvoer per situatie, met per keuze wat het je per dag kost."
-seo_title: "Beste kattenvoer 2026: eerlijk getest op etiket en prijs"
+seo_title: "Beste kattenvoer 2026: eerlijk vergeleken op etiket en prijs"
 meta_description: "Wat is het beste kattenvoer in 2026? Mijn keuzes per situatie: brokken, natvoer, kitten, senior en budget. Met prijs per dag en een kritische blik."
 image: kom
 image_alt: "Kat eet het beste kattenvoer uit een metalen voerbak"
@@ -56,7 +56,9 @@ Natvoer geeft je kat extra vocht, en veel katten eten het graag. Het is wel veel
 
 Je wilt het beste, maar het moet betaalbaar blijven. Dan kies ik voor [IAMS](/merken/iams/) als brokken en [Voskes](/merken/voskes/) als natvoer. Allebei compleet en per dag ruim onder het gemiddelde.
 
-[[lijst brand=iams,voskes n=4 permerk=nee label="Budgetkeuze"]]
+[[lijst brand=iams form=droog n=2 label="Budgetkeuze"]]
+
+[[lijst brand=voskes form=nat n=2 label="Budgetkeuze"]]
 
 Meer opties staan bij [goedkoop kattenvoer](/goedkoop-kattenvoer/).
 

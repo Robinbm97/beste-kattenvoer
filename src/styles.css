@@ -117,7 +117,7 @@ p{margin:0 0 1em}
 .robin-sign{font-family:var(--display);font-stretch:112%;font-weight:800;font-size:.9rem;color:var(--lila-d);margin:0!important}
 
 /* productkaarten */
-.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:18px;margin:1.2em 0 .6em}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(232px,268px));justify-content:center;gap:18px;margin:1.2em 0 .6em}
 .pcard{background:var(--paper);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;position:relative;border:1px solid var(--line)}
 .pcard.is-pick{border:2px solid var(--mint)}
 .pick-tag{position:absolute;top:12px;left:12px;z-index:1;background:var(--petrol);color:var(--lila);font:800 .78rem/1 var(--display);font-stretch:112%;padding:8px 11px;border-radius:999px;margin:0}
@@ -134,17 +134,17 @@ p{margin:0 0 1em}
 .chips .chip-midden{background:#EAF0EF}
 .pcard-note{font-size:.88rem;margin:0 0 10px}
 .card-warn{background:var(--warn);font-size:.82rem;padding:8px 10px;border-radius:10px;margin:0 0 10px}
-.pcard-price{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;border-top:1px dashed var(--line);padding-top:12px;margin-bottom:14px}
+.pcard-price{display:flex;flex-direction:column;align-items:flex-start;gap:6px;border-top:1px dashed var(--line);padding-top:12px;margin-bottom:14px}
 .ppd{margin:0;line-height:1}
 .ppd b{display:block;font-family:var(--display);font-stretch:125%;font-weight:900;font-size:1.75rem;color:var(--petrol)}
 .ppd span{font-size:.78rem;color:var(--ink-2)}
-.pmeta{font-size:.8rem;color:var(--ink-2);text-align:right;margin:0;line-height:1.4}
+.pmeta{font-size:.82rem;color:var(--ink-2);margin:0;line-height:1.4}
 .pmeta s{color:#8A8F8C}
 
 /* tabellen */
 .table-wrap{overflow-x:auto;margin:1.2em 0}
 .ttable{width:100%;border-collapse:separate;border-spacing:0;background:var(--paper);border-radius:var(--r);overflow:hidden;border:1px solid var(--line);min-width:520px}
-.ttable caption{text-align:left;font-weight:700;padding:0 0 10px}
+.ttable caption{text-align:left;font-weight:700;padding:0 4px 10px}
 .ttable th,.ttable td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
 .ttable thead th,.ttable thead td{background:var(--petrol);color:var(--creme);font-family:var(--display);font-stretch:112%;font-weight:800;font-size:.9rem}
 .ttable tbody tr:last-child>*{border-bottom:0}
@@ -280,7 +280,7 @@ p{margin:0 0 1em}
   .stats p{flex:1 1 40%}
   .verdict{grid-template-columns:1fr}
   .procon{grid-template-columns:1fr}
-  .pgrid{grid-template-columns:1fr 1fr;gap:10px}
+  .pgrid{grid-template-columns:1fr 1fr;gap:10px;justify-content:stretch}
   .pcard-body{padding:12px}
   .pcard-img{padding:8px}
   .ppd b{font-size:1.35rem}
