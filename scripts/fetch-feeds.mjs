@@ -20,9 +20,15 @@ const firstImg = (imgs) => {
 const clean = (s = '', n = 600) => String(s).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, n);
 
 async function plein() {
-  const r = await fetch(pleinUrl);
-  if (!r.ok) throw new Error('Plein feed HTTP ' + r.status);
-  const d = await r.json();
+  let d, err;
+  for (let t = 1; t <= 4 && !d; t++) {
+    try {
+      const r = await fetch(pleinUrl, { signal: AbortSignal.timeout(240000) });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      d = JSON.parse(await r.text());
+    } catch (e) { err = e; console.log(`Plein poging ${t} mislukt: ${e.message}`); await new Promise((s) => setTimeout(s, 5000 * t)); }
+  }
+  if (!d) throw err;
   const prods = d.datafeed.programs.flatMap((p) => p.products || []);
   const out = [];
   for (const p of prods) {
@@ -82,13 +88,15 @@ async function bol() {
   walk(cats);
   const pick = (re) => (flat.find((c) => re.test(c.categoryName || c.name || '')) || {}).categoryId || (flat.find((c) => re.test(c.categoryName || c.name || '')) || {}).id;
   const targets = [
-    ['voer', pick(/^Kattenvoer$/i) || pick(/kattenvoer/i)],
-    ['snack', pick(/kattensnack|kattenhapje|snacks/i)],
+    ['droog', pick(/^Brokken$/i)],
+    ['nat', pick(/^Natvoer$/i)],
+    ['snack', pick(/^Kattensnacks$/i)],
   ].filter((t) => t[1]);
+  if (!targets.length) targets.push(['voer', pick(/kattenvoer/i)]);
   console.log('bol categorieën:', JSON.stringify(targets), 'gevonden:', flat.slice(0, 15).map((c) => `${c.categoryName || c.name}=${c.categoryId || c.id}`).join(', '));
   const out = []; const seen = new Set();
   for (const [type, catId] of targets) {
-    const pages = type === 'voer' ? 30 : 8;
+    const pages = type === 'snack' ? 8 : 20;
     for (let page = 1; page <= pages; page++) {
       const r = await api('/products/lists/popular', { 'country-code': 'NL', 'category-id': String(catId), page: String(page), 'page-size': '50', 'include-image': 'true', 'include-offer': 'true', 'include-rating': 'true' });
       for (const [n, p] of (r.results || []).entries()) {
@@ -116,7 +124,7 @@ try {
   const p = await plein();
   writeFileSync(new URL('plein-kat.json', OUT), JSON.stringify({ fetched: now, count: p.length, products: p }));
   console.log('Plein:', p.length, 'kattenproducten');
-} catch (e) { console.error('Plein mislukt:', e.message); process.exitCode = 1; }
+} catch (e) { console.error('Plein mislukt (vorige versie blijft staan):', e.message); }
 try {
   const b = await bol();
   if (b) { writeFileSync(new URL('bol-kat.json', OUT), JSON.stringify({ fetched: now, count: b.length, products: b })); console.log('bol:', b.length, 'kattenproducten'); }

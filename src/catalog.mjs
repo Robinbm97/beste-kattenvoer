@@ -37,6 +37,7 @@ export function classify(p) {
   let form;
   if (p.type === 'snack' || has(/kattensnack|snack|churu|treat|puree|broth|snoep|dreamies|stick|rolls/i, t)) form = 'snack';
   else if (has(/melk|milk/i, t)) form = 'melk';
+  else if ((p.type === 'nat' || p.type === 'droog') && !has(/supplement|tablet|paste|pasta/i, t)) form = p.type;
   else if (has(/supplement|tablet|pasta|paste|kruiden|vitamine|trainer|lactol|nutribound|easypill|choline|\\bpuur\\b|pil\\b|gras\\b/i, t)) form = 'overig';
   else if (has(/vers vlees|diepvries|bevroren|kvv/i, t) && !has(/droog|brok/i, t)) form = 'vers';
   else if (has(/droog|brok|kibble|crunch|krokant/i, t)) form = 'droog';
