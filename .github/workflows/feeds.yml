@@ -10,10 +10,11 @@ permissions:
 jobs:
   feeds:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 20 }
+        with: { node-version: 22 }
       - name: Feeds ophalen
         env:
           BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}

@@ -1,7 +1,7 @@
 // Haalt kattenvoer en kattensnacks op uit de Plein-feed (Daisycon) en, als er
 // bol-gegevens zijn, uit de bol Marketing Catalog API. Schrijft compacte JSON
 // naar data/feed/. Draait dagelijks in GitHub Actions (zie .github/workflows/feeds.yml).
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'node:fs';
 
 const OUT = new URL('../data/feed/', import.meta.url);
 mkdirSync(OUT, { recursive: true });
@@ -116,7 +116,46 @@ async function bol() {
       if (!r.results || r.results.length < 50) break;
     }
   }
+  await specs(api, out.map((p) => p.ean));
   return out;
+}
+
+// Etiketgegevens (analytische bestanddelen, vocht, samenstelling) per EAN, met cache van 30 dagen
+async function specs(api, eans) {
+  const file = new URL('bol-specs.json', OUT);
+  const cache = existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : {};
+  const now = Date.now();
+  const todo = [...new Set(eans)].filter((e) => !cache[e] || now - (cache[e].t || 0) > 30 * 864e5);
+  console.log('bol specs: in cache', Object.keys(cache).length, 'op te halen', todo.length);
+  let done = 0;
+  const worker = async () => {
+    while (todo.length) {
+      const ean = todo.shift();
+      try {
+        const j = await api('/products/' + ean, { 'country-code': 'NL', 'include-specifications': 'true' });
+        const all = {};
+        for (const g of j.specificationGroups || []) for (const sp of g.specifications || []) all[sp.name] = (sp.values || []).join(' / ');
+        const pick = (re) => { const k = Object.keys(all).find((n) => re.test(n)); return k ? all[k] : ''; };
+        const desc = String(j.description || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+        const sam = (desc.match(/(?:samenstelling|ingredi[eë]nten)\s*:?\s*(.{20,700}?)(?=analytische|toevoegingsmiddelen|voedingsadvies|$)/i) || [])[1] || pick(/samenstelling|ingredi/i);
+        cache[ean] = {
+          t: now,
+          ana: (pick(/analytische/i) || (desc.match(/analytische bestanddelen\s*:?\s*(.{10,400}?)(?=toevoegingsmiddelen|voedingsadvies|$)/i) || [])[1] || '').slice(0, 500),
+          vocht: pick(/vochtgehalte/i),
+          sam: String(sam || '').slice(0, 600),
+          doel: pick(/speciaal voedingsdoel/i),
+          leeftijd: pick(/leeftijd dier/i),
+          fabrikant: pick(/fabrikant naam/i),
+          vlees: pick(/type vlees/i),
+        };
+      } catch (e) { cache[ean] = { t: now, err: String(e.message).slice(0, 80) }; }
+      if (++done % 200 === 0) { console.log('specs', done); writeFileSync(file, JSON.stringify(cache)); }
+    }
+  };
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  writeFileSync(file, JSON.stringify(cache));
+  const ok = Object.values(cache).filter((c) => c.ana).length;
+  console.log('bol specs klaar: met analytische bestanddelen', ok, 'van', Object.keys(cache).length);
 }
 
 const now = new Date().toISOString();
