@@ -56,3 +56,18 @@ Katten stammen af van woestijndieren en drinken van nature weinig. Eet je kat al
 ## Droogvoer kopen: groot of klein?
 
 Grote zakken zijn per kilo goedkoper. Maar een open zak verliest na een paar weken geur en smaak, en vet kan gaan oxideren. Met één kat is een zak van 2 tot 4 kilo vaak handig. Met twee katten of meer is 7 tot 10 kilo prima, mits je hem goed afgesloten bewaart.
+
+## Het beste droogvoer bewaren
+
+Brokken lijken eindeloos houdbaar, maar zodra de zak open is, gaat de kwaliteit langzaam achteruit. De vetten in het voer reageren met zuurstof en kunnen ranzig worden. Dat ruikt je kat eerder dan jij. Een paar tips:
+
+- **Laat de brokken in de originele zak** en rol die goed dicht met een clip. De zak is gemaakt om licht en lucht tegen te houden.
+- **Gebruik je een voerton,** zet dan de hele zak erin in plaats van de brokken erin te storten. Anders blijft er een vetlaagje in de ton achter.
+- **Koel en droog bewaren,** niet naast de verwarming of in de zon.
+- **Zes tot acht weken.** Langer zou ik een open zak niet gebruiken. Kies je zakgrootte daarop.
+
+> Droogvoer is handig, maar vergeet het water niet. Zet het waterbakje bij voorkeur niet direct naast de voerbak: veel katten drinken liever op een andere plek.
+
+## Het beste droogvoer voor een kat die schrokt
+
+Sommige katten storten zich op hun bak en hebben de brokken binnen een minuut naar binnen gewerkt. Soms komen ze er net zo snel weer uit. Dat ligt meestal niet aan het voer, maar aan de snelheid. Een voerpuzzel, een anti-schrokbak met ribbels of de brokken verspreid over een groot bord dwingen je kat om rustiger te eten. Grotere brokken helpen ook: daar moet hij echt op kauwen. Kijk in de review van een voer naar de vorm en grootte van de brok, of probeer eerst een kleine zak.

@@ -293,9 +293,42 @@ function productPage(pg) {
   return `${head}<div class="wrap content">${body}</div>`;
 }
 
+// korte, eerlijke toelichting per gekozen product (in de je-vorm, als advies aan een vriend)
+const hsh = (s) => { let h = 0; for (const c of String(s)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
+const pickV = (arr, seed) => arr[(Math.abs(Math.floor(seed)) >>> 0) % arr.length];
+function uitleg(p, seed = 0) {
+  if (!p.score || !p.nut) return '';
+  const n = p.nut, f = p.form, S = SC[f]; if (!S) return '';
+  const vorm = f === 'nat' ? 'natvoer' : 'droogvoer';
+  const sd = (hsh(p.id) + seed) >>> 0;
+  const lc = labelCheck(n.sam), claim = nameClaim(p.name);
+  const plus = [], min = [];
+  if (n.pDM >= S.pDM + 6) plus.push(pickV([`met ${pct1(n.pDM)} eiwit in droge stof zit het ruim boven het midden van ${pct(S.pDM)}`, `het eiwit is sterk: ${pct1(n.pDM)} in droge stof, waar het gemiddelde ${vorm} op ${pct(S.pDM)} blijft steken`, `je kat krijgt hier echt veel eiwit binnen, ${pct1(n.pDM)} als je het water wegrekent`], sd));
+  else if (n.pDM >= S.pDM) plus.push(`het eiwit zit met ${pct1(n.pDM)} in droge stof net boven het midden`);
+  else if (n.pDM >= S.pDM - 5) min.push(`het eiwit zit met ${pct1(n.pDM)} in droge stof net onder het midden van ${pct(S.pDM)}`);
+  else min.push(pickV([`het eiwit blijft met ${pct1(n.pDM)} in droge stof duidelijk onder het midden van ${pct(S.pDM)}`, `het is mager qua eiwit, met ${pct1(n.pDM)} in droge stof`, `ik had voor een vleeseter meer eiwit gewild dan ${pct1(n.pDM)} in droge stof`], sd));
+  if (p.p100 && p.p100 < S.p100 * 0.75) plus.push(pickV([`per 100 gram eiwit betaal je maar ${eur(p.p100)}`, `je krijgt veel eiwit voor je geld (${eur(p.p100)} per 100 gram eiwit)`, `het eiwit is goedkoop: ${eur(p.p100)} per 100 gram, tegen ${eur(S.p100)} gemiddeld`], (sd >>> 2)));
+  else if (p.p100 && p.p100 > S.p100 * 1.4) min.push(`je betaalt ${eur(p.p100)} per 100 gram eiwit, flink meer dan de ${eur(S.p100)} die gemiddeld is`);
+  if (n.nfeDM < 15) plus.push(`er zit weinig vulling in (±${pct(n.nfeDM)} koolhydraten)`);
+  else if (n.nfeDM > 38) min.push(pickV([`met ±${pct(n.nfeDM)} koolhydraten zit er veel vulling in`, `ruim een derde van de droge stof is koolhydraat (±${pct(n.nfeDM)})`], (sd >>> 3)));
+  if (lc && lc.firstGrain === 1) min.push(`er staat een graan op plek één van het etiket (“${esc(lc.top[0])}”)`);
+  else if (meatFirst(n.sam) === true) plus.push(`er staat ${esc(firstIngredient(n.sam).toLowerCase())} vooraan op het etiket`);
+  if (lc && lc.plant.length) min.push('een deel van het eiwit komt uit planten');
+  if (!n.sam && OPEN_LABEL.test(p.brand)) min.push('de samenstelling is open, dus je weet niet precies welk vlees erin zit');
+  if (claim && claim.min <= 4) min.push(claim.kind === 'smaak' ? `“smaak” in de naam betekent dat er nauwelijks ${esc(claim.w)} in hoeft te zitten` : `“met ${esc(claim.w)}” in de naam betekent maar minimaal 4%`);
+  const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+  const join = (a) => a.length > 1 ? a.slice(0, -1).join(', ') + ' en ' + a[a.length - 1] : a[0];
+  let t = `<b>${esc(p.short)}</b> (${esc(p.brand)}, score ${score(p.score.total)}). `;
+  if (plus.length) t += cap(join(plus.slice(0, 2))) + '. ';
+  if (min.length) t += pickV(['Wel even opletten, want ', 'Het minpunt is dat ', 'Eerlijk is eerlijk: ', 'Waar ik minder blij van word, is dat '], (sd >>> 4)) + join(min.slice(0, 2)) + '. ';
+  t += pickV([`Voor een kat van 4 kilo ben je ongeveer ${eur(p.ppd)} per dag kwijt, zo'n ${eur0(p.ppd * 30.4)} per maand.`, `Reken op ${eur(p.ppd)} per dag, ofwel ${eur0(p.ppd * 30.4)} per maand voor één kat.`, `Per maand kost het je rond de ${eur0(p.ppd * 30.4)} (${eur(p.ppd)} per dag).`], (sd >>> 5));
+  if (!plus.length && !min.length) t += ' Geen uitschieters naar boven of beneden, gewoon degelijk.';
+  return `<p>${t} <a href="${purl(p)}">Lees mijn review</a>.</p>`;
+}
+const uitlegBlock = (xs, n, seed) => { const ps = xs.filter((p) => HASPAGE(p)).slice(0, n).map((p) => uitleg(p, seed)).filter(Boolean); return ps.length ? `<div class="uitleg">${ps.join('')}</div>` : ''; };
 // ---------- markdown ----------
 function md(src, page) {
-  src = src.replace(/\[\[lijst ([^\]]+)\]\]/g, (_, a) => { const q = parseArgs(a); return '\n\n' + grid(select(q), { pick: q.label }) + '\n\n'; });
+  src = src.replace(/\[\[lijst ([^\]]+)\]\]/g, (_, a) => { const q = parseArgs(a); const xs = select(q); const nU = q.uitleg != null ? Number(q.uitleg) : (q.form === 'snack' ? 0 : 3); return '\n\n' + grid(xs, { pick: q.label }) + (nU ? '\n\n' + uitlegBlock(xs, nU, hsh(page && page.slug)) : '') + '\n\n'; });
   src = src.replace(/\[\[calc\]\]/g, () => '\n\n' + calc() + '\n\n');
   src = src.replace(/\[\[budgettabel\]\]/g, () => '\n\n' + budgetTable() + '\n\n');
   src = src.replace(/\[\[merken\]\]/g, () => '\n\n' + brandGrid() + '\n\n');
@@ -418,6 +451,8 @@ function fillAuto(b) {
   lines.push(`## Het beste ${b.name} kattenvoer volgens mijn score`, '');
   lines.push(`De hoogste score binnen ${b.name} haalt [${best.short}](${purl(best)}) met een ${score(best.score.total)}: ${pct1(best.nut.pDM)} eiwit in droge stof en ${eur(best.ppd)} per dag.${cheap && cheap !== best ? ` Wil je het voordeliger, kijk dan naar [${cheap.short}](${purl(cheap)}): ${eur(cheap.ppd)} per dag met een ${score(cheap.score.total)}.` : ''} Hoe ik score, lees je bij [hoe ik kattenvoer beoordeel](/hoe-wij-scoren/).`, '');
   if (dieet > 0.4) lines.push(`Veel van het ${b.name}-assortiment is dieetvoer voor katten met een aandoening. Mijn score kijkt naar eiwit, koolhydraten, etiket en prijs. Of dieetvoer werkt bij jouw kat, bepaal je samen met je dierenarts, niet met mijn score.`, '');
+  lines.push(`## Hoe ik ${b.name} kattenvoer heb beoordeeld`, '');
+  lines.push(`Ik wil eerlijk zijn over wat deze pagina wel en niet is. Ik heb niet alle ${xs.length} producten van ${b.name} zelf aan mijn katten gegeven. Wat ik wel heb gedaan: van elk product met een etiket de analytische bestanddelen omgerekend naar droge stof, de koolhydraten uitgerekend, de samenstelling gelezen waar die beschikbaar was en de prijs omgerekend naar wat het je per dag kost. Het cijfer bovenaan is het gemiddelde van die productscores, geen gevoel. Of jouw kat het lust, weet je pas als je het probeert.`, '');
   lines.push(`## Voor wie is ${b.name} kattenvoer?`, '');
   lines.push(`${eiw >= 3 ? `${b.name} past bij je als je veel eiwit belangrijk vindt` : `${b.name} past bij je als je kat het graag eet en je een vertrouwd merk wilt`}${cls < 0.9 ? ' en op de kosten let.' : cls > 1.2 ? ' en er wat meer voor over hebt.' : '.'} Twijfel je, leg het dan naast [het beste kattenvoer van ${vars.jaar}](/beste-kattenvoer/) of [goedkoop kattenvoer dat wel deugt](/goedkoop-kattenvoer/). Nieuw voer bouw je in een week op, zie [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/).`, '');
   b.body = lines.join('\n');
@@ -467,19 +502,19 @@ const crumbs = (p) => {
   parts.forEach((s, i) => { acc += s + '/'; const pg = pages.find((x) => x.slug === acc); if (pg || i === parts.length - 1) out.push({ name: (pg && (pg.breadcrumb || pg.title)) || s, url: acc }); });
   return out;
 };
-const author = { '@type': 'Person', name: site.author.name, url: abs(site.author.url) };
+const author = { '@type': 'Person', '@id': abs(site.author.url + '#persoon'), name: site.author.name, url: abs(site.author.url), jobTitle: 'Kattenbaasje en maker van Beste-kattenvoer.nl', sameAs: [site.author.tiktok].filter(Boolean) };
 function productSchema(b, p) {
   const xs = ALL.filter((x) => new RegExp(b.match || b.name, 'i').test(x.brand) && x.ppk && x.inStock);
   const prices = xs.map((x) => x.best.price);
   return {
     '@type': 'Product', name: `${b.name} kattenvoer`, brand: { '@type': 'Brand', name: b.name }, image: xs[0] ? xs[0].image : imgUrl('kom'), description: b.meta_description,
     ...(prices.length ? { offers: { '@type': 'AggregateOffer', priceCurrency: 'EUR', lowPrice: Math.min(...prices).toFixed(2), highPrice: Math.max(...prices).toFixed(2), offerCount: xs.length } } : {}),
-    review: { '@type': 'Review', name: `${b.name} kattenvoer review`, reviewRating: { '@type': 'Rating', ratingValue: b.score, bestRating: 10, worstRating: 1 }, author: { '@type': 'Organization', name: 'Beste-kattenvoer.nl', url: site.url }, publisher: { '@type': 'Organization', name: 'Beste-kattenvoer.nl', url: site.url }, datePublished: isoDate(p.published || CHECKED), reviewBody: b.verdict },
+    review: { '@type': 'Review', name: `${b.name} kattenvoer review`, positiveNotes: { '@type': 'ItemList', itemListElement: (b.pros || []).map((x, n) => ({ '@type': 'ListItem', position: n + 1, name: x })) }, negativeNotes: { '@type': 'ItemList', itemListElement: (b.cons || []).map((x, n) => ({ '@type': 'ListItem', position: n + 1, name: x })) }, reviewRating: { '@type': 'Rating', ratingValue: b.score, bestRating: 10, worstRating: 1 }, author: { '@type': 'Organization', name: 'Beste-kattenvoer.nl', url: site.url }, publisher: { '@type': 'Organization', name: 'Beste-kattenvoer.nl', url: site.url }, datePublished: isoDate(p.published || CHECKED), reviewBody: b.verdict },
   };
 }
 function schemaFor(p, bc) {
   const g = [
-    { '@type': 'Organization', '@id': site.url + '/#org', name: 'Beste-kattenvoer.nl', url: site.url, logo: abs('/logo.png') },
+    { '@type': 'Organization', '@id': site.url + '/#org', name: 'Beste-kattenvoer.nl', url: site.url, logo: abs('/logo.png'), sameAs: [site.author.tiktok].filter(Boolean), founder: { '@id': abs(site.author.url + '#persoon') } },
     { '@type': 'WebSite', '@id': site.url + '/#website', url: site.url, name: 'Beste-kattenvoer.nl', inLanguage: 'nl-NL', publisher: { '@id': site.url + '/#org' } },
   ];
   if (bc.length) g.push({ '@type': 'BreadcrumbList', itemListElement: bc.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: b.name, item: abs(b.url) })) });
@@ -490,8 +525,10 @@ function schemaFor(p, bc) {
     const pr = p.prod; const prices = pr.variants.map((v) => v.price);
     g.push({ '@type': 'Product', name: pr.name, image: pr.image, brand: { '@type': 'Brand', name: pr.brand }, ...(pr.ean ? { gtin13: pr.ean.padStart(13, '0') } : {}), description: p.meta_description,
       offers: { '@type': 'AggregateOffer', priceCurrency: 'EUR', lowPrice: Math.min(...prices).toFixed(2), highPrice: Math.max(...prices).toFixed(2), offerCount: pr.variants.length },
-      review: { '@type': 'Review', name: `${pr.name} review`, reviewRating: { '@type': 'Rating', ratingValue: pr.score.total, bestRating: 10, worstRating: 1 }, author: { '@type': 'Organization', name: 'Beste-kattenvoer.nl', url: site.url }, publisher: { '@type': 'Organization', name: 'Beste-kattenvoer.nl', url: site.url }, datePublished: isoDate(CHECKED) } });
+      review: { '@type': 'Review', name: `${pr.name} review`, ...(() => { const r = review(pr); return { positiveNotes: { '@type': 'ItemList', itemListElement: r.pros.map((x, n) => ({ '@type': 'ListItem', position: n + 1, name: x })) }, negativeNotes: { '@type': 'ItemList', itemListElement: r.cons.map((x, n) => ({ '@type': 'ListItem', position: n + 1, name: x })) } }; })(), reviewRating: { '@type': 'Rating', ratingValue: pr.score.total, bestRating: 10, worstRating: 1 }, author: { '@type': 'Organization', name: 'Beste-kattenvoer.nl', url: site.url }, publisher: { '@type': 'Organization', name: 'Beste-kattenvoer.nl', url: site.url }, datePublished: isoDate(CHECKED) } });
   }
+  if (p.slug === '/merken/') g.push({ '@type': 'ItemList', name: 'Kattenvoermerken beoordeeld', itemListElement: brands.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: `${b.name} kattenvoer`, url: abs(`/merken/${b.slug}/`) })) });
+  if (p.slug === '/kattenvoer-test/' || p.slug === '/beste-kattenvoer/') g.push({ '@type': 'ItemList', name: 'Best scorend kattenvoer', itemListElement: ALL.filter(HASPAGE).sort((a, c) => c.score.total - a.score.total).slice(0, 10).map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.name, url: abs(purl(x)) })) });
   if (p.faq && p.faq.length) g.push({ '@type': 'FAQPage', mainEntity: p.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: subst(f.a) } })) });
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': g });
 }
@@ -517,6 +554,7 @@ function layout(p, main) {
 ${googleTag}<title>${esc(p.seo_title)}</title>
 <meta name="description" content="${esc(p.meta_description)}">
 <link rel="canonical" href="${canonical}">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="Samenvatting voor taalmodellen">
 <meta name="robots" content="${robots}">
 <meta property="og:type" content="${p.template === 'home' ? 'website' : 'article'}">
 <meta property="og:title" content="${esc(p.seo_title)}">
@@ -573,6 +611,61 @@ function pageHead(p, opts = {}) {
 ${p.image ? heroImg(p.image, p.image_alt || p.h1) : ''}</div>${wave('wave-down', 'var(--creme)')}</section>`;
 }
 
+// extra analyse per merk, volledig uit de etiketdata (voor alle merkpagina's)
+function brandAnalysis(b) {
+  const re = new RegExp(b.match || b.name, 'i');
+  const xs = ALL.filter((p) => re.test(p.brand));
+  const sc = xs.filter(HASPAGE).sort((a, c) => c.score.total - a.score.total);
+  if (!sc.length) return '';
+  const seed = hsh(b.slug);
+  const m = (a) => a.length ? a.reduce((s, x) => s + x, 0) / a.length : null;
+  const vn = (f) => f === 'droog' ? 'droogvoer' : 'natvoer';
+  const out = [];
+  if (!b.auto) {
+    out.push(`<h2>${esc(b.name)} kattenvoer in cijfers</h2>`);
+    for (const f of ['droog', 'nat']) {
+      const a = sc.filter((p) => p.form === f); if (!a.length) continue;
+      const pd = m(a.map((p) => p.nut.pDM)), kh = m(a.map((p) => p.nut.nfeDM)), pp = m(a.map((p) => p.ppd)), hi = a.filter((p) => p.nut.pDM >= SC[f].pDM).length;
+      out.push(`<p>Van ${a.length} soorten ${esc(b.name)} ${vn(f)} ken ik het etiket. Gemiddeld zit er <b>${pct(pd)} eiwit</b> in de droge stof, tegen ${pct(SC[f].pDM)} voor al het ${vn(f)} in mijn vergelijking. ${hi} van de ${a.length} zitten op of boven dat midden. Aan koolhydraten reken ik gemiddeld ${pct(kh)} uit (midden: ${pct(SC[f].nfe)}). Voor een kat van 4 kilo kost het je gemiddeld ${eur(pp)} per dag, terwijl het midden op ${eur(SC[f].ppd)} ligt. ${pd >= SC[f].pDM + 3 && pp <= SC[f].ppd ? 'Meer eiwit voor minder geld dan gemiddeld: daar word ik blij van.' : pd >= SC[f].pDM + 3 ? 'Je krijgt meer eiwit, maar je betaalt er ook meer voor.' : pd <= SC[f].pDM - 3 ? 'Het eiwit blijft achter bij de rest van de markt. Daar zou ik bij dit merk het meest op letten.' : 'Qua eiwit is het een middenmoter.'}</p>`);
+    }
+  }
+  const top = sc.slice(0, 3);
+  out.push(`<h2>Mijn favorieten van ${esc(b.name)} kattenvoer</h2><p>Als een vriend me vraagt welk ${esc(b.name)}-voer hij moet pakken, noem ik deze ${top.length === 1 ? 'ene' : top.length}. Ik kijk daarbij naar mijn score, dus naar eiwit, koolhydraten, etiket en wat je per gram eiwit betaalt.</p>${top.map((p) => uitleg(p, seed)).join('')}`);
+  const bottom = sc.length >= 6 ? sc.slice(-2).reverse() : [];
+  if (bottom.length) out.push(`<h2>Welk ${esc(b.name)} kattenvoer zou ik laten staan?</h2><p>Niet alles van een merk is even goed. Dit zijn de twee producten van ${esc(b.name)} die bij mij het laagst scoren. Ze zijn compleet, je kat komt er niets tekort op, maar binnen hetzelfde merk kun je beter kiezen.</p>${bottom.map((p) => uitleg(p, seed + 7)).join('')}`);
+  // levensfase en doel
+  const seg = [['kitten', (p) => p.stage === 'kitten', 'kittens'], ['senior', (p) => p.stage === 'senior', 'oudere katten'], ['steri', (p) => p.flags.includes('gesteriliseerd'), 'gesteriliseerde katten'], ['gevoelig', (p) => p.flags.includes('gevoelig'), 'katten met een gevoelige maag']]
+    .map(([k, fn, l]) => { const a = sc.filter(fn); return a.length ? `voor ${l} ${a.length === 1 ? 'is er één soort' : `zijn er ${a.length}`} (beste: <a href="${purl(a[0])}">${esc(a[0].short)}</a>, ${score(a[0].score.total)})` : null; }).filter(Boolean);
+  if (seg.length) out.push(`<h2>${esc(b.name)} kattenvoer voor kittens, senioren en gesteriliseerde katten</h2><p>Binnen ${esc(b.name)} zie ik verschillende lijnen. Met etiketgegevens: ${seg.join('; ')}. ${sc.some((p) => p.stage === 'kitten') ? 'Geef je een kitten, kies dan echt voor kittenvoer: dat heeft meer energie en meer eiwit voor de groei.' : 'Kittenvoer met etiket heb ik bij dit merk niet gevonden; voor een kitten kun je dan beter bij een ander merk kijken.'} ${sc.some((p) => p.flags.includes('gesteriliseerd')) ? 'Bij voer voor gesteriliseerde katten let ik vooral op de calorieën per 100 gram, want die katten komen makkelijk aan.' : ''}</p>`);
+  // etiket
+  const lcs = sc.map((p) => labelCheck(p.nut.sam)).filter(Boolean);
+  const claims = sc.filter((p) => { const c = nameClaim(p.name); return c && c.min <= 4; }).length;
+  const open = sc.filter((p) => !p.nut.sam && OPEN_LABEL.test(p.brand)).length;
+  const meat1 = sc.filter((p) => meatFirst(p.nut.sam) === true).length;
+  const lab = [];
+  if (meat1) lab.push(`Bij ${meat1} van de ${sc.length} etiketten staat een dierlijk ingrediënt op de eerste plek. Zo hoort het bij een vleeseter.`);
+  if (lcs.length) { const g = lcs.filter((l) => l.firstGrain && l.firstGrain <= 2).length, pl = lcs.filter((l) => l.plant.length).length; lab.push(`Van ${lcs.length} producten kon ik de hele samenstelling lezen. ${g ? `Bij ${g} daarvan staat een graan bij de eerste twee ingrediënten.` : 'Geen daarvan heeft granen bovenaan.'} ${pl ? `Bij ${pl} zie ik plantaardig eiwit, zoals gluten of soja, hoog op de lijst. Dat telt mee in het eiwitpercentage, maar is voor een kat minder waardevol dan vlees.` : 'Plantaardig eiwit als opvulling zag ik niet hoog op de lijst staan.'}`); }
+  if (open) lab.push(`Bij ${open} producten werkt ${esc(b.name)} met een open samenstelling, zoals “vlees en dierlijke bijproducten”. Dat mag, maar je weet dan niet precies welk vlees erin zit. Daarom krijgen die etiketten bij mij een lagere score.`);
+  if (claims) lab.push(`${claims} productnamen gebruiken “met …” of “smaak”. Onthoud: “met kip” is volgens de Europese etiketcode minimaal 4% kip, en bij “smaak van” hoeft er nauwelijks iets van in te zitten.`);
+  if (!lab.length) lab.push(`De etiketten van ${esc(b.name)} die ik ken, hebben geen opvallende trucs. Dat is op zich al een compliment.`);
+  out.push(`<h2>Wat het etiket van ${esc(b.name)} kattenvoer vertelt</h2><p>${lab.join(' ')}</p>`);
+  // vergelijkbare merken
+  const mainForm = sc.filter((p) => p.form === 'droog').length >= sc.filter((p) => p.form === 'nat').length ? 'droog' : 'nat';
+  const own = sc.filter((p) => p.form === mainForm), ownP = m(own.map((p) => p.ppd));
+  const others = brands.filter((x) => x.slug !== b.slug).map((x) => { const r2 = new RegExp(x.match || x.name, 'i'); const a = ALL.filter((p) => HASPAGE(p) && p.form === mainForm && r2.test(p.brand)); return a.length >= 3 ? { x, n: a.length, pd: m(a.map((p) => p.nut.pDM)), pp: m(a.map((p) => p.ppd)) } : null; }).filter(Boolean).sort((a, c) => Math.abs(a.pp - ownP) - Math.abs(c.pp - ownP)).slice(0, 3);
+  if (others.length && ownP) out.push(`<h2>${esc(b.name)} kattenvoer vergeleken met andere merken</h2><p>Hoe doet ${esc(b.name)} ${vn(mainForm)} het tegen merken in dezelfde prijsklasse? Gemiddeld betaal je bij ${esc(b.name)} ${eur(ownP)} per dag voor ${pct(m(own.map((p) => p.nut.pDM)))} eiwit in droge stof. ${others.map((o) => `<a href="/merken/${o.x.slug}/">${esc(o.x.name)}</a> kost gemiddeld ${eur(o.pp)} per dag met ${pct(o.pd)} eiwit`).join('; ')}. ${others.some((o) => o.pd > m(own.map((p) => p.nut.pDM)) + 3 && o.pp <= ownP * 1.05) ? 'Er is dus voer in dezelfde prijsklasse met duidelijk meer eiwit. Dat is het overwegen waard.' : `Binnen deze prijsklasse doet ${esc(b.name)} het qua eiwit niet slechter dan de rest.`}</p>`);
+  {
+    const vs = xs.flatMap((p) => p.variants.filter((v) => v.in_stock !== false && v.grams && v.ppk && FOOD.includes(p)).map((v) => ({ v, p })));
+    const shops = [...new Set(vs.map((o) => o.v.shop))];
+    const snacks = xs.filter((p) => p.form === 'snack').length, aanv = xs.filter((p) => p.flags.includes('aanvullend')).length;
+    if (vs.length) {
+      const small = vs.reduce((a, o) => (o.v.grams < a.v.grams ? o : a)), big = vs.reduce((a, o) => (o.v.grams > a.v.grams ? o : a)), cheap = vs.reduce((a, o) => (o.v.ppk < a.v.ppk ? o : a));
+      out.push(`<h2>Waar koop je ${esc(b.name)} kattenvoer, en in welke verpakking?</h2><p>In mijn vergelijking zie ik ${esc(b.name)} bij ${shops.join(' en ')}, in ${vs.length} verschillende verpakkingen. De kleinste is ${packLabel(small.v)} (${esc(small.p.short)}) voor ${eur(small.v.price)}, de grootste ${packLabel(big.v)} voor ${eur(big.v.price)}. Per kilo is ${esc(cheap.p.short)} in ${packLabel(cheap.v)} het voordeligst: ${eur(cheap.v.ppk)} per kilo. Wil je het merk eerst proberen, begin dan klein; weet je dat je kat het lust, dan bespaar je met de grote verpakking.${snacks ? ` Daarnaast heeft ${esc(b.name)} ${snacks} snacks in de feed. Leuk als beloning, maar houd ze onder de tien procent van wat je kat per dag eet.` : ''}${aanv ? ` Let op: ${aanv} producten zijn aanvullend voer. Die lijken op een maaltijd, maar zijn het niet.` : ''}</p>`);
+    }
+  }
+  out.push(`<h2>Mijn advies als je ${esc(b.name)} kattenvoer koopt</h2><p>Kies binnen het merk op het etiket, niet op de verpakking: dezelfde naam kan van een 4 tot een 8 scoren. Koop droogvoer in een zak die je in zes tot acht weken leeg hebt, en houd de aanbiedingen in de gaten als je toch al bij dit merk blijft. Twijfel je tussen twee soorten, kies dan die met de meeste eiwit per euro; die staat bij elke review. En als je overstapt van een ander merk: doe het rustig, verdeeld over een week, zoals ik uitleg in <a href="/kennisbank/kat-overzetten-op-ander-voer/">overstappen op ander voer</a>.</p>`);
+  return out.join('');
+}
 function brandPage(p) {
   const b = brandBySlug[p.brand];
   const xs = ALL.filter((x) => new RegExp(b.match || b.name, 'i').test(x.brand));
@@ -586,7 +679,7 @@ function brandPage(p) {
   const snacks = xs.filter((x) => x.form === 'snack' && x.inStock);
   const scored = xs.filter(HASPAGE).sort((a, c) => c.score.total - a.score.total);
   const comp = xs.filter((x) => x.flags.includes('aanvullend'));
-  return `${pageHead(p)}<div class="wrap content"><div class="prose">${verdict}${facts}${md(p.body, p)}${lists}${scored.length ? `<h2>Alle ${b.name} kattenvoer met onze score</h2><p>Van ${scored.length} producten van ${b.name} ken ik het etiket. Klik door voor de volledige review per product.</p>${scoreTable(scored)}` : ''}${comp.length ? `<h2>Let op bij ${b.name} kattenvoer: aanvullend voer</h2><p>${comp.length} producten van ${b.name} noemen zichzelf aanvullend voer. Dat is lekker als extraatje, maar niet genoeg als hoofdmaaltijd. Kijk op het etiket of er “compleet” of “volledig diervoeder” staat.</p>` : ''}${snacks.length ? `<p>Daarnaast heeft ${b.name} ${snacks.length} snacks in de feed. Die vind je bij <a href="/kattensnoepjes/">kattensnoepjes</a>.</p>` : ''}${faqHtml(p)}${sourcesHtml(p)}<section class="related"><h2>Lees ook</h2><ul><li><a href="/merken/">Alle kattenvoermerken op een rij</a></li><li><a href="/beste-kattenvoer/">Het beste kattenvoer van ${vars.jaar}</a></li><li><a href="/goedkoop-kattenvoer/">Goedkoop kattenvoer dat wel deugt</a></li><li><a href="/kennisbank/kattenvoer-etiket-lezen/">Zo lees je een etiket</a></li></ul></section></div></div>`;
+  return `${pageHead(p)}<div class="wrap content"><div class="prose">${verdict}${facts}${md(p.body, p)}${brandAnalysis(b)}${lists}${scored.length ? `<h2>Alle ${b.name} kattenvoer met onze score</h2><p>Van ${scored.length} producten van ${b.name} ken ik het etiket. Klik door voor de volledige review per product.</p>${scoreTable(scored)}` : ''}${comp.length ? `<h2>Let op bij ${b.name} kattenvoer: aanvullend voer</h2><p>${comp.length} producten van ${b.name} noemen zichzelf aanvullend voer. Dat is lekker als extraatje, maar niet genoeg als hoofdmaaltijd. Kijk op het etiket of er “compleet” of “volledig diervoeder” staat.</p>` : ''}${snacks.length ? `<p>Daarnaast heeft ${b.name} ${snacks.length} snacks in de feed. Die vind je bij <a href="/kattensnoepjes/">kattensnoepjes</a>.</p>` : ''}${faqHtml(p)}${sourcesHtml(p)}<section class="related"><h2>Lees ook</h2><ul><li><a href="/merken/">Alle kattenvoermerken op een rij</a></li><li><a href="/beste-kattenvoer/">Het beste kattenvoer van ${vars.jaar}</a></li><li><a href="/goedkoop-kattenvoer/">Goedkoop kattenvoer dat wel deugt</a></li><li><a href="/kennisbank/kattenvoer-etiket-lezen/">Zo lees je een etiket</a></li></ul></section></div></div>`;
 }
 
 function homePage(p) {
@@ -649,7 +742,13 @@ for (const p of pages) {
 }
 const indexable = manifest.filter((m) => m.index);
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexable.map((m) => `<url><loc>${abs(m.url)}</loc><lastmod>${isoDate(CHECKED)}</lastmod></url>`).join('\n')}\n</urlset>\n`);
-fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /seo-rapport/\n\nSitemap: ${abs('/sitemap.xml')}\n`);
-fs.writeFileSync(path.join(DIST, 'llms.txt'), `# Beste-kattenvoer.nl\n\n> Onafhankelijke vergelijking van kattenvoer in Nederland op prijs per kilo en prijs per dag, met een kritische blik op het etiket. Gemaakt door Robin, baasje van Mila en Nala.\n\n${indexable.map((m) => `- [${m.title}](${abs(m.url)}): ${m.description}`).join('\n')}\n`);
+fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /seo-rapport/\n\n# AI-zoekmachines zijn welkom\nUser-agent: GPTBot\nUser-agent: OAI-SearchBot\nUser-agent: ChatGPT-User\nUser-agent: PerplexityBot\nUser-agent: ClaudeBot\nUser-agent: Claude-SearchBot\nUser-agent: Google-Extended\nAllow: /\nDisallow: /seo-rapport/\n\nSitemap: ${abs('/sitemap.xml')}\n`);
+{
+  const clean = (b) => subst(String(b || '')).replace(/\[\[[^\]]*\]\]/g, '').replace(/\]\(\//g, `](${abs('/')}`).replace(/\n{3,}/g, '\n\n').trim();
+  const content = pages.filter((x) => x.index !== false && x.template !== 'notfound' && x.template !== 'product' && x.body);
+  const full = content.map((x) => `# ${x.h1 || x.title}\n\nURL: ${abs(x.slug)}\nBijgewerkt: ${isoDate(x.updated || CHECKED)}\n\n${x.lead ? subst(x.lead) + '\n\n' : ''}${clean(x.body)}${x.faq && x.faq.length ? '\n\n## Veelgestelde vragen\n\n' + x.faq.map((f) => `**${f.q}**\n${subst(f.a)}`).join('\n\n') : ''}`).join('\n\n---\n\n');
+  fs.writeFileSync(path.join(DIST, 'llms-full.txt'), `# Beste-kattenvoer.nl – volledige tekst\n\n${full}\n`);
+}
+fs.writeFileSync(path.join(DIST, 'llms.txt'), `# Beste-kattenvoer.nl\n\n> Onafhankelijke vergelijking van kattenvoer in Nederland op prijs per kilo en prijs per dag, met een kritische blik op het etiket. Gemaakt door Robin, baasje van Mila en Nala. Elk voer is omgerekend naar eiwit in droge stof, koolhydraten en prijs per 100 gram eiwit.\n\n- [Volledige tekst van alle gidsen](${abs('/llms-full.txt')})\n- [Sitemap](${abs('/sitemap.xml')})\n\n## Gidsen en merken\n\n${indexable.filter((m) => m.template !== 'product').map((m) => `- [${m.title}](${abs(m.url)}): ${m.description}`).join('\n')}\n\n## Productreviews\n\nVan ${indexable.filter((m) => m.template === 'product').length} soorten voer staat een review met score op ${abs('/kattenvoer/')}.\n`);
 fs.writeFileSync(path.join(DIST, 'build-manifest.json'), JSON.stringify({ built: new Date().toISOString(), pages: manifest }, null, 1));
 console.log(`✓ ${manifest.length} pagina's, ${ALL.length} producten (${FOOD.length} voer), feed ${CHECKED}`);

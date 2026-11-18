@@ -43,3 +43,25 @@ Compleet voer voor binnenkatten, gesorteerd op mijn score. Let op het eiwit: dat
 ## Indoor kattenvoer of gewoon minder geven?
 
 Allebei kan. Gewoon goed voer in een iets kleinere portie werkt ook, zolang je weegt. Hoeveel je precies geeft, lees je bij [hoeveel voer een kat per dag nodig heeft](/kennisbank/hoeveel-kattenvoer-per-dag/). Is je kat gesteriliseerd, kijk dan ook bij [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/). En wil je dat de calorieën vooral uit eiwit komen, lees dan [kattenvoer met granen en weinig eiwit](/kattenvoer-granen-weinig-eiwit/).
+
+## Indoor kattenvoer en haarballen
+
+Veel indoor-voer belooft minder haarballen. Binnenkatten verharen vaak het hele jaar door, omdat het binnen altijd ongeveer even warm en licht is. Ze poetsen zichzelf en slikken daarbij haar in. Extra vezels in het voer helpen dat haar door de darmen te laten gaan in plaats van het uit te braken.
+
+Dat werkt, maar borstelen werkt beter. Een paar keer per week een paar minuten borstelen haalt het losse haar weg voordat je kat het inslikt. Bij langharige katten is dat eigenlijk een must.
+
+## Indoor kattenvoer is niet genoeg: een binnenkat wil ook jagen
+
+Een binnenkat mist vooral iets wat geen voer kan oplossen: de jacht. Een kat buiten besteedt uren per dag aan sluipen, wachten en springen. Binnen moet je dat een beetje nabootsen:
+
+- **Twee keer per dag tien minuten spelen** met een hengel, en laat hem aan het eind iets "vangen".
+- **Voer in een puzzel of verstoppen** in een paar bakjes door het huis.
+- **Klimmen en uitkijken:** een krabpaal bij het raam doet wonderen.
+
+> Een binnenkat die verveeld is, eet vaak uit verveling. Spelen is dus ook gewoon een manier om zijn gewicht goed te houden.
+
+## Indoor kattenvoer: wat kost het extra?
+
+Indoor-voer is vaak niet veel duurder dan het gewone voer van hetzelfde merk. Maar omdat het minder calorieën heeft, heeft je kat er soms iets meer gram van nodig. Kijk daarom naar de prijs per dag in plaats van de prijs per zak. In elke review staat die voor een kat van 4 kilo, en in de tabel ook voor lichtere en zwaardere katten.
+
+Kies je toch voor indoor-voer, kijk dan bij de review naar de energie per 100 gram en het eiwit. Dat zijn de twee getallen die voor een binnenkat het meeste zeggen.

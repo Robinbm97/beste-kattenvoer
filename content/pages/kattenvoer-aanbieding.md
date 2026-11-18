@@ -26,7 +26,7 @@ Vandaag staan er {{korting_aantal}} soorten compleet kattenvoer met minstens 10%
 
 Korting werkt op je gevoel. "30% korting" leest als winst, maar als het voer weinig eiwit heeft en vol vulling zit, koop je vooral goedkoper vulmiddel. Ik kijk daarom eerst naar de score en pas daarna naar de korting. En ik reken alles door naar de prijs per dag, zodat een grote zak met korting eerlijk naast een klein zakje staat.
 
-> Het grootste deel van mijn eigen kattenvoerbudget gaat naar voer dat ik toch al koop. Een aanbieding is voor mij een reden om te hamsteren, niet om iets nieuws te proberen.
+> Mijn advies: zie een aanbieding als reden om voer dat je toch al koopt in te slaan, niet als reden om iets nieuws te proberen.
 
 ## Kattenvoer in de aanbieding met een goede score
 

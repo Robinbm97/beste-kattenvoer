@@ -61,3 +61,9 @@ Dit is compleet droogvoer met minstens 40% eiwit in droge stof en een score van 
 ## Goed kattenvoer: zo doe ik het rekenwerk voor je
 
 Elke check heb ik voor {{etiket_aantal}} soorten voer al gedaan. Je vindt ze allemaal met score in de [vergelijker](/kattenvoer-vergelijken/). Wil je het zelf leren, lees dan [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/) en [kattenvoer met granen en weinig eiwit](/kattenvoer-granen-weinig-eiwit/). Hoe ik precies score, staat bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
+
+## Goed kattenvoer en je eigen kat
+
+Mijn vijf checks zeggen iets over het voer. Maar of het goed voer is voor jouw kat, zie je aan je kat zelf: een glanzende vacht, stevige ontlasting, een stabiel gewicht en een kat die met plezier eet. Zie je dat na een paar weken op nieuw voer, dan zit je goed. Zie je dat niet, dan is het ook bij een hoge score de moeite waard om iets anders te proberen.
+
+Geef een nieuw voer daarom altijd een paar weken de tijd, en verander niets anders in die periode. Pas dan kun je eerlijk beoordelen of het werkt.

@@ -66,3 +66,9 @@ Wat kopen andere kattenbaasjes het meest? Dit zijn de populairste producten bij 
 ## Zo reken ik eiwit in kattenvoer uit
 
 Ik neem het percentage ruw eiwit en het vochtgehalte van het etiket. Eiwit gedeeld door (100 min vocht) geeft het eiwit in de droge stof. Voor de prijs neem ik de prijs per kilo en deel ik die door het aantal grammen eiwit per kilo. Alles staat uitgelegd bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
+
+## Veel eiwit kattenvoer: kan het te veel zijn?
+
+Voor een gezonde kat is veel eiwit geen probleem. Katten zijn gemaakt om vooral van eiwit en vet te leven. Alleen bij nierziekte ligt dat anders; daar bepaalt je dierenarts hoeveel eiwit je kat krijgt. Lees daarover bij [kattenvoer bij nierproblemen](/kattenvoer-nieren/).
+
+Wil je weten hoeveel eiwit je kat nu binnenkrijgt? Zoek je huidige voer op in de vergelijker. In de review staat hoeveel gram eiwit per dag hij eet bij zijn gewicht.

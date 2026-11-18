@@ -46,3 +46,17 @@ Er is geen bewijs dat graanvrij voer voor een gezonde kat beter is dan compleet 
 ## Graanvrij kattenvoer kiezen: waar let je op?
 
 Kijk niet alleen naar het woord graanvrij, maar naar wat er bovenaan het etiket staat. Een benoemde vleessoort als eerste ingrediënt is een goed teken. En reken de prijs per dag uit: graanvrij voer is in de vergelijking gemiddeld duurder. Hoe je een etiket leest, zie je in [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/).
+
+## Graanvrij kattenvoer en hartproblemen: wat is er bekend?
+
+Je leest soms dat graanvrij voer hartproblemen zou geven. Dat verhaal komt uit Amerikaans onderzoek bij honden, waarbij een verband werd onderzocht tussen graanvrij voer met veel peulvruchten en een bepaalde hartziekte. Bij katten is zo'n verband niet aangetoond. Katten hebben wel taurine nodig voor hun hart, maar dat wordt aan compleet kattenvoer toegevoegd. Je hoeft je dus geen zorgen te maken over graanvrij voer op zich, zolang het compleet is.
+
+## Graanvrij kattenvoer: zo herken je slimme marketing
+
+Graanvrij voer staat vaak vol met peulvruchten: erwten, linzen, kikkererwten. Die leveren zetmeel en ook plantaardig eiwit. Daardoor lijkt het eiwitpercentage hoog, terwijl een deel uit planten komt. Kijk daarom bij graanvrij voer extra goed naar de eerste vijf ingrediënten. Staan daar drie soorten peulvruchten, dan is het vooral een andere vulling, geen betere.
+
+> Mijn conclusie: graanvrij is prima als het etiket verder goed is. Maar betaal er niet extra voor alleen vanwege dat ene woord. Meer over die vulling lees je bij [kattenvoer met granen en weinig eiwit](/kattenvoer-granen-weinig-eiwit/).
+
+## Graanvrij kattenvoer: wat het je per maand kost
+
+Graanvrij voer is in mijn vergelijking gemiddeld duurder dan voer met granen. Dat verschil is niet altijd groot, maar over een jaar telt het op. Wil je graanvrij en toch voordelig, sorteer dan in de [vergelijker](/kattenvoer-vergelijken/) met het filter graanvrij op goedkoopste eiwit. Je ziet dan bovenaan graanvrij voer waar je per euro het meeste eiwit voor krijgt. Dat zijn vaak niet de bekendste merken, maar wel slimme keuzes.

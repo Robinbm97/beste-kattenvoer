@@ -54,3 +54,22 @@ Dit is het voordeligste complete natvoer per dag. [Voskes](/merken/voskes/) spri
 ## Natvoer kopen zonder te veel te betalen
 
 Kleine bakjes van 85 gram zijn handig, maar per kilo het duurst. Blikken van 400 gram of multipacks van 12 tot 24 stuks zijn vaak een derde goedkoper. Gebruik een open blik binnen twee dagen en bewaar het afgedekt in de koelkast. Laat het voor het voeren even op kamertemperatuur komen, dan ruikt het lekkerder voor je kat.
+
+## Beste natvoer: paté, stukjes of mousse?
+
+Natvoer komt in een paar vormen, en katten hebben daar vaak uitgesproken meningen over. Paté is een stevige massa, vaak het eiwitrijkst omdat er weinig saus bij zit. Stukjes in saus of gelei zijn populair, maar een deel van het zakje is dan saus of gelei met wat zetmeel of verdikkingsmiddel. Mousse is fijn voor oudere katten of katten met slechte tanden.
+
+In de cijfers zie ik dat paté meestal iets beter scoort op eiwit dan stukjes in saus. Dat is geen wet: er is uitstekend voer in gelei. Maar als je kat geen voorkeur heeft, is paté vaak de slimste keus.
+
+## Beste natvoer bewaren en serveren
+
+- **Open blik of zakje:** afgedekt in de koelkast, binnen twee dagen op.
+- **Op kamertemperatuur geven.** Koud natvoer ruikt minder en wordt vaker geweigerd. Haal het een kwartier van tevoren uit de koelkast, of zet het bakje even in een kom warm water.
+- **Niet de hele dag laten staan.** Na een paar uur droogt het uit en trekt het vliegen aan. Wat na een half uur niet op is, kan weg.
+- **Schone bak.** Katten zijn kieskeurig. Een bak met aangekoekte resten laten ze vaak staan.
+
+> Natvoer is duurder per dag, maar het is ook het voer dat het dichtst bij een muis komt: veel vocht, veel eiwit, weinig vulling. Zelfs één natte maaltijd per dag maakt al verschil.
+
+## Het beste natvoer voor een kieskeurige kat
+
+Er zijn katten die elke week iets anders willen. Dat is lastig, want steeds wisselen is niet goed voor de maag. Een middenweg: kies twee of drie soorten natvoer van hetzelfde merk en dezelfde vorm, en wissel daartussen. Dan blijft het spannend voor je kat, maar de basis blijft gelijk. Een multipack met verschillende smaken is daar handig voor, en vaak ook voordeliger per kilo.

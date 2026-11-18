@@ -45,3 +45,29 @@ Compleet voer dat zich biologisch noemt, gesorteerd op mijn score.
 Biologisch voer is bijna altijd duurder. Dat is logisch: biologisch vlees kost meer. Kijk op elke kaart naar de prijs per dag en vergelijk die met [het beste kattenvoer](/beste-kattenvoer/) zonder keurmerk. Vaak betaal je voor biologisch het dubbele per gram eiwit.
 
 Wil je biologisch maar met een krap budget, combineer dan: biologisch natvoer als traktatie en een goed, voordelig droogvoer als basis. Mijn oordeel over de twee grootste biologische merken lees je bij [Yarrah](/merken/yarrah/) en [Lily's Kitchen](/merken/lilys-kitchen/). En of duur ook beter is, zocht ik uit bij [premium kattenvoer](/premium-kattenvoer/).
+
+## Biologisch kattenvoer en het keurmerk: waar je op let
+
+In Nederland zie je op biologisch voer het Europese groene blaadje, soms aangevuld met het EKO-keurmerk. Dat Europese logo mag er alleen op als minimaal 95% van de agrarische ingrediënten biologisch is. Staat er alleen "met biologische kip", dan kan het zijn dat alleen de kip biologisch is. Kijk dus of het logo op de verpakking staat, en lees bij twijfel de samenstelling.
+
+Let ook op woorden als "natuurlijk", "puur" of "zonder chemische toevoegingen". Die zijn niet beschermd en zeggen niets over biologisch.
+
+## Biologisch kattenvoer: wat ik in de cijfers zie
+
+Biologisch natvoer heeft in mijn vergelijking vaak een redelijk tot goed eiwitgehalte, maar is per dag flink duurder dan gemiddeld. Bij biologische brokken zie ik wisselend eiwit; sommige gebruiken rijst of andere granen als basis, en dan zakt het eiwit naar de middenmoot. Biologisch en graanrijk gaan dus prima samen. Daarom kijk ik ook hier naar het etiket, niet alleen naar het blaadje.
+
+## Biologisch kattenvoer en duurzaamheid
+
+Veel mensen kiezen biologisch voor het milieu en het dierenwelzijn. Daar valt veel voor te zeggen. Wil je verder kijken, let dan ook op:
+
+- **Afval.** Grote blikken en grote zakken geven minder verpakking per maaltijd dan losse zakjes.
+- **Verspilling.** Voer dat je kat niet eet, is het meest onduurzame voer. Begin met een kleine verpakking.
+- **Overvoeren.** Een kat met overgewicht eet meer dan nodig. Afwegen is ook duurzaam.
+
+> Biologisch voer is voor mij een keuze voor hoe het gemaakt is. Als het past in je budget: mooi. Zo niet, dan is een goed, gewoon voer in de juiste portie ook prima voor je kat.
+
+Wil je zien wat biologisch je per maand kost ten opzichte van gewoon voer, reken het uit bij [kosten kattenvoer per maand](/kennisbank/kosten-kattenvoer-per-maand/).
+
+## Biologisch kattenvoer combineren met gewoon voer
+
+Je hoeft niet alles biologisch te maken. Veel baasjes kiezen voor een biologisch natvoer als dagelijkse maaltijd en een goed, gewoon droogvoer als basis. Zo kost het maar een deel extra, en heb je toch een deel van het menu biologisch. Tel wel de calorieën van beide bij elkaar op, zodat je kat niet ongemerkt te veel binnenkrijgt.

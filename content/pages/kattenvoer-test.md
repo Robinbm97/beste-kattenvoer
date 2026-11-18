@@ -63,3 +63,25 @@ Een paar dingen die ik niet had verwacht, of juist wel:
 > Mijn test zegt niet of jouw kat het lust. Wel of het etiket waarmaakt wat de zak belooft. Dat vind ik al heel wat.
 
 Alle producten met hun score vind je in [alle kattenvoer met score](/kattenvoer/), of filter zelf in de [vergelijker](/kattenvoer-vergelijken/).
+
+## Kattenvoer test: wat de cijfers zeggen over goedkoop en duur
+
+Een vraag die ik mezelf stelde: is het duurste voer ook het beste? Het antwoord in de cijfers is "een beetje". Gemiddeld heeft duurder voer iets meer eiwit en iets minder koolhydraten. Maar de spreiding is enorm. Er zijn brokken voor minder dan vijftig cent per dag die beter scoren dan zakken van een euro per dag. En er is premiumvoer waar je vooral voor de mooie zak betaalt.
+
+Daarom telt de prijs per 100 gram eiwit mee. Het midden ligt bij droogvoer op {{p100_mid_droog}} en bij natvoer op {{p100_mid_nat}}. Voer dat ver daaronder zit, geeft je veel voor je geld; voer dat ver daarboven zit, moet dat wel waarmaken met een beter etiket.
+
+## Kattenvoer test: zo gebruik je de uitslag
+
+Je hoeft niet het voer met de hoogste score te kopen. Ik zou het zo doen:
+
+1. **Bepaal je budget per dag.** Weet je dat niet, kijk dan bij [kosten kattenvoer per maand](/kennisbank/kosten-kattenvoer-per-maand/).
+2. **Kies nat, droog of een mix.** Per dag scheelt dat veel.
+3. **Zoek binnen je budget het voer met de hoogste score.** In de [vergelijker](/kattenvoer-vergelijken/) zet je het maximum per dag en sorteer je op score.
+4. **Lees de review.** Daar zie je waarom een voer goed of minder goed scoort, en of dat voor jouw kat uitmaakt.
+5. **Probeer een kleine verpakking.** Lust je kat het, dan pas de grote zak.
+
+> Een 7 die je kat graag eet en die je kunt blijven betalen, is beter dan een 9 die na twee weken in de kast belandt.
+
+Heeft je kat een aandoening, zoals blaas- of nierproblemen, dan is deze test niet de juiste maat. Dan gaat het advies van je dierenarts voor.
+
+Wat ik ook interessant vind: de populairste voeders bij bol.com zijn lang niet altijd de best scorende. Populair zegt dat veel katten het lusten en dat het makkelijk te krijgen is. Mijn score zegt wat er in de zak zit. Het beste is natuurlijk een voer dat allebei goed doet.

@@ -81,3 +81,11 @@ Het volledige overzicht staat bij [het beste kattenvoer van {{jaar}}](/beste-kat
 In de [kattenvoer-vergelijker](/kattenvoer-vergelijken/) filter je op nat of droog, leeftijd, graanvrij, gesteriliseerd en gevoelige maag. Je ziet bij elk product meteen de prijs per dag. En met de [kostencalculator](/kennisbank/kosten-kattenvoer-per-maand/) reken je uit wat jouw kat per maand kost.
 
 [[calc]]
+
+## Beste kattenvoer kiezen zonder gedoe
+
+Heb je weinig tijd? Dan is dit mijn snelle route. Kies eerst nat, droog of een mix. Bepaal daarna wat je per dag wilt uitgeven. Open dan de vergelijker, zet dat bedrag als maximum en sorteer op hoogste score. Lees van de bovenste twee de review, en koop er één in een kleine verpakking. Lust je kat het en blijft zijn ontlasting goed, dan heb je je voer gevonden. Zo simpel kan het zijn.
+
+Twijfel je daarna nog, lees dan [wat goed kattenvoer is](/wat-is-goed-kattenvoer/). Daar staan de vijf checks die ik zelf altijd doe, ook in de supermarkt.
+
+Elke dag haal ik nieuwe prijzen op, dus de lijsten op deze site veranderen mee met de aanbiedingen.

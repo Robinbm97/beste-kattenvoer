@@ -57,6 +57,9 @@ const pages = manifest.pages.map((m) => {
     });
     Object.entries(types).forEach(([t, n]) => { if (n > 1 && t !== 'ListItem') schemaErrors.push(`Dubbel schema: ${t} (${n}×)`); });
   });
+  // eigen tekst: alleen lopende tekst, zonder productkaarten, tabellen, bronnen en 'lees ook'
+  let proseWords = 0;
+  if (main) { const c = parse(main.toString()); c.querySelectorAll('.pgrid, .pcard, .table-wrap, table, .offers, .scorecard, .sources, .related, .facts, nav, .crumbs, .fine, .calc, .vgl, .bgrid, .tiles, .band, figure, script').forEach((n) => n.remove()); proseWords = words(c.text).length; }
   const kw = m.primary_keyword || '';
   const wc = words(text).length;
   const exact = countPhrase(text, kw);
@@ -67,7 +70,7 @@ const pages = manifest.pages.map((m) => {
   const has = (t) => kw && (words(t).join(' ').includes(words(kw).join(' ')) || nearCount(t, kw) > 0);
   const placementMissing = kw ? [['title', title], ['h1', h1.join(' ')], ['intro', intro], ['description', description], ['slug', m.url.replace(/[-/]/g, ' ')]].filter(([, t]) => !has(t)).map(([n]) => n) : [];
   const partial = kw ? words(kw).reduce((s, w) => s + words(text).filter((x) => x === w).length, 0) : 0;
-  return { url: m.url, meta: m, title, description, canonical, robots, h1, headingSkips, internal, contextLinks, affiliateUnmarked, imgNoAlt, imgAlts, schemaErrors, wordCount: wc, density, densityNear, near, exact, partial, placementMissing, h2: root.querySelectorAll('main h2').map((h) => h.text.trim()), proseH2: root.querySelectorAll('main .prose h2, main .prose-wide h2').map((h) => h.text.trim()).filter((t) => !['Waar we dit vandaan hebben', 'Waar ik dit vandaan heb', 'Vragen van andere kattenbaasjes', 'Lees ook'].includes(t)), images: root.querySelectorAll('main img').length, sources: root.querySelectorAll('.sources li').length };
+  return { url: m.url, meta: m, title, description, canonical, robots, h1, headingSkips, internal, contextLinks, affiliateUnmarked, imgNoAlt, imgAlts, schemaErrors, wordCount: wc, proseWords, density, densityNear, near, exact, partial, placementMissing, h2: root.querySelectorAll('main h2').map((h) => h.text.trim()), proseH2: root.querySelectorAll('main .prose h2, main .prose-wide h2').map((h) => h.text.trim()).filter((t) => !['Waar we dit vandaan hebben', 'Waar ik dit vandaan heb', 'Vragen van andere kattenbaasjes', 'Lees ook'].includes(t)), images: root.querySelectorAll('main img').length, sources: root.querySelectorAll('.sources li').length };
 });
 
 // context
@@ -101,7 +104,7 @@ const pageReport = pages.filter((p) => p.meta.template !== 'notfound').map((p) =
   quality += p.sources ? 10 : 0;
   quality += p.images ? 5 : 0;
   quality += p.contextLinks >= 3 ? 5 : 0;
-  return { url: p.url, template: p.meta.template, title: p.title, words: p.wordCount, primary_keyword: p.meta.primary_keyword || '', density: +p.density.toFixed(2), density_variant: +p.densityNear.toFixed(2), exact: p.exact, variant: p.near, partial: p.partial, h2: p.h2, inbound: (inbound[p.url] || []).length, depth: depth[p.url] ?? null, seo_score: seo, quality_score: Math.min(100, Math.round(quality)), findings: f.length, source: p.meta.source };
+  return { url: p.url, template: p.meta.template, title: p.title, words: p.wordCount, prose_words: p.proseWords, primary_keyword: p.meta.primary_keyword || '', density: +p.density.toFixed(2), density_variant: +p.densityNear.toFixed(2), exact: p.exact, variant: p.near, partial: p.partial, h2: p.h2, inbound: (inbound[p.url] || []).length, depth: depth[p.url] ?? null, seo_score: seo, quality_score: Math.min(100, Math.round(quality)), findings: f.length, source: p.meta.source };
 });
 
 const totals = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0 };

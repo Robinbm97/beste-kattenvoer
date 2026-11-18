@@ -49,3 +49,5 @@ En dit is droogvoer met minstens 42% eiwit in droge stof, gesorteerd op de laags
 ## Premium kattenvoer: mijn advies
 
 Kies niet op het woord premium, maar op drie dingen: een benoemde vleessoort vooraan, veel eiwit in droge stof en een prijs per dag die je jaren kunt volhouden. Een kat heeft niets aan voer dat je over drie maanden niet meer kunt betalen. Meer van zulke voeders vind je bij [veel eiwit voor weinig geld](/veel-eiwit-kattenvoer/) en in [de kattenvoer test](/kattenvoer-test/). Benieuwd naar een echt premiummerk? Lees mijn oordeel over [Orijen](/merken/orijen/).
+
+Probeer het ook eens zo: neem je huidige voer en zoek in de vergelijker welk voer dezelfde score haalt voor minder geld per dag. Grote kans dat er iets tussen zit.

@@ -38,7 +38,7 @@ Kijk bij elke kaart ook naar het eiwit. Onder de 32% in droge stof vind ik het v
 
 [[lijst form=nat sort=ppd n=6]]
 
-> Zelf combineer ik: brokken als basis, en een zakje natvoer als vaste maaltijd. Dan blijft het betaalbaar en krijgen ze toch extra vocht binnen.
+> Mijn tip: combineer. Brokken als basis en een zakje natvoer als vaste maaltijd. Dan blijft het betaalbaar en krijgt je kat toch extra vocht binnen.
 
 ## Goedkoopste kattenvoer met een fatsoenlijke score
 

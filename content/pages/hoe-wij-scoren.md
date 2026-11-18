@@ -46,3 +46,44 @@ Waar het etiket genoeg informatie geeft, reken ik ook de energie uit met de Atwa
 ## Wat de kattenvoer score niet zegt
 
 De score zegt niets over smaak, over hoe jouw kat het verdraagt, of over medische diëten. Dieetvoer geef je in overleg met je dierenarts. En ik test niet in een lab: ik reken met wat de fabrikant op het etiket zet.
+
+## Een voorbeeld van de kattenvoer score, stap voor stap
+
+Stel, op een zak brokken staat: ruw eiwit 32%, ruw vet 14%, ruwe celstof 2,5%, ruwe as 7%, vocht 8%. Dan reken ik zo:
+
+1. **Eiwit in droge stof:** 32 gedeeld door (100 − 8) = 34,8%. Dat zit onder het midden van {{eiwit_mid_droog}} voor droogvoer. De eiwitscore wordt een 3,9.
+2. **Koolhydraten:** 100 − 32 − 14 − 2,5 − 7 − 8 = 36,5%. In droge stof is dat 39,7%. Dat is veel; de koolhydraatscore wordt een 1,3.
+3. **Prijs per 100 gram eiwit:** kost de zak €20 voor 4 kilo, dan is dat €5 per kilo en €1,56 per 100 gram eiwit. Dat is goedkoop vergeleken met de rest, dus een hoge prijsscore.
+4. **Etiket:** staat er "granen" vooraan en "vlees en dierlijke bijproducten" op plek twee, dan gaan er punten af.
+
+Bij elkaar komt zo'n voer uit rond een 4 of 5. Goedkoop, en het vult de bak, maar voor een vleeseter zit er te weinig vlees in. Precies dat wil ik zichtbaar maken.
+
+## Wat ik doe als gegevens ontbreken bij de kattenvoer score
+
+Niet elk etiket is compleet. Soms ontbreekt het vochtgehalte, soms de as. Dan werk ik met een schatting: 8% vocht voor brokken en 80% voor natvoer. Dat zet ik er altijd bij, zodat je weet dat het een schatting is. Ontbreekt het eiwit, dan geef ik geen score. Liever geen cijfer dan een verzonnen cijfer.
+
+Ontbreekt de samenstelling helemaal, dan kan ik het etiketdeel niet goed beoordelen. Bij merken die bekend staan om een open samenstelling, zoals veel supermarktmerken, trek ik dan punten af. Bij andere merken geef ik een neutrale etiketscore.
+
+## Waarom de kattenvoer score geen smaaktest is
+
+Ik krijg vaak de vraag waarom ik niet gewoon kijk wat katten lekker vinden. Het eerlijke antwoord: smaak is per kat zo verschillend dat een test met een paar katten weinig zegt. Daarnaast vinden katten vaak juist het voer met veel vet en smaakversterkers het lekkerst. Dat is niet hetzelfde als het beste voer.
+
+Wat ik wel meeneem: hoe populair een voer is bij bol.com en hoe kopers het beoordelen. Dat staat in de reviews, maar het telt niet mee in de score.
+
+> Mijn score is een hulpmiddel, geen eindoordeel. Als je kat het voer met een 6 heerlijk vindt en gezond blijft, is dat een prima voer voor jouw kat.
+
+## Hoe vaak de kattenvoer score verandert
+
+De prijzen haal ik elke dag op. Omdat de prijs per eiwit voor een kwart meetelt, kan een score dus een paar tienden schuiven als een voer in de aanbieding is of duurder wordt. Eiwit, koolhydraten en etiket veranderen alleen als de fabrikant het recept aanpast. Dat zie je terug als ik het etiket opnieuw ophaal.
+
+## Partners hebben geen invloed op de kattenvoer score
+
+Ik verdien een klein bedrag als je via een knop iets koopt. Dat geld bepaalt niets aan de score. Een voer waar ik niets aan verdien, kan bovenaan staan, en een voer van een partner onderaan. De berekening is voor elk voer hetzelfde, en je kunt hem op deze pagina nalezen. Wil je zelf leren rekenen, lees dan [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/). De uitkomsten van al die berekeningen zie je in [de kattenvoer test](/kattenvoer-test/).
+
+## De kattenvoer score bij natvoer en droogvoer
+
+Natvoer en droogvoer krijgen elk hun eigen schaal. Bij droogvoer is 25% eiwit in droge stof een 0 en 50% een 10. Bij natvoer is dat 30% en 60%, omdat natvoer van nature eiwitrijker is als je het water wegrekent. Ook de prijs vergelijk ik binnen de soort: een natvoer wordt alleen met ander natvoer vergeleken. Zo kun je een 7 voor natvoer en een 7 voor droogvoer naast elkaar leggen. Ze zijn allebei goed binnen hun eigen soort, al kost het natvoer per dag altijd meer.
+
+## Wat ik met jouw feedback op de kattenvoer score doe
+
+Zie je een etiket dat niet klopt, of een voer dat volgens jou onterecht hoog of laag staat? Laat het me weten via de [contactpagina](/contact/). Ik kijk dan naar het etiket van de fabrikant en pas de gegevens aan als er iets mis is gegaan. De rekenregels zelf verander ik alleen als er een goede reden voor is, en dan voor alle voeders tegelijk. Zo blijft het eerlijk.

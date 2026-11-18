@@ -26,7 +26,7 @@ Ik heb al het natvoer in de vergelijking gesplitst in blik en zakjes. In blik ko
 
 Wat het verpakkingstype niet bepaalt, is de kwaliteit. Er zit uitstekend natvoer in blik en matig natvoer in zakjes, en andersom. Kijk daarom gewoon naar het eiwit in droge stof en de prijs per dag.
 
-> Mijn katten eten een half blik per maaltijd. De rest gaat met een deksel de koelkast in. Dat scheelt een hoop lege zakjes in de vuilnisbak.
+> Met twee katten is een groot blik vaak in één of twee maaltijden op. De rest gaat met een deksel de koelkast in. Dat scheelt een hoop lege zakjes in de vuilnisbak.
 
 ## Het beste kattenvoer in blik
 
@@ -47,3 +47,22 @@ Natvoer in blik, gesorteerd op mijn score.
 - **Smaak.** Sommige katten zijn gewend aan stukjes in saus uit een zakje en vinden paté uit blik maar niets. Bouw het rustig op.
 
 Meer natvoer, ook in zakjes, vind je bij [het beste natvoer](/beste-natvoer-kat/). Let ook op de [aanbiedingen](/kattenvoer-aanbieding/): juist natvoer in grote dozen zit er vaak tussen.
+
+## Kattenvoer in blik openen en bewaren zonder gedoe
+
+Een paar dingen maken het leven met blikken een stuk makkelijker:
+
+- **Een siliconen deksel.** Voor een paar euro heb je deksels die precies op een blik passen. Dan ruikt je koelkast niet naar vis.
+- **Een lepel die je alleen voor kattenvoer gebruikt.** Even afspoelen na gebruik, klaar.
+- **Op tijd uit de koelkast.** Haal het blik een kwartier voor de maaltijd eruit, of schep de portie in een bakje en zet dat even in warm water.
+- **Datum op het deksel.** Met een stift het openingsmoment erop, zodat je weet wanneer het op moet.
+
+## Kattenvoer in blik voor meerdere katten
+
+Heb je twee of meer katten, dan is blik eigenlijk altijd de slimste keus. Een blik van 400 gram is in één of twee maaltijden op, en je betaalt per kilo minder dan voor losse zakjes. Kijk bij natvoer in grote dozen ook naar [de aanbiedingen](/kattenvoer-aanbieding/): daar zit vaak flinke korting op.
+
+> Blik is niet ouderwets. Het is per kilo vaak goedkoper, je hebt minder afval, en het voer erin is niet slechter dan in een zakje.
+
+## Kattenvoer in blik voor één kat
+
+Heb je maar één kat, dan zijn kleine blikjes van 70 tot 100 gram vaak praktischer dan een groot blik. Je opent elke maaltijd een vers blikje en hoeft niets te bewaren. Per kilo betaal je iets meer, maar je gooit niets weg. Wat het verschil per maand is, zie je in de reviews.

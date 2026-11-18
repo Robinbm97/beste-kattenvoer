@@ -52,3 +52,15 @@ Weeg je kitten af en toe. Groeit hij gestaag en is hij speels en actief, dan zit
 ## Van kittenvoer naar volwassen voer
 
 Rond twaalf maanden stap je over op voer voor volwassen katten. Doe dat geleidelijk, in een week tot tien dagen. Hoe je dat aanpakt, staat in [kat overzetten op ander voer](/kennisbank/kat-overzetten-op-ander-voer/). Is je kitten gecastreerd of gesteriliseerd, kijk dan ook naar [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/).
+
+## Kittenvoer: hoeveel en hoe vaak?
+
+Een kitten heeft per kilo lichaamsgewicht veel meer energie nodig dan een volwassen kat. Een kitten van vier maanden eet daarom per kilo bijna twee keer zoveel. Maar een kittenmaagje is klein. Verdeel het voer daarom over vier tot vijf maaltijden per dag tot een maand of zes, en daarna drie tot vier.
+
+Laat bij kittens gerust wat brokken staan zodat ze kunnen bijeten. Overvoeren is bij een groeiend kitten minder een probleem dan bij een volwassen kat. Na sterilisatie, vaak rond vijf of zes maanden, verandert dat wel: dan daalt de energiebehoefte en moet je beter gaan opletten.
+
+## Wanneer stop je met kittenvoer?
+
+De meeste katten zijn rond hun eerste verjaardag uitgegroeid. Grote rassen zoals de Maine Coon groeien door tot hun tweede of zelfs derde jaar en kunnen langer kittenvoer krijgen. Stap rustig over in een week, zoals in [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/).
+
+> Kittenvoer is de beste investering die je in een jonge kat kunt doen. Juist in die eerste maanden bouwt hij zijn spieren en botten op.

@@ -31,7 +31,7 @@ Een open zak brokken blijft ongeveer zes tot acht weken goed. Daarna ranzen de v
 - **Eén kat:** een zak van 10 kilo duurt bijna een half jaar. Dat is te lang, tenzij je de zak opdeelt.
 - **Twee of drie katten:** dan ben je met 7 tot 10 kilo in twee tot drie maanden klaar. Prima.
 
-> Mijn truc met één grote zak: meteen verdelen over een paar luchtdichte bakken of de originele zak goed dichtrollen met een clip. Alleen de bak die in gebruik is, gaat open.
+> Mijn tip bij één grote zak: meteen verdelen over een paar luchtdichte bakken of de originele zak goed dichtrollen met een clip. Alleen de bak die in gebruik is, gaat open.
 
 Bewaar de brokken in de originele zak, ook als je een voerton gebruikt. De zak houdt licht en lucht tegen, en je houdt het etiket en de houdbaarheidsdatum bij de hand.
 

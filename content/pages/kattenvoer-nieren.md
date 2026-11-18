@@ -54,3 +54,28 @@ Katten met nierproblemen hebben vaak minder trek. Wat helpt:
 - **Blijf letten op eten.** Een kat die dagen niet eet, loopt andere risico's. Bel dan je dierenarts.
 
 Is je kat oud maar zijn de nieren in orde, dan is eiwit juist belangrijk. Lees daarover bij [senior kattenvoer](/senior-kattenvoer/). Ook bij blaasproblemen is water de sleutel: zie [urinary kattenvoer](/urinary-kattenvoer/).
+
+## Kattenvoer voor de nieren: waarom eiwit een lastig verhaal is
+
+Op de rest van mijn site zeg ik steeds: meer eiwit is beter. Bij nierziekte ligt dat anders, en ik wil uitleggen waarom. Bij het verwerken van eiwit ontstaan afvalstoffen die de nieren moeten wegwerken. Zieke nieren kunnen dat minder goed. Daarom bevatten nierdiëten minder eiwit dan gewoon voer, maar wel eiwit van hoge kwaliteit.
+
+Tegelijk is te weinig eiwit ook niet goed: dan breekt je kat zijn eigen spieren af. Het is dus een balans, en die hangt af van het stadium van de nierziekte. Precies daarom hoort de dierenarts te bepalen welk voer en wanneer.
+
+## Kattenvoer voor de nieren: als je kat het dieet niet lust
+
+Dit is een van de lastigste dingen voor baasjes. Nierdiëten zijn minder smakelijk, en katten met nierziekte hebben vaak al minder trek. Wat kan helpen:
+
+- **Verschillende smaken en vormen proberen.** De meeste fabrikanten van nierdiëten hebben paté, stukjes en brokken. Vraag je dierenarts om proefzakjes.
+- **Opwarmen tot lichaamstemperatuur.** Dat maakt de geur sterker.
+- **Kleine porties, vaker.** Liever vijf keer een beetje dan twee keer een grote bak.
+- **Niet in het ziekenhuis of na een vervelende dag starten.** Katten kunnen een afkeer krijgen van voer dat ze kregen toen ze zich beroerd voelden.
+
+Lukt het echt niet, meld het dan bij je dierenarts. Een kat die een iets minder perfect dieet eet, is beter af dan een kat die niets eet.
+
+> Ik weet hoe zwaar het is als je kat ziek is en zijn eten laat staan. Wees niet te streng voor jezelf, en vraag hulp bij je dierenarts als het niet lukt.
+
+## Kattenvoer voor de nieren voorkomen
+
+Kun je nierziekte voorkomen met voer? Niet helemaal: het komt veel voor bij oudere katten, ook als ze goed gegeten hebben. Wat wel verstandig is: zorg dat je kat genoeg drinkt, laat vanaf een jaar of acht af en toe bloed en urine controleren, en houd zijn gewicht in de gaten. Dan zie je het op tijd.
+
+Heb je vragen over je eigen kat, schrijf ze dan op voor je volgende afspraak. Vraag bijvoorbeeld in welk stadium de nierziekte zit, hoe vaak je terug moet komen voor controle en welk dieet het best past bij wat je kat lust.

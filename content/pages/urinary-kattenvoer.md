@@ -58,3 +58,15 @@ Dit is dieetvoer voor katten met vastgestelde blaasproblemen. Mijn score zegt hi
 ## Urinary kattenvoer en een gesteriliseerde kat
 
 Gecastreerde katers en katten die weinig bewegen en te zwaar zijn, hebben vaker last van hun blaas. Let dus ook op het gewicht van je kat; zie [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/). Wil je weten hoe dierenartsen naar voer kijken, lees dan [het beste kattenvoer volgens de dierenarts](/beste-kattenvoer-volgens-dierenarts/).
+
+## Urinary kattenvoer en stress
+
+Een blaasontsteking zonder duidelijke oorzaak heeft vaak met stress te maken. Een verhuizing, een nieuwe kat in huis, een kat van de buren die door het raam staart, of een vieze kattenbak: het kan allemaal meespelen. Daarom helpt het om ook naar de omgeving te kijken:
+
+- **Genoeg kattenbakken:** één per kat plus één extra, op rustige plekken.
+- **Een schone bak.** Dagelijks scheppen, regelmatig helemaal verschonen.
+- **Rust en eigen plekken.** Vooral in huizen met meer katten heeft elke kat een eigen plek nodig om te eten, te drinken en te slapen.
+
+> Voer is maar een deel van het verhaal. Water, een schone bak en een rustige kat doen minstens zoveel voor de blaas.
+
+Wil je weten of je kat genoeg drinkt? Kijk naar de plasballen in de kattenbak. Twee tot vier middelgrote ballen per dag is normaal. Worden ze opeens veel groter of veel kleiner, of zit je kat steeds op de bak, dan is het tijd voor de dierenarts.

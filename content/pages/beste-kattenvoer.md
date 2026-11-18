@@ -85,3 +85,13 @@ Een kitten groeit en heeft meer energie en voedingsstoffen nodig. Een oudere kat
 ## Zo heb ik het beste kattenvoer gekozen
 
 Ik heb {{aantal_voer}} complete voeders vergeleken op prijs per kilo en prijs per dag, en per merk het etiket en het assortiment bekeken. Mijn score per merk is mijn eigen oordeel. Ik heb niet elk voer aan mijn eigen katten gegeven, en dat zeg ik er eerlijk bij. Prijzen zijn van {{datum}}.
+
+## Het beste kattenvoer is ook het voer dat je kunt volhouden
+
+Ik zie veel mensen die vol goede moed overstappen op een duur voer, en na een paar maanden terugvallen omdat het niet in het budget past. Dat is jammer, want al dat wisselen is niet goed voor de maag van je kat. Kies daarom liever een voer dat je jarenlang kunt geven. Een goede 7 die je kunt blijven betalen, is beter dan een 9 die je na drie maanden niet meer koopt.
+
+## Het beste kattenvoer combineren
+
+Je hoeft niet één voer te kiezen. Veel baasjes geven brokken als basis en natvoer als vaste maaltijd. Dat is een prima aanpak: de brokken houden het betaalbaar, het natvoer geeft extra vocht en eiwit. Kies dan voor allebei een voer dat goed scoort, en tel de calorieën bij elkaar op zodat je kat niet te veel krijgt.
+
+> Begin bij je budget per dag, en zoek daarbinnen het voer met de hoogste score. Dat is eigenlijk het hele geheim.

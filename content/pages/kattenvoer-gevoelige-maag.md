@@ -50,3 +50,24 @@ Een gevoelige maag kan veel oorzaken hebben: te snel eten, stress, haarballen, p
 ## Dieetvoer bij een gevoelige maag
 
 Dieetvoer voor maag en darmen haal je bij voorkeur via de dierenarts. Dat voer is bedoeld voor een specifiek probleem en hoort in een behandelplan. In mijn lijsten laat ik dieetvoer daarom bewust weg.
+
+## Kattenvoer gevoelige maag: braken of haarballen?
+
+Niet elke kat die af en toe overgeeft, heeft een gevoelige maag. Katten braken soms haarballen uit, vooral langharige katten in de ruiperiode. Dat is een sigaar-achtig propje haar, vaak met wat vocht. Een paar keer per maand is dat niet ongewoon, al is het goed om het te bespreken als het vaker gebeurt.
+
+Bij een gevoelige maag zie je eerder onverteerd voer kort na het eten, dunne of wisselende ontlasting, veel winden of een kat die gras eet en daarna braakt. Schrokken kan ook de boosdoener zijn: een kat die zijn bak in één minuut leegeet, gooit het er soms net zo snel weer uit.
+
+## Kattenvoer gevoelige maag: wat je zelf kunt proberen
+
+- **Langzamer laten eten.** Een voerpuzzel, een plat bord of de portie in drie keer geven helpt schrokkers vaak al.
+- **Eén eiwitbron.** Kies een voer met één vleessoort, en houd dat een paar weken vol zonder snoepjes van een andere soort.
+- **Vaste tijden.** Een voorspelbaar ritme is voor de maag fijner dan een bak die de hele dag gevuld wordt.
+- **Rustig overstappen.** Een snelle wissel van voer is de meest voorkomende oorzaak van maagklachten. Zie [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/).
+
+> Braakt je kat vaker dan een keer per week, is hij sloom, valt hij af of zit er bloed in? Dan is het geen kwestie van voer meer. Ga naar de dierenarts.
+
+Licht verteerbaar voer heeft vaak iets minder vet en eiwitbronnen die makkelijk te verteren zijn. Dat kan helpen. Gaat het meer om jeuk en huid, lees dan [hypoallergeen kattenvoer](/hypoallergeen-kattenvoer/).
+
+## Kattenvoer gevoelige maag: natvoer of brokken?
+
+Er is geen vaste regel. Sommige katten met een gevoelige maag doen het beter op natvoer, omdat het makkelijker te verteren is en minder zetmeel bevat. Andere katten reageren juist op bepaalde verdikkingsmiddelen in natvoer. Probeer het rustig uit, en verander één ding tegelijk. Zo weet je achteraf wat hielp.
