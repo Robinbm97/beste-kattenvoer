@@ -166,8 +166,7 @@ for (const [bi, b] of brands.entries()) {
 }
 
 // ---------- logo ----------
-const wl = (word, scales) => [...word].map((c, i) => `<i style="--s:${scales[i]}">${c}</i>`).join('');
-const logo = `<span class="logo" role="img" aria-label="Beste kattenvoer"><span class="lg-1" aria-hidden="true">${wl('KATTEN', [1.32, 1.12, 1.0, 0.96, 1.04, 1.22])}</span><span class="lg-2" aria-hidden="true"><small>beste</small>${wl('VOER', [1.26, 1.04, 0.98, 1.16])}</span></span>`;
+const logo = `<span class="logo" role="img" aria-label="Beste kattenvoer"><span class="lg-0" aria-hidden="true">beste</span><span class="lg-1" aria-hidden="true">KATTEN</span><span class="lg-2" aria-hidden="true">VOER</span></span>`;
 const wave = (cls, fill) => `<svg class="wave ${cls}" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h1440v38c-180 58-372 86-578 70C640 92 476 18 274 22 160 24 70 48 0 76z" fill="${fill}"/></svg>`;
 
 // ---------- schema ----------

@@ -57,11 +57,10 @@ p{margin:0 0 1em}
 .mobile-nav nav a:hover{background:var(--petrol-3)}
 
 /* logo, in de geest van Velvet: letters met eigen hoogte */
-.logo{display:inline-flex;flex-direction:column;font-family:var(--display);font-stretch:125%;font-weight:900;color:var(--lila);line-height:.8;letter-spacing:-.02em;padding:18px 0 6px}
-.logo i{display:inline-block;font-style:normal;transform:scaleY(var(--s));transform-origin:50% 100%}
-.lg-1{font-size:33px;transform:skewY(-4deg)}
-.lg-2{font-size:33px;margin-top:11px;transform:skewY(-4deg);display:flex;align-items:flex-end;gap:6px}
-.lg-2 small{font:800 12px/1 var(--display);font-stretch:112%;letter-spacing:.14em;color:var(--mint);text-transform:uppercase;margin-bottom:2px}
+.logo{display:inline-flex;flex-direction:column;align-items:flex-start;font-family:var(--display);font-stretch:125%;font-weight:900;color:var(--lila);line-height:.8;letter-spacing:-.045em;transform:skewY(-6deg) translateY(4px);padding:10px 0 4px}
+.lg-0{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--mint);margin:0 0 4px 2px}
+.lg-1{font-size:34px}
+.lg-2{font-size:34px;margin-left:.62em;margin-top:-1px}
 .site-footer .logo{color:var(--lila)}
 
 /* waves */
