@@ -78,7 +78,7 @@
       more.hidden = xs.length <= st.shown;
       activeCount();
     };
-    var load = function () { if (data) return Promise.resolve(); return fetch('/assets/voer.json').then(function (r) { return r.json(); }).then(function (d) { data = d; }); };
+    var load = function () { if (data) return Promise.resolve(); return fetch(v.getAttribute('data-src') || '/assets/voer.json').then(function (r) { return r.json(); }).then(function (d) { data = d; }); };
     var go = function () { st.shown = 12; load().then(draw); };
     var press = function (sel, on) { v.querySelectorAll(sel).forEach(function (x) { x.setAttribute('aria-pressed', String(on(x))); }); };
     v.querySelectorAll('[data-f]').forEach(function (b) {

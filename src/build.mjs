@@ -424,9 +424,9 @@ function vergelijkerPage(p) {
   const VGL = FOOD.filter((x) => !x.flags.includes('aanvullend') && !x.flags.includes('dieet'));
   const data = VGL.map((x) => [x.id, x.brand, x.name, x.form, x.stage, x.flags.join(' '), +x.ppd.toFixed(3), +x.ppk.toFixed(2), x.best.price, packLabel(x.best), x.image, affUrl(x.best, x), x.best.shop, budgetClass(x, T) || '', x.score ? x.score.total : null, x.nut ? x.nut.pDM : null, x.p100 ? +x.p100.toFixed(2) : null, HASPAGE(x) ? purl(x) : '']);
   fs.mkdirSync(path.join(DIST, 'assets'), { recursive: true });
-  fs.writeFileSync(path.join(DIST, 'assets/voer.json'), JSON.stringify(data));
+  fs.writeFileSync(path.join(DIST, `assets/voer-${buildHash}.json`), JSON.stringify(data));
   const first = VGL.filter((x) => x.form === 'droog').sort((a, b) => a.ppd - b.ppd).slice(0, 12);
-  const tool = `<div class="vgl" data-widget="vgl">
+  const tool = `<div class="vgl" data-widget="vgl" data-src="/assets/voer-${buildHash}.json">
 <div class="vgl-top"><label class="vgl-search"><span class="sr">Zoek op merk of smaak</span><input type="search" id="vQ" placeholder="Zoek merk of smaak, bijv. zalm"></label>
 <label class="vgl-sort"><span class="sr">Sorteer</span><select id="vS"><option value="ppd">Goedkoopst per dag</option><option value="score">Hoogste score</option><option value="eiwit">Meeste eiwit</option><option value="p100">Goedkoopste eiwit</option><option value="duur">Duurst per dag</option><option value="naam">Naam A-Z</option></select></label></div>
 <div class="seg seg-form" role="group" aria-label="Soort voer"><button data-f="form" data-v="droog" aria-pressed="true">Droogvoer</button><button data-f="form" data-v="nat" aria-pressed="false">Natvoer</button><button data-f="form" data-v="" aria-pressed="false">Alles</button></div>

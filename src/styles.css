@@ -31,7 +31,7 @@ p{margin:0 0 1em}
 .site-header{background:var(--petrol);color:var(--creme);position:sticky;top:0;z-index:50;transition:background .3s ease}
 .brand{position:relative;padding:0}
 .brand::before{content:'';position:absolute;right:calc(100% + 59px);top:-30px;height:calc(100% + 46px);width:100vw;background:var(--petrol);opacity:0;transition:opacity .3s ease;z-index:-1}
-.is-scrolled .brand::before{opacity:1}
+.is-scrolled .site-header .brand::before{opacity:1}
 .brand-bg{position:absolute;left:-60px;top:-30px;width:calc(100% + 150px);height:calc(100% + 46px);fill:var(--petrol);opacity:0;transition:opacity .3s ease;z-index:-1}
 .brand .logo{transition:transform .3s ease;transform-origin:left top}
 .head-cta{display:none;background:var(--lila);color:var(--petrol-2);font:900 .95rem/1 var(--display);font-stretch:125%;text-transform:uppercase;text-decoration:none;padding:13px 18px;border-radius:4px;letter-spacing:.02em}
@@ -39,8 +39,8 @@ p{margin:0 0 1em}
 .is-scrolled .site-header{background:transparent;pointer-events:none}
 .is-scrolled .site-header a,.is-scrolled .site-header summary,.is-scrolled .site-header nav{pointer-events:auto}
 .is-scrolled .header-in{min-height:70px}
-.is-scrolled .brand-bg{opacity:1}
-.is-scrolled .brand .logo{transform:scale(.78)}
+.is-scrolled .site-header .brand-bg{opacity:1}
+.is-scrolled .site-header .brand .logo{transform:scale(.78)}
 .is-scrolled .main-nav{background:var(--petrol);border-radius:999px;padding:5px;box-shadow:0 8px 24px rgba(15,47,49,.25)}
 .is-scrolled .head-cta{display:inline-block;box-shadow:0 8px 24px rgba(15,47,49,.25)}
 .is-scrolled .mobile-nav summary{background:var(--petrol);border-radius:12px}
@@ -371,7 +371,6 @@ p{margin:0 0 1em}
   .pstats b{font-size:1rem}
   .btn-buy{padding:11px 12px;font-size:.86rem}
   .pick-tag{top:8px;left:8px;font-size:.68rem;padding:6px 8px}
-  .is-scrolled .brand .logo{transform:scale(.6)}
   .is-scrolled .brand-bg{left:-60px;top:-30px;width:calc(100% + 70px);height:calc(100% + 10px)}
   .is-scrolled .header-in{min-height:58px}
 }
@@ -405,11 +404,15 @@ p{margin:0 0 1em}
 }
 @media (max-width:900px){
   .is-scrolled .site-header{background:var(--petrol);pointer-events:auto;box-shadow:0 6px 18px rgba(15,47,49,.25)}
-  .is-scrolled .brand-bg,.is-scrolled .brand::before{opacity:0!important}
+  .is-scrolled .site-header .brand-bg,.is-scrolled .site-header .brand::before{opacity:0!important}
   .is-scrolled .mobile-nav summary{background:transparent}
   .is-scrolled .header-in{min-height:56px}
-  .is-scrolled .brand .logo{transform:none;padding:4px 0}
-  .is-scrolled .lg-1,.is-scrolled .lg-2{font-size:22px}
-  .is-scrolled .lg-0{font-size:8px;margin-bottom:2px}
+  .is-scrolled .site-header .brand .logo{transform:none;padding:4px 0}
+  .is-scrolled .site-header .lg-1,.is-scrolled .site-header .lg-2{font-size:22px}
+  .is-scrolled .site-header .lg-0{font-size:8px;margin-bottom:2px}
 }
 [hidden]{display:none!important}
+
+.site-footer .brand{margin:0 0 14px}
+.site-footer .brand-bg,.site-footer .brand::before{display:none}
+.site-footer .logo{transform:skewY(-6deg)!important}
