@@ -4,3 +4,6 @@ fediaf_label: { title: "FEDIAF Code of Good Labelling Practice (samenvatting via
 claims: { title: "Wat ‘met kip’, ‘rijk aan’ en ‘menu’ op een etiket betekenen (uitleg op basis van de FEDIAF-code)", url: "https://www.purina.eu/contact-us/faq/ingredients/quantity-of-ingredient-pet-food-labels" }
 wsava: { title: "WSAVA Global Nutrition Committee – Guidelines on Selecting Pet Foods", url: "https://wsava.org/global-guidelines/global-nutrition-guidelines/" }
 bol_api: { title: "bol.com Marketing Catalog API (populairste kattenvoer, prijzen en beoordelingen, opgehaald {datum})", url: "/over-mij/" }
+plantinga: { title: "Plantinga, Bosch & Hendriks (2011). Estimation of the dietary nutrient profile of free-roaming feral cats. British Journal of Nutrition 106, S35–S48", url: "https://doi.org/10.1017/S0007114511002765" }
+iris: { title: "International Renal Interest Society – richtlijnen voor nierziekte bij katten", url: "http://www.iris-kidney.com/guidelines/" }
+icatcare_flutd: { title: "International Cat Care – Feline lower urinary tract disease (FLUTD)", url: "https://icatcare.org/advice/cystitis-and-lower-urinary-tract-disease/" }

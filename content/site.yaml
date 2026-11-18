@@ -39,6 +39,24 @@ footer:
       - { label: Veel eiwit, weinig geld, url: /veel-eiwit-kattenvoer/ }
       - { label: Alle kattenvoer met score, url: /kattenvoer/ }
       - { label: Hoe ik score, url: /hoe-wij-scoren/ }
+  - title: Keuzehulpen
+    links:
+      - { label: Wat is goed kattenvoer?, url: /wat-is-goed-kattenvoer/ }
+      - { label: Granen en weinig eiwit, url: /kattenvoer-granen-weinig-eiwit/ }
+      - { label: Kattenvoer test 2026, url: /kattenvoer-test/ }
+      - { label: Goedkoopste kattenvoer, url: /goedkoopste-kattenvoer/ }
+      - { label: Kattenvoer aanbieding, url: /kattenvoer-aanbieding/ }
+      - { label: Grootverpakking, url: /kattenvoer-grootverpakking/ }
+      - { label: Kattenvoer in blik, url: /kattenvoer-in-blik/ }
+      - { label: Premium kattenvoer, url: /premium-kattenvoer/ }
+      - { label: Supermarkt kattenvoer, url: /supermarkt-kattenvoer/ }
+      - { label: Hypoallergeen, url: /hypoallergeen-kattenvoer/ }
+      - { label: Urinary en blaasgruis, url: /urinary-kattenvoer/ }
+      - { label: Nierproblemen, url: /kattenvoer-nieren/ }
+      - { label: Indoor kattenvoer, url: /indoor-kattenvoer/ }
+      - { label: Biologisch, url: /biologisch-kattenvoer/ }
+      - { label: Vloeibaar kattenvoer, url: /vloeibaar-kattenvoer/ }
+      - { label: Volgens de dierenarts, url: /beste-kattenvoer-volgens-dierenarts/ }
   - title: Merken
     links:
       - { label: Edgard & Cooper, url: /merken/edgard-en-cooper/ }

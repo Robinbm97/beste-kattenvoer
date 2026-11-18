@@ -66,7 +66,7 @@ export function classify(p) {
   if (has(/indoor|binnenkat/i, t)) flags.push('binnenkat');
   if (!has(/complete?\b|compleet/i, t) && has(/aanvullend(e)? (diervoed|voed|voer)|complementary/i, s)) flags.push('aanvullend');
   if (/almo nature/i.test(p.brand || '') && /\bHFC\b/.test(t) && !/complete|droog|daily/i.test(t)) flags.push('aanvullend');
-  if (has(/diet|renal|nier|gastro|veterinary|dieetvoer|anallergenic|hypoallergenic|struviet|urinary s\/o|hepatic|metabolic|obesity|diabetes|satiety|vet diet|vetality|trovet/i, t)) flags.push('dieet');
+  if (has(/diet|renal(?! plus)|\bnier(dieet|en)?\b|gastro|veterinary|dieetvoer|anallergenic|hypoallergenic|struviet|urinary s\/o|hepatic|metabolic|obesity|diabetes|satiety|vet diet|vetality|trovet/i, t)) flags.push('dieet');
   return { form, stage, flags: [...new Set(flags)] };
 }
 
@@ -75,6 +75,12 @@ export function loadCatalog(root) {
   const bol = read(`${root}/data/feed/bol-kat.json`);
   const specs = read(`${root}/data/feed/bol-specs.json`) || {};
   const raw = [...((plein && plein.products) || []), ...((bol && bol.products) || []).map((b) => ({ ...b, brand: b.brand || guessBrand(b.title) }))];
+  // merknamen gelijktrekken (MAC's / MAC’s / Mac’s, TROVET / Trovet, PURINA®)
+  const bkey = (b) => String(b || '').replace(/[®™]/g, '').replace(/[’`´]/g, "'").trim().toLowerCase();
+  const BFIX = { purina: 'Purina', trovet: 'Trovet', virbac: 'Virbac', vitalstyle: 'Vitalstyle', carocroc: 'CaroCroc', "mac's": "MAC's", iams: 'IAMS', "hill's": "Hill's", 'hill s': "Hill's" };
+  const bcount = {};
+  for (const r of raw) { const k = bkey(r.brand); bcount[k] ??= {}; bcount[k][r.brand] = (bcount[k][r.brand] || 0) + 1; }
+  for (const r of raw) { const k = bkey(r.brand); r.brand = BFIX[k] || Object.entries(bcount[k]).sort((a, b) => b[1] - a[1])[0][0]; }
   const items = [];
   for (const r of raw) {
     if (!r.price || r.price <= 0) continue;
@@ -82,6 +88,7 @@ export function loadCatalog(root) {
     const it = { ...r, ...w, base: baseTitle(r.title) };
     Object.assign(it, classify(it));
     it.ppk = it.grams ? r.price / (it.grams / 1000) : null; // prijs per kilo
+    if (it.ppk && (it.ppk > 70 || it.ppk < 0.8)) it.ppk = null; // onwaarschijnlijk: gewicht verkeerd gelezen
     if (/\bhond(en)?\b|\bdog\b|puppy/i.test(r.title)) continue;
     it.nut = (it.form === 'droog' || it.form === 'nat') && it.ean && specs[it.ean] ? parseNutrition(specs[it.ean], it.form) : null;
     if (it.nut && it.nut.form !== it.form) it.form = it.nut.form;
