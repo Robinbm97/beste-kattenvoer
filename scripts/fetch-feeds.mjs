@@ -88,7 +88,7 @@ async function bol() {
   console.log('bol categorieën:', JSON.stringify(targets), 'gevonden:', flat.slice(0, 15).map((c) => `${c.categoryName || c.name}=${c.categoryId || c.id}`).join(', '));
   const out = []; const seen = new Set();
   for (const [type, catId] of targets) {
-    const pages = type === 'voer' ? 12 : 4;
+    const pages = type === 'voer' ? 30 : 8;
     for (let page = 1; page <= pages; page++) {
       const r = await api('/products/lists/popular', { 'country-code': 'NL', 'category-id': String(catId), page: String(page), 'page-size': '50', 'include-image': 'true', 'include-offer': 'true', 'include-rating': 'true' });
       for (const [n, p] of (r.results || []).entries()) {

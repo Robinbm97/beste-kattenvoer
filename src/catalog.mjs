@@ -77,11 +77,15 @@ export function loadCatalog(root) {
     items.push(it);
   }
   // groepeer varianten van hetzelfde product (los, 6x, 12x) per winkel en product
+  // groepeer op merk + naam, en voeg groepen samen die een EAN delen (zelfde product bij Plein en bol)
   const groups = new Map();
+  const byEan = new Map();
   for (const it of items) {
-    const key = (it.brand + '|' + it.base).toLowerCase();
+    let key = it.ean && byEan.get(it.ean);
+    if (!key) key = (it.brand + '|' + it.base).toLowerCase();
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(it);
+    if (it.ean && !byEan.has(it.ean)) byEan.set(it.ean, key);
   }
   const products = [];
   for (const [key, vs] of groups) {
