@@ -47,6 +47,8 @@ const affUrl = (v, p) => {
 const cta = (p, v = p.best, label, cls = 'btn') => `<a class="${cls}" href="${esc(affUrl(v, p))}" rel="sponsored nofollow noopener" target="_blank" data-out="${esc(p.id)}">${esc(label || `Bekijk bij ${v.shop}`)}</a>`;
 
 // ---------- productkaart ----------
+const shortOf = (name) => name.split(/\s+[-–|]\s+/).filter((seg, i) => i === 0 || !/kattenvoer|kattenbrok|natvoer|droogvoer|brokjes|brokken|natte voeding|\d|kat\b|multipack|voordeel/i.test(seg)).join(' - ').replace(/\s*-\s*\d.*$/, '').replace(/\s+\d+\s*x\s*\d.*$/i, '').replace(/\s+\d+([.,]\d+)?\s*(kg|gr|gram|g)\b.*$/i, '').trim();
+for (const p of ALL) p.short = shortOf(p.name) || p.name;
 const HASPAGE = (p) => p.score && (p.form === 'droog' || p.form === 'nat');
 const purl = (p) => `/kattenvoer/${p.id}/`;
 const pct = (n) => String(Math.round(n)).replace('.', ',') + '%';
@@ -55,18 +57,20 @@ const perDay = (p) => p.ppd != null ? eur(p.ppd) : '–';
 const packLabel = (v) => v.grams ? (v.grams >= 1000 ? `${nf(+(v.grams / 1000).toFixed(2))} kg` : `${nf(Math.round(v.grams))} gram`) : '';
 function card(p, opts = {}) {
   const v = p.best;
-  const chips = [formLabel[p.form], p.stage !== 'adult' ? stageLabel[p.stage] : '', ...p.flags.filter((f) => f !== 'aanvullend').slice(0, 2).map((f) => flagLabel[f])].filter(Boolean);
   const bc = budgetClass(p, T);
-  const warn = p.flags.includes('aanvullend') ? `<p class="card-warn">Aanvullend voer: geen complete maaltijd. Prijs per dag zegt hier weinig.</p>` : '';
-  const old = v.price_old && v.price_old > v.price + 0.05 ? `<s>${eur(v.price_old)}</s> ` : '';
+  const tags = [p.stage !== 'adult' ? stageLabel[p.stage] : '', p.flags.includes('graanvrij') ? 'Graanvrij' : '', bc === 'budget' ? 'Voordelig' : ''].filter(Boolean).slice(0, 2);
+  const warn = p.flags.includes('aanvullend') ? `<p class="card-warn">Aanvullend voer, geen complete maaltijd</p>` : '';
+  const T2 = opts.tag || 'h3';
+  const name = HASPAGE(p) ? `<a href="${purl(p)}">${esc(p.short)}</a>` : esc(p.short);
+  const stats = p.form === 'snack'
+    ? `<div class="pstats"><div><b>${eur(v.price)}</b><span>${esc(packLabel(v) || 'per stuk')}</span></div></div>`
+    : `<div class="pstats">${p.score ? `<div class="st-score"><b>${score(p.score.total)}</b><span>score</span></div><div><b>${pct(p.nut.pDM)}</b><span>eiwit*</span></div>` : ''}<div><b>${perDay(p)}</b><span>per dag</span></div>${!p.score && p.ppk ? `<div><b>${eur(p.ppk)}</b><span>per kilo</span></div>` : ''}</div>`;
   return `<article class="pcard${opts.pick ? ' is-pick' : ''}">
-${opts.pick ? `<p class="pick-tag">${esc(opts.pick)}</p>` : ''}<div class="pcard-img"><img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" width="300" height="300"></div>
-<div class="pcard-body"><p class="pcard-brand">${brandFor(p) ? `<a href="/merken/${brandFor(p).slug}/">${esc(p.brand)}</a>` : esc(p.brand)}</p>
-<${opts.tag || 'h3'} class="pcard-name">${HASPAGE(p) ? `<a href="${purl(p)}">${esc(p.name)}</a>` : esc(p.name)}</${opts.tag || 'h3'}>
-${p.score ? `<p class="pscore"><span class="pscore-b">${score(p.score.total)}</span><span>onze score · ${pct(p.nut.pDM)} eiwit in droge stof${p.p100 ? ` · ${eur(p.p100)} per 100 g eiwit` : ''}</span></p>` : ''}
-<p class="chips">${chips.map((c) => `<span>${esc(c)}</span>`).join('')}${bc ? `<span class="chip-${bc}">${bc === 'budget' ? 'Voordelig' : bc === 'premium' ? 'Duurder' : 'Middenklasse'}</span>` : ''}</p>
-${opts.note ? `<p class="pcard-note">${esc(opts.note)}</p>` : ''}${warn}
-<div class="pcard-price"><p class="ppd">${p.form === 'snack' ? `<b>${eur(v.price)}</b><span>per verpakking</span>` : `<b>${perDay(p)}</b><span>per dag*</span>`}</p><p class="pmeta">${old}${p.form === 'snack' ? (packLabel(v) || '') : `${eur(v.price)} voor ${packLabel(v) || 'deze verpakking'}`}${p.ppk ? `<br>${eur(p.ppk)} per kilo` : ''}</p></div>
+${opts.pick ? `<p class="pick-tag">${esc(opts.pick)}</p>` : ''}<div class="pcard-img"><img src="${esc(p.image)}" alt="${esc(p.short)}" loading="lazy" width="300" height="300"></div>
+<div class="pcard-body"><p class="pcard-brand">${esc(p.brand)} · ${formLabel[p.form]}</p>
+<${T2} class="pcard-name">${name}</${T2}>
+${stats}${warn}
+<p class="pmeta">${eur(v.price)} · ${packLabel(v) || 'verpakking'}${p.ppk ? ` · ${eur(p.ppk)}/kg` : ''}${tags.length ? ` <span class="ptags">${tags.map((t) => `<i>${esc(t)}</i>`).join('')}</span>` : ''}</p>
 ${cta(p, v, `Bekijk bij ${v.shop}`, 'btn btn-buy')}</div></article>`;
 }
 
@@ -92,7 +96,7 @@ function select(q) {
   return xs.slice(0, Number(q.n || 6));
 }
 const parseArgs = (s) => Object.fromEntries([...s.matchAll(/(\w+)=("([^"]*)"|\S+)/g)].map((m) => [m[1], m[3] ?? m[2]]));
-const grid = (xs, opts = {}) => xs.length ? `<div class="pgrid">${xs.map((p) => card(p, opts)).join('')}</div><p class="fine">*Prijs per dag: schatting voor een volwassen kat van 4 kilo die alleen dit voer eet. Staat de energie op het etiket, dan reken ik met ${KCAL_DAY} kcal per dag; anders met ${GRAMS_PER_DAY.droog} gram droogvoer of ${GRAMS_PER_DAY.nat} gram natvoer. Prijzen van ${nlDate(CHECKED)}, de webshop is leidend.</p>` : '<p class="fine">Op dit moment staat er niets in de feed dat aan deze filters voldoet.</p>';
+const grid = (xs, opts = {}) => xs.length ? `<div class="pgrid">${xs.map((p) => card(p, opts)).join('')}</div><p class="fine">*Eiwit in droge stof, dus zonder het water; zo vergelijk je nat en droog eerlijk. Prijs per dag: schatting voor een volwassen kat van 4 kilo die alleen dit voer eet. Staat de energie op het etiket, dan reken ik met ${KCAL_DAY} kcal per dag; anders met ${GRAMS_PER_DAY.droog} gram droogvoer of ${GRAMS_PER_DAY.nat} gram natvoer. Prijzen van ${nlDate(CHECKED)}, de webshop is leidend.</p>` : '<p class="fine">Op dit moment staat er niets in de feed dat aan deze filters voldoet.</p>';
 
 // ---------- budgettabel ----------
 function budgetTable() {

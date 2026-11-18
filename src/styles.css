@@ -347,3 +347,31 @@ p{margin:0 0 1em}
 .allp li{break-inside:avoid}
 .allp li span{font-weight:700;color:var(--mint-d)}
 @media (max-width:700px){.sbar{grid-template-columns:110px 1fr 36px}.offer{grid-template-columns:1fr auto}.offer .btn{grid-column:1/-1}.allp ul{columns:1}.prod-hero{justify-self:start}}
+
+/* productkaart v2: rustig en scanbaar */
+.pcard-brand{font-size:.78rem;font-weight:700;color:var(--mint-d);margin:0 0 4px;text-transform:none}
+.pcard-name{font-size:1rem;line-height:1.3;margin:0 0 12px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pstats{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:6px;margin:0 0 10px}
+.pstats div{background:var(--creme);border-radius:12px;padding:8px 6px;text-align:center;line-height:1.1}
+.pstats b{display:block;font:900 1.1rem/1.1 var(--display);font-stretch:112%;color:var(--petrol)}
+.pstats span{font-size:.7rem;color:var(--ink-2);font-weight:600}
+.pstats .st-score{background:var(--mint)}
+.pstats .st-score b,.pstats .st-score span{color:var(--petrol-2)}
+.pmeta{font-size:.8rem;color:var(--ink-2);margin:0 0 12px;line-height:1.5;text-align:left}
+.ptags{display:inline-flex;gap:4px;margin-left:2px}
+.ptags i{font-style:normal;font-size:.68rem;font-weight:700;background:var(--lila-soft);color:var(--lila-d);padding:2px 7px;border-radius:99px}
+.pcard .chips,.pcard .ppd,.pcard .pscore{display:none}
+@media (max-width:560px){
+  .pgrid{grid-template-columns:1fr!important;gap:12px}
+  .pcard{display:grid;grid-template-columns:104px 1fr;align-items:start}
+  .pcard-img{padding:10px;height:100%;align-items:center}
+  .pcard-img img{max-width:84px}
+  .pcard-body{padding:12px 14px 14px}
+  .pcard-name{font-size:.95rem;-webkit-line-clamp:2;margin-bottom:10px}
+  .pstats b{font-size:1rem}
+  .btn-buy{padding:11px 12px;font-size:.86rem}
+  .pick-tag{top:8px;left:8px;font-size:.68rem;padding:6px 8px}
+  .is-scrolled .brand .logo{transform:scale(.6)}
+  .is-scrolled .brand-bg{left:-60px;top:-30px;width:calc(100% + 70px);height:calc(100% + 10px)}
+  .is-scrolled .header-in{min-height:58px}
+}
