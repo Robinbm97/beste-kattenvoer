@@ -247,9 +247,11 @@ ${site.google_verification ? `<meta name="google-site-verification" content="${s
 </head>
 <body class="t-${p.template}">
 <a class="skip" href="#inhoud">Naar de inhoud</a>
+<script>(function(){var b=document.body,t=0;function f(){var s=window.scrollY>90;if(s!==t){t=s;b.classList.toggle('is-scrolled',s);}}addEventListener('scroll',f,{passive:true});f();})();</script>
 <header class="site-header"><div class="wrap header-in">
-<a class="brand" href="/" aria-label="Beste kattenvoer, naar home">${logo}</a>
+<a class="brand" href="/" aria-label="Beste kattenvoer, naar home"><svg class="brand-bg" viewBox="0 0 320 130" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H320C262 0 246 34 220 70 192 108 150 130 86 130H0Z"/></svg>${logo}</a>
 <nav class="main-nav" aria-label="Hoofdmenu">${nav}</nav>
+<a class="head-cta" href="/kattenvoer-vergelijken/">Vergelijk</a>
 <details class="mobile-nav"><summary aria-label="Menu openen"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></summary><nav aria-label="Mobiel menu">${nav}</nav></details>
 </div></header>
 <main id="inhoud">
