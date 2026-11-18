@@ -67,7 +67,7 @@ const pages = manifest.pages.map((m) => {
   const has = (t) => kw && (words(t).join(' ').includes(words(kw).join(' ')) || nearCount(t, kw) > 0);
   const placementMissing = kw ? [['title', title], ['h1', h1.join(' ')], ['intro', intro], ['description', description], ['slug', m.url.replace(/[-/]/g, ' ')]].filter(([, t]) => !has(t)).map(([n]) => n) : [];
   const partial = kw ? words(kw).reduce((s, w) => s + words(text).filter((x) => x === w).length, 0) : 0;
-  return { url: m.url, meta: m, title, description, canonical, robots, h1, headingSkips, internal, contextLinks, affiliateUnmarked, imgNoAlt, imgAlts, schemaErrors, wordCount: wc, density, densityNear, near, exact, partial, placementMissing, h2: root.querySelectorAll('main h2').map((h) => h.text.trim()), proseH2: root.querySelectorAll('main .prose h2, main .prose-wide h2').map((h) => h.text.trim()).filter((t) => !['Waar we dit vandaan hebben', 'Vragen van andere kattenbaasjes', 'Lees ook'].includes(t)), images: root.querySelectorAll('main img').length, sources: root.querySelectorAll('.sources li').length };
+  return { url: m.url, meta: m, title, description, canonical, robots, h1, headingSkips, internal, contextLinks, affiliateUnmarked, imgNoAlt, imgAlts, schemaErrors, wordCount: wc, density, densityNear, near, exact, partial, placementMissing, h2: root.querySelectorAll('main h2').map((h) => h.text.trim()), proseH2: root.querySelectorAll('main .prose h2, main .prose-wide h2').map((h) => h.text.trim()).filter((t) => !['Waar we dit vandaan hebben', 'Waar ik dit vandaan heb', 'Vragen van andere kattenbaasjes', 'Lees ook'].includes(t)), images: root.querySelectorAll('main img').length, sources: root.querySelectorAll('.sources li').length };
 });
 
 // context
@@ -114,7 +114,7 @@ fs.writeFileSync(path.join(ROOT, 'reports/seo-report.json'), JSON.stringify(repo
 // dashboard (noindex, niet in sitemap)
 const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 const sevColor = { CRITICAL: '#F3D0C7', HIGH: '#F3E4D3', MEDIUM: '#FBFDEB', LOW: '#FFFDF9' };
-const dash = `<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>SEO-rapport – beste-automatische-kattenbak.nl</title><link rel="stylesheet" href="/assets/styles.css"></head><body>
+const dash = `<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>SEO-rapport – beste-kattenvoer.nl</title><link rel="stylesheet" href="/assets/styles.css"></head><body>
 <main class="wrap section-sm"><p class="kick">Intern · ${new Date().toLocaleString('nl-NL')}</p><h1 class="h1">SEO-rapport</h1>
 <div class="facts" style="margin-top:24px"><div><span>SEO health</span><b>${health}</b><small>gemiddelde paginascore</small></div><div><span>Critical</span><b>${totals.CRITICAL}</b></div><div><span>High</span><b>${totals.HIGH}</b></div><div><span>Medium / Low</span><b>${totals.MEDIUM} / ${totals.LOW}</b></div></div>
 <h2 class="h3" style="margin-top:32px">Pagina’s</h2><div class="table-wrap"><table class="compare" style="min-width:1100px"><thead><tr><td>URL</td><th>Type</th><th>Zoekwoord</th><th>Woorden</th><th>Density exact / variant</th><th>Inkomend</th><th>Diepte</th><th>SEO</th><th>Kwaliteit</th><th>Bevindingen</th></tr></thead><tbody>

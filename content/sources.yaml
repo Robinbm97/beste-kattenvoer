@@ -1,21 +1,5 @@
-# Externe bronnen die pagina's kunnen citeren (sources: [sleutel]).
-petlux_handleiding: { title: "Petlux – Handleiding zelfreinigende kattenbak PL-012 (V2.1)", url: "https://cdn.shopify.com/s/files/1/0537/8267/5630/files/Handleiding_Petlux_Zelfreinigende_Kattenbak_PL-12W_V2.1.pdf" }
-petlux_v3_newatlas: { title: "New Atlas – Petlux V3 automatic litter box for larger cats", url: "https://newatlas.com/consumer-tech/petlux-v3-automatic-litter-box-cats-price" }
-petlux_v3_prelaunch: { title: "Petlux V3 – productpagina (prelaunch)", url: "https://prelaunch.com/projects/petlux-petlux-designed-for-large-cats-built-for-ease" }
-zedar_bol: { title: "bol – Zedar K1200 automatische kattenbak (specificaties)", url: "https://www.bol.com/nl/nl/p/zedar-k1200-automatische-kattenbak/9300000186027522/" }
-zedar_mediamarkt: { title: "MediaMarkt – Zedar K1200 automatische kattenbak", url: "https://www.mediamarkt.nl/nl/product/_zedar-k1200-automatische-kattenbak-145798680.html" }
-zedar_handleiding: { title: "Manualslib – Zedar handleiding (specificaties K900)", url: "https://www.manualslib.com/manual/3583663/Zedar-K1200.html" }
-viervoeter_mediamarkt: { title: "MediaMarkt – Viervoeter Fresh 3 (specificaties)", url: "https://www.mediamarkt.nl/nl/product/_viervoeter-fresh-3-zelfreinigende-automatische-kattenbak-automatische-kattenbak-168545782.html" }
-action_androidworld: { title: "Androidworld – Action verkoopt zelfreinigende kattenbak (september 2026)", url: "https://androidworld.nl/aanbiedingen/deze-drie-action-aanbiedingen-zullen-veel-mensen-lokken/" }
-hombli_ah: { title: "Albert Heijn – Hombli slimme kattenbak", url: "https://www.ah.nl/producten/product/wi601602/hombli-slimme-kattenbak" }
-hombli_faq: { title: "Hombli – FAQ slimme kattenbak (pdf)", url: "https://lekkerweglekkerthuis.ah.nl/media/media_manager/1/hombli/244daf76-98dd-4ba4-bea8-771b17838476.pdf" }
-petsafe_welkoop: { title: "Welkoop – PetSafe ScoopFree SmartSpin", url: "https://welkoop.nl/petsafe-scoopfree-smartspin-automatische-kattenbak-48x53x67-cm-wit_1419916" }
-trevopet_mediamarkt: { title: "MediaMarkt – TrevoPet automatische kattenbak", url: "https://www.mediamarkt.be/nl/product/_trevopet-tp000015-automatische-kattenbak-174787341.html" }
-princess_kruidvat: { title: "Kruidvat – Princess automatische kattenbak 65L", url: "https://www.kruidvat.nl/princess-automatische-kattenbak-met-slimme-app-bediening-zelfreinigend-systeem-65l-610048/p/mp-00075588" }
-catlink_se_lite: { title: "MediaMarkt – Catlink Scooper SE Lite", url: "https://www.mediamarkt.be/nl/product/_catlink-catlink-scooper-se-lite-automatische-kattenbak-automatische-kattenbak-164330604.html" }
-revoloo_techradar: { title: "TechRadar – Revo-loo One review", url: "https://global.techradar.com/nl-nl/home/revo-loo-one-kattenbak-review" }
-revoloo_reviewnl: { title: "ID.nl / Review.nl – testpanel Revo-loo One", url: "https://id.nl/huis-en-entertainment/huishouden/tuin-klussen/5-dingen-die-ons-testpanel-vindt-van-de-revo-loo-one-automatische-kattenbak" }
-petlux_semi_marktplaats: { title: "Productomschrijving Petlux semi-automatische kattenbak (advertentie)", url: "https://www.marktplaats.nl/v/dieren-en-toebehoren/kattenbakken/m2391982939-kattenbak-semi-automatisch" }
-purobot_ultra_mediamarkt: { title: "MediaMarkt – Petkit Purobot Ultra (afvalbak 10 liter)", url: "https://www.mediamarkt.nl/nl/product/_petkit-purobot-ultra-with-camera-self-automatische-kattenbak-145763436.html" }
-welkoop_categorie: { title: "Welkoop – automatische kattenbakken", url: "https://www.welkoop.nl/dier/kat/kattenbakken-en-toebehoren/automatische_kattenbakken" }
-consumentenbond_tests: { title: "Consumentenbond – overzicht producttests wonen en huishouden", url: "https://www.consumentenbond.nl/test/woning-huishouden/" }
+plein_feed: { title: "Productfeed van Plein.nl via Daisycon (prijzen, verpakkingen en omschrijvingen, opgehaald {datum})", url: "/over-mij/" }
+fediaf: { title: "FEDIAF – Nutritional Guidelines for Complete and Complementary Pet Food for Cats and Dogs", url: "https://europeanpetfood.org/nutritional-guidelines" }
+fediaf_label: { title: "FEDIAF Code of Good Labelling Practice (samenvatting via UK Pet Food)", url: "https://www.ukpetfood.org/new-trade-zone/codes-of-practice/labelling.html" }
+claims: { title: "Wat ‘met kip’, ‘rijk aan’ en ‘menu’ op een etiket betekenen (uitleg op basis van de FEDIAF-code)", url: "https://www.purina.eu/contact-us/faq/ingredients/quantity-of-ingredient-pet-food-labels" }
+wsava: { title: "WSAVA Global Nutrition Committee – Guidelines on Selecting Pet Foods", url: "https://wsava.org/global-guidelines/global-nutrition-guidelines/" }

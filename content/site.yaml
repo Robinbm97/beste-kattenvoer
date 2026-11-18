@@ -1,80 +1,56 @@
-# Algemene site-instellingen (bewerkbaar via Pages CMS)
-name: beste-automatische-kattenbak.nl
-short_name: beste-automatische-kattenbak
-url: https://beste-automatische-kattenbak.nl
+# Algemene site-instellingen
+name: beste-kattenvoer.nl
+url: https://beste-kattenvoer.nl
 language: nl-NL
-tagline: Van kattenbaasjes, voor kattenbaasjes
-description: Onafhankelijke vergelijking van automatische en zelfreinigende kattenbakken, geschreven door kattenbaasjes. Prijzen, formaat, app en geschiktheid zonder poespas.
-organization:
-  name: beste-automatische-kattenbak.nl
-  email: redactie@beste-automatische-kattenbak.nl
-data_checked: 2026-11-17
-# Google tag (GTM/GA4). Leeg laten = geen tracking.
+data_checked: 2026-11-18
 google_tag: ""
-# Daisycon: media-ID van deze site. Wordt ingevuld in alle partnerlinks (#MEDIA_ID#).
+google_verification: ""
+# Daisycon: media-ID van deze site (wordt in de Plein-links gezet). Nu nog Dierenartsprijzenvergelijker.nl, tot beste-kattenvoer.nl is goedgekeurd.
 daisycon:
-  media_id: "449434"
+  media_id: "443549"
 bol:
   site_id: "1560801"
+author:
+  name: Robin
+  url: /over-mij/
+  tiktok: https://www.tiktok.com/@katplezier
+  tiktok_handle: "@katplezier"
 nav:
-  - { label: Vergelijken, url: /automatische-kattenbak-vergelijken/ }
-  - { label: Keuzehulp, url: /keuzehulp/ }
-  - { label: Reviews, url: /kattenbakken/ }
+  - { label: Vergelijken, url: /kattenvoer-vergelijken/ }
+  - { label: Beste kattenvoer, url: /beste-kattenvoer/ }
+  - { label: Goedkoop, url: /goedkoop-kattenvoer/ }
   - { label: Merken, url: /merken/ }
   - { label: Kennisbank, url: /kennisbank/ }
-  - { label: Blog, url: /blog/ }
 footer:
-  - title: Vergelijken
+  - title: Kiezen
     links:
-      - { label: Alle kattenbakken vergelijken, url: /automatische-kattenbak-vergelijken/ }
-      - { label: Beste automatische kattenbak 2026, url: /beste-automatische-kattenbak-2026/ }
-      - { label: Goedkope automatische kattenbak, url: /goedkope-automatische-kattenbak/ }
-      - { label: Voor een grote kat, url: /automatische-kattenbak-grote-kat/ }
-      - { label: Voor meerdere katten, url: /automatische-kattenbak-meerdere-katten/ }
-      - { label: Met camera, url: /automatische-kattenbak-met-camera/ }
-      - { label: Kitten en automatische bak, url: /automatische-kattenbak-kitten/ }
-      - { label: XXL automatische kattenbak, url: /automatische-kattenbak-xxl/ }
-      - { label: Open automatische kattenbak, url: /open-automatische-kattenbak/ }
-      - { label: Semi-automatische kattenbak, url: /semi-automatische-kattenbak/ }
-      - { label: Automatische kattenbak kopen, url: /automatische-kattenbak-kopen/ }
-      - { label: Keuzehulp, url: /keuzehulp/ }
-  - title: Reviews
+      - { label: Kattenvoer vergelijken, url: /kattenvoer-vergelijken/ }
+      - { label: Beste kattenvoer 2026, url: /beste-kattenvoer/ }
+      - { label: Goedkoop kattenvoer, url: /goedkoop-kattenvoer/ }
+      - { label: Beste droogvoer, url: /beste-droogvoer-kat/ }
+      - { label: Beste natvoer, url: /beste-natvoer-kat/ }
+      - { label: Kittenvoer, url: /kittenvoer/ }
+      - { label: Senior kattenvoer, url: /senior-kattenvoer/ }
+      - { label: Graanvrij kattenvoer, url: /graanvrij-kattenvoer/ }
+      - { label: Gesteriliseerde kat, url: /kattenvoer-gesteriliseerde-kat/ }
+      - { label: Gevoelige maag, url: /kattenvoer-gevoelige-maag/ }
+      - { label: Kattensnoepjes, url: /kattensnoepjes/ }
+  - title: Merken
     links:
-      - { label: Litter-Robot 4, url: /kattenbakken/litter-robot-4/ }
-      - { label: Petkit Purobot Max Pro 2, url: /kattenbakken/petkit-purobot-max-pro-2/ }
-      - { label: Neakasa M1, url: /kattenbakken/neakasa-m1/ }
-      - { label: Petkit Purobot Ultra, url: /kattenbakken/petkit-purobot-ultra/ }
-      - { label: Zedar K1200, url: /kattenbakken/zedar-k1200/ }
-      - { label: Alle reviews, url: /kattenbakken/ }
-      - { label: Petlux, url: /merken/petlux/ }
-      - { label: Zedar, url: /merken/zedar/ }
-      - { label: Viervoeter, url: /merken/viervoeter/ }
+      - { label: Edgard & Cooper, url: /merken/edgard-en-cooper/ }
+      - { label: Almo Nature, url: /merken/almo-nature/ }
+      - { label: Yarrah, url: /merken/yarrah/ }
+      - { label: Smolke, url: /merken/smolke/ }
+      - { label: Whiskas, url: /merken/whiskas/ }
+      - { label: Felix, url: /merken/felix/ }
       - { label: Alle merken, url: /merken/ }
   - title: Weten
     links:
-      - { label: Is een automatische kattenbak veilig?, url: /kennisbank/is-een-automatische-kattenbak-veilig/ }
-      - { label: Welke kattenbakvulling?, url: /kennisbank/kattenbakvulling-automatische-kattenbak/ }
-      - { label: Kat laten wennen, url: /kennisbank/kat-laten-wennen-aan-automatische-kattenbak/ }
-      - { label: Wat kost het per jaar?, url: /kennisbank/kosten-automatische-kattenbak/ }
-      - { label: Mijn ervaring, url: /kennisbank/automatische-kattenbak-ervaringen/ }
-      - { label: Hoe werkt het?, url: /kennisbank/hoe-werkt-een-automatische-kattenbak/ }
-      - { label: Schoonmaken, url: /kennisbank/automatische-kattenbak-schoonmaken/ }
-      - { label: Zakken, url: /automatische-kattenbak-zakken/ }
-      - { label: Prijsindex, url: /blog/prijsindex-automatische-kattenbak-november-2026/ }
-      - { label: Consumentenbond, url: /beste-automatische-kattenbak-consumentenbond/ }
-      - { label: Begrippen zonder poespas, url: /zonder-poespas/ }
-  - title: Over ons
-    links:
-      - { label: Over ons, url: /over-ons/ }
-      - { label: Over Robin, Mila & Nala, url: /auteur/robin/ }
+      - { label: Etiket lezen, url: /kennisbank/kattenvoer-etiket-lezen/ }
+      - { label: Hoeveel voer per dag?, url: /kennisbank/hoeveel-kattenvoer-per-dag/ }
+      - { label: Nat of droog?, url: /kennisbank/natvoer-of-droogvoer/ }
+      - { label: Wat kost een kat aan voer?, url: /kennisbank/kosten-kattenvoer-per-maand/ }
+      - { label: Overstappen op ander voer, url: /kennisbank/kat-overzetten-op-ander-voer/ }
+      - { label: Over mij, url: /over-mij/ }
       - { label: Contact, url: /contact/ }
       - { label: Privacy, url: /privacy/ }
-      - { label: Zoeken, url: /zoeken/ }
-author:
-  name: Robin
-  url: /auteur/robin/
-  role: Oprichter en kattenbaasje van Mila & Nala
-  tiktok: https://www.tiktok.com/@katplezier
-  tiktok_handle: "@katplezier"
-social:
-  - https://www.tiktok.com/@katplezier

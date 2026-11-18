@@ -1,0 +1,659 @@
+# Merkreviews. Oordeel van Robin op basis van etiket, assortiment en prijs per dag uit de feed.
+# score: 1–10. match: regex op de merknaam in de feed.
+- slug: smolke
+  name: Smolke
+  match: "^Smolke"
+  owner: Nederlands merk
+  price_class: Voordelig tot middenklasse
+  score: 8.2
+  verdict: "Smolke is voor mij het slimste compromis: een kort, helder etiket en een prijs per dag die veel kattenbaasjes gewoon kunnen betalen."
+  pros:
+    - Droogvoer kost per dag vaak minder dan de supermarkt-A-merken met vergelijkbare pretenties
+    - Duidelijke lijnen per levensfase en voor gesteriliseerde katten
+    - Nederlands merk, makkelijk te krijgen
+  cons:
+    - Klein natvoer-assortiment, en dat natvoer is relatief duur
+    - Minder bekend, dus minder reviews van andere baasjes te vinden
+  seo_title: "Smolke kattenvoer review: prijs per dag en mijn oordeel"
+  meta_description: "Is Smolke kattenvoer goed? Ik bekeek alle varianten op prijs per kilo, prijs per dag en etiket. Eerlijk oordeel van een kattenbaasje, met de beste keuzes."
+  lead: "Smolke is geen merk dat je op tv ziet. Juist daarom wilde ik weten of het etiket en de prijs kloppen."
+  body: |
+    ## Is Smolke kattenvoer goed?
+
+    Als ik naar een zak brokken kijk, stel ik drie vragen: is het compleet voer, staat er een benoemde vleessoort bovenaan, en wat kost het per dag? Smolke scoort op alle drie netjes. De lijnen zijn overzichtelijk: adult met kip, vis of lam, kitten, senior, sterilised en een sensible-variant voor gevoelige katten. Geen tientallen smaakjes om je te verleiden, gewoon wat je nodig hebt.
+
+    Wat me opvalt in de prijzen: het droogvoer van Smolke zit per dag in de buurt van wat je voor de bekende supermarktmerken betaalt, terwijl het etiket korter en duidelijker is. Dat is precies waar deze site over gaat. Het beste voer is niet per se het duurste voer.
+
+    > Goedkoop is duurkoop, dat zeg ik vaak. Maar duur is ook niet automatisch goed. Smolke laat zien dat er een middenweg is: geen marketingpraatjes, wel een etiket waar ik wijs uit word.
+
+    ## Smolke kattenvoer: voor wie wel en voor wie niet?
+
+    Smolke past bij je als je vooral brokken geeft en een merk zoekt dat je jaren kunt volhouden zonder dat je portemonnee piept. Heeft je kat een echte natvoer-voorkeur, dan is het assortiment klein en betaal je per dag flink meer. Combineer dan gerust Smolke brokken met een voordeliger natvoer.
+
+    Let bij elk merk op de overgang: bouw nieuw voer in een week tot tien dagen op. Hoe je dat doet, lees je in [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/).
+  faq:
+    - q: Is Smolke kattenvoer graanvrij?
+      a: "Niet standaard. In de feed staat bij Smolke geen variant die zichzelf graanvrij noemt. Graanvrij is ook niet automatisch beter; lees daarover mijn pagina over graanvrij kattenvoer."
+    - q: Waar koop je Smolke kattenvoer?
+      a: "Smolke ligt vooral bij dierenwinkels en online. De prijzen op deze pagina komen uit de feed van Plein.nl en worden dagelijks bijgewerkt."
+
+- slug: edgard-en-cooper
+  name: Edgard & Cooper
+  match: "Edgard"
+  owner: Belgisch merk, opgericht in 2016
+  price_class: Middenklasse tot duur
+  score: 8.0
+  verdict: "Edgard & Cooper doet veel goed: veel graanvrije recepten met benoemd vlees en een vrolijk merk. Je betaalt daar wel voor, vooral bij het natvoer."
+  pros:
+    - Veel recepten met een benoemde vleessoort vooraan
+    - Breed assortiment voor kitten, adult en senior
+    - Droogvoer per dag nog redelijk betaalbaar
+  cons:
+    - Natvoer hoort bij de duurdere helft van de vergelijking
+    - De vrolijke verpakking maakt het makkelijk om te veel te betalen voor kleine zakjes
+  seo_title: "Edgard & Cooper kattenvoer review: eerlijk oordeel 2026"
+  meta_description: "Edgard & Cooper kattenvoer onder de loep: wat kost het per dag, hoe zit het etiket in elkaar en voor welke kat is het de moeite waard? Kritisch maar eerlijk."
+  lead: "Edgard & Cooper is hip, graanvrij en overal te zien. Maar wat krijg je echt voor je geld?"
+  body: |
+    ## Is Edgard & Cooper kattenvoer de prijs waard?
+
+    Edgard & Cooper verkoopt vooral een gevoel: vers vlees, geen granen, een vrolijke kat op de verpakking. Ik kijk liever naar wat er overblijft als je de verpakking omdraait. En dat is eerlijk gezegd netjes. De meeste recepten noemen de vleessoort bij naam en het merk heeft aparte lijnen voor kittens en senioren.
+
+    Waar ik kritisch op ben, is de prijs van het natvoer. De kleine kuipjes en zakjes zijn handig, maar als je kat alleen natvoer eet, zit je per dag al snel ruim boven het gemiddelde. Met de brokken is dat verschil veel kleiner.
+
+    > Ik snap waarom mensen voor Edgard & Cooper kiezen, het ziet er goed uit en het etiket is prima. Mijn tip: koop het natvoer in grote multipacks, dan scheelt het per dag echt geld.
+
+    ## Edgard & Cooper kattenvoer: graanvrij nodig?
+
+    Graanvrij is geen keurmerk. Een kat heeft geen granen nodig, maar een beetje granen is voor de meeste gezonde katten ook geen probleem. Wat telt, is dat het voer compleet is en dat je kat het goed verdraagt. Kies Edgard & Cooper dus omdat je het etiket en de smaak goed vindt, niet alleen vanwege het woord graanvrij. Meer daarover lees je bij [graanvrij kattenvoer](/graanvrij-kattenvoer/).
+  faq:
+    - q: Is Edgard & Cooper goed voor kittens?
+      a: "Er zijn aparte kittenrecepten, zowel nat als droog. Kies voor een kitten altijd voer dat voor groei of kittens bedoeld is, dat staat op het etiket."
+    - q: Waarom is Edgard & Cooper natvoer zo duur?
+      a: "Kleine verpakkingen en een premium merk. Per dag ligt het natvoer in onze vergelijking in de duurdere helft. In grotere multipacks betaal je per kilo minder."
+
+- slug: yarrah
+  name: Yarrah
+  match: "^Yarrah"
+  owner: Nederlands biologisch merk
+  price_class: Middenklasse
+  score: 7.9
+  verdict: "Yarrah is de logische keuze als je biologisch wilt voeren zonder de hoofdprijs te betalen. Voor een biomerk is de prijs per dag verrassend redelijk."
+  pros:
+    - Biologische ingrediënten, met keurmerk
+    - Natvoer per dag goedkoper dan veel niet-biologische premiummerken
+    - Ook graanvrije varianten
+  cons:
+    - Geen apart kittenvoer in de feed
+    - Minder keuze in smaken dan de grote merken
+  seo_title: "Yarrah kattenvoer review: biologisch, maar ook goed?"
+  meta_description: "Yarrah kattenvoer is biologisch, maar is het ook goed en betaalbaar? Ik vergeleek prijs per kilo en per dag van alle Yarrah-varianten. Mijn eerlijke oordeel."
+  lead: "Biologisch klinkt duur. Bij Yarrah valt dat mee, en dat vond ik het interessantste aan dit merk."
+  body: |
+    ## Is Yarrah kattenvoer goed voor je kat?
+
+    Biologisch zegt iets over hoe de ingrediënten gemaakt zijn, niet automatisch over hoe goed het voer is voor je kat. Dat wil ik eerst even zeggen. Maar Yarrah heeft wel een net etiket, met kip of vis als hoofdbestanddeel en een overzichtelijk aanbod: brokken, paté en chunks, met en zonder granen.
+
+    Wat me positief verraste is de prijs. Het natvoer van Yarrah kost per dag minder dan het natvoer van een aantal niet-biologische premiummerken. Wil je bewust kopen zonder dat het je maandbudget opslokt, dan is dit een sterke kandidaat.
+
+    > Ik vind het fijn als een merk niet doet alsof het magisch is. Yarrah is gewoon degelijk, biologisch en betaalbaar. Dat is meer dan je van veel premiummerken kunt zeggen.
+
+    ## Yarrah kattenvoer voor kittens?
+
+    In de feed staat geen apart Yarrah-kittenvoer. Voor een kitten kies je liever voer dat voor groei bedoeld is. Kijk daarvoor bij [kittenvoer](/kittenvoer/).
+  faq:
+    - q: Is Yarrah kattenvoer compleet?
+      a: "De gewone Yarrah-brokken en het natvoer zijn complete voeding. Controleer dat altijd op het etiket, bij elk merk."
+    - q: Is biologisch kattenvoer gezonder?
+      a: "Niet per definitie. Biologisch gaat over de herkomst van de ingrediënten. Of voer goed is, hangt af van de samenstelling en of het compleet is."
+
+- slug: renske
+  name: Renske
+  match: "^Renske"
+  owner: Nederlands merk
+  price_class: Middenklasse tot duur
+  score: 8.0
+  verdict: "Renske maakt voer met veel aandacht voor vers vlees en duidelijke recepten. Kwalitatief sterk, maar per dag niet goedkoop."
+  pros:
+    - Recepten met vers vlees en benoemde vleessoorten
+    - Aparte lijnen voor kitten, adult en senior
+    - Ook graanvrije en biologische varianten
+  cons:
+    - Kleine natvoerkuipjes zijn per dag prijzig
+    - Niet overal in de supermarkt te vinden
+  seo_title: "Renske kattenvoer review: kwaliteit en prijs per dag"
+  meta_description: "Renske kattenvoer is Nederlands en premium. Is het het geld waard? Ik bekeek alle varianten op etiket, prijs per kilo en prijs per dag. Mijn kritische oordeel."
+  lead: "Renske is een Nederlands merk dat inzet op vers vlees. Klinkt goed, maar wat betaal je ervoor?"
+  body: |
+    ## Is Renske kattenvoer het geld waard?
+
+    Renske noemt zijn brokken super premium en dat zie je terug in het etiket: vers vlees vooraan, duidelijke recepten per levensfase. Ik vind dat sterk. Tegelijk zie ik dat je per dag ongeveer twee keer zo veel betaalt als voor een degelijk middenklassemerk.
+
+    Voor wie is dat de moeite waard? Voor katten die kieskeurig zijn of een gevoelige maag hebben, en voor baasjes die het budget hebben. Voor iedereen anders zou ik eerst kijken of een goedkoper merk met een net etiket ook werkt.
+
+    > Mijn eerlijke mening: Renske is mooi voer, maar je hoeft het niet te geven om een goed baasje te zijn. Als het budget krap is, haal je met een degelijk middenklassemerk ook prima resultaat.
+
+    ## Renske kattenvoer nat: let op de verpakking
+
+    De kleine kuipjes paté en mousse zijn handig, maar per kilo duur. Geef je vooral natvoer, reken dan even uit wat het per maand kost met de [calculator](/kennisbank/kosten-kattenvoer-per-maand/).
+  faq:
+    - q: Is Renske kattenvoer graanvrij?
+      a: "Een deel van het assortiment is graanvrij, niet alles. Op deze pagina zie je per product wat de omschrijving zegt."
+    - q: Waar wordt Renske gemaakt?
+      a: "Renske is een Nederlands merk. Waar elk product precies geproduceerd wordt, staat op de verpakking of de website van Renske."
+
+- slug: almo-nature
+  name: Almo Nature
+  match: "Almo Nature"
+  owner: Italiaans merk, eigendom van een stichting
+  price_class: Middenklasse tot duur
+  score: 7.6
+  verdict: "Almo Nature maakt mooi voer met herkenbare stukken vis en vlees, maar een groot deel van het natvoer is aanvullend. Dat moet je weten voordat je het als hoofdmaaltijd geeft."
+  pros:
+    - Enorm assortiment, ook droogvoer en complete natvoerlijnen
+    - Ingrediënten die je echt herkent
+    - Daily Menu is een betaalbare complete optie
+  cons:
+    - Veel HFC-natvoer is aanvullend voer, geen complete maaltijd
+    - Kleine blikjes van 70 gram zijn per kilo duur
+  seo_title: "Almo Nature kattenvoer review: let op dit etiket in 2026"
+  meta_description: "Almo Nature kattenvoer oogt puur, maar veel natvoer is aanvullend en geen complete maaltijd. Ik leg uit waar je op let en welke varianten wel compleet zijn."
+  lead: "Almo Nature ziet er in het blikje prachtig uit. Maar mooi is iets anders dan compleet."
+  body: |
+    ## Is Almo Nature kattenvoer compleet?
+
+    Dit is de belangrijkste vraag bij Almo Nature. Een groot deel van de HFC-blikjes is aanvullend voer. Dat betekent: lekker en puur, maar niet alle vitaminen en mineralen die een kat nodig heeft. Geef je dat als enige maaltijd, dan mist je kat op termijn iets. De lijnen HFC Complete en Daily Menu zijn wel compleet, net als het droogvoer.
+
+    In onze vergelijking markeer ik aanvullend voer apart. Zo zie je het meteen bij het product en vergelijk je niet per ongeluk appels met peren.
+
+    > Ik vind Almo Nature een prima merk, maar het etiket is hier echt belangrijk. Zie je ‘aanvullend’ of ‘complementary’ staan? Dan is het een traktatie, geen avondeten.
+
+    ## Almo Nature kattenvoer: de betaalbare keuze
+
+    Wil je Almo Nature als hoofdvoer, kijk dan naar Daily Menu: compleet en per dag veel voordeliger dan de kleine HFC-blikjes. Meer over het verschil lees je in [het etiket lezen](/kennisbank/kattenvoer-etiket-lezen/).
+  faq:
+    - q: Wat betekent aanvullend kattenvoer?
+      a: "Aanvullend voer bevat niet alle voedingsstoffen die een kat dagelijks nodig heeft. Het is bedoeld naast compleet voer, niet in plaats daarvan."
+    - q: Welk Almo Nature voer is compleet?
+      a: "Volgens de productnamen in de feed onder meer HFC Complete, Daily Menu en het droogvoer. Controleer altijd de tekst ‘compleet diervoeder’ op het etiket."
+
+- slug: wellness-core
+  name: Wellness Core
+  match: "Wellness"
+  owner: Amerikaans merk (Wellness Pet Company)
+  price_class: Duur
+  score: 8.0
+  verdict: "Wellness Core is eiwitrijk en graanvrij, met veel benoemd vlees. Een sterk product, maar per dag hoort het bij de duurdere merken."
+  pros:
+    - Eiwitrijke, graanvrije recepten
+    - Veel keuze in natvoer, ook paté en stukjes
+    - Aparte varianten voor gesteriliseerde katten
+  cons:
+    - Natvoer zit per dag ruim boven het gemiddelde
+    - Eiwitrijk is niet voor elke kat nodig
+  seo_title: "Wellness Core kattenvoer review: eiwitrijk, maar duur?"
+  meta_description: "Wellness Core kattenvoer is graanvrij en eiwitrijk. Ik bekeek wat het per dag kost en voor welke kat het de meerprijs waard is. Kritisch en eerlijk."
+  lead: "Wellness Core belooft veel vlees en geen granen. Klopt dat, en is het je geld waard?"
+  body: |
+    ## Is Wellness Core kattenvoer goed?
+
+    Op papier wel. Wellness Core zet vlees centraal, laat granen weg en heeft een breed natvoer-aanbod. Voor actieve katten of katten die slecht eten kan dat een uitkomst zijn. Maar eiwitrijk is geen doel op zich: een gezonde volwassen kat heeft genoeg aan compleet voer dat aan de richtlijnen voldoet.
+
+    Mijn kritiek is dus vooral de prijs. Per dag behoort Wellness Core tot de duurdere merken in de vergelijking. Dat is te verantwoorden als je kat er duidelijk beter op gaat, maar niet als je het alleen koopt omdat graanvrij en eiwitrijk goed klinken.
+
+    > Ik zou Wellness Core zien als het merk voor de kieskeurige eter of de kat die echt iets extra’s nodig heeft. Voor de rest is het een luxe, en dat is ook prima, zolang je het weet.
+
+    ## Wellness Core kattenvoer voor gesteriliseerde katten
+
+    Er zijn aparte sterilised-recepten. Een gesteriliseerde kat verbrandt vaak minder, dus let vooral op de hoeveelheid. Lees meer bij [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/).
+  faq:
+    - q: Is Wellness Core graanvrij?
+      a: "Ja, Wellness Core profileert zich als graanvrij. In de feed noemt het grootste deel van de producten zich ook zo."
+    - q: Is eiwitrijk kattenvoer beter?
+      a: "Niet automatisch. Katten hebben veel dierlijk eiwit nodig, maar compleet voer dat aan de FEDIAF-richtlijnen voldoet, levert dat al."
+
+- slug: acana
+  name: Acana
+  match: "^Acana"
+  owner: Champion Petfoods (Canada), sinds 2023 onderdeel van Mars
+  price_class: Duur
+  score: 7.9
+  verdict: "Acana heeft rijke recepten met veel dierlijke ingrediënten. Een goed product, maar de prijs per dag is pittig."
+  pros:
+    - Recepten met veel verschillende dierlijke ingrediënten
+    - Duidelijke regionale lijnen
+    - Ook kittenvoer en natvoer
+  cons:
+    - Per dag een van de duurdere brokken
+    - Grote zakken zijn een flinke investering ineens
+  seo_title: "Acana kattenvoer review: rijk recept, stevige prijs"
+  meta_description: "Acana kattenvoer heeft rijke recepten met veel vlees en vis. Maar wat kost het per dag, en is het die prijs waard? Mijn eerlijke, kritische review."
+  lead: "Acana staat bekend om rijke recepten. Ik keek vooral naar wat dat je per dag kost."
+  body: |
+    ## Is Acana kattenvoer het geld waard?
+
+    Acana zet veel verschillende dierlijke ingrediënten in één recept, met namen als Grasslands, Pacifica en Wild Prairie. Dat maakt het etiket interessant om te lezen. Het merk is van Champion Petfoods, dat sinds 2023 bij Mars hoort, dezelfde groep als Whiskas en Sheba.
+
+    De keerzijde is de prijs. Per dag kost Acana brokken ongeveer het dubbele van een gemiddelde zak droogvoer. Dat is geen schande, maar wel iets om bewust te kiezen.
+
+    > Als je kat het goed doet op Acana en je het kunt betalen: prima keuze. Maar als je twijfelt tussen Acana en de huur, kies dan gerust een degelijk middenklassemerk. Je kat merkt het verschil minder dan je portemonnee.
+
+    ## Acana kattenvoer kopen: zo bespaar je
+
+    Grote zakken zijn per kilo goedkoper. Bewaar de brokken wel goed afgesloten en koel. Bekijk ook [goedkoop kattenvoer dat wel deugt](/goedkoop-kattenvoer/) als je wilt vergelijken.
+  faq:
+    - q: Van wie is Acana?
+      a: "Acana wordt gemaakt door Champion Petfoods uit Canada. Dat bedrijf is sinds 2023 onderdeel van Mars."
+    - q: Is Acana graanvrij?
+      a: "Veel Acana-recepten zijn graanvrij, maar niet allemaal. Kijk per product naar de omschrijving."
+
+- slug: orijen
+  name: Orijen
+  match: "^Orijen"
+  owner: Champion Petfoods (Canada), sinds 2023 onderdeel van Mars
+  price_class: Duur
+  score: 7.6
+  verdict: "Orijen is het zwaargewicht onder de brokken: heel veel dierlijke ingrediënten, maar ook de hoogste prijs per dag in de vergelijking."
+  pros:
+    - Zeer vleesrijke whole prey-recepten
+    - Graanvrij, met veel variatie in eiwitbronnen
+  cons:
+    - Gemiddeld het duurste droogvoer per dag
+    - Rijk voer is niet voor elke maag geschikt
+  seo_title: "Orijen kattenvoer review: het duurste droogvoer waard?"
+  meta_description: "Orijen kattenvoer is vleesrijk en graanvrij, maar ook het duurste droogvoer per dag in mijn vergelijking. Voor welke kat is het de moeite waard?"
+  lead: "Orijen is het duurste droogvoer in mijn vergelijking. Ik zocht uit of je daar ook het meeste voor terugkrijgt."
+  body: |
+    ## Is Orijen kattenvoer beter dan de rest?
+
+    Orijen werkt met zogenaamde whole prey-recepten: vlees, organen en botdelen, zoals een kat in het wild zou eten. Dat zie je terug in een lang etiket vol dierlijke ingrediënten. Voor liefhebbers van een vleesrijk dieet is dit de top van het droogvoer.
+
+    Maar beter? Dat hangt af van je kat. Heel rijk voer kan voor een gevoelige maag te veel zijn, en een gezonde huiskat heeft het niet nodig om gezond te blijven. Per dag betaal je voor Orijen gemiddeld zo’n €1, waar degelijk droogvoer rond de 40 cent zit.
+
+    > Ik vind Orijen indrukwekkend voer. Maar ik zou nooit iemand een schuldgevoel aanpraten omdat hij het niet koopt. Het verschil met een goed middenklassemerk is kleiner dan de prijs doet vermoeden.
+
+    ## Orijen kattenvoer: zo voer je het slim
+
+    Begin langzaam, want rijk voer vraagt wat gewenning. Lees hoe je dat doet in [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/).
+  faq:
+    - q: Waarom is Orijen zo duur?
+      a: "Veel dierlijke ingrediënten, een hoog eiwitgehalte en een premium positionering. Per dag is het in onze vergelijking het duurste droogvoer."
+    - q: Is Orijen geschikt voor kittens?
+      a: "Er is een kittenvariant. Kies voor een kitten altijd voer dat op het etiket voor groei of kittens bedoeld is."
+
+- slug: lilys-kitchen
+  name: Lily's Kitchen
+  match: "Lily"
+  owner: Brits merk, sinds 2020 van Nestlé Purina
+  price_class: Duur
+  score: 7.5
+  verdict: "Lily's Kitchen heeft leuke recepten die er als mensenvoer uitzien. Prima voer, maar je betaalt ook voor de mooie verpakking."
+  pros:
+    - Herkenbare recepten, veel graanvrij
+    - Ook biologische natvoervarianten
+  cons:
+    - Droogvoer per dag bij de duurste van de vergelijking
+    - Merk van Nestlé, terwijl het heel ambachtelijk oogt
+  seo_title: "Lily's Kitchen kattenvoer review: mooi, maar de moeite?"
+  meta_description: "Lily's Kitchen kattenvoer oogt als ambachtelijk mensenvoer. Ik keek kritisch naar het etiket, de eigenaar en de prijs per dag. Is het de meerprijs waard?"
+  lead: "Lily's Kitchen ziet eruit als iets wat je zelf zou eten. Daar zit ook een prijskaartje aan."
+  body: |
+    ## Is Lily's Kitchen kattenvoer goed?
+
+    Het voer zelf is degelijk: complete recepten, veel graanvrij, een paar biologische varianten. Wat ik wel goed vind om te weten: Lily's Kitchen begon als klein Brits merk, maar is sinds 2020 van Nestlé Purina. Dat is niet erg, maar de ambachtelijke uitstraling vertelt dus niet het hele verhaal.
+
+    Per dag is het droogvoer van Lily's Kitchen een van de duurste in de vergelijking. Het natvoer zit rond het gemiddelde van de premiummerken.
+
+    > Ik hou van eerlijkheid op de verpakking. Lily's Kitchen is lekker voer, maar betaal het om wat erin zit, niet om het verhaal eromheen.
+
+    ## Lily's Kitchen kattenvoer of een alternatief?
+
+    Zoek je vooral graanvrij of biologisch, kijk dan ook naar [Yarrah](/merken/yarrah/). Dat is per dag vaak goedkoper.
+  faq:
+    - q: Van wie is Lily's Kitchen?
+      a: "Lily's Kitchen is een Brits merk dat sinds 2020 eigendom is van Nestlé Purina."
+    - q: Is Lily's Kitchen graanvrij?
+      a: "Een groot deel van de producten in de feed noemt zichzelf graanvrij."
+
+- slug: iams
+  name: IAMS
+  match: "^IAMS"
+  owner: Spectrum Brands (in Europa)
+  price_class: Voordelig
+  score: 7.5
+  verdict: "IAMS is de stille kracht van de budgetkeuze: compleet droogvoer met kip vooraan, in grote zakken die per dag goedkoop uitvallen."
+  pros:
+    - Een van de voordeligste complete brokken per dag
+    - Grote zakken van 10 kilo maken het nog goedkoper
+    - Aparte lijnen voor kitten, senior en gevoelige vertering
+  cons:
+    - Niet graanvrij, als je daar waarde aan hecht
+    - Natvoer-aanbod is beperkt
+  seo_title: "IAMS kattenvoer review: goedkoop én goed genoeg voor je kat?"
+  meta_description: "IAMS kattenvoer is per dag een van de voordeligste complete brokken. Maar is het ook goed genoeg? Ik bekeek etiket, varianten en prijs per dag."
+  lead: "IAMS zie je zelden in hippe advertenties. Toch is het een van de slimste keuzes als je op de kosten moet letten."
+  body: |
+    ## Is IAMS kattenvoer goed?
+
+    IAMS maakt compleet droogvoer met kip als belangrijkste ingrediënt, en dat voor een prijs per dag die rond de 30 cent ligt. Het merk heeft aparte varianten voor kittens, senioren, binnenkatten en een gevoelige spijsvertering. Dat is meer keuze dan je voor dit geld verwacht.
+
+    Is het het allerbeste voer? Nee. Maar het is compleet, het etiket is duidelijk en het is betaalbaar. Voor veel kattenbaasjes is dat precies wat telt.
+
+    > Dit is het merk dat ik aanraad aan iedereen die zegt: ik wil goed voor mijn kat zorgen, maar ik moet echt op de kosten letten. IAMS is geen luxe, wel degelijk.
+
+    ## IAMS kattenvoer in grote zakken
+
+    De zakken van 10 kilo zijn per kilo het goedkoopst. Ga je die kopen, bewaar ze dan droog en goed afgesloten, bijvoorbeeld in een voerton. Meer budgettips staan bij [goedkoop kattenvoer](/goedkoop-kattenvoer/).
+  faq:
+    - q: Van wie is IAMS?
+      a: "In Europa valt IAMS onder Spectrum Brands. Vroeger was het merk van Procter & Gamble en daarna van Mars."
+    - q: Is IAMS graanvrij?
+      a: "Nee, in de feed noemt geen enkel IAMS-product zich graanvrij. Dat is voor de meeste gezonde katten ook geen probleem."
+
+- slug: voskes
+  name: Voskes
+  match: "^Voskes"
+  owner: Nederlands merk
+  price_class: Voordelig
+  score: 7.3
+  verdict: "Voskes is een eerlijk budgetmerk met verrassend betaalbaar natvoer. Geen poespas, wel even het etiket checken."
+  pros:
+    - Een van de goedkoopste natvoeders per dag
+    - Brokken onder het gemiddelde qua prijs
+    - Ook graanvrije varianten
+  cons:
+    - Weinig keuze voor kittens en senioren
+    - Minder bekend, dus lastig te vergelijken met ervaringen van anderen
+  seo_title: "Voskes kattenvoer review: budgetvoer dat wel deugt?"
+  meta_description: "Voskes kattenvoer is voordelig, vooral het natvoer. Maar deugt het ook? Ik keek naar etiket, varianten en prijs per dag. Eerlijk oordeel voor wie op de kosten ."
+  lead: "Voskes is een van de goedkoopste merken in de vergelijking. De vraag is: wat lever je daarvoor in?"
+  body: |
+    ## Is Voskes kattenvoer goed?
+
+    Voskes is een merk zonder grote reclamebudgetten, en dat zie je terug in de prijs. Vooral het natvoer is per dag opvallend goedkoop vergeleken met de bekende A-merken. Brokken zijn er met kip of zalm, en een deel van het assortiment is graanvrij.
+
+    Mijn kritische kanttekening: kijk per product of het compleet voer is en welke vleessoort vooraan staat. Bij budgetmerken verschilt dat soms per variant.
+
+    > Natvoer is duur, dat is gewoon zo. Voskes is een van de weinige merken waarmee je je kat natvoer kunt geven zonder dat het per maand de pan uit rijst.
+
+    ## Voskes kattenvoer combineren
+
+    Een slimme budgettruc: geef Voskes natvoer als één maaltijd per dag en vul aan met degelijke brokken. Zo houdt je kat het voordeel van extra vocht en blijft de maand betaalbaar. Reken het zelf uit met de [kostencalculator](/kennisbank/kosten-kattenvoer-per-maand/).
+  faq:
+    - q: Waar koop je Voskes kattenvoer?
+      a: "Voskes zie je vooral online en bij dierenwinkels. De prijzen op deze pagina komen uit de feed van Plein.nl."
+    - q: Is Voskes natvoer compleet?
+      a: "Kijk per product op het etiket. In de feed noemt geen Voskes-product zichzelf aanvullend voer."
+
+- slug: prins
+  name: Prins
+  match: "^Prins"
+  owner: Nederlands merk
+  price_class: Middenklasse
+  score: 7.3
+  verdict: "Prins is degelijk Nederlands voer met veel keuze in droogvoer. Niet het goedkoopst, wel betrouwbaar en breed."
+  pros:
+    - Groot droogvoer-assortiment, ook voor binnenkatten en kittens
+    - Dieetlijnen voor specifieke situaties
+    - Nederlands merk, goed verkrijgbaar
+  cons:
+    - Per dag duurder dan IAMS of Smolke zonder duidelijk voordeel
+    - Natvoer is relatief duur
+  seo_title: "Prins kattenvoer review: degelijk Nederlands, maar duur?"
+  meta_description: "Prins kattenvoer is een Nederlands merk met veel keuze in brokken. Ik vergeleek de varianten op prijs per dag en etiket. Voor wie is Prins de beste keuze?"
+  lead: "Prins is een vertrouwde naam bij Nederlandse dierenwinkels. Ik keek of dat vertrouwen ook in de prijs zit."
+  body: |
+    ## Is Prins kattenvoer goed?
+
+    Prins heeft een flink droogvoer-assortiment met lijnen als VitalCare voor kitten, adult, indoor en fit. Daarnaast zijn er dieetlijnen. Dat maakt het een makkelijk merk als je kat in een bepaalde levensfase zit en je wilt dat alles van één merk komt.
+
+    Mijn kritiek: per dag betaal je voor Prins brokken meer dan voor IAMS of Smolke, terwijl ik op het etiket geen groot verschil zie dat die meerprijs rechtvaardigt. Goed voer, maar niet het slimste koopje.
+
+    > Prins is voor mij het merk van ‘dat zit wel goed’. Als je kat het lekker vindt, prima. Maar vergelijk de prijs per dag even voordat je automatisch weer dezelfde zak pakt.
+
+    ## Prins kattenvoer voor binnenkatten
+
+    Binnenkatten bewegen vaak minder. Een indoor-variant kan helpen, maar de hoeveelheid is belangrijker dan het label. Lees meer in [hoeveel kattenvoer per dag](/kennisbank/hoeveel-kattenvoer-per-dag/).
+  faq:
+    - q: Is Prins een Nederlands merk?
+      a: "Ja, Prins is een Nederlands merk voor honden- en kattenvoer."
+    - q: Heeft Prins dieetvoer?
+      a: "Ja, onder meer NatureCare Diet. Dieetvoer geef je bij voorkeur in overleg met je dierenarts."
+
+- slug: purina-one
+  name: Purina ONE
+  match: "Purina ONE"
+  owner: Nestlé Purina
+  price_class: Voordelig tot middenklasse
+  score: 7.0
+  verdict: "Purina ONE is een redelijke middenweg tussen supermarktvoer en premium: compleet, veel varianten, prijs net onder het gemiddelde."
+  pros:
+    - Veel varianten voor indoor, sterilcat, senior en gevoelig
+    - Prijs per dag onder het gemiddelde
+  cons:
+    - Etiket minder specifiek dan bij de premiummerken
+    - Weinig natvoer in de feed
+  seo_title: "Purina ONE kattenvoer review: middenweg die werkt?"
+  meta_description: "Purina ONE kattenvoer zit tussen supermarkt en premium. Ik bekeek de varianten, het etiket en de prijs per dag. Is het een slimme keuze voor jouw kat?"
+  lead: "Purina ONE ligt in elke supermarkt. Ik keek of het meer is dan een makkelijke keuze."
+  body: |
+    ## Is Purina ONE kattenvoer goed?
+
+    Purina ONE is compleet voer met een groot aantal varianten: adult, indoor, sterilcat, junior, senior en sensitive. De prijs per dag ligt net onder het gemiddelde droogvoer. Dat maakt het een logische keuze voor wie niet te veel wil zoeken.
+
+    Wat ik minder vind: het etiket is algemener dan bij de premiummerken en het verhaal op de verpakking is groter dan het verschil met goedkoper voer.
+
+    > Purina ONE is niet slecht, het is gewoon gemiddeld. Wil je voor dezelfde prijs een korter etiket, kijk dan eens naar Smolke of IAMS.
+
+    ## Purina ONE kattenvoer voor gesteriliseerde katten
+
+    De Sterilcat-lijn is bedoeld voor katten die minder energie nodig hebben. Let vooral op de hoeveelheid; lees verder bij [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/).
+  faq:
+    - q: Van wie is Purina ONE?
+      a: "Purina ONE is een merk van Nestlé Purina, net als Felix, Gourmet en Pro Plan."
+    - q: Is Purina ONE geschikt voor kittens?
+      a: "Er is een Junior-variant. Kies voor een kitten voer dat voor groei bedoeld is."
+
+- slug: pro-plan
+  name: Pro Plan
+  match: "Pro Plan"
+  owner: Nestlé Purina
+  price_class: Middenklasse tot duur
+  score: 7.3
+  verdict: "Pro Plan is de serieuze lijn van Purina, met veel specifieke varianten. Goed onderbouwd, maar per dag niet goedkoop."
+  pros:
+    - Veel varianten voor specifieke behoeften
+    - Gemaakt door een fabrikant met eigen voedingsonderzoek
+  cons:
+    - Prijs per dag rond het duurdere segment
+    - Een paar natvoeders zijn aanvullend (zoals Hydra Care)
+  seo_title: "Pro Plan kattenvoer review: wat krijg je voor je geld?"
+  meta_description: "Pro Plan kattenvoer is de premium lijn van Purina. Ik keek naar de varianten, wat aanvullend is en wat het per dag kost. Is Pro Plan de meerprijs waard?"
+  lead: "Pro Plan is wat Purina zelf ziet als zijn beste voer. Ik zocht uit wat dat in de praktijk betekent."
+  body: |
+    ## Is Pro Plan kattenvoer goed?
+
+    Pro Plan is de lijn waar Nestlé Purina zijn voedingsonderzoek in stopt. Er zijn varianten voor gevoelige katten, gesteriliseerde katten, kittens en zelfs LiveClear, dat volgens de fabrikant allergenen in kattenhaar vermindert. Dat soort claims kan ik niet controleren, dus daar oordeel ik niet over.
+
+    Let op bij het natvoer: Hydra Care is aanvullend voer, bedoeld om je kat extra vocht te geven. Fijn als extraatje, maar geen maaltijd.
+
+    > Ik waardeer dat Pro Plan wetenschappelijk onderbouwd wil zijn. Maar voor een gezonde kat zonder klachten is het verschil met een degelijk middenklassemerk klein, terwijl je per dag flink meer betaalt.
+
+    ## Pro Plan kattenvoer voor een gevoelige maag
+
+    Heeft je kat vaak last van de maag, overleg dan eerst met je dierenarts. Lees ook [kattenvoer voor een gevoelige maag](/kattenvoer-gevoelige-maag/).
+  faq:
+    - q: Is Pro Plan Hydra Care compleet voer?
+      a: "Nee, Hydra Care is aanvullend voer. Het is bedoeld naast de gewone maaltijden."
+    - q: Werkt Pro Plan LiveClear tegen kattenallergie?
+      a: "Dat claimt de fabrikant. Ik kan dat niet zelf controleren. Bespreek een allergie altijd met je huisarts of allergoloog."
+
+- slug: schesir
+  name: Schesir
+  match: "^Schesir"
+  owner: Italiaans merk
+  price_class: Duur
+  score: 6.9
+  verdict: "Schesir maakt mooi natvoer met herkenbare stukjes vis en vlees, maar een flink deel is aanvullend en de prijs per dag is hoog."
+  pros:
+    - Herkenbare ingrediënten, mooie filets
+    - Monoproteïne-droogvoer, handig bij een gevoelige maag
+  cons:
+    - Veel natvoer is aanvullend voer
+    - Hoogste gemiddelde natvoerprijs per dag van de grote merken
+  seo_title: "Schesir kattenvoer review: mooi natvoer, wel opletten"
+  meta_description: "Schesir kattenvoer oogt puur, maar een deel is aanvullend en het natvoer is per dag duur. Ik leg uit waar je op let en welke Schesir wel slim is."
+  lead: "Schesir ziet er in het bakje prachtig uit. Juist daarom keek ik extra kritisch naar het etiket."
+  body: |
+    ## Is Schesir kattenvoer compleet?
+
+    Niet altijd. Schesir heeft lijnen die zichzelf ‘Complementary’ noemen en die zijn aanvullend voer. Lekker, maar niet compleet. In de vergelijking markeer ik die apart. Daarnaast heeft Schesir complete kittenvoeders en droogvoer, waaronder monoproteïne brokken met één dierlijke eiwitbron.
+
+    Het natvoer van Schesir is per dag het duurste van de grote merken in de feed. Dat komt door kleine blikjes en een premium uitstraling.
+
+    > Ik vind het jammer dat je bij zulke mooie merken zo goed moet opletten. Lees het woord ‘complementary’ als: dit is een snack, ook al ziet het eruit als een maaltijd.
+
+    ## Schesir kattenvoer: wanneer wel?
+
+    De monoproteïne brokken kunnen interessant zijn als je wilt uitzoeken op welke eiwitbron je kat reageert. Doe dat bij voorkeur samen met je dierenarts. Meer over etiketten lees je in [het etiket lezen](/kennisbank/kattenvoer-etiket-lezen/).
+  faq:
+    - q: Wat betekent Complementary bij Schesir?
+      a: "Complementary is Engels voor aanvullend. Dat voer bevat niet alle voedingsstoffen die je kat nodig heeft en is bedoeld naast compleet voer."
+    - q: Is Schesir goed voor kittens?
+      a: "Schesir heeft kittenvoer in de feed. Controleer of er ‘compleet’ en ‘voor kittens’ op staat."
+
+- slug: whiskas
+  name: Whiskas
+  match: "^Whiskas"
+  owner: Mars
+  price_class: Voordelig
+  score: 6.0
+  verdict: "Whiskas is goedkoop en compleet, maar het etiket is vaag. Het is geen gif, wel het minimum."
+  pros:
+    - Een van de goedkoopste complete voeders per dag
+    - Overal te koop, katten eten het vaak graag
+  cons:
+    - Vaag etiket met ‘vlees en dierlijke bijproducten’
+    - ‘Met kip’ betekent vaak maar enkele procenten kip
+  seo_title: "Whiskas kattenvoer review: goedkoop, maar is het goed?"
+  meta_description: "Whiskas kattenvoer is goedkoop en overal te koop. Maar wat zit erin, en wat betekent ‘met kip’ op het etiket? Mijn eerlijke, kritische oordeel als kattenbaasje."
+  lead: "Whiskas is het merk waar veel katten mee opgroeien. Ik keek eerlijk naar wat je voor die lage prijs krijgt."
+  body: |
+    ## Is Whiskas kattenvoer slecht?
+
+    Nee, slecht is het niet. Whiskas is compleet voer en dat betekent dat het voldoet aan de basisbehoefte van een kat. Maar het etiket is vaag. Je ziet vaak een open omschrijving als ‘vlees en dierlijke bijproducten’, zonder dat je weet welke dieren of delen precies. En ‘met kip’ op de verpakking betekent volgens de etiketregels minimaal 4 procent kip.
+
+    Daar staat een lage prijs tegenover. Per dag hoort Whiskas bij de goedkoopste complete voeders in de vergelijking.
+
+    > Ik ga niemand veroordelen die Whiskas geeft. Echt niet. Maar als je een paar euro per maand over hebt, kun je voor weinig meer een merk kiezen met een veel duidelijker etiket.
+
+    ## Whiskas kattenvoer: het betere alternatief
+
+    Wil je goedkoop blijven maar meer weten van wat erin zit? Kijk naar [IAMS](/merken/iams/), [Voskes](/merken/voskes/) of de lijst met [goedkoop kattenvoer dat wel deugt](/goedkoop-kattenvoer/).
+  faq:
+    - q: Wat betekent ‘met kip’ op Whiskas?
+      a: "Volgens de etiketregels van de Europese diervoederindustrie betekent ‘met kip’ dat er minstens 4 procent kip in zit."
+    - q: Is Whiskas compleet voer?
+      a: "De gewone Whiskas-maaltijden zijn compleet. Snacks zijn dat niet; kijk op het etiket."
+
+- slug: felix
+  name: Felix
+  match: "^Felix"
+  owner: Nestlé Purina
+  price_class: Voordelig
+  score: 6.0
+  verdict: "Felix is het goedkoopste complete voer per dag in de vergelijking. Katten zijn er gek op, maar het etiket zegt weinig."
+  pros:
+    - Goedkoopste complete natvoer per dag van de bekende merken
+    - Veel katten vinden het erg lekker
+  cons:
+    - Open etiket met weinig details over het vlees
+    - Op het etiket staan vaak ook suikers en granen
+  seo_title: "Felix kattenvoer review: lekker en goedkoop, maar gezond?"
+  meta_description: "Felix kattenvoer is goedkoop en katten zijn er gek op. Maar wat zegt het etiket? Ik vergeleek prijs per dag en samenstelling, met betere alternatieven."
+  lead: "Felix is het lievelingseten van veel katten. Ik keek of het ook een goede keuze is."
+  body: |
+    ## Is Felix kattenvoer gezond?
+
+    Felix is compleet voer, dus je kat krijgt wat hij nodig heeft. Maar net als bij Whiskas is het etiket open: je leest ‘vlees en dierlijke bijproducten’ en een percentage van de genoemde smaak dat vaak laag is. Wat precies in het zakje zit, weet je dus niet.
+
+    Het grote voordeel is de prijs. Het natvoer van Felix is per dag het goedkoopste van de bekende merken in de vergelijking. Voor baasjes met meerdere katten en een krap budget kan dat het verschil maken.
+
+    > Mijn eerlijke mening: Felix is geen slecht voer, het is goedkoop voer. Wil je verbeteren zonder veel extra te betalen, combineer Felix dan met degelijke brokken van een merk met een duidelijker etiket.
+
+    ## Felix kattenvoer droog
+
+    De Dubbel Zo Lekker-brokken zijn erg goedkoop per dag. Let wel op de hoeveelheid: goedkope brokken zijn vaak energierijk en katten eten er snel te veel van. Lees [hoeveel kattenvoer per dag](/kennisbank/hoeveel-kattenvoer-per-dag/).
+  faq:
+    - q: Waarom zijn katten zo gek op Felix?
+      a: "Felix is ontwikkeld om lekker te zijn, met veel saus of gelei. Lekker zegt alleen niets over hoe goed het voer is."
+    - q: Is Felix Soup compleet?
+      a: "Nee, Felix Soup noemt zichzelf aanvullend voer. Het is bedoeld als extraatje."
+
+- slug: gourmet
+  name: Gourmet
+  match: "^Gourmet"
+  owner: Nestlé Purina
+  price_class: Middenklasse
+  score: 6.3
+  verdict: "Gourmet ziet er luxe uit, maar is vooral middenklasse natvoer in kleine blikjes. Lekker, niet bijzonder."
+  pros:
+    - Veel katten vinden het erg lekker
+    - Gourmet Gold is per dag nog redelijk betaalbaar
+  cons:
+    - Kleine verpakkingen maken het per kilo duur
+    - Etiket vaak open en weinig specifiek
+  seo_title: "Gourmet kattenvoer review: luxe of gewoon goede marketing?"
+  meta_description: "Gourmet kattenvoer oogt luxe, maar is het ook beter? Ik vergeleek Gourmet Gold, Perle en Mon Petit op prijs per dag en etiket. Mijn kritische oordeel."
+  lead: "Gourmet verkoopt luxe in een klein blikje. Ik keek wat er na het openen overblijft."
+  body: |
+    ## Is Gourmet kattenvoer goed?
+
+    Gourmet is compleet natvoer van Nestlé Purina, in kleine blikjes en zakjes. Gold, Perle, Mon Petit en Revelations: de namen klinken als een restaurant, maar het etiket is vergelijkbaar met dat van de goedkopere Purina-merken.
+
+    Per dag zit Gourmet rond het gemiddelde natvoer. Dat is niet te duur, maar je betaalt vooral voor smaak en presentatie.
+
+    > Kattenvoer met een sprankje peterselie erop is voor ons, niet voor de kat. Ik vind Gourmet prima als je kat het graag eet, maar zie het niet als luxe voeding.
+
+    ## Gourmet kattenvoer: slimmer kopen
+
+    Kies multipacks in plaats van losse blikjes. En combineer met degelijke brokken als je wilt besparen. Zie [beste natvoer voor katten](/beste-natvoer-kat/) voor alternatieven.
+  faq:
+    - q: Is Gourmet beter dan Felix?
+      a: "Beide zijn van Nestlé Purina. Gourmet is duurder en kleiner verpakt; het etiket is van een vergelijkbaar type."
+    - q: Is Gourmet compleet voer?
+      a: "De meeste Gourmet-maaltijden zijn compleet. Snacks als Nature's Creations-puree niet."
+
+- slug: sheba
+  name: Sheba
+  match: "^Sheba"
+  owner: Mars
+  price_class: Middenklasse tot duur
+  score: 6.2
+  verdict: "Sheba is natvoer in mooie kleine portiebakjes. Katten vinden het lekker, maar per dag betaal je vooral voor de verpakking."
+  pros:
+    - Handige kleine porties, weinig verspilling
+    - Veel smaken en texturen
+  cons:
+    - Per kilo duur door de kleine bakjes
+    - Etiket weinig specifiek
+  seo_title: "Sheba kattenvoer review: handig, maar te duur per dag?"
+  meta_description: "Sheba kattenvoer zit in handige portiebakjes. Maar wat kost het per dag en wat zit erin? Ik keek kritisch naar etiket en prijs, met voordeligere opties."
+  lead: "Sheba is natvoer met een strik eromheen. Ik rekende uit wat die strik je kost."
+  body: |
+    ## Is Sheba kattenvoer goed?
+
+    Sheba is compleet natvoer van Mars, in kleine bakjes en zakjes. Het voordeel is dat je weinig weggooit: één bakje is één portie. Het nadeel is dat je per kilo veel betaalt.
+
+    Het etiket is vergelijkbaar met dat van andere supermarktmerken: open omschrijvingen en een beperkt percentage van de smaak op de voorkant.
+
+    > Sheba is lekker, maar ik zou het niet als enige voer geven als je op de kosten let. Eén Sheba-bakje als traktatie en verder een degelijk merk: dan heeft je kat het beste van twee werelden.
+
+    ## Sheba kattenvoer: voordeliger alternatief
+
+    Kijk bij [goedkoop kattenvoer](/goedkoop-kattenvoer/) voor natvoer dat per dag een stuk minder kost.
+  faq:
+    - q: Is Sheba compleet voer?
+      a: "De gewone Sheba-maaltijden zijn compleet. Creamy Snacks zijn een snack."
+    - q: Waarom is Sheba duur per kilo?
+      a: "De kleine portiebakjes maken het per kilo duurder dan blikken of grote multipacks."
