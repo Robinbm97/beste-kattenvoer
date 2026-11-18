@@ -18,6 +18,7 @@ author:
 nav:
   - { label: Vergelijken, url: /kattenvoer-vergelijken/ }
   - { label: Beste kattenvoer, url: /beste-kattenvoer/ }
+  - { label: Veel eiwit, url: /veel-eiwit-kattenvoer/ }
   - { label: Goedkoop, url: /goedkoop-kattenvoer/ }
   - { label: Merken, url: /merken/ }
   - { label: Kennisbank, url: /kennisbank/ }
@@ -35,6 +36,9 @@ footer:
       - { label: Gesteriliseerde kat, url: /kattenvoer-gesteriliseerde-kat/ }
       - { label: Gevoelige maag, url: /kattenvoer-gevoelige-maag/ }
       - { label: Kattensnoepjes, url: /kattensnoepjes/ }
+      - { label: Veel eiwit, weinig geld, url: /veel-eiwit-kattenvoer/ }
+      - { label: Alle kattenvoer met score, url: /kattenvoer/ }
+      - { label: Hoe ik score, url: /hoe-wij-scoren/ }
   - title: Merken
     links:
       - { label: Edgard & Cooper, url: /merken/edgard-en-cooper/ }

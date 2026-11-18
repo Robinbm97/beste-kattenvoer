@@ -2,6 +2,7 @@
 // gewicht, prijs per kilo, vorm (nat/droog/vers/snack), levensfase, kenmerken
 // en een geschatte prijs per dag. Varianten (los/6x/12x) worden gegroepeerd.
 import fs from 'node:fs';
+import { parseNutrition, scoreProduct, KCAL_DAY } from './nutrition.mjs';
 
 const read = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null);
 
@@ -28,6 +29,12 @@ export function parseWeight(title, size = '') {
   return { grams: null, units: mult, unitG: null };
 }
 
+export const sizeless = (t) => String(t).toLowerCase()
+  .replace(/\(?\b\d+\s*x\s*\d+(?:[.,]\d+)?\s*(?:kg|gr|gram|g|ml)\b\)?/g, ' ')
+  .replace(/\b\d+(?:[.,]\d+)?\s*(?:kg|gr|gram|g|ml)\b/g, ' ')
+  .replace(/\b\d+\s*(?:stuks|st\.?|pack|blikken|zakjes)\b/g, ' ')
+  .replace(/\b(?:zak|doos|bonusbag|bonus bag|multipack|voordeelverpakking|navulling)\b/g, ' ')
+  .replace(/[-–|,()+]/g, ' ').replace(/\s+/g, ' ').trim();
 const baseTitle = (t) => String(t).replace(/^\d+\s*x\s+/i, '').replace(/\s+/g, ' ').trim();
 const has = (re, s) => re.test(s);
 
@@ -37,6 +44,8 @@ export function classify(p) {
   let form;
   if (p.type === 'snack' || has(/kattensnack|snack|churu|treat|puree|broth|snoep|dreamies|stick|rolls/i, t)) form = 'snack';
   else if (has(/melk|milk/i, t)) form = 'melk';
+  else if (has(/supplement|tablet|pasta|paste|kruiden|vitamine|trainer|lactol|nutribound|easypill|choline|\bpuur\b|pil\b|gras\b/i, t)) form = 'overig';
+  else if (p.type === 'droog' && has(/\bsaus\b|gelei|jelly|gravy|pouch|natte voeding|natvoer|pat[eé]|mousse|blik|\d+\s*x\s*\d+\s*g/i, t)) form = 'nat';
   else if ((p.type === 'nat' || p.type === 'droog') && !has(/supplement|tablet|paste|pasta/i, t)) form = p.type;
   else if (has(/supplement|tablet|pasta|paste|kruiden|vitamine|trainer|lactol|nutribound|easypill|choline|\\bpuur\\b|pil\\b|gras\\b/i, t)) form = 'overig';
   else if (has(/vers vlees|diepvries|bevroren|kvv/i, t) && !has(/droog|brok/i, t)) form = 'vers';
@@ -57,13 +66,14 @@ export function classify(p) {
   if (has(/indoor|binnenkat/i, t)) flags.push('binnenkat');
   if (!has(/complete?\b|compleet/i, t) && has(/aanvullend(e)? (diervoed|voed|voer)|complementary/i, s)) flags.push('aanvullend');
   if (/almo nature/i.test(p.brand || '') && /\bHFC\b/.test(t) && !/complete|droog|daily/i.test(t)) flags.push('aanvullend');
-  if (has(/diet|renal|nier|gastro|veterinary|dieetvoer/i, t)) flags.push('dieet');
+  if (has(/diet|renal|nier|gastro|veterinary|dieetvoer|anallergenic|hypoallergenic|struviet|urinary s\/o|hepatic|metabolic|obesity|diabetes|satiety|vet diet|vetality|trovet/i, t)) flags.push('dieet');
   return { form, stage, flags: [...new Set(flags)] };
 }
 
 export function loadCatalog(root) {
   const plein = read(`${root}/data/feed/plein-kat.json`);
   const bol = read(`${root}/data/feed/bol-kat.json`);
+  const specs = read(`${root}/data/feed/bol-specs.json`) || {};
   const raw = [...((plein && plein.products) || []), ...((bol && bol.products) || []).map((b) => ({ ...b, brand: b.brand || guessBrand(b.title) }))];
   const items = [];
   for (const r of raw) {
@@ -72,7 +82,11 @@ export function loadCatalog(root) {
     const it = { ...r, ...w, base: baseTitle(r.title) };
     Object.assign(it, classify(it));
     it.ppk = it.grams ? r.price / (it.grams / 1000) : null; // prijs per kilo
-    const g = GRAMS_PER_DAY[it.form];
+    if (/\bhond(en)?\b|\bdog\b|puppy/i.test(r.title)) continue;
+    it.nut = (it.form === 'droog' || it.form === 'nat') && it.ean && specs[it.ean] ? parseNutrition(specs[it.ean], it.form) : null;
+    if (it.nut && it.nut.form !== it.form) it.form = it.nut.form;
+    const g = it.nut ? (KCAL_DAY / it.nut.kcal100) * 100 : GRAMS_PER_DAY[it.form];
+    if (it.nut) it.gpd = Math.round(g);
     it.ppd = it.ppk && g ? (it.ppk * g) / 1000 : null; // prijs per dag (kat van 4 kg)
     it.brandSlug = slug(it.brand || 'overig');
     items.push(it);
@@ -83,7 +97,7 @@ export function loadCatalog(root) {
   const byEan = new Map();
   for (const it of items) {
     let key = it.ean && byEan.get(it.ean);
-    if (!key) key = (it.brand + '|' + it.base).toLowerCase();
+    if (!key) key = (it.brand + '|' + sizeless(it.base)).toLowerCase();
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(it);
     if (it.ean && !byEan.has(it.ean)) byEan.set(it.ean, key);
@@ -93,7 +107,12 @@ export function loadCatalog(root) {
     vs.sort((a, b) => (a.ppk ?? 1e9) - (b.ppk ?? 1e9) || a.price - b.price);
     const best = vs.find((v) => v.in_stock !== false) || vs[0];
     const single = [...vs].sort((a, b) => a.price - b.price)[0];
+    const nv = vs.find((v) => v.nut);
+    const bolv = vs.filter((v) => v.shop === 'bol.com');
     products.push({
+      nut: nv ? nv.nut : null, gpd: best.gpd || (nv && nv.gpd) || null,
+      rating: bolv.length ? Math.max(...bolv.map((v) => v.rating || 0)) || null : null,
+      bolRank: bolv.length ? Math.min(...bolv.map((v) => v.rank || 9999)) : null,
       key, id: slug(best.base).slice(0, 70) + '-' + hash(key),
       name: best.base, brand: best.brand, brandSlug: best.brandSlug,
       form: best.form, stage: best.stage, flags: best.flags,
@@ -102,6 +121,16 @@ export function loadCatalog(root) {
       shops: [...new Set(vs.map((v) => v.shop))],
     });
   }
+  // ppd herberekenen met energie van het voer als de beste variant zelf geen etiketdata had
+  for (const p of products) {
+    if (p.nut && p.ppk) { p.gpd = Math.round((KCAL_DAY / p.nut.kcal100) * 100); p.ppd = (p.ppk * p.gpd) / 1000; }
+    p.p100 = p.nut && p.ppk ? (p.ppk * 10) / p.nut.protein : null; // prijs per 100 gram eiwit
+  }
+  // score: prijs per 100 g eiwit als percentiel binnen dezelfde soort
+  const p100 = {};
+  for (const form of ['droog', 'nat']) p100[form] = products.filter((p) => p.form === form && p.p100 && !p.flags.includes('aanvullend')).map((p) => p.p100).sort((a, b) => a - b);
+  const rank = (form, v) => { const a = p100[form]; if (!a.length) return 0.5; let i = 0; while (i < a.length && a[i] < v) i++; return i / a.length; };
+  for (const p of products) p.score = p.nut && !p.flags.includes('aanvullend') ? scoreProduct(p, { p100, rank }) : null;
   return { products, fetched: (plein && plein.fetched) || (bol && bol.fetched) || null, rawCount: raw.length };
 }
 

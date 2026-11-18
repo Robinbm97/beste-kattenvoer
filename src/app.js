@@ -48,7 +48,9 @@
         if (q && (r[1] + ' ' + r[2]).toLowerCase().indexOf(q) < 0) return false;
         return true;
       });
-      xs.sort(st.sort === 'duur' ? function (a, b) { return b[6] - a[6]; } : st.sort === 'naam' ? function (a, b) { return a[2].localeCompare(b[2], 'nl'); } : function (a, b) { return a[6] - b[6]; });
+      var nz = function (v, d) { return v == null ? d : v; };
+      if (['score', 'eiwit', 'p100'].indexOf(st.sort) >= 0) xs = xs.filter(function (r) { return r[14] != null; });
+      xs.sort(st.sort === 'score' ? function (a, b) { return nz(b[14], 0) - nz(a[14], 0); } : st.sort === 'eiwit' ? function (a, b) { return nz(b[15], 0) - nz(a[15], 0); } : st.sort === 'p100' ? function (a, b) { return nz(a[16], 999) - nz(b[16], 999); } : st.sort === 'duur' ? function (a, b) { return b[6] - a[6]; } : st.sort === 'naam' ? function (a, b) { return a[2].localeCompare(b[2], 'nl'); } : function (a, b) { return a[6] - b[6]; });
       count.textContent = xs.length.toLocaleString('nl-NL');
       list.innerHTML = xs.slice(0, st.shown).map(card).join('') || '<p>Niets gevonden. Haal een filter weg of zoek op iets anders.</p>';
       more.hidden = xs.length <= st.shown;

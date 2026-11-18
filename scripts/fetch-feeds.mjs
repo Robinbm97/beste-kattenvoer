@@ -125,7 +125,8 @@ async function specs(api, eans) {
   const file = new URL('bol-specs.json', OUT);
   const cache = existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : {};
   const now = Date.now();
-  const todo = [...new Set(eans)].filter((e) => !cache[e] || now - (cache[e].t || 0) > 30 * 864e5);
+  const hasNut = (c) => /(eiwit|prote)[^0-9]{0,25}\d/i.test(c.ana || '');
+  const todo = [...new Set(eans)].filter((e) => !cache[e] || now - (cache[e].t || 0) > 30 * 864e5 || (!hasNut(cache[e]) && !cache[e].v2));
   console.log('bol specs: in cache', Object.keys(cache).length, 'op te halen', todo.length);
   let done = 0;
   const worker = async () => {
@@ -137,10 +138,11 @@ async function specs(api, eans) {
         for (const g of j.specificationGroups || []) for (const sp of g.specifications || []) all[sp.name] = (sp.values || []).join(' / ');
         const pick = (re) => { const k = Object.keys(all).find((n) => re.test(n)); return k ? all[k] : ''; };
         const desc = String(j.description || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
-        const sam = (desc.match(/(?:samenstelling|ingredi[eë]nten)\s*:?\s*(.{20,700}?)(?=analytische|toevoegingsmiddelen|voedingsadvies|$)/i) || [])[1] || pick(/samenstelling|ingredi/i);
+        const sam = (desc.match(/(?:samenstelling|ingredi[eë]nten)\s*:\s*(.{20,700}?)(?=analytische|toevoegingsmiddelen|voedingsadvies|$)/i) || [])[1] || pick(/samenstelling|ingredi/i);
         cache[ean] = {
           t: now,
-          ana: (pick(/analytische/i) || (desc.match(/analytische bestanddelen\s*:?\s*(.{10,400}?)(?=toevoegingsmiddelen|voedingsadvies|$)/i) || [])[1] || '').slice(0, 500),
+          ana: (() => { const a = pick(/analytische/i); const fromDesc = (desc.match(/analytische bestanddelen\s*:?\s*(.{10,400}?)(?=toevoegingsmiddelen|voedingsadvies|samenstelling|$)/i) || [])[1] || (desc.match(/((?:ruw\s*)?eiwit\w*\s*:?\s*\d.{10,300}?)(?=toevoegingsmiddelen|voedingsadvies|samenstelling|$)/i) || [])[1] || ''; return (/(eiwit|prote)[^0-9]{0,25}\d/i.test(a) ? a : fromDesc || a).slice(0, 500); })(),
+          v2: 1,
           vocht: pick(/vochtgehalte/i),
           sam: String(sam || '').slice(0, 600),
           doel: pick(/speciaal voedingsdoel/i),

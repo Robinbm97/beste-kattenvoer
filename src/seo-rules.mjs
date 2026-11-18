@@ -13,7 +13,7 @@ const countPhrase = (text, phrase) => {
 };
 
 export const LENGTH_GUIDE = {
-  home: [800, 2500], vergelijker: [800, 2500], review: [800, 2500], landing: [600, 1600], article: [800, 2200],
+  home: [800, 2500], product: [300, 2000], vergelijker: [800, 2500], review: [800, 2500], landing: [600, 1600], article: [800, 2200],
   'hub-kattenbakken': [300, 1200], 'hub-kennisbank': [200, 1000], 'hub-blog': [100, 1000], 'hub-merken': [300, 1600], about: [400, 1500], contact: [80, 600], page: [150, 1500], search: [0, 400], notfound: [0, 300],
 };
 
@@ -62,9 +62,9 @@ export const rules = [
     check: (p) => p.headingSkips.map((s) => ({ detail: s })) },
   { id: 'MED-005', name: 'Meerdere H1’s', severity: 'MEDIUM', types: '*', exceptions: [], description: 'Meer dan één H1 (waarschuwing, geen fout).', fix: 'Houd één primaire H1 aan.', source: 'Interne regel',
     check: (p) => p.h1.length > 1 ? [{ detail: p.h1.length + ' h1’s' }] : [] },
-  { id: 'MED-006', name: 'Title-lengte afwijkend', severity: 'MEDIUM', types: '*', exceptions: ['notfound', 'search'], description: 'Standaard: de title is 50 tot 60 tekens.', fix: 'Herschrijf de seo_title naar 50–60 tekens, zoekwoord vooraan.', source: 'Redactionele richtlijn',
+  { id: 'MED-006', name: 'Title-lengte afwijkend', severity: 'MEDIUM', types: '*', exceptions: ['notfound', 'search', 'product'], description: 'Standaard: de title is 50 tot 60 tekens.', fix: 'Herschrijf de seo_title naar 50–60 tekens, zoekwoord vooraan.', source: 'Redactionele richtlijn',
     check: (p) => (p.title.length < 50 || p.title.length > 60) ? [{ detail: p.title.length + ' tekens' }] : [] },
-  { id: 'MED-007', name: 'Description-lengte afwijkend', severity: 'MEDIUM', types: '*', exceptions: ['notfound', 'search'], description: 'Standaard: de meta description is 140 tot 160 tekens.', fix: 'Herschrijf de meta_description naar 140–160 tekens, met het zoekwoord en een reden om te klikken.', source: 'Redactionele richtlijn',
+  { id: 'MED-007', name: 'Description-lengte afwijkend', severity: 'MEDIUM', types: '*', exceptions: ['notfound', 'search', 'product'], description: 'Standaard: de meta description is 140 tot 160 tekens.', fix: 'Herschrijf de meta_description naar 140–160 tekens, met het zoekwoord en een reden om te klikken.', source: 'Redactionele richtlijn',
     check: (p) => (p.meta.index && (p.description.length < 140 || p.description.length > 160)) ? [{ detail: p.description.length + ' tekens' }] : [] },
   { id: 'MED-008', name: 'Weinig contextuele interne links', severity: 'MEDIUM', types: ['article', 'review', 'landing', 'vergelijker', 'home'], exceptions: [], description: 'Minder dan 3 interne links in de hoofdtekst (buiten menu en footer).', fix: 'Link naar relevante ondersteunende pagina’s.', source: 'Interne regel',
     check: (p) => p.contextLinks < 3 ? [{ detail: p.contextLinks + ' links' }] : [] },
