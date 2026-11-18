@@ -45,7 +45,7 @@ export function classify(p) {
   if (p.type === 'snack' || has(/kattensnack|snack|churu|treat|puree|broth|snoep|dreamies|stick|rolls/i, t)) form = 'snack';
   else if (has(/melk|milk/i, t)) form = 'melk';
   else if (has(/supplement|tablet|pasta|paste|kruiden|vitamine|trainer|lactol|nutribound|easypill|choline|\bpuur\b|pil\b|gras\b/i, t)) form = 'overig';
-  else if (p.type === 'droog' && has(/\bsaus\b|gelei|jelly|gravy|pouch|natte voeding|natvoer|pat[eé]|mousse|blik|\d+\s*x\s*\d+\s*g/i, t)) form = 'nat';
+  else if (p.type === 'droog' && !has(/brok|droog|kibble|crunch|krokant/i, t) && (has(/\bsaus\b|gelei|jelly|gravy|pouch|natte voeding|natvoer|pat[eé]|mousse|\bblik/i, t) || /\d+\s*x\s*([1-9]\d|[1-3]\d\d)\s*(g|gr|gram)\b/i.test(t))) form = 'nat';
   else if ((p.type === 'nat' || p.type === 'droog') && !has(/supplement|tablet|paste|pasta/i, t)) form = p.type;
   else if (has(/supplement|tablet|pasta|paste|kruiden|vitamine|trainer|lactol|nutribound|easypill|choline|\\bpuur\\b|pil\\b|gras\\b/i, t)) form = 'overig';
   else if (has(/vers vlees|diepvries|bevroren|kvv/i, t) && !has(/droog|brok/i, t)) form = 'vers';

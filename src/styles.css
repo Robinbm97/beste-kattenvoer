@@ -375,3 +375,41 @@ p{margin:0 0 1em}
   .is-scrolled .brand-bg{left:-60px;top:-30px;width:calc(100% + 70px);height:calc(100% + 10px)}
   .is-scrolled .header-in{min-height:58px}
 }
+
+/* vergelijker v2: zoeken + sorteren altijd zichtbaar, filters inklapbaar */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.vgl-top{display:grid;grid-template-columns:1fr 220px;gap:10px;margin-bottom:12px}
+.vgl-top input,.vgl-top select{width:100%;font:inherit;font-size:1rem;padding:13px 16px;border:1.5px solid var(--line);border-radius:14px;background:#fff;min-width:0}
+.seg-form{margin-bottom:12px}
+.vgl-filters{background:var(--paper);border:1px solid var(--line);border-radius:20px;margin-bottom:6px}
+.vgl-filters summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:14px 18px;font:800 1rem/1 var(--display);font-stretch:112%}
+.vgl-filters summary::-webkit-details-marker{display:none}
+.vgl-filters summary::after{content:"";margin-left:auto;width:10px;height:10px;border-right:2.5px solid var(--petrol);border-bottom:2.5px solid var(--petrol);transform:rotate(45deg);transition:transform .2s}
+.vgl-filters[open] summary::after{transform:rotate(-135deg)}
+.vgl-filters summary b{background:var(--lila);color:var(--petrol-2);border-radius:99px;font-size:.8rem;padding:4px 9px}
+.vgl-fbody{padding:0 18px 16px;display:grid;gap:14px}
+.vgl-fbody fieldset{border:0;padding:0;margin:0;display:grid;gap:8px}
+.vgl-fbody legend{font-weight:700;font-size:.85rem;color:var(--ink-2);margin-bottom:6px}
+.vgl-range{display:grid;gap:6px;font-size:.9rem;font-weight:600;max-width:420px}
+.vgl-range output{color:var(--petrol);font-weight:800}
+.vgl-range input{accent-color:var(--petrol)}
+.vgl-actions{display:none;gap:10px;margin:4px 0 0}
+.vgl-count{margin:14px 0 4px}
+.seg button,.toggles button{padding:8px 13px;font-size:.88rem}
+.pick-tag{position:static;display:inline-block;margin:0 0 8px}
+.pcard.is-pick .pcard-body{padding-top:14px}
+@media (max-width:700px){
+  .vgl-top{grid-template-columns:1fr}
+  .vgl-actions{display:flex}
+  .vgl-actions .btn{flex:1}
+}
+@media (max-width:900px){
+  .is-scrolled .site-header{background:var(--petrol);pointer-events:auto;box-shadow:0 6px 18px rgba(15,47,49,.25)}
+  .is-scrolled .brand-bg,.is-scrolled .brand::before{opacity:0!important}
+  .is-scrolled .mobile-nav summary{background:transparent}
+  .is-scrolled .header-in{min-height:56px}
+  .is-scrolled .brand .logo{transform:none;padding:4px 0}
+  .is-scrolled .lg-1,.is-scrolled .lg-2{font-size:22px}
+  .is-scrolled .lg-0{font-size:8px;margin-bottom:2px}
+}
+[hidden]{display:none!important}

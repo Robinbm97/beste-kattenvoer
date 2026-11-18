@@ -66,8 +66,8 @@ function card(p, opts = {}) {
     ? `<div class="pstats"><div><b>${eur(v.price)}</b><span>${esc(packLabel(v) || 'per stuk')}</span></div></div>`
     : `<div class="pstats">${p.score ? `<div class="st-score"><b>${score(p.score.total)}</b><span>score</span></div><div><b>${pct(p.nut.pDM)}</b><span>eiwit*</span></div>` : ''}<div><b>${perDay(p)}</b><span>per dag</span></div>${!p.score && p.ppk ? `<div><b>${eur(p.ppk)}</b><span>per kilo</span></div>` : ''}</div>`;
   return `<article class="pcard${opts.pick ? ' is-pick' : ''}">
-${opts.pick ? `<p class="pick-tag">${esc(opts.pick)}</p>` : ''}<div class="pcard-img"><img src="${esc(p.image)}" alt="${esc(p.short)}" loading="lazy" width="300" height="300"></div>
-<div class="pcard-body"><p class="pcard-brand">${esc(p.brand)} · ${formLabel[p.form]}</p>
+<div class="pcard-img"><img src="${esc(p.image)}" alt="${esc(p.short)}" loading="lazy" width="300" height="300"></div>
+<div class="pcard-body">${opts.pick ? `<p class="pick-tag">${esc(opts.pick)}</p>` : ''}<p class="pcard-brand">${esc(p.brand)} · ${formLabel[p.form]}</p>
 <${T2} class="pcard-name">${name}</${T2}>
 ${stats}${warn}
 <p class="pmeta">${eur(v.price)} · ${packLabel(v) || 'verpakking'}${p.ppk ? ` · ${eur(p.ppk)}/kg` : ''}${tags.length ? ` <span class="ptags">${tags.map((t) => `<i>${esc(t)}</i>`).join('')}</span>` : ''}</p>
@@ -168,7 +168,7 @@ function review(p) {
     else if (r > 0.75) { out.parts.push(`Dan de prijs. Per 100 gram eiwit betaal je ${eur(p.p100)}, terwijl het midden bij ${vorm} op ${eur(S.p100)} ligt. Je betaalt hier dus flink voor ${n.pDM >= S.pDM ? 'de kwaliteit' : 'het merk, niet voor extra eiwit'}.`); out.cons.push(`Duur eiwit: ${eur(p.p100)} per 100 g`); }
     else out.parts.push(`Per 100 gram eiwit betaal je ${eur(p.p100)}. Het midden bij ${vorm} ligt op ${eur(S.p100)}, dus de prijs is gemiddeld.`);
   }
-  out.parts.push(`Een volwassen kat van 4 kilo heeft ongeveer ${KCAL_DAY} kcal per dag nodig. Met ±${n.kcal100} kcal per 100 gram is dat zo’n ${p.gpd} gram per dag, en dat kost je ${eur(p.ppd)} per dag of ongeveer ${eur0(p.ppd * 30.4)} per maand.`);
+  out.parts.push(`Een volwassen kat van 4 kilo heeft ongeveer ${KCAL_DAY} kcal per dag nodig. Met ${n.kcalFromLabel ? '' : '±'}${n.kcal100} kcal per 100 gram${n.kcalFromLabel ? ' (volgens het etiket)' : ''} is dat zo’n ${p.gpd} gram per dag, en dat kost je ${eur(p.ppd)} per dag of ongeveer ${eur0(p.ppd * 30.4)} per maand.`);
   if (p.bolRank && p.bolRank <= 100) out.parts.push(`Bij bol.com hoort dit voer bij de populairste ${vorm} (plek ${p.bolRank} in de categorie)${p.rating ? `, met een gemiddelde beoordeling van ${String(p.rating).replace('.', ',')} uit 5` : ''}.`);
   else if (p.rating) out.parts.push(`Kopers op bol.com geven het gemiddeld een ${String(p.rating).replace('.', ',')} uit 5.`);
   if (p.flags.includes('dieet')) out.parts.push('Let op: dit is dieetvoer. Geef het alleen in overleg met je dierenarts; mijn score zegt niets over hoe goed het werkt bij een aandoening.');
@@ -427,14 +427,20 @@ function vergelijkerPage(p) {
   fs.writeFileSync(path.join(DIST, 'assets/voer.json'), JSON.stringify(data));
   const first = VGL.filter((x) => x.form === 'droog').sort((a, b) => a.ppd - b.ppd).slice(0, 12);
   const tool = `<div class="vgl" data-widget="vgl">
-<div class="vgl-bar"><div class="seg" role="group" aria-label="Soort voer"><button data-f="form" data-v="droog" aria-pressed="true">Droogvoer</button><button data-f="form" data-v="nat" aria-pressed="false">Natvoer</button><button data-f="form" data-v="" aria-pressed="false">Alles</button></div>
-<div class="seg" role="group" aria-label="Levensfase"><button data-f="stage" data-v="" aria-pressed="true">Alle leeftijden</button><button data-f="stage" data-v="kitten" aria-pressed="false">Kitten</button><button data-f="stage" data-v="adult" aria-pressed="false">Volwassen</button><button data-f="stage" data-v="senior" aria-pressed="false">Senior</button></div>
-<div class="toggles">${['graanvrij', 'gesteriliseerd', 'gevoelig', 'gewicht', 'bio'].map((f) => `<button data-t="${f}" aria-pressed="false">${flagLabel[f]}</button>`).join('')}</div>
-<label class="vgl-search">Zoek op merk of smaak<input type="search" id="vQ" placeholder="bijv. zalm, Yarrah, kitten"></label>
-<label class="vgl-sort">Sorteer<select id="vS"><option value="ppd">Goedkoopst per dag</option><option value="score">Hoogste score</option><option value="eiwit">Meeste eiwit</option><option value="p100">Goedkoopste eiwit</option><option value="duur">Duurst per dag</option><option value="naam">Naam</option></select></label></div>
+<div class="vgl-top"><label class="vgl-search"><span class="sr">Zoek op merk of smaak</span><input type="search" id="vQ" placeholder="Zoek merk of smaak, bijv. zalm"></label>
+<label class="vgl-sort"><span class="sr">Sorteer</span><select id="vS"><option value="ppd">Goedkoopst per dag</option><option value="score">Hoogste score</option><option value="eiwit">Meeste eiwit</option><option value="p100">Goedkoopste eiwit</option><option value="duur">Duurst per dag</option><option value="naam">Naam A-Z</option></select></label></div>
+<div class="seg seg-form" role="group" aria-label="Soort voer"><button data-f="form" data-v="droog" aria-pressed="true">Droogvoer</button><button data-f="form" data-v="nat" aria-pressed="false">Natvoer</button><button data-f="form" data-v="" aria-pressed="false">Alles</button></div>
+<details class="vgl-filters"><summary><span>Filters</span><b id="vAct" hidden></b></summary><div class="vgl-fbody">
+<fieldset><legend>Leeftijd</legend><div class="seg"><button data-f="stage" data-v="" aria-pressed="true">Alle</button><button data-f="stage" data-v="kitten" aria-pressed="false">Kitten</button><button data-f="stage" data-v="adult" aria-pressed="false">Volwassen</button><button data-f="stage" data-v="senior" aria-pressed="false">Senior</button></div></fieldset>
+<fieldset><legend>Prijsklasse</legend><div class="seg"><button data-f="price" data-v="" aria-pressed="true">Alle</button><button data-f="price" data-v="budget" aria-pressed="false">Voordelig</button><button data-f="price" data-v="midden" aria-pressed="false">Middenklasse</button><button data-f="price" data-v="premium" aria-pressed="false">Duurder</button></div>
+<label class="vgl-range">Maximaal per dag <output id="vMaxO">geen limiet</output><input type="range" id="vMax" min="0.1" max="3" step="0.05" value="3"></label></fieldset>
+<fieldset><legend>Kenmerken</legend><div class="toggles">${['graanvrij', 'gesteriliseerd', 'gevoelig', 'gewicht', 'binnenkat', 'bio'].map((f) => `<button data-t="${f}" aria-pressed="false">${flagLabel[f]}</button>`).join('')}<button data-t="_score" aria-pressed="false">Alleen met score</button><button data-t="_eiwit" aria-pressed="false">Veel eiwit (40%+)</button></div></fieldset>
+<p class="vgl-actions"><button type="button" class="btn btn-sm btn-ghost-dark" id="vReset">Wis filters</button><button type="button" class="btn btn-sm" id="vClose">Toon resultaten</button></p>
+</div></details>
 <p class="vgl-count" aria-live="polite"><b id="vN">${VGL.filter((x) => x.form === 'droog').length}</b> resultaten</p>
 <div class="pgrid" id="vList">${first.map((x) => card(x, { tag: 'p' })).join('')}</div>
 <p class="vgl-more"><button class="btn btn-ghost-dark" id="vMore">Toon meer</button></p></div>`;
+
   return `${pageHead(p)}<div class="wrap content wide">${tool}<p class="fine">*Prijs per dag: schatting voor een volwassen kat van 4 kilo die alleen dit voer eet. Aanvullend voer en dieetvoer staan niet in deze lijst. Prijzen van ${nlDate(CHECKED)}.</p><div class="prose">${md(p.body, p)}${faqHtml(p)}${sourcesHtml(p)}${related(p)}</div></div>`;
 }
 

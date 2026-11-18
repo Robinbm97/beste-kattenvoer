@@ -26,10 +26,12 @@ export function parseNutrition(spec, form) {
   const fi = fiber ?? (form === 'droog' ? 2.5 : 0.5);
   const a = ash ?? (form === 'droog' ? 7.5 : 2.2);
   const nfe = Math.max(0, 100 - protein - f - fi - a - moisture);
-  const kcal100 = 3.5 * protein + 8.5 * f + 3.5 * nfe; // aangepaste Atwater (NRC)
+  const kcalLabel = grab(t, /energie\w*\s*:?\s*(\d{2,3}(?:[.,]\d+)?)\s*kcal\s*\/\s*100/i);
+  const kcalCalc = 3.5 * protein + 8.5 * f + 3.5 * nfe; // aangepaste Atwater (NRC)
+  const kcal100 = kcalLabel && kcalLabel > 40 && kcalLabel < 600 ? kcalLabel : kcalCalc;
   return {
     form, protein, fat, fiber, ash, moisture, moistureEstimated, estimatedRest: fat == null || ash == null,
-    pDM: +pDM.toFixed(1), fDM: +((f / dm) * 100).toFixed(1), nfeDM: +((nfe / dm) * 100).toFixed(1), kcal100: Math.round(kcal100),
+    pDM: +pDM.toFixed(1), fDM: +((f / dm) * 100).toFixed(1), nfeDM: +((nfe / dm) * 100).toFixed(1), kcal100: Math.round(kcal100), kcalFromLabel: !!(kcalLabel && kcalLabel > 40 && kcalLabel < 600),
     sam: cleanSam(spec), doel: spec.doel || '', fabrikant: spec.fabrikant || '',
   };
 }
