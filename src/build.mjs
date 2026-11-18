@@ -129,7 +129,7 @@ function md(src, page) {
   src = src.replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? `{{${k}}}`);
   let html = marked.parse(src);
   html = html.replace(/<blockquote>([\s\S]*?)<\/blockquote>/g, (_, inner) => `<aside class="robin">${inner}<p class="robin-sign">Robin, baasje van Mila en Nala</p></aside>`);
-  html = html.replace(/<table>/g, '<div class="table-wrap"><table class="ttable">').replace(/<\/table>/g, '</table></div>');
+  html = html.replace(/<table>([\s\S]*?)<\/table>/g, '<div class="table-wrap"><table class="ttable">$1</table></div>');
   return html;
 }
 // variabelen in teksten, altijd actueel uit de feed
