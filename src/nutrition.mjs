@@ -62,8 +62,9 @@ export function scoreProduct(p, ctx) {
   const n = p.nut;
   if (!n) return null;
   const clamp = (x) => Math.max(0, Math.min(10, x));
-  // eiwit in droge stof: 25% = 0, 55% = 10
-  const sEiwit = clamp(((n.pDM - 25) / 30) * 10);
+  // eiwit in droge stof: brokken 25% = 0 en 50% = 10, natvoer 30% = 0 en 60% = 10
+  const [lo, hi] = p.form === 'nat' ? [30, 60] : [25, 50];
+  const sEiwit = clamp(((n.pDM - lo) / (hi - lo)) * 10);
   // koolhydraten in droge stof: 45% = 0, 5% = 10
   const sKh = clamp(((45 - n.nfeDM) / 40) * 10);
   // prijs per 100 gram eiwit, vergeleken met dezelfde soort voer (percentiel: goedkoopst = 10)

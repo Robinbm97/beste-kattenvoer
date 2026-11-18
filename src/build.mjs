@@ -169,7 +169,16 @@ function review(p) {
   else if (p.rating) out.parts.push(`Kopers op bol.com geven het gemiddeld een ${String(p.rating).replace('.', ',')} uit 5.`);
   if (p.flags.includes('dieet')) out.parts.push('Let op: dit is dieetvoer. Geef het alleen in overleg met je dierenarts; mijn score zegt niets over hoe goed het werkt bij een aandoening.');
   const t = p.score.total;
-  out.verdict = t >= 8 ? `Sterk voer: veel eiwit voor een eerlijke prijs. Hier zou ik zelf geen moment over twijfelen.` : t >= 6.5 ? `Goed voer met een paar kanttekeningen. Prima keuze als je kat het lekker vindt.` : t >= 5 ? `Gemiddeld voer. Het doet wat het moet doen, maar voor hetzelfde geld vind je vaak meer eiwit.` : `Hier zou ik kritisch naar kijken. Voor een vleeseter zit er te weinig eiwit in voor wat je betaalt.`;
+  const c = p.score;
+  if (c.prijs < 4 && !out.cons.some((x) => /eiwit:/.test(x) && /Duur/.test(x))) out.cons.push('Eiwit is relatief duur bij dit voer');
+  if (c.prijs >= 7 && !out.pros.some((x) => /Goedkoop eiwit/.test(x))) out.pros.push('Veel eiwit voor je geld');
+  out.verdict = c.eiwit >= 7 && c.prijs >= 6 ? 'Veel eiwit voor een eerlijke prijs. Dit is voer waar ik zelf niet lang over zou twijfelen.'
+    : c.eiwit >= 7 && c.prijs < 4 ? 'Veel eiwit, dat is goed. Maar je betaalt er flink voor: per gram eiwit is dit duurder dan het meeste vergelijkbare voer.'
+    : c.eiwit >= 7 ? 'Eiwitrijk voer voor een normale prijs. Een prima keuze.'
+    : c.eiwit < 3.5 && c.prijs < 4 ? 'Weinig eiwit en ook nog duur per gram eiwit. Hier zou ik eerlijk gezegd voor iets anders kiezen.'
+    : c.eiwit < 3.5 ? 'Voordelig, maar met weinig eiwit voor een vleeseter. Prima als budgetkeuze, niet als beste keuze.'
+    : t >= 6.5 ? 'Degelijk voer zonder grote uitschieters, met een eerlijke verhouding tussen eiwit en prijs.'
+    : 'Gemiddeld voer. Het doet wat het moet doen, maar voor hetzelfde geld vind je vaak meer eiwit.';
   return out;
 }
 const bar = (label, v, note) => `<div class="sbar"><span>${label}</span><i style="--v:${v * 10}%"></i><b>${score(v)}</b>${note ? `<small>${note}</small>` : ''}</div>`;
@@ -254,7 +263,7 @@ const usedTitles = new Set(), usedIds = new Set();
 for (const pr of ALL) { let id = pr.id, i = 2; while (usedIds.has(id)) id = `${pr.id}-${i++}`; usedIds.add(id); pr.id = id; }
 for (const pr of ALL.filter(HASPAGE)) {
   const kind = pr.form === 'nat' ? 'natvoer' : 'droogvoer';
-  const shortName = pr.name.replace(/\s*-\s*\d.*$/, '').replace(/\s+\d+\s*x\s*\d.*$/i, '').replace(/\s+\d+([.,]\d+)?\s*(kg|gr|gram|g)\b.*$/i, '').trim();
+  const shortName = pr.name.split(/\s+[-–|]\s+/).filter((seg, i) => i === 0 || !/kattenvoer|kattenbrok|natvoer|droogvoer|brokjes|brokken|natte voeding|\d|kat\b|multipack|voordeel/i.test(seg)).join(' - ').replace(/\s*-\s*\d.*$/, '').replace(/\s+\d+\s*x\s*\d.*$/i, '').replace(/\s+\d+([.,]\d+)?\s*(kg|gr|gram|g)\b.*$/i, '').trim();
   const kw = shortName.length > 8 ? shortName : pr.name;
   let t = `${kw} review: score ${score(pr.score.total)}`;
   if (t.length > 60) t = `${kw.slice(0, 44).trim()}… review`;
