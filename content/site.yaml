@@ -43,6 +43,7 @@ footer:
       - { label: Smolke, url: /merken/smolke/ }
       - { label: Whiskas, url: /merken/whiskas/ }
       - { label: Felix, url: /merken/felix/ }
+      - { label: Royal Canin, url: /merken/royal-canin/ }
       - { label: Alle merken, url: /merken/ }
   - title: Weten
     links:

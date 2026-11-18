@@ -25,7 +25,7 @@ faq:
 
 Een zak brokken van €12 lijkt goedkoper dan een zak van €30. Tot je ziet dat de ene 2 kilo is en de andere 7. En natvoer in bakjes van 85 gram voelt goedkoop per stuk, maar kost per maand soms zes keer zoveel als brokken. Daarom reken ik alles om naar **prijs per dag**: wat kost het om één volwassen kat van 4 kilo een dag te voeden met dit voer?
 
-Op dit moment vergelijk ik **{{aantal}} kattenproducten** van **{{aantal_merken}} merken**, waarvan {{aantal_voer}} complete maaltijden. De prijzen komen elke dag vers uit de productfeeds van de webshops.
+Op dit moment vergelijk ik **{{aantal}} kattenproducten** van **{{aantal_merken}} merken**, waarvan {{aantal_voer}} complete maaltijden. De prijzen komen elke dag vers uit de productfeeds van Plein en bol.com.
 
 > Bij mij thuis lopen twee katten rond, Mila en Nala. Ik weet dus hoe snel een zak voer leeg is en hoe vaak je jezelf afvraagt of het niet goedkoper kan. Daar is deze site voor: eerlijk zeggen wat goed is, en wat gewoon goede marketing is.
 

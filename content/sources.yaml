@@ -3,3 +3,4 @@ fediaf: { title: "FEDIAF – Nutritional Guidelines for Complete and Complementa
 fediaf_label: { title: "FEDIAF Code of Good Labelling Practice (samenvatting via UK Pet Food)", url: "https://www.ukpetfood.org/new-trade-zone/codes-of-practice/labelling.html" }
 claims: { title: "Wat ‘met kip’, ‘rijk aan’ en ‘menu’ op een etiket betekenen (uitleg op basis van de FEDIAF-code)", url: "https://www.purina.eu/contact-us/faq/ingredients/quantity-of-ingredient-pet-food-labels" }
 wsava: { title: "WSAVA Global Nutrition Committee – Guidelines on Selecting Pet Foods", url: "https://wsava.org/global-guidelines/global-nutrition-guidelines/" }
+bol_api: { title: "bol.com Marketing Catalog API (populairste kattenvoer, prijzen en beoordelingen, opgehaald {datum})", url: "/over-mij/" }

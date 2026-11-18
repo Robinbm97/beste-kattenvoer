@@ -161,7 +161,7 @@ for (const [bi, b] of brands.entries()) {
     title: `${b.name} kattenvoer`, slug: `/merken/${b.slug}/`, template: 'review', brand: b.slug, primary_keyword: `${b.name} kattenvoer`,
     seo_title: b.seo_title, meta_description: b.meta_description, h1: b.h1 || `${b.name} kattenvoer: mijn eerlijke oordeel`, lead: b.lead,
     image: b.image || BIMG[bi % BIMG.length], image_alt: `Kat eet uit een voerbak, ter illustratie bij ${b.name} kattenvoer`, updated: CHECKED, published: '2026-11-18',
-    breadcrumb: b.name, faq: b.faq, sources: ['plein_feed', 'fediaf'], body: b.body, source: 'content/brands.yaml',
+    breadcrumb: b.name, faq: b.faq, sources: ['fediaf'], body: b.body, source: 'content/brands.yaml',
   });
 }
 
@@ -269,7 +269,7 @@ ${/data-widget=/.test(main) ? `<script src="/assets/app.js?v=${buildHash}" defer
 const heroImg = (k, alt, cls = 'hero-photo') => `<figure class="${cls}"><img src="${imgUrl(k, 1100, 1100)}" srcset="${imgUrl(k, 600, 600)} 600w, ${imgUrl(k, 1100, 1100)} 1100w" sizes="(max-width: 860px) 100vw, 46vw" alt="${esc(alt)}" width="1100" height="1100" fetchpriority="high"></figure>`;
 const byline = (p) => `<p class="byline">Door <a href="${site.author.url}">Robin</a> · bijgewerkt ${nlDate(p.updated || CHECKED)}</p>`;
 const faqHtml = (p) => p.faq && p.faq.length ? `<section class="faq"><h2>Vragen van andere kattenbaasjes</h2>${p.faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(subst(f.a))}</p></details>`).join('')}</section>` : '';
-const sourcesHtml = (p) => { const ks = [...new Set(['plein_feed', ...(p.sources || [])])].filter((k) => extSources[k]); return ks.length ? `<section class="sources"><h2>Waar ik dit vandaan heb</h2><ul>${ks.map((k) => `<li><a href="${extSources[k].url}"${extSources[k].url.startsWith('http') ? ' rel="noopener" target="_blank"' : ''}>${esc(extSources[k].title.replace('{datum}', nlDate(CHECKED)))}</a></li>`).join('')}</ul></section>` : ''; };
+const sourcesHtml = (p) => { const ks = [...new Set(['plein_feed', 'bol_api', ...(p.sources || [])])].filter((k) => extSources[k]); return ks.length ? `<section class="sources"><h2>Waar ik dit vandaan heb</h2><ul>${ks.map((k) => `<li><a href="${extSources[k].url}"${extSources[k].url.startsWith('http') ? ' rel="noopener" target="_blank"' : ''}>${esc(extSources[k].title.replace('{datum}', nlDate(CHECKED)))}</a></li>`).join('')}</ul></section>` : ''; };
 const related = (p) => p.related && p.related.length ? `<section class="related"><h2>Lees ook</h2><ul>${p.related.map((u) => { const r = pages.find((x) => x.slug === u); return r ? `<li><a href="${u}">${esc(r.breadcrumb || r.h1 || r.title)}</a></li>` : ''; }).join('')}</ul></section>` : '';
 
 function pageHead(p, opts = {}) {

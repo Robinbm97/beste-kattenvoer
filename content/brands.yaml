@@ -657,3 +657,38 @@
       a: "De gewone Sheba-maaltijden zijn compleet. Creamy Snacks zijn een snack."
     - q: Waarom is Sheba duur per kilo?
       a: "De kleine portiebakjes maken het per kilo duurder dan blikken of grote multipacks."
+
+- slug: royal-canin
+  name: Royal Canin
+  match: "^Royal Canin"
+  owner: Mars
+  price_class: Middenklasse tot duur
+  score: 7.4
+  verdict: "Royal Canin is sterk in voer voor specifieke rassen, leeftijden en medische situaties. Voor een gezonde huiskat betaal je wel vrij veel voor een etiket dat niet bijzonder vleesrijk is."
+  pros:
+    - Enorm assortiment voor ras, leeftijd en leefstijl
+    - Veel dieetvoer dat dierenartsen gebruiken
+    - Brokken met een vorm die bij het ras past
+  cons:
+    - Per dag duurder dan degelijke middenklassemerken
+    - Op het etiket staan vaak granen en plantaardige eiwitten vooraan
+  seo_title: "Royal Canin kattenvoer review: wanneer is het de moeite?"
+  meta_description: "Royal Canin kattenvoer is overal, van rasvoer tot dieetvoer. Ik bekeek het etiket, de prijs per dag en voor welke kat het echt zin heeft. Kritisch en eerlijk."
+  lead: "Royal Canin zie je bij elke dierenarts. Maar is het ook het beste voer voor jouw gezonde kat?"
+  body: |
+    ## Is Royal Canin kattenvoer goed?
+
+    Royal Canin is van Mars, dezelfde groep als Whiskas en Sheba. Het merk onderscheidt zich door heel specifiek voer: voor Britse korthaar, Maine Coon, Perzen, voor kittens, gesteriliseerde katten en binnenkatten. Daarnaast is er een grote lijn dieetvoer die je via de dierenarts krijgt.
+
+    Dat specifieke voer is de kracht. Waar ik kritischer op ben, is het gewone voer voor gezonde katten. Op het etiket staan vaak granen of plantaardige eiwitten vooraan, terwijl je per dag meer betaalt dan voor merken met meer benoemd vlees.
+
+    > Heeft je dierenarts een Royal Canin-dieet voorgeschreven? Dan zou ik daar gewoon bij blijven. Maar voor een gezonde huiskat hoef je je echt niet schuldig te voelen als je voor een goedkoper merk met een duidelijker etiket kiest.
+
+    ## Royal Canin kattenvoer per ras: nodig?
+
+    Rasvoer heeft vaak een brok in een vorm die past bij de kaak van het ras. Dat kan handig zijn, bijvoorbeeld bij een Pers met een platte snuit. Voor de meeste katten is het geen must. Lees ook [het beste droogvoer voor katten](/beste-droogvoer-kat/).
+  faq:
+    - q: Van wie is Royal Canin?
+      a: "Royal Canin is onderdeel van Mars, dat ook Whiskas, Sheba en Perfect Fit maakt."
+    - q: Is Royal Canin dieetvoer zonder dierenarts te koop?
+      a: "Sommige webshops verkopen het, maar dieetvoer hoort bij een behandeling. Geef het bij voorkeur alleen in overleg met je dierenarts."

@@ -26,7 +26,7 @@ Dat wilde ik delen. Zonder iemand een schuldgevoel aan te praten, want niet iede
 
 ## Hoe ik vergelijk
 
-De prijzen en producten komen elke dag uit de productfeeds van de webshops. Ik reken de prijs per kilo uit en de prijs per dag voor een volwassen kat van 4 kilo. Per merk lees ik het etiket en bekijk ik het assortiment, en daar geef ik mijn eigen oordeel over. **Ik test niet in een lab en ik heb niet elk voer aan mijn eigen katten gegeven.** Dat zeg ik er eerlijk bij.
+De prijzen en producten komen elke dag uit de productfeeds van Plein (via Daisycon) en bol.com. Ik reken de prijs per kilo uit en de prijs per dag voor een volwassen kat van 4 kilo. Per merk lees ik het etiket en bekijk ik het assortiment, en daar geef ik mijn eigen oordeel over. **Ik test niet in een lab en ik heb niet elk voer aan mijn eigen katten gegeven.** Dat zeg ik er eerlijk bij.
 
 ## Hoe ik geld verdien
 
