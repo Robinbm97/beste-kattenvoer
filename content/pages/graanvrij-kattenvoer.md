@@ -8,7 +8,7 @@ h1: Graanvrij kattenvoer, nodig of marketing?
 lead: "Graanvrij staat op steeds meer zakken. Maar is het beter voor je kat? Mijn eerlijke kijk, met de beste graanvrije keuzes als je het toch wilt."
 seo_title: "Graanvrij kattenvoer: beter voor je kat of vooral marketing?"
 meta_description: "Is graanvrij kattenvoer beter? Wat het wel en niet betekent, wanneer het zinvol is en welk graanvrij kattenvoer goed is voor een eerlijke prijs per dag."
-image: kom
+image: grijs
 image_alt: "Kat eet graanvrij kattenvoer uit een metalen voerbak"
 featured: wellness-core
 updated: 2026-11-18
@@ -32,6 +32,8 @@ Op dit moment noemen {{graanvrij_aantal}} complete voeders in de vergelijking zi
 ## Is graanvrij kattenvoer beter?
 
 Er is geen bewijs dat graanvrij voer voor een gezonde kat beter is dan compleet voer met een beetje granen. Echte graanallergie is bij katten zeldzaam; vaker reageren katten op een bepaalde eiwitbron, zoals kip of vis. Heeft je kat jeuk of maagklachten, dan is uitzoeken op welke eiwitbron hij reageert zinvoller dan alleen granen weglaten. Lees daarover bij [kattenvoer voor een gevoelige maag](/kattenvoer-gevoelige-maag/).
+
+[[foto grijs "Grijze kat eet graanvrij kattenvoer uit een voerbak"]]
 
 ## Graanvrij kattenvoer droog: goede keuzes
 

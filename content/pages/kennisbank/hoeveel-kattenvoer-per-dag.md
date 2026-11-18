@@ -35,6 +35,8 @@ Geef je nat en droog door elkaar, deel dan allebei ongeveer door twee. Snoepjes 
 
 > Ik raad iedereen een keukenweegschaal aan. Een handje brokken of een volle schep is bijna altijd meer dan je denkt. Afwegen is saai, maar het scheelt je geld en je kat een paar ons.
 
+[[foto oranje "Rode kat eet de juiste hoeveelheid kattenvoer per dag"]]
+
 ## Hoeveel kattenvoer per dag na sterilisatie?
 
 Na sterilisatie of castratie daalt de energiebehoefte. Veel dierenartsen adviseren dan zo’n 20 procent minder te geven, of over te stappen op voer voor gesteriliseerde katten. Meer daarover bij [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/).

@@ -33,6 +33,8 @@ Heeft je kat een gevoelige maag, neem dan twee weken in plaats van tien dagen.
 
 > Ik weet hoe verleidelijk het is om een nieuwe zak gewoon in de bak te gooien. Maar die ene keer dat het misgaat, sta je de volgende ochtend dweilen. Tien dagen is echt niet lang.
 
+[[foto kittens "Twee kittens op een krabpaal, kat overzetten op ander voer"]]
+
 ## Kat overzetten op ander voer: tips voor kieskeurige katten
 
 **Meng goed.** Bij brokken: schud oud en nieuw door elkaar, zodat je kat niet alleen de oude eruit vist.

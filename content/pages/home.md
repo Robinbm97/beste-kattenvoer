@@ -29,6 +29,12 @@ Op dit moment vergelijk ik **{{aantal}} kattenproducten** van **{{aantal_merken}
 
 > Bij mij thuis lopen twee katten rond, Mila en Nala. Ik weet dus hoe snel een zak voer leeg is en hoe vaak je jezelf afvraagt of het niet goedkoper kan. Daar is deze site voor: eerlijk zeggen wat goed is, en wat gewoon goede marketing is.
 
+## Kattenvoer kiezen voor jouw kat
+
+Waar ben je naar op zoek? Kies hieronder, dan zie je meteen het voer dat past en wat het per dag kost.
+
+[[tegels]]
+
 ## Wat kost kattenvoer echt per dag?
 
 Dit zijn de bedragen die ik vandaag in de feed zie. Voordelig is de goedkoopste 10 procent, duur de duurste 10 procent.
@@ -36,6 +42,8 @@ Dit zijn de bedragen die ik vandaag in de feed zie. Voordelig is de goedkoopste 
 [[budgettabel]]
 
 Het grootste verschil zit niet tussen merken, maar tussen **nat en droog**. Gemiddeld natvoer kost per dag ongeveer {{verschil_nat_droog}} keer zoveel als gemiddeld droogvoer. Dat betekent niet dat natvoer onzin is. Het extra vocht is fijn voor veel katten. Maar het betekent wel dat je met slim combineren veel kunt besparen.
+
+[[band samen "Goed voer hoeft niet duur" "Het grootste verschil zit niet in het merk, maar in nat of droog. Met slim combineren geef je je kat het beste en houd je de maand betaalbaar." "/goedkoop-kattenvoer/|Bekijk voordelig voer"]]
 
 ## Goedkoop kattenvoer dat wel deugt
 
@@ -55,6 +63,8 @@ Mijn oordeel per merk is gebaseerd op het etiket, het assortiment en de prijs pe
 - **Goedkoop natvoer:** [Voskes](/merken/voskes/)
 
 Het volledige overzicht staat bij [het beste kattenvoer van {{jaar}}](/beste-kattenvoer/).
+
+[[band likken "Lees de achterkant" "Op de voorkant staat marketing, op de achterkant staat de waarheid. Ik leg uit hoe je een etiket in vijf minuten leest." "/kennisbank/kattenvoer-etiket-lezen/|Zo lees je een etiket"]]
 
 ## Kattenvoer kiezen: hier let ik op
 

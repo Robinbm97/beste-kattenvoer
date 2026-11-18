@@ -104,12 +104,28 @@ function calc() {
 // ---------- merkenraster ----------
 const brandGrid = () => `<div class="bgrid">${brands.map((b) => { const n = ALL.filter((p) => new RegExp(b.match || b.name, 'i').test(p.brand)).length; return `<a class="bcard" href="/merken/${b.slug}/"><b>${esc(b.name)}</b><span class="bscore">${score(b.score)}</span><small>${esc(b.price_class)} · ${n} producten</small></a>`; }).join('')}</div>`;
 
+// ---------- beeld ----------
+const photo = (k, alt) => `<figure class="foto"><img src="${imgUrl(k, 1200, 760)}" srcset="${imgUrl(k, 700, 440)} 700w, ${imgUrl(k, 1200, 760)} 1200w" sizes="(max-width: 800px) 100vw, 760px" alt="${esc(alt)}" loading="lazy" width="1200" height="760"><figcaption>Foto: ${esc(images[k].credit)}</figcaption></figure>`;
+const TILES = [
+  ['/beste-droogvoer-kat/', 'Droogvoer', 'brokken', 'Kom met brokken kattenvoer'],
+  ['/beste-natvoer-kat/', 'Natvoer', 'oranje', 'Rode kat eet natvoer uit een zwarte kom'],
+  ['/kittenvoer/', 'Kitten', 'kitten', 'Britse korthaar kitten eet uit een bakje'],
+  ['/senior-kattenvoer/', 'Senior', 'senior', 'Oudere gestreepte kat kijkt rustig opzij'],
+  ['/goedkoop-kattenvoer/', 'Krap budget', 'samen', 'Twee katten liggen samen op de bank'],
+  ['/graanvrij-kattenvoer/', 'Graanvrij', 'grijs', 'Grijze kat eet uit een voerbak'],
+];
+const tiles = () => `<div class="tiles">${TILES.map(([u, t, k, a]) => `<a class="tile" href="${u}"><img src="${imgUrl(k, 520, 620)}" alt="${esc(a)}" loading="lazy" width="520" height="620"><span>${esc(t)}</span></a>`).join('')}</div>`;
+const band = (k, title, text, link) => { const [lu, lt] = (link || '').split('|'); return `<section class="band"><div class="band-in"><div class="band-text"><p class="band-title">${esc(title)}</p><p>${esc(text)}</p>${lu ? `<p><a class="btn btn-lila" href="${lu}">${esc(lt)}</a></p>` : ''}</div><figure class="band-photo"><svg class="band-curve" viewBox="0 0 100 800" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h62C20 160 96 300 58 470 30 600 70 700 52 800H0z" fill="currentColor"/></svg><img src="${imgUrl(k, 1000, 900)}" alt="${esc(title)}" loading="lazy" width="1000" height="900"></figure></div></section>`; };
+
 // ---------- markdown ----------
 function md(src, page) {
   src = src.replace(/\[\[lijst ([^\]]+)\]\]/g, (_, a) => { const q = parseArgs(a); return '\n\n' + grid(select(q), { pick: q.label }) + '\n\n'; });
   src = src.replace(/\[\[calc\]\]/g, () => '\n\n' + calc() + '\n\n');
   src = src.replace(/\[\[budgettabel\]\]/g, () => '\n\n' + budgetTable() + '\n\n');
   src = src.replace(/\[\[merken\]\]/g, () => '\n\n' + brandGrid() + '\n\n');
+  src = src.replace(/\[\[tegels\]\]/g, () => '\n\n' + tiles() + '\n\n');
+  src = src.replace(/\[\[foto (\w+) "([^"]+)"\]\]/g, (_, k, alt) => '\n\n' + photo(k, alt) + '\n\n');
+  src = src.replace(/\[\[band (\w+) "([^"]+)" "([^"]+)"(?: "([^"]+)")?\]\]/g, (_, k, t, txt, link) => '\n\n' + band(k, t, txt, link) + '\n\n');
   src = src.replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? `{{${k}}}`);
   let html = marked.parse(src);
   html = html.replace(/<blockquote>([\s\S]*?)<\/blockquote>/g, (_, inner) => `<aside class="robin">${inner}<p class="robin-sign">Robin, baasje van Mila en Nala</p></aside>`);
@@ -139,17 +155,19 @@ const pages = walk(path.join(ROOT, 'content/pages')).map((f) => {
   return { ...fm, body: m[2], source: path.relative(ROOT, f) };
 });
 // merkpagina's uit brands.yaml
-for (const b of brands) {
+const BIMG = ['oranje', 'grijs', 'kom', 'likken', 'samen', 'bak', 'tabbies', 'senior', 'duo', 'poot'];
+for (const [bi, b] of brands.entries()) {
   pages.push({
     title: `${b.name} kattenvoer`, slug: `/merken/${b.slug}/`, template: 'review', brand: b.slug, primary_keyword: `${b.name} kattenvoer`,
     seo_title: b.seo_title, meta_description: b.meta_description, h1: b.h1 || `${b.name} kattenvoer: mijn eerlijke oordeel`, lead: b.lead,
-    image: b.image || 'kom', image_alt: `Kat eet uit een voerbak, ter illustratie bij ${b.name} kattenvoer`, updated: CHECKED, published: '2026-11-18',
+    image: b.image || BIMG[bi % BIMG.length], image_alt: `Kat eet uit een voerbak, ter illustratie bij ${b.name} kattenvoer`, updated: CHECKED, published: '2026-11-18',
     breadcrumb: b.name, faq: b.faq, sources: ['plein_feed', 'fediaf'], body: b.body, source: 'content/brands.yaml',
   });
 }
 
 // ---------- logo ----------
-const logo = `<svg class="logo" viewBox="0 0 150 96" role="img" aria-label="Beste kattenvoer"><g transform="skewY(-5) translate(0 8)"><text x="2" y="16" class="lg-s">BESTE</text><text x="0" y="50" class="lg-b">KATTEN</text><text x="0" y="84" class="lg-b lg-v">VOER</text></g></svg>`;
+const wl = (word, scales) => [...word].map((c, i) => `<i style="--s:${scales[i]}">${c}</i>`).join('');
+const logo = `<span class="logo" role="img" aria-label="Beste kattenvoer"><span class="lg-1" aria-hidden="true">${wl('KATTEN', [1.32, 1.12, 1.0, 0.96, 1.04, 1.22])}</span><span class="lg-2" aria-hidden="true"><small>beste</small>${wl('VOER', [1.26, 1.04, 0.98, 1.16])}</span></span>`;
 const wave = (cls, fill) => `<svg class="wave ${cls}" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h1440v38c-180 58-372 86-578 70C640 92 476 18 274 22 160 24 70 48 0 76z" fill="${fill}"/></svg>`;
 
 // ---------- schema ----------
@@ -275,13 +293,11 @@ function brandPage(p) {
 }
 
 function homePage(p) {
-  const hero = `<section class="hero"><div class="wrap hero-in"><div class="hero-text">
+  const hero = `<section class="hero"><figure class="hero-full"><svg class="hero-curve" viewBox="0 0 100 800" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h70C24 150 92 330 50 500 24 610 64 720 40 800H0z" fill="currentColor"/></svg><img src="${imgUrl(p.image, 1200, 1300)}" srcset="${imgUrl(p.image, 700, 760)} 700w, ${imgUrl(p.image, 1200, 1300)} 1200w" sizes="(max-width: 900px) 100vw, 48vw" alt="${esc(p.image_alt)}" width="1200" height="1300" fetchpriority="high"></figure><div class="wrap hero-in"><div class="hero-text">
 <h1>${esc(p.h1)}</h1><p class="lead">${esc(p.lead)}</p>
-<p class="hero-cta"><a class="btn btn-lila" href="/kattenvoer-vergelijken/">Vergelijk ${vars.aantal_voer} soorten voer</a><a class="btn btn-ghost" href="/goedkoop-kattenvoer/">Ik heb een krap budget</a></p></div>
-${heroImg(p.image, p.image_alt, 'hero-photo hero-blob')}</div>
-<div class="wrap stats"><p><b>${vars.aantal}</b><span>kattenproducten vergeleken</span></p><p><b>${vars.droog_mid_dag}</b><span>per dag voor gemiddeld droogvoer</span></p><p><b>${vars.nat_mid_dag}</b><span>per dag voor gemiddeld natvoer</span></p></div>
+<p class="hero-cta"><a class="btn btn-lila" href="/kattenvoer-vergelijken/">Vergelijk ${vars.aantal_voer} soorten voer</a><a class="btn btn-ghost" href="/goedkoop-kattenvoer/">Ik heb een krap budget</a></p></div></div>
 ${wave('wave-down', 'var(--creme)')}</section>`;
-  return `${hero}<div class="wrap content"><div class="prose prose-home">${md(p.body, p)}${faqHtml(p)}${sourcesHtml(p)}</div></div>`;
+  return `${hero}<section class="statband"><div class="wrap stats"><p><b>${vars.aantal}</b><span>kattenproducten vergeleken</span></p><p><b>${vars.droog_mid_dag}</b><span>per dag voor gemiddeld droogvoer</span></p><p><b>${vars.nat_mid_dag}</b><span>per dag voor gemiddeld natvoer</span></p></div></section><div class="wrap content"><div class="prose prose-home">${md(p.body, p)}${faqHtml(p)}${sourcesHtml(p)}</div></div>`;
 }
 
 function vergelijkerPage(p) {

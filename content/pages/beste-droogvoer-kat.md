@@ -35,6 +35,8 @@ Voor de meeste katten kies ik [Smolke](/merken/smolke/) of [IAMS](/merken/iams/)
 
 [[lijst brand=smolke,iams form=droog n=4 permerk=nee label="Prijs-kwaliteit"]]
 
+[[foto brokken "Kom met brokken, het beste droogvoer voor een kat"]]
+
 ## Beste droogvoer kat als je iets meer wilt uitgeven
 
 Wil je een rijker etiket, dan kom je uit bij [Edgard & Cooper](/merken/edgard-en-cooper/), [Renske](/merken/renske/), [Acana](/merken/acana/) of [Wellness Core](/merken/wellness-core/). Mooi droogvoer, maar per dag ongeveer twee keer zo duur.

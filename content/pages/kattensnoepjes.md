@@ -8,8 +8,8 @@ h1: Kattensnoepjes zonder schuldgevoel
 lead: "Snacks zijn leuk, voor jou en je kat. Maar ze zijn per kilo vaak duurder dan het duurste voer. Zo kies en geef je ze slim."
 seo_title: "Kattensnoepjes: welke zijn lekker, gezond en betaalbaar?"
 meta_description: "Kattensnoepjes en snacks vergeleken: hoeveel mag je geven, waar let je op en welke snacks zijn voordelig? Eerlijk advies voor een verwende kat."
-image: hero
-image_alt: "Rode kat kijkt omhoog en wacht op kattensnoepjes"
+image: poot
+image_alt: "Kat likt zijn poot na kattensnoepjes"
 updated: 2026-11-18
 published: 2026-11-18
 sources: [fediaf]
@@ -29,6 +29,8 @@ Een snoepje als beloning, een likbare snack bij het borstelen: het hoort erbij. 
 ## Populaire kattensnoepjes, voordelig eerst
 
 [[lijst form=snack sort=prijs n=8]]
+
+[[foto likken "Kat likt zijn lippen na kattensnoepjes"]]
 
 ## Kattensnoepjes kiezen: waar let je op?
 

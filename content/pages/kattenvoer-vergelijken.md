@@ -8,6 +8,8 @@ h1: Kattenvoer vergelijken op prijs per dag
 lead: "Alle complete brokken en natvoer uit de feed, met per product wat het per dag kost. Filter op leeftijd, graanvrij, gesteriliseerd of een gevoelige maag."
 seo_title: "Kattenvoer vergelijken: alle merken op prijs per dag"
 meta_description: "Kattenvoer vergelijken op prijs per dag en per kilo. Filter op droog of nat, kitten of senior, graanvrij en gevoelige maag. Prijzen dagelijks bijgewerkt."
+image: oranje
+image_alt: "Rode kat eet uit een zwarte kom, kattenvoer vergelijken"
 updated: 2026-11-18
 published: 2026-11-18
 sources: [fediaf]
@@ -29,6 +31,8 @@ De prijs per dag is een schatting. Ik reken met een volwassen kat van 4 kilo die
 Natvoer bestaat voor ongeveer 80 procent uit water. Daardoor lijkt het per kilo misschien nog redelijk, maar een kat heeft er veel meer van nodig dan van brokken. Daarom kijk ik naar de prijs per dag. Pas dan zie je dat gemiddeld natvoer ({{nat_mid_dag}} per dag) ongeveer {{verschil_nat_droog}} keer zoveel kost als gemiddeld droogvoer ({{droog_mid_dag}} per dag).
 
 > Ik heb zelf jarenlang gekeken naar de prijs op de zak. Pas toen ik ging rekenen per dag, zag ik hoe groot de verschillen echt zijn. Dat wilde ik iedereen besparen.
+
+[[foto grijs "Grijze kat eet uit een voerbak, kattenvoer vergelijken"]]
 
 ## Kattenvoer vergelijken: waar let ik nog meer op?
 

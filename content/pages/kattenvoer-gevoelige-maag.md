@@ -37,6 +37,8 @@ Een gevoelige maag kan veel oorzaken hebben: te snel eten, stress, haarballen, p
 
 **Geen snoepjes tussendoor.** Tijdens een proefperiode alleen het nieuwe voer geven.
 
+[[foto poot "Kat likt zijn poot, kattenvoer voor een gevoelige maag"]]
+
 ## Kattenvoer voor een gevoelige maag: droog
 
 [[lijst form=droog flag=gevoelig n=6]]

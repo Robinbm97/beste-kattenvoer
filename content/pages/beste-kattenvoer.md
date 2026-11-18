@@ -44,6 +44,8 @@ Voor de meeste baasjes vormen brokken de basis. Ze zijn per dag het goedkoopst e
 
 Wil je meer droogvoer vergelijken, kijk dan bij [het beste droogvoer voor katten](/beste-droogvoer-kat/).
 
+[[foto oranje "Rode kat eet het beste kattenvoer uit een zwarte kom"]]
+
 ## Beste kattenvoer nat: mijn keuze
 
 Natvoer geeft je kat extra vocht, en veel katten eten het graag. Het is wel veel duurder per dag. Mijn keuze is [Yarrah](/merken/yarrah/): biologisch, een helder etiket en per dag goedkoper dan veel niet-biologische premiummerken.
@@ -67,6 +69,8 @@ Wil je je kat verwennen met een rijk etiket, dan zijn [Edgard & Cooper](/merken/
 ## Beste kattenvoer voor kittens en senioren
 
 Een kitten groeit en heeft meer energie en voedingsstoffen nodig. Een oudere kat heeft juist andere behoeften. Kies daarom altijd voer dat voor die levensfase bedoeld is. Mijn tips per leeftijd staan bij [kittenvoer](/kittenvoer/) en [senior kattenvoer](/senior-kattenvoer/).
+
+[[band kittens "Elke leeftijd eigen voer" "Een kitten groeit hard, een oudere kat heeft juist rust en vocht nodig. Kies voer dat bij die fase past." "/kittenvoer/|Naar kittenvoer"]]
 
 ## Wat ik níet aanraad als beste kattenvoer
 

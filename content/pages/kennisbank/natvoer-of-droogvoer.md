@@ -30,6 +30,8 @@ faq:
 | Laten staan | een paar uur | de hele dag |
 | Smaak | vaak favoriet | prima, minder geurig |
 
+[[foto likken "Kat likt zijn lippen, natvoer of droogvoer"]]
+
 ## Voordelen van natvoer
 
 Het grootste voordeel is vocht. Katten drinken van nature weinig, en natvoer helpt ze aan genoeg vocht te komen. Veel katten vinden het ook lekkerder, en voor oudere katten met een gevoelig gebit is het makkelijker te eten.

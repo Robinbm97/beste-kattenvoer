@@ -8,7 +8,7 @@ h1: Senior kattenvoer voor je oudere kat
 lead: "Vanaf een jaar of zeven tot tien verandert wat je kat nodig heeft. Wanneer is senior kattenvoer zinvol, en welk voer kies je dan?"
 seo_title: "Senior kattenvoer: wanneer nodig en welk voer kies je?"
 meta_description: "Senior kattenvoer voor oudere katten: vanaf welke leeftijd, waar je op let en welke merken goed en betaalbaar zijn. Eerlijk advies met de prijs per dag."
-image: bak
+image: senior
 image_alt: "Oudere grijze kat rust bij zijn voerbak met senior kattenvoer"
 featured: iams
 updated: 2026-11-18
@@ -28,6 +28,8 @@ Oudere katten bewegen meestal minder, maar sommige vallen juist af omdat ze mind
 Maar eerlijk is eerlijk: “senior” op een zak is geen medisch dieet. Heeft je kat klachten, ga dan naar de dierenarts. Voor een gezonde oudere kat kan senior kattenvoer een prima stap zijn.
 
 > Ik vind het belangrijk om hier geen angst aan te praten. Een oudere kat heeft vooral aandacht nodig: let op gewicht, drinkgedrag en eetlust. Het voer helpt, maar jouw ogen zijn het belangrijkst.
+
+[[foto senior "Oudere gestreepte kat, tijd voor senior kattenvoer"]]
 
 ## Senior kattenvoer droog
 

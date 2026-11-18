@@ -3,3 +3,13 @@ hero: { src: "https://images.unsplash.com/photo-1506891536236-3e07892564b7", cre
 duo: { src: "https://images.unsplash.com/photo-1520811607976-6d7812b0ecac", credit: "Bonnie Kittle / Unsplash" }
 kom: { src: "https://images.unsplash.com/photo-1767023028317-bbafd3157967", credit: "Zhen Yao / Unsplash" }
 bak: { src: "https://images.unsplash.com/photo-1580238169544-86bf7cd8c84c", credit: "Laura Chouette / Unsplash" }
+kitten: { src: "https://images.unsplash.com/photo-1616668983570-a971956d8928", credit: "Felice Wölke / Unsplash" }
+oranje: { src: "https://images.unsplash.com/photo-1596854331442-3cf47265cefb", credit: "Kabo / Unsplash" }
+grijs: { src: "https://images.unsplash.com/photo-1558993457-4bc6ec2c3734", credit: "Konstantinos Feggoulis / Unsplash" }
+senior: { src: "https://images.unsplash.com/photo-1595752776689-aebef37b5d32", credit: "Laura Chouette / Unsplash" }
+brokken: { src: "https://images.unsplash.com/photo-1589924691995-400dc9ecc119", credit: "Mathew Coulton / Unsplash" }
+samen: { src: "https://images.unsplash.com/photo-1532386236358-a33d8a9434e3", credit: "Raul Varzar / Unsplash" }
+likken: { src: "https://images.unsplash.com/photo-1596854273338-cbf078ec7071", credit: "Kabo / Unsplash" }
+kittens: { src: "https://images.unsplash.com/photo-1636014436444-f660718b02fe", credit: "Lara Baeriswyl / Unsplash" }
+poot: { src: "https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf", credit: "Eric Han / Unsplash" }
+tabbies: { src: "https://images.unsplash.com/photo-1527416876370-fb74d128c3dc", credit: "Nathalie Jolie / Unsplash" }

@@ -8,8 +8,8 @@ h1: Kittenvoer kiezen zonder twijfel
 lead: "Een kitten groeit hard en heeft ander voer nodig dan een volwassen kat. Dit is het kittenvoer dat ik zou kiezen, met de prijs per dag erbij."
 seo_title: "Kittenvoer kiezen: het beste voer voor je kitten in 2026"
 meta_description: "Welk kittenvoer is het beste? Waarom een kitten speciaal voer nodig heeft, hoe lang je het geeft en welke merken goed en betaalbaar zijn. Eerlijk advies."
-image: hero
-image_alt: "Jonge rode kat kijkt omhoog, klaar voor zijn kittenvoer"
+image: kittens
+image_alt: "Twee kittens op een krabpaal wachten op kittenvoer"
 featured: edgard-en-cooper
 updated: 2026-11-18
 published: 2026-11-18
@@ -34,6 +34,8 @@ Een kitten verdubbelt in de eerste maanden een paar keer in gewicht. Daar is ene
 Brokken voor kittens zijn kleiner en makkelijker te kauwen. Dit zijn goede complete keuzes, gesorteerd op prijs per dag:
 
 [[lijst form=droog stage=kitten n=6]]
+
+[[foto kitten "Britse korthaar kitten eet kittenvoer uit een bakje"]]
 
 ## Kittenvoer nat: zacht en lekker
 

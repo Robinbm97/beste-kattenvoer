@@ -47,11 +47,15 @@ Deze merken vind ik de beste balans tussen prijs en etiket. Ze kosten per dag ie
 
 Lees mijn oordeel per merk bij [IAMS](/merken/iams/), [Smolke](/merken/smolke/) en [Voskes](/merken/voskes/).
 
+[[foto tabbies "Twee gestreepte katten op een houten vloer, goedkoop kattenvoer voor meerdere katten"]]
+
 ## Goedkoop natvoer voor je kat
 
 Natvoer is per dag het duurste deel van het menu. Gemiddeld natvoer kost {{nat_mid_dag}} per dag, tegen {{droog_mid_dag}} voor gemiddeld droogvoer. Dit is het voordeligste complete natvoer:
 
 [[lijst form=nat sort=ppd n=6]]
+
+[[band brokken "Brokken zijn je beste vriend" "Droogvoer kost per dag maar een fractie van natvoer. Eén natvoermaaltijd plus degelijke brokken is voor veel katten de slimste mix." "/beste-droogvoer-kat/|Bekijk het beste droogvoer"]]
 
 ## Vijf manieren om te besparen op kattenvoer
 

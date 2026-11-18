@@ -32,6 +32,8 @@ Het grootste verschil zit niet in het merk, maar in nat of droog. Een kat die al
 
 > Toen ik dit voor het eerst uitrekende, schrok ik echt van het verschil. Niet omdat natvoer slecht is, maar omdat ik nooit had stilgestaan bij wat al die kleine bakjes samen kosten.
 
+[[foto tabbies "Twee katten op een houten vloer, kosten kattenvoer per maand"]]
+
 ## Zo verlaag je de kosten van kattenvoer per maand
 
 - Koop grote zakken en multipacks.

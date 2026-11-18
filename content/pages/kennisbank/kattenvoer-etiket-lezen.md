@@ -39,6 +39,8 @@ De Europese diervoederindustrie heeft afspraken over hoe je een ingrediënt in d
 
 Dus “met kip” kan betekenen dat er 4 procent kip in zit. De rest van het vlees kan van andere dieren komen.
 
+[[foto brokken "Brokken in een kom, kattenvoer etiket lezen"]]
+
 ## Stap 3: open of gesloten samenstelling op het kattenvoer etiket
 
 Bij een **open samenstelling** lees je categorieën: “vlees en dierlijke bijproducten”, “granen”, “plantaardige eiwitextracten”. Bij een **gesloten samenstelling** worden ingrediënten bij naam genoemd: “kip (30%), rijst, zalmolie”. Gesloten is duidelijker. Open is legaal en niet automatisch slechter, maar je weet minder.

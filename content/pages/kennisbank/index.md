@@ -8,6 +8,8 @@ h1: Alles wat je wilt weten over kattenvoer
 lead: "Etiketten lezen, hoeveel je geeft, nat of droog en wat het kost. Kort en eerlijk uitgelegd."
 seo_title: "Kennisbank kattenvoer: etiket, hoeveelheid en kosten"
 meta_description: "Alles over kattenvoer in gewone taal: een etiket lezen, hoeveel voer per dag, natvoer of droogvoer, overstappen op ander voer en wat kattenvoer per maand kost."
+image: kittens
+image_alt: "Twee kittens op een krabpaal, kennisbank kattenvoer"
 updated: 2026-11-18
 published: 2026-11-18
 ---

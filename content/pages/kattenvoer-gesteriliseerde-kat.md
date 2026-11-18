@@ -35,6 +35,8 @@ Na sterilisatie of castratie heeft een kat minder energie nodig, terwijl hij vaa
 
 [[lijst form=nat flag=gesteriliseerd n=6]]
 
+[[foto samen "Twee katten liggen samen, kattenvoer voor een gesteriliseerde kat"]]
+
 ## Zo houd je een gesteriliseerde kat op gewicht
 
 **Weeg het voer af.** Gebruik een keukenweegschaal of maatbeker. Op de zak staat hoeveel gram past bij het gewicht van je kat.

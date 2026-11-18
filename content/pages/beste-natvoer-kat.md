@@ -31,6 +31,8 @@ Natvoer bestaat voor ongeveer 80 procent uit water. Voor katten, die van nature 
 
 Dit is de valkuil bij natvoer. Prachtige blikjes met hele stukken tonijn of kip zijn vaak **aanvullend voer**. Lekker, maar geen complete maaltijd. Op dit moment noemen {{aanvullend_aantal}} producten in de feed zichzelf aanvullend. Ik laat ze niet meetellen in mijn lijsten. Bekende voorbeelden zijn veel blikjes van [Almo Nature](/merken/almo-nature/) en de Complementary-lijn van [Schesir](/merken/schesir/).
 
+[[foto likken "Kat likt zijn lippen na het beste natvoer"]]
+
 ## Beste natvoer kat: mijn keuze
 
 [Yarrah](/merken/yarrah/) vind ik de beste balans: biologisch, een helder etiket en per dag goedkoper dan veel niet-biologische premiummerken.

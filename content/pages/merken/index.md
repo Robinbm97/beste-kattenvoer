@@ -8,6 +8,8 @@ h1: Kattenvoermerken eerlijk beoordeeld
 lead: "Van Whiskas tot Orijen: per merk mijn oordeel, wat het per dag kost en waar je op moet letten."
 seo_title: "Kattenvoer merken vergeleken: mijn oordeel per merk 2026"
 meta_description: "Alle bekende kattenvoermerken op een rij met mijn eerlijke oordeel, prijs per dag en waar je op let. Van supermarkt tot premium, kritisch bekeken."
+image: tabbies
+image_alt: "Twee gestreepte katten, kattenvoer merken vergeleken"
 updated: 2026-11-18
 published: 2026-11-18
 ---
