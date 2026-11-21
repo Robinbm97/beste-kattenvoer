@@ -10,7 +10,7 @@ seo_title: "Kattenvoer etiket lezen: zo zie je wat er echt in zit"
 meta_description: "Leer een kattenvoer etiket lezen: compleet of aanvullend, wat ‘met kip’ echt betekent, open of gesloten samenstelling en analytische bestanddelen."
 image: bak
 image_alt: "Kat zit in een voerbak terwijl het baasje het kattenvoer etiket leest"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf_label, claims, fediaf, wsava]
 related: [/beste-kattenvoer/, /merken/almo-nature/, /graanvrij-kattenvoer/]
@@ -56,7 +56,7 @@ Hier staan de percentages ruw eiwit, ruw vet, ruwe celstof, ruwe as en vocht. Tw
 
 Op de verpakking staat hoeveel gram je kat per dag nodig heeft. Gebruik dat om de echte prijs uit te rekenen. Dat doe ik voor je in de [kattenvoer-vergelijker](/kattenvoer-vergelijken/). Wil je weten wat jouw kat per maand kost, gebruik dan de [kostencalculator](/kennisbank/kosten-kattenvoer-per-maand/).
 
-## Kattenvoer etiket lezen: een voorbeeld
+## Een voorbeeld
 
 Laten we een verzonnen, maar heel gewoon etiket samen lezen. Op de voorkant staat: "Adult met kip". Op de achterkant:
 
@@ -74,7 +74,7 @@ Wat zie ik?
 
 Conclusie: compleet voer, je kat komt niets tekort voor zijn basisbehoefte, maar het is vooral graan met een beetje kip. Zulk voer zie je in de vergelijking vaker dan je zou denken: bij {{granen_vooraan}} van de {{samenstelling_aantal}} samenstellingen die ik volledig kon lezen, staat een graan bij de eerste twee ingrediënten.
 
-## Kattenvoer etiket lezen: woorden die iets betekenen
+## Woorden die iets betekenen
 
 Sommige woorden op een zak hebben een vaste betekenis, andere niet. Een spiekbriefje:
 
@@ -89,7 +89,7 @@ Sommige woorden op een zak hebben een vaste betekenis, andere niet. Een spiekbri
 | Graanvrij | Geen granen, wel vaak aardappel of erwten |
 | Premium, natuurlijk, holistisch | Geen vaste betekenis |
 
-## Kattenvoer etiket lezen: let op de volgorde
+## Let op de volgorde
 
 Ingrediënten staan op volgorde van gewicht vóór het verwerken. Dat heeft een gevolg dat weinig mensen weten. Vers vlees bestaat voor zo'n 70% uit water. "Verse kip" kan dus bovenaan staan, terwijl er na het drogen van de brok maar weinig van overblijft. "Gedroogde kip" of "kippenmeel" verderop kan in de brok juist meer eiwit leveren. Kijk daarom niet alleen naar plek één, maar naar de eerste drie tot vijf ingrediënten samen.
 
@@ -97,15 +97,15 @@ Een tweede truc is het opsplitsen. "Maïs, maïsmeel, maïsgluten" los vermeld, 
 
 > Het etiket hoeft niet perfect te zijn. Ik zoek vooral eerlijkheid: benoemd vlees, percentages die er staan, en geen woorden die meer beloven dan erin zit.
 
-## Kattenvoer etiket lezen: wat er niet op staat
+## Wat er niet op staat
 
 Op het etiket staat niet hoeveel koolhydraten erin zitten. Dat moet je zelf uitrekenen, zoals hierboven. Ook staat er vaak geen energie in kcal; dan moet je die schatten. En je ziet niet waar het vlees vandaan komt of hoe de dieren gehouden zijn. Daarvoor moet je bij de fabrikant zelf zijn.
 
-Wil je niet zelf rekenen? Ik heb het voor {{etiket_aantal}} soorten voer al gedaan. Je vindt ze in [alle kattenvoer met score](/kattenvoer/), en de valkuilen met granen staan bij [kattenvoer met granen en weinig eiwit](/kattenvoer-granen-weinig-eiwit/).
+Wil je niet zelf rekenen? Ik heb het voor {{etiket_aantal}} soorten voer al gedaan. Je vindt ze in [alle kattenvoer met score](/kattenvoer/), en de valkuilen met granen staan bij [kattenvoer met granen en weinig eiwit](/wat-is-goed-kattenvoer/).
 
 ## Kattenvoer etiket lezen in de winkel
 
-In de winkel heb je geen rekenmachine nodig. Kijk naar drie dingen: staat er "compleet" op, staat er een benoemde vleessoort vooraan, en hoe hoog is het eiwit? Voor brokken is boven de 34% op het etiket een goed teken; voor natvoer boven de 10%. Dat is niet precies, maar het helpt je snel de slechtste keuzes over te slaan. Thuis kun je dan de review van het voer opzoeken voor het hele verhaal.
+In de winkel heb je geen rekenmachine nodig. Kijk naar drie dingen: staat er "compleet" op, staat er een benoemde vleessoort vooraan, en hoe hoog is het eiwit? Voor brokken is boven de 34% op het etiket een goed teken; voor natvoer boven de 10%. Dat is niet precies, maar het helpt je snel de slechtste keuzes over te slaan. Thuis kun je dan de analyse van het voer opzoeken voor het hele verhaal.
 
 Neem het eens mee als oefening: pak de zak van het voer dat je nu geeft en loop de vijf stappen door. Je kijkt daarna nooit meer hetzelfde naar een zak kattenvoer.
 

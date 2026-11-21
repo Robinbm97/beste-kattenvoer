@@ -10,7 +10,7 @@ seo_title: "Natvoer of droogvoer voor je kat? Voordelen en kosten"
 meta_description: "Natvoer of droogvoer voor je kat: de voor- en nadelen, wat het per dag kost en waarom combineren voor veel katten de slimste keuze is. Eerlijk uitgelegd."
 image: kom
 image_alt: "Kat eet uit een bak, natvoer of droogvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/beste-natvoer-kat/, /beste-droogvoer-kat/, /kennisbank/kosten-kattenvoer-per-maand/]
@@ -52,19 +52,19 @@ Met de [kostencalculator](/kennisbank/kosten-kattenvoer-per-maand/) zie je wat c
 
 Bij katten die slecht drinken, oudere katten, katten met een urinewegprobleem in de voorgeschiedenis en kieskeurige eters. Overleg bij medische klachten altijd met je dierenarts. Mijn favoriete natvoer staat bij [het beste natvoer](/beste-natvoer-kat/), mijn favoriete brokken bij [het beste droogvoer](/beste-droogvoer-kat/).
 
-## Natvoer of droogvoer: wat eet een kat van nature?
+## Wat eet een kat van nature?
 
 Een kat in het wild eet muizen, vogels en insecten. Zo'n prooi bestaat voor ongeveer zeventig procent uit water. Daarom drinken katten van zichzelf weinig: ze zijn gewend dat het vocht uit hun eten komt. Natvoer zit met zo'n 80% vocht daar dichtbij. Droogvoer heeft maar 8 tot 10% vocht.
 
 Dat betekent niet dat brokken slecht zijn. Een kat op droogvoer gaat meer drinken. Alleen haalt hij het verschil meestal niet helemaal in. Voor de meeste gezonde katten is dat geen probleem, maar bij katten met blaas- of nierproblemen telt elke extra slok. Lees daarover bij [urinary kattenvoer](/urinary-kattenvoer/).
 
-## Natvoer of droogvoer: eiwit eerlijk vergeleken
+## Eiwit eerlijk vergeleken
 
 Hier gaat het vaak mis. Op een zakje natvoer staat bijvoorbeeld 9% eiwit, op een zak brokken 32%. Dan lijken de brokken veel eiwitrijker. Maar dat komt doordat natvoer vooral water is. Haal je het water weg, dan kun je ze eerlijk vergelijken.
 
 In mijn vergelijking zit het midden van natvoer op {{eiwit_mid_nat}} eiwit in droge stof, en het midden van droogvoer op {{eiwit_mid_droog}}. Natvoer is dus meestal eiwitrijker. Ook bij koolhydraten wint natvoer: het midden is {{kh_mid_nat}} tegen {{kh_mid_droog}} bij brokken. Brokken hebben zetmeel nodig om in vorm te blijven; natvoer niet.
 
-## Natvoer of droogvoer: de combinatie
+## De combinatie
 
 Ik hoef je niet te overtuigen om alleen natvoer te geven. Dat is voor veel mensen gewoon te duur. Wat ik wel aanraad: combineer. Bijvoorbeeld een natte maaltijd 's avonds en een afgewogen portie brokken over de dag. Dan krijgt je kat extra vocht en eiwit binnen, en blijft het betaalbaar.
 
@@ -80,7 +80,7 @@ Een paar praktische tips bij het combineren:
 
 Je hoort vaak dat brokken de tanden schoonhouden. Dat klopt maar een beetje. Een gewone brok breekt meteen als je kat erop bijt, en schuurt nauwelijks langs de tanden. Er bestaan speciale tandbrokken die wel iets doen, maar tandenpoetsen en controle bij de dierenarts doen veel meer. Kies dus niet voor droogvoer vanwege de tanden alleen.
 
-## Natvoer of droogvoer: mijn advies per situatie
+## Mijn advies per situatie
 
 - **Krap budget:** goede brokken als basis, af en toe een zakje natvoer. Kijk bij [goedkoop kattenvoer](/goedkoop-kattenvoer/).
 - **Kat met blaas- of nierproblemen:** zoveel mogelijk natvoer, in overleg met je dierenarts.
@@ -93,7 +93,7 @@ Welk natvoer en welke brokken goed scoren, zie je bij [het beste natvoer](/beste
 
 Kittens kunnen beide eten, en het is juist slim om ze aan allebei te laten wennen. Katten krijgen op jonge leeftijd een voorkeur voor bepaalde geuren en structuren. Een kat die als kitten alleen brokken heeft gehad, weigert later soms natvoer, en dat is lastig als hij ooit voor zijn blaas of nieren meer vocht nodig heeft. Geef een kitten dus allebei, het liefst van een paar verschillende soorten. Bekijk het beste voer voor jonge katten bij [kittenvoer](/kittenvoer/).
 
-## Natvoer of droogvoer: hoeveel water drinkt je kat?
+## Hoeveel water drinkt je kat?
 
 Een kat heeft ongeveer 50 tot 60 milliliter vocht per kilo per dag nodig. Voor een kat van 4 kilo is dat ruim 200 milliliter. Met natvoer haalt hij daar het grootste deel van uit zijn eten. Met alleen brokken moet bijna alles uit het waterbakje komen. Zet het water daarom op een paar plekken neer, niet direct naast de voerbak, en ververs het elke dag.
 

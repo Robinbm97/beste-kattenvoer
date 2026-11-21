@@ -6,12 +6,12 @@ primary_keyword: beste natvoer kat
 breadcrumb: Beste natvoer
 h1: Het beste natvoer voor je kat
 lead: "Natvoer is lekker en geeft extra vocht, maar het is ook het duurste deel van het menu. Zo kies je natvoer dat goed is én betaalbaar blijft."
-seo_title: "Beste natvoer kat 2026: eerlijk vergeleken per dag"
+seo_title: "Beste natvoer voor je kat: eerlijk vergeleken per dag"
 meta_description: "Wat is het beste natvoer voor je kat? Ik vergeleek compleet natvoer op prijs per dag en etiket, en waarschuw voor aanvullend voer. Mijn keuzes per budget."
 image: kom
 image_alt: "Kat eet het beste natvoer voor een kat uit een metalen bak"
 featured: yarrah
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims]
 related: [/beste-droogvoer-kat/, /kennisbank/natvoer-of-droogvoer/, /merken/almo-nature/, /goedkoop-kattenvoer/]
@@ -55,7 +55,7 @@ Dit is het voordeligste complete natvoer per dag. [Voskes](/merken/voskes/) spri
 
 Kleine bakjes van 85 gram zijn handig, maar per kilo het duurst. Blikken van 400 gram of multipacks van 12 tot 24 stuks zijn vaak een derde goedkoper. Gebruik een open blik binnen twee dagen en bewaar het afgedekt in de koelkast. Laat het voor het voeren even op kamertemperatuur komen, dan ruikt het lekkerder voor je kat.
 
-## Beste natvoer: paté, stukjes of mousse?
+## Paté, stukjes of mousse?
 
 Natvoer komt in een paar vormen, en katten hebben daar vaak uitgesproken meningen over. Paté is een stevige massa, vaak het eiwitrijkst omdat er weinig saus bij zit. Stukjes in saus of gelei zijn populair, maar een deel van het zakje is dan saus of gelei met wat zetmeel of verdikkingsmiddel. Mousse is fijn voor oudere katten of katten met slechte tanden.
 

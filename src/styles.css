@@ -184,6 +184,7 @@ p{margin:0 0 1em}
 
 /* oordeel (merken) */
 .verdict{display:grid;grid-template-columns:auto 1fr;gap:26px;background:var(--paper);border-radius:28px;padding:26px;border:1px solid var(--line);margin:0 0 1.6em}
+.note{background:var(--paper);border-left:6px solid var(--lila,#8b5cf6);border-radius:18px;padding:20px 24px;margin:0 0 1.6em}.note h2{margin-top:0}
 .verdict-score{display:grid;justify-items:center;gap:6px}
 .ring-big{width:104px;height:104px;border-radius:50%;background:var(--mint);display:grid;place-items:center;font:900 2.1rem/1 var(--display);font-stretch:125%;color:var(--petrol-2)}
 .verdict-score small{font-weight:600;color:var(--ink-2)}

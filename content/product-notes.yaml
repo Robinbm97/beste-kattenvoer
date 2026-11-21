@@ -1,0 +1,20 @@
+# Eigen notities per product. Dit is de sleutel tot de index.
+#
+# Een automatische productpagina komt pas in Google (index + sitemap) als:
+#   1. de data volledig is (samenstelling + alle voedingswaarden, vocht niet geschat), en
+#   2. hier een eigen notitie staat van minstens 60 woorden.
+#
+# Schrijf alleen wat je echt weet: heb je het gegeven, wat deden Mila en Nala, hoe ruikt het,
+# hoe groot zijn de brokken, viel de verpakking tegen, wat zag je op de achterkant van de zak.
+# Geen samenvatting van de cijfers: die staan er al.
+#
+# Sleutel: de EAN-code van het product (staat in de feed, of in de URL-lijst in het SEO-rapport).
+#
+# Voorbeeld:
+# "8710255151235":
+#   datum: 2026-11-25
+#   tekst: |
+#     Mila eet dit al twee maanden. ...
+#
+#     Tweede alinea mag ook.
+{}

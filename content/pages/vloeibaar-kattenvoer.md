@@ -10,7 +10,7 @@ seo_title: "Vloeibaar kattenvoer: likbare snacks en soep voor katten"
 meta_description: "Vloeibaar kattenvoer zoals likbare tubes en kattensoep: wanneer het handig is, waarom het meestal aanvullend voer is en wat een portie kost."
 image: likken
 image_alt: "Kat likt aan vloeibaar kattenvoer uit een tube"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/kattensnoepjes/, /beste-natvoer-kat/, /urinary-kattenvoer/, /kattenvoer-nieren/]
@@ -44,7 +44,7 @@ Drinkt je kat weinig, dan kan een scheutje soep of een tube door het water helpe
 
 Let wel op de hoeveelheid. Een tube heeft maar een paar calorieën, maar vijf per dag tellen op. Houd snacks onder de tien procent van wat je kat per dag eet. Meer traktaties vind je bij [kattensnoepjes](/kattensnoepjes/).
 
-## Vloeibaar kattenvoer: wat staat er op het etiket?
+## Wat staat er op het etiket?
 
 Draai een tube of zakje soep eens om. Bij de meeste staat "aanvullend diervoeder". Dat is de wettelijke term voor alles wat geen volledige maaltijd is. De analytische bestanddelen zien er vaak zo uit: 7 tot 10% eiwit, 0,2 tot 1% vet en meer dan 85% vocht. Omgerekend naar droge stof is het eiwit soms hoog, maar er zit zo weinig van in dat het voor de voeding van je kat nauwelijks iets uitmaakt.
 
@@ -68,7 +68,7 @@ Wil je je kat extra vocht geven zonder een duur product te kopen? Dat kan heel s
 
 Let op: gewone bouillonblokjes uit de supermarkt zijn veel te zout en bevatten vaak ui. Die zijn niet geschikt.
 
-## Vloeibaar kattenvoer: kosten per portie
+## Kosten per portie
 
 Een likbare tube kost al snel 40 tot 70 cent per stuk. Geef je er elke dag twee, dan ben je per maand twintig tot veertig euro kwijt. Dat is meer dan een goed droogvoer voor een hele maand. Ook hier geldt: koop grotere verpakkingen als je het vaak gebruikt, en kijk of je met water door natvoer hetzelfde bereikt. Wat je kat per maand aan voer kost, reken je uit bij [kosten kattenvoer per maand](/kennisbank/kosten-kattenvoer-per-maand/).
 
@@ -76,6 +76,6 @@ Een likbare tube kost al snel 40 tot 70 cent per stuk. Geef je er elke dag twee,
 
 Geef je veel vloeibaar voer of soep, dan zie je dat terug in de kattenbak: meer en grotere plasballen. Dat is normaal en eigenlijk een goed teken, want je kat drinkt meer. Wordt de ontlasting dunner, geef dan minder. Sommige tubes bevatten ingrediënten die bij gevoelige katten de darmen wat in de war brengen. Begin daarom altijd met een halve tube en kijk hoe je kat reageert. Gaat het goed, dan kun je het gewoon als traktatie blijven geven.
 
-## Vloeibaar kattenvoer: wat ik je aanraad
+## Wat ik je aanraad
 
 Gebruik likbare snacks en soepjes waar ze goed in zijn: als beloning, als hulpje bij het geven van een pil, of om een kat die weinig drinkt een extra slok te geven. Houd ze klein, tel ze mee in de dag, en zorg dat de basis een compleet voer is. Kijk bij het kopen naar "aanvullend" of "compleet" op de verpakking, en naar de prijs per stuk. Een grotere doos is bijna altijd voordeliger dan losse tubes bij de kassa. En eet je kat ineens alleen nog maar tubes en laat hij zijn gewone voer staan, dan is het tijd om er even mee te stoppen. Dan raakt hij weer gewend aan zijn eigen voer.

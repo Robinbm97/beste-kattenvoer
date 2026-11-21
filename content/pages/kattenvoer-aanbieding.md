@@ -10,10 +10,10 @@ seo_title: "Kattenvoer aanbieding: alleen korting op voer dat deugt"
 meta_description: "Kattenvoer in de aanbieding, gefilterd op voer dat ook goed scoort op eiwit en etiket. Felix, Gourmet, Royal Canin en IAMS met korting, dagelijks bijgewerkt."
 image: samen
 image_alt: "Twee katten bij een bak kattenvoer uit de aanbieding"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [plein_feed, bol_api]
-related: [/goedkoop-kattenvoer/, /goedkoopste-kattenvoer/, /kattenvoer-grootverpakking/, /merken/felix/]
+related: [/goedkoop-kattenvoer/, /kattenvoer-grootverpakking/, /merken/felix/]
 faq:
   - q: Waar vind ik kattenvoer in de aanbieding?
     a: "Op deze pagina staan de aanbiedingen van Plein.nl en bol.com van vandaag, met de korting ten opzichte van de doorgestreepte prijs. Ik werk de lijst elke dag bij."
@@ -34,11 +34,11 @@ Compleet voer met minstens 10% korting en een score van 6 of hoger, gesorteerd o
 
 [[lijst korting=10 minscore=6 sort=korting n=9]]
 
-## Droogvoer aanbieding: de grootste kortingen
+## Droogvoer met de grootste korting
 
 [[lijst form=droog korting=10 sort=korting n=6]]
 
-## Natvoer aanbieding: de grootste kortingen
+## Natvoer met de grootste korting
 
 [[lijst form=nat korting=10 sort=korting n=6]]
 
@@ -64,4 +64,4 @@ Een paar dingen die je meer opleveren dan de hoogste korting:
 - **Let op de houdbaarheid.** Natvoer kun je makkelijk een jaar bewaren. Een open zak brokken wil je binnen zes tot acht weken leeg hebben. Koop dus niet meer droogvoer dan je kat in die tijd eet; zie [grootverpakking](/kattenvoer-grootverpakking/).
 - **Wissel niet steeds van voer.** Elke keer een ander merk omdat het in de aanbieding is, is voor de maag van je kat vervelend.
 
-Zoek je altijd het voordeligste, kijk dan bij [het goedkoopste kattenvoer per dag](/goedkoopste-kattenvoer/) of [goedkoop kattenvoer dat wel deugt](/goedkoop-kattenvoer/).
+Zoek je altijd het voordeligste, kijk dan bij [het goedkoopste kattenvoer per dag](/goedkoop-kattenvoer/) of [goedkoop kattenvoer dat wel deugt](/goedkoop-kattenvoer/).

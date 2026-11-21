@@ -10,7 +10,7 @@ seo_title: "Kosten kattenvoer per maand: reken het uit voor je kat"
 meta_description: "Wat kost kattenvoer per maand? Reken het uit voor jouw kat met de calculator: gewicht, nat of droog en het aantal katten. Met actuele prijzen van webshops."
 image: duo
 image_alt: "Twee katten bij een voerbak, kosten kattenvoer per maand"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/goedkoop-kattenvoer/, /kennisbank/natvoer-of-droogvoer/, /kattenvoer-vergelijken/]
@@ -45,9 +45,9 @@ Meer tips en voordelige keuzes staan bij [goedkoop kattenvoer](/goedkoop-kattenv
 
 ## Zo rekent de calculator de kosten van kattenvoer per maand
 
-Ik neem de prijs per kilo van elk compleet voer en reken met de hoeveelheid die een volwassen kat van 4 kilo gemiddeld per dag eet: 55 gram droogvoer of 240 gram natvoer. Voor een zwaardere of lichtere kat schaal ik dat mee met de energiebehoefte. Het blijft een schatting; de voertabel op de verpakking gaat altijd voor.
+Ik neem de prijs per kilo van elk compleet voer en reken met de hoeveelheid die een volwassen kat van 4 kilo gemiddeld per dag eet: 52 gram droogvoer of 240 gram natvoer. Voor een zwaardere of lichtere kat schaal ik dat mee met de energiebehoefte. Het blijft een schatting; de voertabel op de verpakking gaat altijd voor.
 
-## Kosten kattenvoer per maand: drie voorbeelden
+## Drie voorbeelden
 
 Om het concreet te maken, drie katten van 4 kilo met elk een ander menu. De bedragen komen uit de prijzen van vandaag.
 
@@ -65,7 +65,7 @@ Met twee of drie katten tellen kleine verschillen hard op. Tien cent per dag per
 - **Natvoer in grote blikken.** Een blik van 400 gram is per kilo vaak goedkoper dan losse zakjes, en met meer katten is het in één maaltijd op.
 - **Eén voer voor iedereen.** Tenzij een van je katten een dieet nodig heeft, maakt het het een stuk makkelijker als iedereen hetzelfde eet.
 
-## Kosten kattenvoer per maand: waar je niet op moet besparen
+## Waar je niet op moet besparen
 
 Besparen is prima, maar er zijn een paar dingen waar ik het niet zou doen:
 
@@ -79,7 +79,7 @@ Besparen is prima, maar er zijn een paar dingen waar ik het niet zou doen:
 
 Voer is meestal de grootste vaste kostenpost, maar niet de enige. Kattenbakkorrels, vaccinaties, ontwormen en vlooienmiddel komen er elk jaar bij. En dan zijn er de onverwachte rekeningen bij de dierenarts. Juist daarom is het fijn als je het voer goed op orde hebt: een gezonde kat op een goed gewicht kost je op de lange termijn minder.
 
-Wil je per voer zien wat het per maand kost, kijk dan bij elke review: daar staat de prijs per dag en per maand voor katten van 3 tot 6 kilo. Of gebruik de [vergelijker](/kattenvoer-vergelijken/) en sorteer op prijs per dag.
+Wil je per voer zien wat het per maand kost, kijk dan bij elke productanalyse: daar staat de prijs per dag en per maand voor katten van 3 tot 6 kilo. Of gebruik de [vergelijker](/kattenvoer-vergelijken/) en sorteer op prijs per dag.
 
 ## Kosten kattenvoer per maand bijhouden
 
@@ -89,4 +89,4 @@ Wil je echt weten wat je kat kost, schrijf dan een maand lang op wat je koopt en
 
 Een kitten eet per kilo veel meer dan een volwassen kat, en kittenvoer is vaak iets duurder. Toch valt het in euro's mee, omdat een kitten nog klein is. Reken in het eerste jaar op ongeveer hetzelfde bedrag als voor een volwassen kat, met een piek rond een maand of vijf als je kitten het hardst groeit. Na sterilisatie daalt de behoefte weer. Kittenvoer met een goede score vind je bij [kittenvoer](/kittenvoer/).
 
-Zet het bedrag dat je per maand kwijt bent eens naast de prijs per dag in mijn reviews. Vaak blijkt dat een beter voer maar een paar euro per maand meer kost dan je dacht.
+Zet het bedrag dat je per maand kwijt bent eens naast de prijs per dag in de productanalyses. Vaak blijkt dat een beter voer maar een paar euro per maand meer kost dan je dacht.

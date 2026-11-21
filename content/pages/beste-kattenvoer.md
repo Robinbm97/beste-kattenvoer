@@ -3,15 +3,15 @@ title: Beste kattenvoer
 slug: /beste-kattenvoer/
 template: landing
 primary_keyword: beste kattenvoer
-breadcrumb: Beste kattenvoer 2026
-h1: Het beste kattenvoer van 2026, eerlijk gekozen
+breadcrumb: Beste kattenvoer
+h1: Het beste kattenvoer, eerlijk gekozen per situatie
 lead: "Geen top 10 vol sponsors. Dit is mijn lijst met het beste kattenvoer per situatie, met per keuze wat het je per dag kost."
-seo_title: "Beste kattenvoer 2026: eerlijk vergeleken op etiket en prijs"
-meta_description: "Wat is het beste kattenvoer in 2026? Mijn keuzes per situatie: brokken, natvoer, kitten, senior en budget. Met prijs per dag en een kritische blik."
+seo_title: "Beste kattenvoer: eerlijk vergeleken op etiket en prijs"
+meta_description: "Wat is het beste kattenvoer? Mijn keuzes per situatie: brokken, natvoer, kitten, senior en budget. Met prijs per dag en een kritische blik."
 image: kom
 image_alt: "Kat eet het beste kattenvoer uit een metalen voerbak"
 featured: smolke
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims, wsava]
 related: [/goedkoop-kattenvoer/, /kattenvoer-vergelijken/, /kennisbank/kattenvoer-etiket-lezen/, /merken/]
@@ -46,13 +46,13 @@ Wil je meer droogvoer vergelijken, kijk dan bij [het beste droogvoer voor katten
 
 [[foto oranje "Rode kat eet het beste kattenvoer uit een zwarte kom"]]
 
-## Beste kattenvoer nat: mijn keuze
+## Natvoer: mijn keuze
 
 Natvoer geeft je kat extra vocht, en veel katten eten het graag. Het is wel veel duurder per dag. Mijn keuze is [Yarrah](/merken/yarrah/): biologisch, een helder etiket en per dag goedkoper dan veel niet-biologische premiummerken.
 
 [[lijst brand=yarrah form=nat n=3 label="Mijn keuze"]]
 
-## Beste kattenvoer met een krap budget
+## Met een krap budget
 
 Je wilt het beste, maar het moet betaalbaar blijven. Dan kies ik voor [IAMS](/merken/iams/) als brokken en [Voskes](/merken/voskes/) als natvoer. Allebei compleet en per dag ruim onder het gemiddelde.
 
@@ -62,13 +62,13 @@ Je wilt het beste, maar het moet betaalbaar blijven. Dan kies ik voor [IAMS](/me
 
 Meer opties staan bij [goedkoop kattenvoer](/goedkoop-kattenvoer/).
 
-## Beste kattenvoer als het geld er is
+## Als het geld er is
 
 Wil je je kat verwennen met een rijk etiket, dan zijn [Edgard & Cooper](/merken/edgard-en-cooper/), [Renske](/merken/renske/) en [Wellness Core](/merken/wellness-core/) mijn favorieten. Mooi voer, eerlijke recepten. Maar weet dat je per dag ongeveer twee keer zoveel betaalt als voor degelijke middenklasse.
 
 [[lijst brand=edgard-en-cooper,renske,wellness-core form=droog n=3]]
 
-## Beste kattenvoer voor kittens en senioren
+## Voor kittens en senioren
 
 Een kitten groeit en heeft meer energie en voedingsstoffen nodig. Een oudere kat heeft juist andere behoeften. Kies daarom altijd voer dat voor die levensfase bedoeld is. Mijn tips per leeftijd staan bij [kittenvoer](/kittenvoer/) en [senior kattenvoer](/senior-kattenvoer/).
 

@@ -10,7 +10,7 @@ seo_title: "Kattensnoepjes: welke zijn lekker, gezond en betaalbaar?"
 meta_description: "Kattensnoepjes en snacks vergeleken: hoeveel mag je geven, waar let je op en welke snacks zijn voordelig? Eerlijk advies voor een verwende kat."
 image: poot
 image_alt: "Kat likt zijn poot na kattensnoepjes"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/kattenvoer-gesteriliseerde-kat/, /kennisbank/hoeveel-kattenvoer-per-dag/, /beste-kattenvoer/]
@@ -32,7 +32,7 @@ Een snoepje als beloning, een likbare snack bij het borstelen: het hoort erbij. 
 
 [[foto likken "Kat likt zijn lippen na kattensnoepjes"]]
 
-## Kattensnoepjes kiezen: waar let je op?
+## Waar let je op?
 
 **Kijk naar het etiket.** Ook bij kattensnoepjes zegt een benoemde vleessoort meer dan “dierlijke bijproducten”.
 
@@ -42,7 +42,7 @@ Een snoepje als beloning, een likbare snack bij het borstelen: het hoort erbij. 
 
 **Breek ze.** Een snoepje in drie stukjes voelt voor je kat als drie beloningen.
 
-## Kattensnoepjes en de calorieën: zo reken je het uit
+## Zo reken je het uit
 
 Een kat van 4 kilo heeft ongeveer 200 kcal per dag nodig. Dat klinkt als veel, maar het is minder dan één boterham voor ons. De vuistregel van dierenartsen is dat snacks hooguit tien procent van de dagelijkse calorieën mogen zijn. Voor die kat is dat dus zo'n 20 kcal.
 

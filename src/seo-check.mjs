@@ -81,7 +81,7 @@ const q = ['/'];
 while (q.length) { const u = q.shift(); const p = pages.find((x) => x.url === u); if (!p) continue; p.internal.forEach((l) => { if (depth[l] === undefined && urls.has(l)) { depth[l] = depth[u] + 1; q.push(l); } }); }
 const count = (k) => pages.filter((p) => p.meta.index).reduce((o, p) => { o[p[k]] = (o[p[k]] || 0) + 1; return o; }, {});
 const sitemap = [...fs.readFileSync(path.join(DIST, 'sitemap.xml'), 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].replace(site.url, ''));
-const ctx = { site: site.url, urls, assets, inbound, depth, sitemap, descCount: count('description'), titleCount: count('title'), dupSlugs: Object.keys(slugCount).filter((k) => slugCount[k] > 1) };
+const ctx = { pages, site: site.url, urls, assets, inbound, depth, sitemap, descCount: count('description'), titleCount: count('title'), dupSlugs: Object.keys(slugCount).filter((k) => slugCount[k] > 1) };
 
 const isExcepted = (rule, url, tpl) => rule.exceptions.includes(url) || rule.exceptions.includes(tpl) || userExceptions.some((e) => e.rule === rule.id && (e.url === url || e.url === '*'));
 const findings = [];

@@ -10,7 +10,7 @@ seo_title: "Biologisch kattenvoer: beter voor je kat of je geweten?"
 meta_description: "Biologisch kattenvoer vergeleken op eiwit in droge stof, koolhydraten en prijs per dag. Wat het keurmerk wel en niet zegt, met de beste biologische keuzes."
 image: oranje
 image_alt: "Rode kat bij een bak biologisch kattenvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/merken/yarrah/, /merken/lilys-kitchen/, /graanvrij-kattenvoer/, /premium-kattenvoer/]
@@ -40,19 +40,19 @@ Compleet voer dat zich biologisch noemt, gesorteerd op mijn score.
 
 [[foto samen "Twee katten delen een bak biologisch kattenvoer"]]
 
-## Biologisch kattenvoer: wat kost het extra?
+## Wat kost het extra?
 
 Biologisch voer is bijna altijd duurder. Dat is logisch: biologisch vlees kost meer. Kijk op elke kaart naar de prijs per dag en vergelijk die met [het beste kattenvoer](/beste-kattenvoer/) zonder keurmerk. Vaak betaal je voor biologisch het dubbele per gram eiwit.
 
 Wil je biologisch maar met een krap budget, combineer dan: biologisch natvoer als traktatie en een goed, voordelig droogvoer als basis. Mijn oordeel over de twee grootste biologische merken lees je bij [Yarrah](/merken/yarrah/) en [Lily's Kitchen](/merken/lilys-kitchen/). En of duur ook beter is, zocht ik uit bij [premium kattenvoer](/premium-kattenvoer/).
 
-## Biologisch kattenvoer en het keurmerk: waar je op let
+## Het keurmerk: waar je op let
 
 In Nederland zie je op biologisch voer het Europese groene blaadje, soms aangevuld met het EKO-keurmerk. Dat Europese logo mag er alleen op als minimaal 95% van de agrarische ingrediënten biologisch is. Staat er alleen "met biologische kip", dan kan het zijn dat alleen de kip biologisch is. Kijk dus of het logo op de verpakking staat, en lees bij twijfel de samenstelling.
 
 Let ook op woorden als "natuurlijk", "puur" of "zonder chemische toevoegingen". Die zijn niet beschermd en zeggen niets over biologisch.
 
-## Biologisch kattenvoer: wat ik in de cijfers zie
+## Wat ik in de cijfers zie
 
 Biologisch natvoer heeft in mijn vergelijking vaak een redelijk tot goed eiwitgehalte, maar is per dag flink duurder dan gemiddeld. Bij biologische brokken zie ik wisselend eiwit; sommige gebruiken rijst of andere granen als basis, en dan zakt het eiwit naar de middenmoot. Biologisch en graanrijk gaan dus prima samen. Daarom kijk ik ook hier naar het etiket, niet alleen naar het blaadje.
 

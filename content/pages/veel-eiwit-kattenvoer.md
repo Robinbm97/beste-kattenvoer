@@ -6,12 +6,12 @@ primary_keyword: eiwitrijk kattenvoer
 breadcrumb: Veel eiwit, eerlijke prijs
 h1: Eiwitrijk kattenvoer, en wat het je kost
 lead: "Een kat is een vleeseter en heeft vooral dierlijk eiwit nodig. Ik rekende voor elk etiket uit hoeveel eiwit erin zit en wat je per 100 gram eiwit betaalt."
-seo_title: "Eiwitrijk kattenvoer: veel eiwit voor weinig geld (2026)"
+seo_title: "Eiwitrijk kattenvoer: veel eiwit voor weinig geld"
 meta_description: "Welk kattenvoer heeft veel eiwit voor weinig geld? Per etiket rekende ik het eiwit in droge stof en de prijs per 100 gram eiwit uit, plus wat te weinig heeft."
 image: oranje
 image_alt: "Rode kat eet eiwitrijk kattenvoer uit een zwarte kom"
 featured: wellness-core
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, fediaf_label, wsava]
 related: [/hoe-wij-scoren/, /kattenvoer/, /kennisbank/kattenvoer-etiket-lezen/, /goedkoop-kattenvoer/]
@@ -49,7 +49,7 @@ Ook veel eiwit, maar dan betaal je er flink voor. Vaak is dat het merk, de klein
 
 [[scoretabel mineiwit=42 sort=p100duur n=10]]
 
-## Kattenvoer met weinig eiwit: hier ben ik kritisch
+## Hier ben ik kritisch
 
 Dit voer heeft het minste eiwit in de droge stof van alles wat ik ken. Het is compleet en dus niet gevaarlijk, maar voor een vleeseter vind ik het mager. Het gat wordt meestal gevuld met granen of andere koolhydraten.
 
@@ -67,8 +67,8 @@ Wat kopen andere kattenbaasjes het meest? Dit zijn de populairste producten bij 
 
 Ik neem het percentage ruw eiwit en het vochtgehalte van het etiket. Eiwit gedeeld door (100 min vocht) geeft het eiwit in de droge stof. Voor de prijs neem ik de prijs per kilo en deel ik die door het aantal grammen eiwit per kilo. Alles staat uitgelegd bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
 
-## Veel eiwit kattenvoer: kan het te veel zijn?
+## Kan het te veel zijn?
 
 Voor een gezonde kat is veel eiwit geen probleem. Katten zijn gemaakt om vooral van eiwit en vet te leven. Alleen bij nierziekte ligt dat anders; daar bepaalt je dierenarts hoeveel eiwit je kat krijgt. Lees daarover bij [kattenvoer bij nierproblemen](/kattenvoer-nieren/).
 
-Wil je weten hoeveel eiwit je kat nu binnenkrijgt? Zoek je huidige voer op in de vergelijker. In de review staat hoeveel gram eiwit per dag hij eet bij zijn gewicht.
+Wil je weten hoeveel eiwit je kat nu binnenkrijgt? Zoek je huidige voer op in de vergelijker. In de analyse staat hoeveel gram eiwit per dag hij eet bij zijn gewicht.

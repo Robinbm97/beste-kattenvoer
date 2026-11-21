@@ -9,7 +9,7 @@ seo_title: "Over Robin, de maker van Beste-kattenvoer.nl en kattenbaasje"
 meta_description: "Wie maakt Beste-kattenvoer.nl? Robin, baasje van Mila en Nala. Hoe ik kattenvoer vergelijk, waar de prijzen vandaan komen en hoe ik eerlijk geld verdien."
 image: duo
 image_alt: "Twee katten eten samen uit een voerbak"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 ---
 ## Mila en Nala
@@ -22,7 +22,7 @@ Met twee katten gaat er elke maand flink wat voer doorheen. Ik merkte dat ik voo
 
 Dat wilde ik delen. Zonder iemand een schuldgevoel aan te praten, want niet iedereen heeft hetzelfde budget. En zonder te doen alsof duur altijd beter is.
 
-[[foto samen "Twee katten liggen samen, net als Mila en Nala"]]
+[[foto samen "Twee katten liggen samen op een bank"]]
 
 ## Hoe ik vergelijk
 

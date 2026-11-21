@@ -10,7 +10,7 @@ seo_title: "Hoeveel kattenvoer per dag? Tabel voor nat en droog voer"
 meta_description: "Hoeveel kattenvoer per dag heeft een kat nodig? Een duidelijke tabel voor droogvoer en natvoer per gewicht, plus tips om je kat op een gezond gewicht te houden."
 image: duo
 image_alt: "Twee katten eten de juiste hoeveelheid kattenvoer per dag"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/kattenvoer-gesteriliseerde-kat/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-kat/]
@@ -22,14 +22,14 @@ faq:
 ---
 ## Hoeveel kattenvoer per dag: de vuistregel
 
-Een gemiddelde volwassen huiskat van 4 kilo heeft per dag ruwweg 200 tot 250 kilocalorieën nodig. Hoeveel gram voer dat is, hangt af van hoe energierijk het voer is. Daarom verschilt het per merk. Deze tabel is een startpunt; de voertabel op de verpakking gaat altijd voor.
+Een gemiddelde volwassen huiskat van 4 kilo heeft per dag ruwweg 190 tot 250 kilocalorieën nodig: een rustige, gecastreerde binnenkat aan de onderkant, een actieve buitenkat aan de bovenkant. Hoeveel gram voer dat is, hangt af van hoe energierijk het voer is. Daarom verschilt het per merk. Deze tabel is een startpunt; de voertabel op de verpakking gaat altijd voor.
 
 | Gewicht kat | Alleen droogvoer | Alleen natvoer |
 |---|---|---|
-| 3 kg | ±45 gram | ±200 gram |
-| 4 kg | ±55 gram | ±240 gram |
-| 5 kg | ±65 gram | ±280 gram |
-| 6 kg | ±72 gram | ±315 gram |
+| 3 kg | ±43 gram | ±200 gram |
+| 4 kg | ±52 gram | ±240 gram |
+| 5 kg | ±60 gram | ±280 gram |
+| 6 kg | ±68 gram | ±315 gram |
 
 Geef je nat en droog door elkaar, deel dan allebei ongeveer door twee. Snoepjes tellen mee.
 
@@ -53,7 +53,7 @@ Voel aan de ribben: die moet je kunnen voelen onder een dun laagje vet. Van bove
 
 Met deze hoeveelheden reken ik op deze site de prijs per dag uit. Zo zie je dat gemiddeld droogvoer {{droog_mid_dag}} per dag kost en gemiddeld natvoer {{nat_mid_dag}}. Reken het voor jouw kat uit met de [kostencalculator](/kennisbank/kosten-kattenvoer-per-maand/).
 
-## Hoeveel kattenvoer per dag: rekenen met calorieën
+## Rekenen met calorieën
 
 De voertabel op de zak is een startpunt, maar fabrikanten rekenen vaak met een actieve kat. Voor een gemiddelde binnenkat is dat al snel te veel. Ik reken liever met calorieën. Een volwassen kat van 4 kilo heeft ongeveer 200 kcal per dag nodig. Een lichtere kat iets minder, een zwaardere iets meer.
 
@@ -62,13 +62,13 @@ Hoeveel gram dat is, hangt van het voer af:
 - **Droogvoer** heeft meestal 340 tot 420 kcal per 100 gram. Dat is 50 tot 60 gram per dag.
 - **Natvoer** heeft 70 tot 110 kcal per 100 gram. Dat is 180 tot 280 gram per dag, dus twee tot drie zakjes.
 
-In elke productreview op deze site staat een tabel met de grammen per dag voor katten van 3, 4, 5 en 6 kilo, berekend met de energie van dat voer. Dat is preciezer dan een vuistregel.
+In elke productanalyse op deze site staat een tabel met de grammen per dag voor katten van 3, 4, 5 en 6 kilo, berekend met de energie van dat voer. Dat is preciezer dan een vuistregel.
 
-## Hoeveel kattenvoer per dag: wegen, niet schatten
+## Wegen, niet schatten
 
 Het verschil tussen 50 en 65 gram brokken is één schepje. Op het oog zie je dat niet, maar het is 30% meer. Over een jaar is dat genoeg om je kat een kilo te laten aankomen. Daarom raad ik je aan: koop een keukenweegschaal en weeg de dagportie 's ochtends af in een bakje. Wat in het bakje zit, is wat je kat die dag krijgt, inclusief beloningen.
 
-## Hoeveel kattenvoer per dag: zo controleer je het gewicht
+## Zo controleer je het gewicht
 
 Het gewicht op de weegschaal zegt niet alles. Een grote kater van 6 kilo kan slank zijn, een kleine poes van 4,5 kilo te dik. Dierenartsen kijken daarom naar de lichaamsconditie:
 
@@ -80,7 +80,7 @@ Weeg je kat eens per maand. Til hem op terwijl je op de weegschaal staat, en tre
 
 > Komt je kat aan, haal dan tien procent van de portie af en weeg na een maand opnieuw. Valt hij af zonder dat je iets veranderde, ga dan naar de dierenarts.
 
-## Hoeveel kattenvoer per dag: verdelen over de dag
+## Verdelen over de dag
 
 Een kat in het wild eet tien tot twintig kleine prooien per dag. Daarom vinden veel katten het fijn om vaker kleine beetjes te eten. Je kunt de dagportie over drie of vier maaltijden verdelen, of brokken in een voerpuzzel doen zodat hij er even voor moet werken. Dat is ook goed tegen verveling bij binnenkatten.
 

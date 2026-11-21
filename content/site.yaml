@@ -26,7 +26,7 @@ footer:
   - title: Kiezen
     links:
       - { label: Kattenvoer vergelijken, url: /kattenvoer-vergelijken/ }
-      - { label: Beste kattenvoer 2026, url: /beste-kattenvoer/ }
+      - { label: Beste kattenvoer, url: /beste-kattenvoer/ }
       - { label: Goedkoop kattenvoer, url: /goedkoop-kattenvoer/ }
       - { label: Beste droogvoer, url: /beste-droogvoer-kat/ }
       - { label: Beste natvoer, url: /beste-natvoer-kat/ }
@@ -42,9 +42,6 @@ footer:
   - title: Keuzehulpen
     links:
       - { label: Wat is goed kattenvoer?, url: /wat-is-goed-kattenvoer/ }
-      - { label: Granen en weinig eiwit, url: /kattenvoer-granen-weinig-eiwit/ }
-      - { label: Kattenvoer test 2026, url: /kattenvoer-test/ }
-      - { label: Goedkoopste kattenvoer, url: /goedkoopste-kattenvoer/ }
       - { label: Kattenvoer aanbieding, url: /kattenvoer-aanbieding/ }
       - { label: Grootverpakking, url: /kattenvoer-grootverpakking/ }
       - { label: Kattenvoer in blik, url: /kattenvoer-in-blik/ }

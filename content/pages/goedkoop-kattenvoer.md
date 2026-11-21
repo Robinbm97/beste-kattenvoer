@@ -11,7 +11,7 @@ meta_description: "Goedkoop kattenvoer zonder in te leveren op de basis: de voor
 image: duo
 image_alt: "Twee katten eten samen goedkoop kattenvoer uit een voerbak"
 featured: iams
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims]
 related: [/beste-kattenvoer/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-kat/, /merken/iams/]
@@ -31,7 +31,15 @@ Wat wel klopt: tussen de goedkoopste en de duurste voeders zitten verschillen in
 
 > Ik zeg altijd: goedkoop is duurkoop. Maar bij kattenvoer betekent dat niet dat je het duurste moet kopen. Het betekent dat je niet het allergoedkoopste moet kopen zonder te kijken wat erin zit. Daartussen ligt een hele grote, betaalbare middenweg.
 
-## Goedkoop kattenvoer droog: de voordeligste brokken
+## Het goedkoopste kattenvoer per dag: zo reken ik
+
+Ik reken niet met de prijs per zak en ook niet alleen met de prijs per kilo. Een zak die per kilo goedkoop is, maar weinig calorieën heeft, moet je kat meer van eten. Daarom reken ik door naar de **prijs per dag** voor een volwassen kat van 4 kilo, op basis van de energie op het etiket.
+
+Het goedkoopste complete droogvoer kost vandaag {{goedkoopste_droog_dag}} per dag. De goedkoopste 10% droogvoer zit onder de {{droog_goedkoop_dag}}, het midden op {{droog_mid_dag}}. Bij natvoer betaal je voor dezelfde voeding gemiddeld zo'n {{verschil_nat_droog}} keer zoveel, omdat je voor het water betaalt.
+
+[[budgettabel]]
+
+## De voordeligste brokken
 
 Brokken zijn per dag veruit het voordeligst. Dit zijn de goedkoopste complete droogvoeders per dag, één per merk:
 

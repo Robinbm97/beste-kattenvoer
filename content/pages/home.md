@@ -10,7 +10,7 @@ meta_description: "Kattenvoer eerlijk vergeleken: prijs per dag, prijs per kilo 
 image: hero
 image_alt: "Rode kat kijkt omhoog naar zijn baasje, wachtend op kattenvoer"
 featured: smolke
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims, wsava]
 faq:
@@ -66,7 +66,7 @@ Het volledige overzicht staat bij [het beste kattenvoer van {{jaar}}](/beste-kat
 
 [[band likken "Lees de achterkant" "Op de voorkant staat marketing, op de achterkant staat de waarheid. Ik leg uit hoe je een etiket in vijf minuten leest." "/kennisbank/kattenvoer-etiket-lezen/|Zo lees je een etiket"]]
 
-## Kattenvoer kiezen: hier let ik op
+## Hier let ik op
 
 **Compleet of aanvullend.** Aanvullend voer is een traktatie, geen maaltijd. Op dit moment noemen {{aanvullend_aantal}} producten in de feed zichzelf aanvullend. Die markeer ik apart.
 
@@ -84,7 +84,7 @@ In de [kattenvoer-vergelijker](/kattenvoer-vergelijken/) filter je op nat of dro
 
 ## Beste kattenvoer kiezen zonder gedoe
 
-Heb je weinig tijd? Dan is dit mijn snelle route. Kies eerst nat, droog of een mix. Bepaal daarna wat je per dag wilt uitgeven. Open dan de vergelijker, zet dat bedrag als maximum en sorteer op hoogste score. Lees van de bovenste twee de review, en koop er één in een kleine verpakking. Lust je kat het en blijft zijn ontlasting goed, dan heb je je voer gevonden. Zo simpel kan het zijn.
+Heb je weinig tijd? Dan is dit mijn snelle route. Kies eerst nat, droog of een mix. Bepaal daarna wat je per dag wilt uitgeven. Open dan de vergelijker, zet dat bedrag als maximum en sorteer op hoogste score. Lees van de bovenste twee de analyse, en koop er één in een kleine verpakking. Lust je kat het en blijft zijn ontlasting goed, dan heb je je voer gevonden. Zo simpel kan het zijn.
 
 Twijfel je daarna nog, lees dan [wat goed kattenvoer is](/wat-is-goed-kattenvoer/). Daar staan de vijf checks die ik zelf altijd doe, ook in de supermarkt.
 

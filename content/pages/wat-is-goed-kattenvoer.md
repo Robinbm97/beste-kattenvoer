@@ -10,10 +10,10 @@ seo_title: "Wat is goed kattenvoer? 5 checks voor gezond kattenvoer"
 meta_description: "Wat is goed en gezond kattenvoer? Vijf checks die je zelf op de zak doet: compleet voer, vlees vooraan, eiwit in droge stof, koolhydraten en prijs."
 image: kom
 image_alt: "Kom met goed kattenvoer op een houten vloer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, fediaf_label, wsava, plantinga]
-related: [/kennisbank/kattenvoer-etiket-lezen/, /beste-kattenvoer/, /kattenvoer-granen-weinig-eiwit/, /hoe-wij-scoren/]
+related: [/kennisbank/kattenvoer-etiket-lezen/, /beste-kattenvoer/, /hoe-wij-scoren/]
 faq:
   - q: Wat is gezond kattenvoer?
     a: "Compleet voer met veel dierlijk eiwit, weinig vulling en een etiket waar je wijs uit wordt. Daarnaast telt de hoeveelheid: ook het beste voer is ongezond als je kat er te dik van wordt."
@@ -58,9 +58,19 @@ Dit is compleet droogvoer met minstens 40% eiwit in droge stof en een score van 
 
 [[lijst form=nat minscore=6.5 sort=ppd n=6]]
 
-## Goed kattenvoer: zo doe ik het rekenwerk voor je
+## Drie etiket-trucs met granen en eiwit
 
-Elke check heb ik voor {{etiket_aantal}} soorten voer al gedaan. Je vindt ze allemaal met score in de [vergelijker](/kattenvoer-vergelijken/). Wil je het zelf leren, lees dan [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/) en [kattenvoer met granen en weinig eiwit](/kattenvoer-granen-weinig-eiwit/). Hoe ik precies score, staat bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
+Er zijn drie trucs die ik steeds weer tegenkom.
+
+**1. Het percentage op de voorkant.** "Met kip" klinkt als een kipmaaltijd. Maar volgens de Europese etiketcode betekent "met kip" minimaal 4% kip. "Rijk aan kip" is minimaal 14%, en pas bij woorden als "menu" of "recept" moet er 26% in zitten. Staat er "smaak van kip", dan hoeft er nauwelijks kip in te zitten. In mijn vergelijking staan {{claim_met}} voeders met zo'n "met"- of "smaak"-naam.
+
+**2. Granen opsplitsen.** Ingrediënten staan op gewicht. Een fabrikant kan "maïs", "maïsmeel" en "maïsgluten" los vermelden, zodat elk apart kleiner is dan het vlees. Samen wegen ze vaak meer. Van de {{samenstelling_aantal}} samenstellingen die ik volledig kon lezen, staat bij **{{granen_vooraan}}** een graan bij de eerste twee ingrediënten.
+
+**3. Eiwit uit planten.** Maïsgluten, tarwegluten en soja-eiwit tellen gewoon mee in het eiwitpercentage. Het etiket ziet er dan beter uit dan het vlees rechtvaardigt. Bij {{plant_eiwit}} van die samenstellingen zag ik plantaardig eiwit hoog op de lijst.
+
+## Zo doe ik het rekenwerk voor je
+
+Elke check heb ik voor {{etiket_aantal}} soorten voer al gedaan. Je vindt ze allemaal met score in de [vergelijker](/kattenvoer-vergelijken/). Wil je het zelf leren, lees dan [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/) en [kattenvoer met granen en weinig eiwit](/wat-is-goed-kattenvoer/). Hoe ik precies score, staat bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
 
 ## Goed kattenvoer en je eigen kat
 

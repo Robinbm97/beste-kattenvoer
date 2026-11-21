@@ -8,7 +8,7 @@ const read = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) :
 
 // Gemiddeld voedingsadvies voor een volwassen kat van 4 kg (hele dag één soort voer).
 // Bron: richtlijnen op verpakkingen (FEDIAF-gebaseerd). Altijd een schatting.
-export const GRAMS_PER_DAY = { droog: 55, nat: 240, vers: 150 };
+export const GRAMS_PER_DAY = { droog: 52, nat: 240, vers: 150 }; // mediaan uit onze eigen etiketdata (NRC 2006, 200 kcal), nov 2026
 export const REF_CAT_KG = 4;
 // Schaal voor andere gewichten: energiebehoefte ~ gewicht^0,67 (FEDIAF)
 export const gramsFor = (form, kg) => GRAMS_PER_DAY[form] ? GRAMS_PER_DAY[form] * Math.pow(kg / REF_CAT_KG, 0.67) : null;
@@ -22,8 +22,19 @@ export function parseWeight(title, size = '') {
   const lead = t.match(/^(\d+)\s*x\s+/i);
   if (lead) { mult = num(lead[1]); t = t.slice(lead[0].length); }
   const src = t + ' ' + size;
-  const inner = src.match(/(\d+)\s*x\s*(\d+(?:[.,]\d+)?)\s*(kg|gr|gram|g)\b/i);
-  if (inner) return { grams: mult * num(inner[1]) * toG(num(inner[2]), inner[3]), units: mult * num(inner[1]), unitG: toG(num(inner[2]), inner[3]) };
+  // combipakketten (bijv. '3,5 kg + 12 x 85 g', droog plus nat): een prijs per kilo zegt dan niets
+  if (/\d\s*(kg|gr|gram|g)\b[^+]*\+\s*\d+\s*(x|stuks|blik|zak)/i.test(t)) return { grams: null, units: mult, unitG: null, combo: true };
+  // drievoudig: '4 x 12x85 g' of '4x12x85g'
+  const triple = src.match(/(\d+)\s*x\s*(\d+)\s*x\s*(\d+(?:[.,]\d+)?)\s*(kg|gr|gram|g)\b/i);
+  if (triple) { const u = num(triple[1]) * num(triple[2]); return { grams: mult * u * toG(num(triple[3]), triple[4]), units: mult * u, unitG: toG(num(triple[3]), triple[4]) }; }
+  const inner = src.match(/(\d+)\s*(?:blikken|blikjes|zakjes|pouches|stuks|st\.?)?\s*x\s*(\d+(?:[.,]\d+)?)\s*(kg|gr|gram|g)\b/i);
+  if (inner) {
+    // buitenste aantal midden in de titel: 'Tender Cuts - 4 x Kip 6x85 g' = 4 doosjes van 6 × 85 g
+    const before = src.slice(0, inner.index);
+    const outer = mult === 1 ? before.match(/\b(\d{1,2})\s*x\s+(?=[A-Za-zÀ-ÿ])/i) : null;
+    const m2 = outer ? num(outer[1]) : 1;
+    return { grams: mult * m2 * num(inner[1]) * toG(num(inner[2]), inner[3]), units: mult * m2 * num(inner[1]), unitG: toG(num(inner[2]), inner[3]) };
+  }
   const one = src.match(/(\d+(?:[.,]\d+)?)\s*(kg|gr|gram|g)\b/i);
   if (one) return { grams: mult * toG(num(one[1]), one[2]), units: mult, unitG: toG(num(one[1]), one[2]) };
   return { grams: null, units: mult, unitG: null };
@@ -66,6 +77,8 @@ export function classify(p) {
   if (has(/indoor|binnenkat/i, t)) flags.push('binnenkat');
   if (!has(/complete?\b|compleet/i, t) && has(/aanvullend(e)? (diervoed|voed|voer)|complementary/i, s)) flags.push('aanvullend');
   if (/almo nature/i.test(p.brand || '') && /\bHFC\b/.test(t) && !/complete|droog|daily/i.test(t)) flags.push('aanvullend');
+  // soepjes, bouillons en 'hydra'-zakjes zijn (vrijwel altijd) aanvullend: als hele maaltijd rekenen geeft onzinprijzen per dag
+  if (has(/\bsoup\b|\bsoep|kattensoep|hydra ?(life|care)|\bstew\b|stoofpot|bisque|dashi|broth|bouillon/i, t) && !has(/complete?\b|compleet/i, t)) flags.push('aanvullend');
   if (has(/diet|renal(?! plus)|\bnier(dieet|en)?\b|gastro|veterinary|dieetvoer|anallergenic|hypoallergenic|struviet|urinary s\/o|hepatic|metabolic|obesity|diabetes|satiety|vet diet|vetality|trovet/i, t)) flags.push('dieet');
   return { form, stage, flags: [...new Set(flags)] };
 }
@@ -122,7 +135,8 @@ export function loadCatalog(root) {
       bolRank: bolv.length ? Math.min(...bolv.map((v) => v.rank || 9999)) : null,
       key, id: slug(best.base).slice(0, 70) + '-' + hash(key),
       name: best.base, brand: best.brand, brandSlug: best.brandSlug,
-      form: best.form, stage: best.stage, flags: best.flags,
+      // het etiket weet het beter dan de titel: droog vocht <14% is brokken, ook als de feed 'nat' zegt
+      form: nv ? nv.nut.form : best.form, stage: best.stage, flags: best.flags,
       image: best.image, best, single, variants: vs, inStock: vs.some((v) => v.in_stock !== false),
       ppk: best.ppk, ppd: best.ppd, ean: best.ean,
       shops: [...new Set(vs.map((v) => v.shop))],
@@ -130,6 +144,8 @@ export function loadCatalog(root) {
   }
   // ppd herberekenen met energie van het voer als de beste variant zelf geen etiketdata had
   for (const p of products) {
+    // onwaarschijnlijke energie voor compleet voer: etiket waarschijnlijk verkeerd gelezen, niet mee laten rekenen
+    if (p.nut && !p.flags.includes('aanvullend') && !p.flags.includes('dieet') && ((p.form === 'nat' && p.nut.kcal100 < 60) || (p.form === 'droog' && (p.nut.kcal100 < 280 || p.nut.kcal100 > 520)))) { p.nutSuspect = true; p.nut = null; p.ppd = p.ppk ? (p.ppk * GRAMS_PER_DAY[p.form]) / 1000 : null; p.gpd = null; }
     if (p.nut && p.ppk) { p.gpd = Math.round((KCAL_DAY / p.nut.kcal100) * 100); p.ppd = (p.ppk * p.gpd) / 1000; }
     p.p100 = p.nut && p.ppk ? (p.ppk * 10) / p.nut.protein : null; // prijs per 100 gram eiwit
   }
@@ -138,6 +154,9 @@ export function loadCatalog(root) {
   for (const form of ['droog', 'nat']) p100[form] = products.filter((p) => p.form === form && p.p100 && !p.flags.includes('aanvullend')).map((p) => p.p100).sort((a, b) => a - b);
   const rank = (form, v) => { const a = p100[form]; if (!a.length) return 0.5; let i = 0; while (i < a.length && a[i] < v) i++; return i / a.length; };
   for (const p of products) p.score = p.nut && !p.flags.includes('aanvullend') ? scoreProduct(p, { p100, rank }) : null;
+  // volledige data: echte samenstelling én alle analytische bestanddelen van het etiket, vocht niet geschat.
+  // Alleen dan kan een productpagina de kernvraag 'wat zit erin en wat kost het' echt beantwoorden.
+  for (const p of products) p.complete = !!(p.nut && p.nut.sam && !p.nut.moistureEstimated && !p.nut.estimatedRest && p.nut.fiber != null && p.ppd);
   return { products, fetched: (plein && plein.fetched) || (bol && bol.fetched) || null, rawCount: raw.length };
 }
 

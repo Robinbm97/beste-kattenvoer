@@ -10,17 +10,17 @@ seo_title: "Kattenvoer vergelijken: alle merken op prijs per dag"
 meta_description: "Kattenvoer vergelijken op prijs per dag en per kilo. Filter op droog of nat, kitten of senior, graanvrij en gevoelige maag. Prijzen dagelijks bijgewerkt."
 image: oranje
 image_alt: "Rode kat eet uit een zwarte kom, kattenvoer vergelijken"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/beste-kattenvoer/, /goedkoop-kattenvoer/, /kennisbank/kosten-kattenvoer-per-maand/]
 faq:
   - q: Hoe reken je de prijs per dag uit?
-    a: "Ik neem de prijs per kilo en vermenigvuldig die met wat een volwassen kat van 4 kilo gemiddeld per dag eet: ongeveer 55 gram droogvoer of 240 gram natvoer als hij alleen dat eet."
+    a: "Ik neem de prijs per kilo en vermenigvuldig die met wat een volwassen kat van 4 kilo gemiddeld per dag eet: ongeveer 52 gram droogvoer of 240 gram natvoer als hij alleen dat eet."
   - q: Waarom staat aanvullend voer niet in de vergelijker?
     a: "Aanvullend voer is geen complete maaltijd. Het zou oneerlijk zijn om het op prijs per dag te vergelijken met voer dat dat wel is."
 ---
-## Kattenvoer vergelijken: zo werkt het
+## Zo werkt de vergelijker
 
 De vergelijker laat {{aantal_voer}} complete voeders zien: {{aantal_droog}} soorten droogvoer en {{aantal_nat}} soorten natvoer. Bij elk product zie je drie dingen: de prijs per dag, de prijs per kilo en de verpakking waarmee je het voordeligst uit bent. Heeft een webshop hetzelfde voer los en in een multipack, dan toon ik de voordeligste verpakking.
 
@@ -34,7 +34,7 @@ Natvoer bestaat voor ongeveer 80 procent uit water. Daardoor lijkt het per kilo 
 
 [[foto grijs "Grijze kat eet uit een voerbak, kattenvoer vergelijken"]]
 
-## Kattenvoer vergelijken: waar let ik nog meer op?
+## Waar ik nog meer op let
 
 De filters helpen je de juiste groep te vinden, maar kijk daarna altijd even naar het etiket:
 
@@ -44,7 +44,7 @@ De filters helpen je de juiste groep te vinden, maar kijk daarna altijd even naa
 
 Hoe je een etiket leest, leg ik stap voor stap uit in [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/). En mijn oordeel per merk staat bij [alle merken](/merken/).
 
-## Kattenvoer vergelijken met de filters
+## De filters gebruiken
 
 De vergelijker hierboven heeft een paar filters die je misschien niet meteen ziet. Even kort wat ze doen:
 
@@ -57,29 +57,29 @@ De vergelijker hierboven heeft een paar filters die je misschien niet meteen zie
 
 En dan het sorteren. Ik zou beginnen met **hoogste score** of **goedkoopste eiwit**. Dat laatste is mijn favoriet: je ziet dan bovenaan het voer waar je per euro het meeste eiwit krijgt.
 
-## Kattenvoer vergelijken: drie manieren die ik vaak gebruik
+## Drie manieren die ik zelf vaak gebruik
 
 **1. Ik heb een vast budget.** Kies de soort, zet het maximum per dag op je budget en sorteer op hoogste score. Alles wat je ziet, past in je budget, met het beste voer bovenaan.
 
 **2. Ik wil zoveel mogelijk eiwit.** Zet "veel eiwit" aan en sorteer op goedkoopste eiwit. Zo vind je eiwitrijk voer zonder de premiumprijs. Meer daarover lees je bij [veel eiwit voor weinig geld](/veel-eiwit-kattenvoer/).
 
-**3. Mijn kat eet nu merk X, is er iets beters?** Zoek op de naam van je huidige voer, open de review en kijk onderaan bij "Beter voor ongeveer hetzelfde geld". Daar staan voeders die hoger scoren en per dag niet meer dan 15% duurder zijn.
+**3. Mijn kat eet nu merk X, is er iets beters?** Zoek op de naam van je huidige voer, open de analyse en kijk onderaan bij "Beter voor ongeveer hetzelfde geld". Daar staan voeders die hoger scoren en per dag niet meer dan 15% duurder zijn.
 
-## Kattenvoer vergelijken: waar de gegevens vandaan komen
+## Waar de gegevens vandaan komen
 
 Alle prijzen komen uit de productfeeds van Plein.nl en bol.com en worden elke dag bijgewerkt. De etiketgegevens haal ik uit de productinformatie van bol.com. Van {{etiket_aantal}} soorten voer ken ik de analytische bestanddelen; die hebben een score. Van de rest zie je wel de prijs, maar geen score.
 
 > Mis je een voer, of zie je een fout in een etiket? Laat het me weten via de contactpagina. Ik pas het graag aan.
 
-## Kattenvoer vergelijken: de beperkingen
+## De beperkingen
 
 Een paar dingen die je moet weten. De prijs per dag is een schatting voor een volwassen kat van 4 kilo die alleen dat voer eet. Is je kat zwaarder, lichter of heel actief, dan schuift dat. De webshop blijft leidend voor de prijs, want aanbiedingen kunnen per uur veranderen. En ik vergelijk het etiket, niet de smaak: of jouw kat het lust, merk je pas als je het probeert. Hoe de score precies werkt, staat bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
 
-## Kattenvoer vergelijken op je telefoon
+## Op je telefoon
 
 De vergelijker werkt ook op je telefoon. De filters zitten daar achter de knop "Filters", zodat je meer ruimte hebt voor de resultaten. Tik de filters aan die je wilt en sluit het menu weer; het aantal resultaten past zich direct aan. Wil je opnieuw beginnen, gebruik dan "Wis filters". Handig in de winkel: zoek op de naam van het voer dat voor je in het schap staat, en je ziet meteen de score en de prijs per dag online.
 
-## Kattenvoer vergelijken voor meer katten
+## Met meer katten in huis
 
 Heb je meerdere katten, reken de prijs per dag dan keer het aantal katten. De calculator op de pagina over [kosten kattenvoer per maand](/kennisbank/kosten-kattenvoer-per-maand/) doet dat voor je. Een verschil van tien cent per dag per kat lijkt weinig, maar met drie katten is dat ruim honderd euro per jaar.
 
