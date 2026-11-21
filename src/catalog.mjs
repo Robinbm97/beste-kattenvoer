@@ -79,7 +79,7 @@ export function classify(p) {
   if (/almo nature/i.test(p.brand || '') && /\bHFC\b/.test(t) && !/complete|droog|daily/i.test(t)) flags.push('aanvullend');
   // soepjes, bouillons en 'hydra'-zakjes zijn (vrijwel altijd) aanvullend: als hele maaltijd rekenen geeft onzinprijzen per dag
   if (has(/\bsoup\b|\bsoep|kattensoep|hydra ?(life|care)|\bstew\b|stoofpot|bisque|dashi|broth|bouillon/i, t) && !has(/complete?\b|compleet/i, t)) flags.push('aanvullend');
-  if (has(/diet|renal(?! plus)|\bnier(dieet|en)?\b|gastro|veterinary|dieetvoer|anallergenic|hypoallergenic|struviet|urinary s\/o|hepatic|metabolic|obesity|diabetes|satiety|vet diet|vetality|trovet/i, t)) flags.push('dieet');
+  if (has(/diet|renal(?! plus)|\bnier(dieet|en)?\b|gastro|veterinary|dieetvoer|anallergenic|hypoallergenic|struviet|urinary s\/o|hepatic|metabolic|obesity|diabetes|satiety|vet diet|vetality|trovet|dieetvoeding|vetcare|\bvd\b|\bUR\b urinary|prescription diet|\bs\/o\b/i, t)) flags.push('dieet');
   return { form, stage, flags: [...new Set(flags)] };
 }
 
@@ -145,6 +145,11 @@ export function loadCatalog(root) {
   // ppd herberekenen met energie van het voer als de beste variant zelf geen etiketdata had
   for (const p of products) {
     // onwaarschijnlijke energie voor compleet voer: etiket waarschijnlijk verkeerd gelezen, niet mee laten rekenen
+    // natvoer met meer dan 80% eiwit in droge stof is vrijwel altijd pure vis of vlees in bouillon: aanvullend, geen maaltijd
+    if (p.nut && p.form === 'nat' && p.nut.pDM > 80 && !p.flags.includes('aanvullend')) {
+      if (/filet|fillet|broth|bouill?on|boullion|\bhfc\b|flakes|in (?:eigen )?nat\b/i.test(p.name)) p.flags = [...p.flags, 'aanvullend'];
+      else { p.nutSuspect = true; p.nut = null; } // waarschijnlijk etiket verkeerd uitgelezen: niet meerekenen, niets beweren
+    }
     if (p.nut && !p.flags.includes('aanvullend') && !p.flags.includes('dieet') && ((p.form === 'nat' && p.nut.kcal100 < 60) || (p.form === 'droog' && (p.nut.kcal100 < 280 || p.nut.kcal100 > 520)))) { p.nutSuspect = true; p.nut = null; p.ppd = p.ppk ? (p.ppk * GRAMS_PER_DAY[p.form]) / 1000 : null; p.gpd = null; }
     if (p.nut && p.ppk) { p.gpd = Math.round((KCAL_DAY / p.nut.kcal100) * 100); p.ppd = (p.ppk * p.gpd) / 1000; }
     p.p100 = p.nut && p.ppk ? (p.ppk * 10) / p.nut.protein : null; // prijs per 100 gram eiwit

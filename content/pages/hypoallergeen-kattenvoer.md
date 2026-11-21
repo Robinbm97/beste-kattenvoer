@@ -4,10 +4,10 @@ slug: /hypoallergeen-kattenvoer/
 template: landing
 primary_keyword: hypoallergeen kattenvoer
 breadcrumb: Hypoallergeen kattenvoer
-h1: Hypoallergeen kattenvoer, wat het wel en niet betekent
+h1: "Het beste hypoallergeen kattenvoer: tel de eiwitbronnen"
 lead: "Hypoallergeen staat op veel zakken, maar het woord is niet beschermd. Ik leg uit wanneer het echt iets betekent, en welk voer voor een gevoelige kat het proberen waard is."
-seo_title: "Hypoallergeen kattenvoer: wat het echt betekent en wat werkt"
-meta_description: "Is hypoallergeen kattenvoer zinvol? Het verschil tussen een marketingwoord en echt dieetvoer, plus de beste hypoallergene keuzes met eiwit en prijs per dag."
+seo_title: "Beste hypoallergeen kattenvoer: zo herken je echt goed voer"
+meta_description: "Het beste hypoallergeen kattenvoer heeft zo weinig mogelijk eiwitbronnen. Ik telde ze in {{hypo_n_sam}} samenstellingen; vaak zat er meer in dan de zak doet geloven."
 image: grijs
 image_alt: "Grijze kat met een gevoelige huid bij een bak hypoallergeen kattenvoer"
 updated: 2026-11-21
@@ -44,6 +44,18 @@ Dit is compleet droogvoer dat zichzelf geschikt noemt voor gevoelige katten, ges
 [[lijst form=nat flag=gevoelig sort=score n=6]]
 
 [[foto senior "Oudere kat eet rustig hypoallergeen kattenvoer"]]
+
+## Zo kies ik: zo weinig mogelijk dierlijke eiwitbronnen
+
+Een voedselallergie bij katten is bijna altijd een reactie op een eiwit, meestal van een dier dat de kat al vaak heeft gegeten. Hoe minder verschillende eiwitbronnen in een voer, hoe groter de kans dat je de boosdoener vermijdt. Daarom tel ik de dierlijke bronnen in de samenstelling: kip, rund, vis, lam, enzovoort.
+
+Van {{hypo_n_sam}} producten kon ik de samenstelling lezen. Van de {{hypo_n_gev}} daarvan met "sensitive" of "hypoallergeen" op de zak, hadden er **{{hypo_gev_multi}} twee of meer dierlijke eiwitbronnen**. Een "sensitive" kipvoer met ook vis en ei erin is voor een allergische kat geen oplossing.
+
+Dit zijn de complete voeders met één benoemde dierlijke eiwitbron volgens de samenstelling:
+
+[[ranking hypo]]
+
+> Let op: "één bron op het etiket" is nog geen garantie. Bij een echt vermoeden van allergie werkt alleen een eliminatiedieet van acht weken, met dieetvoer van je dierenarts. Daar staan er {{hypo_n_dieet}} van in de feed.
 
 ## Hypoallergeen dieetvoer van de dierenarts
 

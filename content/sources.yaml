@@ -7,3 +7,10 @@ bol_api: { title: "bol.com Marketing Catalog API (populairste kattenvoer, prijze
 plantinga: { title: "Plantinga, Bosch & Hendriks (2011). Estimation of the dietary nutrient profile of free-roaming feral cats. British Journal of Nutrition 106, S35–S48", url: "https://doi.org/10.1017/S0007114511002765" }
 iris: { title: "International Renal Interest Society – richtlijnen voor nierziekte bij katten", url: "http://www.iris-kidney.com/guidelines/" }
 icatcare_flutd: { title: "International Cat Care – Feline lower urinary tract disease (FLUTD)", url: "https://icatcare.org/advice/cystitis-and-lower-urinary-tract-disease/" }
+fediaf_mineralen: { title: "Coltherd e.a. (2021), overzicht fosfor bij katten met FEDIAF-normen: groei Ca:P 1:1–1,5:1, minimum fosfor volwassen 1,25 g/1000 kcal (J Vet Intern Med)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7694857/" }
+fediaf_cap_volwassen: { title: "Dietary calcium to phosphorus ratio affects postprandial phosphorus concentrations in feline plasma (Br J Nutr, 2021): FEDIAF Ca:P 1:1–2:1 voor volwassen katten", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9592954/" }
+summers2020: { title: "Summers e.a. (2020), fosfor, calcium en magnesium in commercieel kattenvoer (J Vet Intern Med)", url: "https://pubmed.ncbi.nlm.nih.gov/31883277/" }
+buckley2011: { title: "Buckley e.a. (2011), effect van vocht in het voer op de urine van katten (Br J Nutr)", url: "https://pubmed.ncbi.nlm.nih.gov/22005408/" }
+iris_dieet: { title: "IRIS – Diets for cats with chronic kidney disease", url: "https://www.iris-kidney.com/diets-for-cats-with-chronic-kidney-disease-ckd" }
+nrc_energie: { title: "Metabolisable energy content in canine and feline foods is best predicted by the NRC2006 equation (PLoS ONE, 2019)", url: "https://livrepository.liverpool.ac.uk/id/eprint/3063996" }
+fediaf_energie: { title: "FEDIAF (2021) energiebehoefte volwassen katten: gecastreerd/binnen 52–75 × kg^0,67 (via Vet Nursing Journal)", url: "https://vnj.bvna.org.uk/volume-38-july-2022/0150847001656508635/p30" }

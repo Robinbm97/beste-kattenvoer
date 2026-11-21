@@ -7,13 +7,13 @@ breadcrumb: Gesteriliseerde kat
 h1: Het beste kattenvoer voor een gesteriliseerde of gecastreerde kat
 lead: "Na sterilisatie of castratie verbrandt je kat vaak minder. Moet je dan ander voer geven, of gewoon minder? Mijn eerlijke antwoord."
 seo_title: "Beste kattenvoer voor een gesteriliseerde kat: zo kies je"
-meta_description: "Heeft een gesteriliseerde of gecastreerde kat speciaal kattenvoer nodig? Wat sterilised-voer doet, wanneer het helpt en welke merken goed en betaalbaar zijn."
+meta_description: "Het beste kattenvoer voor een gesteriliseerde kat: minder kcal, wel veel eiwit per hap. Ik rekende {{steri_n_label}} sterilised-brokken na en vond ook goed gewoon voer."
 image: duo
 image_alt: "Twee katten eten kattenvoer voor een gesteriliseerde kat"
 featured: purina-one
 updated: 2026-11-21
 published: 2026-11-18
-sources: [fediaf, wsava]
+sources: [fediaf, fediaf_energie, nrc_energie, wsava]
 related: [/kennisbank/hoeveel-kattenvoer-per-dag/, /beste-droogvoer-kat/, /beste-kattenvoer/]
 faq:
   - q: Waarom worden gesteriliseerde katten dik?
@@ -36,6 +36,22 @@ Na sterilisatie of castratie heeft een kat minder energie nodig, terwijl hij vaa
 [[lijst form=nat flag=gesteriliseerd n=6]]
 
 [[foto samen "Twee katten liggen samen, kattenvoer voor een gesteriliseerde kat"]]
+
+## Zo kies ik: minder energie, maar niet minder eiwit
+
+Een gesteriliseerde kat heeft minder energie nodig, maar evenveel bouwstoffen voor zijn spieren. Het beste voer geeft dus **weinig kcal per hap en veel eiwit per kcal**. Daar heb ik op gerekend, met de energieformule die FEDIAF aanbeveelt.
+
+Wat ik zag: de {{steri_n_label}} brokken met "sterilised" op de zak hebben gemiddeld {{steri_kcal_label}} kcal per 100 gram, tegen {{steri_kcal_rest}} kcal voor gewone brokken. {{steri_conclusie}} Slechts {{steri_hoog}} sterilised-brokken zitten boven het midden van {{steri_kcal_mid}} kcal.
+
+Maar je hoeft niet per se sterilised-voer te kopen. Ik vond {{steri_n_pick}} brokken met hooguit gemiddelde energie én minstens 9 gram eiwit per 100 kcal, met en zonder label. De beste staan hieronder:
+
+[[ranking steri]]
+
+Bij natvoer speelt energie minder, want natvoer heeft per hap veel minder kcal. Daar let ik vooral op eiwit per kcal:
+
+[[ranking steri_nat]]
+
+> Of je nu sterilised-voer koopt of niet: de grootste winst zit in afwegen. Een paar gram per dag te veel is over een jaar zo een halve kilo.
 
 ## Zo houd je een gesteriliseerde kat op gewicht
 

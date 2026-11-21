@@ -2,12 +2,12 @@
 title: Kattenvoer gevoelige maag
 slug: /kattenvoer-gevoelige-maag/
 template: landing
-primary_keyword: kattenvoer gevoelige maag
+primary_keyword: kattenvoer gevoelige darmen
 breadcrumb: Gevoelige maag
-h1: Kattenvoer voor een kat met een gevoelige maag
+h1: "Kattenvoer voor gevoelige darmen en een gevoelige maag"
 lead: "Braakt je kat vaak of heeft hij zachte ontlasting? Voer kan helpen, maar begin bij de juiste stap. Dit is wat ik zou doen."
-seo_title: "Kattenvoer voor een gevoelige maag: zo pak je het aan"
-meta_description: "Kattenvoer voor een gevoelige maag: wat je zelf kunt proberen, wanneer je naar de dierenarts gaat en welk voer voor gevoelige katten goed en betaalbaar is."
+seo_title: "Kattenvoer voor gevoelige darmen: licht verteerbaar kiezen"
+meta_description: "Kattenvoer voor gevoelige darmen: niet te vet, weinig ruwe celstof en zo min mogelijk wisselen. Mijn ranglijst uit {{gev_n}} soorten sensitive-voer, met prijs."
 image: bak
 image_alt: "Kat zit rustig in een voerbak met kattenvoer voor een gevoelige maag"
 featured: pro-plan
@@ -46,6 +46,14 @@ Een gevoelige maag kan veel oorzaken hebben: te snel eten, stress, haarballen, p
 ## Kattenvoer voor een gevoelige maag: nat
 
 [[lijst form=nat flag=gevoelig n=6]]
+
+## Zo kies ik: niet te vet, niet te veel ruwe celstof
+
+Bij gevoelige darmen helpt voer dat licht verteerbaar is. Op het etiket zie je dat vooral aan twee dingen: het vetgehalte en de ruwe celstof. Veel vet kan bij gevoelige katten zachte ontlasting geven, en veel onverteerbare vezel maakt het voer minder goed verteerbaar.
+
+Opvallend: voer met "sensitive" of "gevoelig" op de zak heeft gemiddeld {{gev_vergelijk}} ({{gev_vet_mid}} in droge stof) dan gemiddeld voer ({{vet_mid}}). {{gev_conclusie}} Dit is sensitive-voer met maximaal 22% vet en 5% ruwe celstof in de droge stof:
+
+[[ranking gevoelig]]
 
 ## Dieetvoer bij een gevoelige maag
 

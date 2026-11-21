@@ -5,6 +5,7 @@ import path from 'node:path';
 import yaml from 'js-yaml';
 import { marked } from 'marked';
 import { loadCatalog, tiers, budgetClass, gramsFor, GRAMS_PER_DAY, slug } from './catalog.mjs';
+import { buildRankings } from './rankings.mjs';
 import { firstIngredient, meatFirst, vagueMeat, KCAL_DAY, OPEN_LABEL, labelCheck, nameClaim, energySplit } from './nutrition.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -342,6 +343,7 @@ const uitlegBlock = (xs, n, seed) => { const ps = xs.filter((p) => HASPAGE(p)).s
 // ---------- markdown ----------
 function md(src, page) {
   src = src.replace(/\[\[lijst ([^\]]+)\]\]/g, (_, a) => { const q = parseArgs(a); const xs = select(q); const nU = q.uitleg != null ? Number(q.uitleg) : (q.form === 'snack' ? 0 : 3); return '\n\n' + grid(xs, { pick: q.label }) + (nU ? '\n\n' + uitlegBlock(xs, nU, hsh(page && page.slug)) : '') + '\n\n'; });
+  src = src.replace(/\[\[ranking (\w+)\]\]/g, (_, k) => '\n\n' + (RANK.tables[k] ?? `<!-- onbekende ranglijst ${k} -->`) + '\n\n');
   src = src.replace(/\[\[calc\]\]/g, () => '\n\n' + calc() + '\n\n');
   src = src.replace(/\[\[budgettabel\]\]/g, () => '\n\n' + budgetTable() + '\n\n');
   src = src.replace(/\[\[merken\]\]/g, () => '\n\n' + brandGrid() + '\n\n');
@@ -368,6 +370,10 @@ const vars = {
   goedkoopste_droog_dag: eur(cheapest('droog').ppd), datum: nlDate(CHECKED), jaar: '2026',
   aanvullend_aantal: nf(ALL.filter((p) => p.flags.includes('aanvullend')).length), graanvrij_aantal: nf(FOOD.filter((p) => p.flags.includes('graanvrij')).length),
 };
+
+// ---------- ranglijsten per categorie (src/rankings.mjs) ----------
+const RANK = buildRankings(ALL, { HASPAGE, purl, esc, eur, pct, pct1, score, formLabel });
+Object.assign(vars, RANK.vars);
 
 // ---------- statistiek voor productteksten ----------
 const med = (a) => { const b = a.filter((x) => x != null).sort((x, y) => x - y); return b.length ? b[Math.floor(b.length / 2)] : null; };
@@ -502,6 +508,9 @@ for (const pr of ALL.filter(HASPAGE)) {
   const d = `${pr.name}: ${pct1(pr.nut.pDM)} eiwit in droge stof, ${pr.p100 ? eur(pr.p100) + ' per 100 g eiwit en ' : ''}${eur(pr.ppd)} per dag. Score ${score(pr.score.total)}, berekend uit etiket en prijs.`;
   pages.push({ title: kw, slug: purl(pr), template: 'product', prod: pr, primary_keyword: kw, seo_title: t, meta_description: d.length > 160 ? d.slice(0, 157).replace(/\s\S*$/, '') + '…' : d, h1: `${kw}: ${kind} doorgerekend`, index: INDEX_PRODUCT(pr), breadcrumb: kw.length > 40 ? kw.slice(0, 38) + '…' : kw, updated: CHECKED, published: CHECKED, sources: ['fediaf', 'fediaf_label'], body: '', source: 'data/feed' });
 }
+
+// cijfers in titels, descriptions en intro's invullen (zodat ze met de feed meebewegen)
+for (const p of pages) for (const k of ['seo_title', 'meta_description', 'lead', 'h1']) if (typeof p[k] === 'string' && p[k].includes('{{')) p[k] = subst(p[k]);
 
 // ---------- logo ----------
 const logo = `<span class="logo" role="img" aria-label="Beste kattenvoer"><span class="lg-0" aria-hidden="true">beste</span><span class="lg-1" aria-hidden="true">KATTEN</span><span class="lg-2" aria-hidden="true">VOER</span></span>`;

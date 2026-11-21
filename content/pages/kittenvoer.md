@@ -4,16 +4,16 @@ slug: /kittenvoer/
 template: landing
 primary_keyword: kittenvoer
 breadcrumb: Kittenvoer
-h1: Kittenvoer kiezen zonder twijfel
+h1: "Het beste kittenvoer: eiwit, energie en de juiste mineralen"
 lead: "Een kitten groeit hard en heeft ander voer nodig dan een volwassen kat. Dit is het kittenvoer dat ik zou kiezen, met de prijs per dag erbij."
-seo_title: "Kittenvoer kiezen: het beste voer voor je kitten"
-meta_description: "Welk kittenvoer is het beste? Waarom een kitten speciaal voer nodig heeft, hoe lang je het geeft en welke merken goed en betaalbaar zijn. Eerlijk advies."
+seo_title: "Beste kittenvoer: zo kies je voer dat echt groei ondersteunt"
+meta_description: "Het beste kittenvoer: veel eiwit en een calcium-fosforverhouding binnen de FEDIAF-groeinorm. Ik rekende {{kit_n}} soorten kittenvoer na, met prijs per dag."
 image: kittens
 image_alt: "Twee kittens op een krabpaal wachten op kittenvoer"
 featured: edgard-en-cooper
 updated: 2026-11-21
 published: 2026-11-18
-sources: [fediaf, wsava]
+sources: [fediaf, fediaf_mineralen, wsava]
 related: [/beste-kattenvoer/, /kennisbank/hoeveel-kattenvoer-per-dag/, /kennisbank/kat-overzetten-op-ander-voer/]
 faq:
   - q: Tot welke leeftijd geef je kittenvoer?
@@ -36,6 +36,16 @@ Brokken voor kittens zijn kleiner en makkelijker te kauwen. Dit zijn goede compl
 [[lijst form=droog stage=kitten n=6]]
 
 [[foto kitten "Britse korthaar kitten eet kittenvoer uit een bakje"]]
+
+## Zo kies ik: eiwit, energie en de calcium-fosforverhouding
+
+Een kitten bouwt in een jaar een heel skelet. Daarvoor zijn niet alleen eiwit en energie belangrijk, maar ook de verhouding tussen calcium en fosfor. FEDIAF, de Europese branchevereniging, adviseert voor groeiende katten een verhouding **tussen 1:1 en 1,5:1**.
+
+Van {{kit_n}} soorten kittenvoer in de vergelijking staan calcium en fosfor bij {{kit_n_ratio}} op het etiket. Daarvan zitten er {{kit_n_ok}} binnen de norm, {{kit_n_buiten}} erbuiten. {{kit_conclusie}} Het eiwit ligt in het midden op {{kit_eiwit_mid}} in droge stof.
+
+Dit is kittenvoer met minstens 35% eiwit in droge stof én een Ca:P-verhouding binnen de FEDIAF-groeinorm:
+
+[[ranking kitten]]
 
 ## Natvoer voor kittens: zacht en lekker
 

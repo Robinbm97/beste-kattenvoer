@@ -4,10 +4,10 @@ slug: /graanvrij-kattenvoer/
 template: landing
 primary_keyword: graanvrij kattenvoer
 breadcrumb: Graanvrij kattenvoer
-h1: Graanvrij kattenvoer, nodig of marketing?
+h1: "Het beste graanvrij kattenvoer: graanvrij is nog niet koolhydraatarm"
 lead: "Graanvrij staat op steeds meer zakken. Maar is het beter voor je kat? Mijn eerlijke kijk, met de beste graanvrije keuzes als je het toch wilt."
-seo_title: "Graanvrij kattenvoer: beter voor je kat of vooral marketing?"
-meta_description: "Is graanvrij kattenvoer beter? Wat het wel en niet betekent, wanneer het zinvol is en welk graanvrij kattenvoer goed is voor een eerlijke prijs per dag."
+seo_title: "Beste graanvrij kattenvoer: let op de koolhydraten"
+meta_description: "Het beste graanvrij kattenvoer heeft ook echt weinig koolhydraten. Van {{gv_n_droog}} graanvrije brokken zat {{gv_hoog}} toch boven 30%. Mijn ranglijst met eiwit en prijs."
 image: grijs
 image_alt: "Kat eet graanvrij kattenvoer uit een metalen voerbak"
 featured: wellness-core
@@ -34,6 +34,16 @@ Op dit moment noemen {{graanvrij_aantal}} complete voeders in de vergelijking zi
 Er is geen bewijs dat graanvrij voer voor een gezonde kat beter is dan compleet voer met een beetje granen. Echte graanallergie is bij katten zeldzaam; vaker reageren katten op een bepaalde eiwitbron, zoals kip of vis. Heeft je kat jeuk of maagklachten, dan is uitzoeken op welke eiwitbron hij reageert zinvoller dan alleen granen weglaten. Lees daarover bij [kattenvoer voor een gevoelige maag](/kattenvoer-gevoelige-maag/).
 
 [[foto grijs "Grijze kat eet graanvrij kattenvoer uit een voerbak"]]
+
+## Zo kies ik: graanvrij én weinig koolhydraten
+
+Wie graanvrij koopt, wil meestal voer met meer vlees en minder vulling. Maar granen worden vaak vervangen door aardappel, erwten of tapioca. Ook dat zijn koolhydraten. Daarom kijk ik niet naar het woord graanvrij, maar naar de koolhydraten die ik uit het etiket uitreken.
+
+De uitkomst: graanvrije brokken hebben gemiddeld {{gv_kh_droog}} koolhydraten in de droge stof, gewone brokken {{kh_droog}}. {{gv_conclusie}} Van de {{gv_n_droog}} graanvrije brokken zitten er **{{gv_hoog}} boven 30% koolhydraten**.
+
+Dit is graanvrij voer dat ook echt weinig koolhydraten heeft, maximaal 25% in droge stof:
+
+[[ranking graanvrij]]
 
 ## Droogvoer zonder granen: goede keuzes
 

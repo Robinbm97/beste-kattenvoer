@@ -37,6 +37,12 @@ Voor de meeste katten kies ik [Smolke](/merken/smolke/) of [IAMS](/merken/iams/)
 
 [[foto brokken "Kom met brokken, het beste droogvoer voor een kat"]]
 
+## De top volgens de cijfers
+
+Dit zijn de hoogste scores van {{n_droog_score}} soorten complete kattenbrokken voor volwassen katten, met eiwit, koolhydraten en energie erbij. De score staat uitgelegd bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
+
+[[ranking top_droog]]
+
 ## Beste droogvoer kat als je iets meer wilt uitgeven
 
 Wil je een rijker etiket, dan kom je uit bij [Edgard & Cooper](/merken/edgard-en-cooper/), [Renske](/merken/renske/), [Acana](/merken/acana/) of [Wellness Core](/merken/wellness-core/). Mooi droogvoer, maar per dag ongeveer twee keer zo duur.
