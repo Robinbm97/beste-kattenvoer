@@ -11,7 +11,7 @@ meta_description: "Wat is het beste natvoer voor je kat? Ik vergeleek compleet n
 image: kom
 image_alt: "Kat eet het beste natvoer voor een kat uit een metalen bak"
 featured: yarrah
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims]
 related: [/beste-droogvoer-kat/, /kennisbank/natvoer-of-droogvoer/, /merken/almo-nature/, /goedkoop-kattenvoer/]

@@ -10,7 +10,7 @@ seo_title: "Premium kattenvoer: krijg je echt meer voor je geld?"
 meta_description: "Is premium kattenvoer beter? Ik vergeleek het duurste kattenvoer op prijs per 100 gram eiwit en vond voer met evenveel eiwit voor de helft van de prijs."
 image: tabbies
 image_alt: "Twee katten bij een bak premium kattenvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, plein_feed, bol_api]
 related: [/veel-eiwit-kattenvoer/, /beste-kattenvoer/, /merken/orijen/, /kattenvoer-vergelijken/]

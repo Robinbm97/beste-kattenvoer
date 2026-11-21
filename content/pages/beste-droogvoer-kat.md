@@ -11,7 +11,7 @@ meta_description: "Wat is het beste droogvoer voor je kat? Ik vergeleek alle com
 image: bak
 image_alt: "Grijze kat zit in een voerbak, het beste droogvoer voor een kat"
 featured: smolke
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims]
 related: [/beste-natvoer-kat/, /kennisbank/natvoer-of-droogvoer/, /goedkoop-kattenvoer/, /beste-kattenvoer/]

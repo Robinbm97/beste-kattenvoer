@@ -10,7 +10,7 @@ seo_title: "Kattenvoer grootverpakking: hoeveel bespaar je met 10 kg?"
 meta_description: "Kattenvoer in grootverpakking van 7 tot 15 kilo: hoeveel je per kilo bespaart, hoe lang een open zak goed blijft en welk voer in een grote zak het beste scoort."
 image: brokken
 image_alt: "Grote zak kattenvoer in grootverpakking met brokken in een schep"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [plein_feed, bol_api]
 related: [/goedkoop-kattenvoer/, /beste-droogvoer-kat/, /kattenvoer-aanbieding/, /merken/iams/]

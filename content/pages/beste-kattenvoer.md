@@ -11,7 +11,7 @@ meta_description: "Wat is het beste kattenvoer? Mijn keuzes per situatie: brokke
 image: kom
 image_alt: "Kat eet het beste kattenvoer uit een metalen voerbak"
 featured: smolke
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims, wsava]
 related: [/goedkoop-kattenvoer/, /kattenvoer-vergelijken/, /kennisbank/kattenvoer-etiket-lezen/, /merken/]

@@ -10,7 +10,7 @@ seo_title: "Kattenvoer volgens dierenartsrichtlijnen (WSAVA) uitgelegd"
 meta_description: "Welk kattenvoer raden dierenartsen aan, en waarom? De WSAVA-richtlijnen uitgelegd, plus hoe Royal Canin, Hill's en Pro Plan scoren op eiwit en prijs per dag."
 image: kitten
 image_alt: "Kitten bij de dierenarts naast een bak kattenvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [wsava, fediaf]
 related: [/merken/royal-canin/, /merken/hill-s/, /merken/pro-plan/, /urinary-kattenvoer/]

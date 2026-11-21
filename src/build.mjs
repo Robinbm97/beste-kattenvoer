@@ -752,10 +752,10 @@ for (const p of pages) {
   const file = p.template === 'notfound' ? '404.html' : path.join(p.slug.slice(1), 'index.html');
   fs.mkdirSync(path.join(DIST, path.dirname(file)), { recursive: true });
   fs.writeFileSync(path.join(DIST, file), html);
-  manifest.push({ url: p.slug, file, template: p.template, primary_keyword: p.primary_keyword || '', index: p.index !== false && p.template !== 'notfound', title: p.seo_title, description: p.meta_description, source: p.source });
+  manifest.push({ url: p.slug, file, template: p.template, updated: p.updated || CHECKED, primary_keyword: p.primary_keyword || '', index: p.index !== false && p.template !== 'notfound', title: p.seo_title, description: p.meta_description, source: p.source });
 }
 const indexable = manifest.filter((m) => m.index);
-fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexable.map((m) => `<url><loc>${abs(m.url)}</loc><lastmod>${isoDate(CHECKED)}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexable.map((m) => `<url><loc>${abs(m.url)}</loc><lastmod>${isoDate(m.updated)}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /seo-rapport/\n\n# AI-zoekmachines zijn welkom\nUser-agent: GPTBot\nUser-agent: OAI-SearchBot\nUser-agent: ChatGPT-User\nUser-agent: PerplexityBot\nUser-agent: ClaudeBot\nUser-agent: Claude-SearchBot\nUser-agent: Google-Extended\nAllow: /\nDisallow: /seo-rapport/\n\nSitemap: ${abs('/sitemap.xml')}\n`);
 {
   const clean = (b) => subst(String(b || '')).replace(/\[\[[^\]]*\]\]/g, '').replace(/\]\(\//g, `](${abs('/')}`).replace(/\n{3,}/g, '\n\n').trim();

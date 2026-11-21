@@ -10,7 +10,7 @@ seo_title: "Kattenvoer aanbieding: alleen korting op voer dat deugt"
 meta_description: "Kattenvoer in de aanbieding, gefilterd op voer dat ook goed scoort op eiwit en etiket. Felix, Gourmet, Royal Canin en IAMS met korting, dagelijks bijgewerkt."
 image: samen
 image_alt: "Twee katten bij een bak kattenvoer uit de aanbieding"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [plein_feed, bol_api]
 related: [/goedkoop-kattenvoer/, /kattenvoer-grootverpakking/, /merken/felix/]

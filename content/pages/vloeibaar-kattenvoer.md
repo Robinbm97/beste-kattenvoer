@@ -10,7 +10,7 @@ seo_title: "Vloeibaar kattenvoer: likbare snacks en soep voor katten"
 meta_description: "Vloeibaar kattenvoer zoals likbare tubes en kattensoep: wanneer het handig is, waarom het meestal aanvullend voer is en wat een portie kost."
 image: likken
 image_alt: "Kat likt aan vloeibaar kattenvoer uit een tube"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/kattensnoepjes/, /beste-natvoer-kat/, /urinary-kattenvoer/, /kattenvoer-nieren/]

@@ -10,7 +10,7 @@ seo_title: "Kattensnoepjes: welke zijn lekker, gezond en betaalbaar?"
 meta_description: "Kattensnoepjes en snacks vergeleken: hoeveel mag je geven, waar let je op en welke snacks zijn voordelig? Eerlijk advies voor een verwende kat."
 image: poot
 image_alt: "Kat likt zijn poot na kattensnoepjes"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/kattenvoer-gesteriliseerde-kat/, /kennisbank/hoeveel-kattenvoer-per-dag/, /beste-kattenvoer/]

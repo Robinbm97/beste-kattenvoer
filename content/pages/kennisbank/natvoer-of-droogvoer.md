@@ -10,7 +10,7 @@ seo_title: "Natvoer of droogvoer voor je kat? Voordelen en kosten"
 meta_description: "Natvoer of droogvoer voor je kat: de voor- en nadelen, wat het per dag kost en waarom combineren voor veel katten de slimste keuze is. Eerlijk uitgelegd."
 image: kom
 image_alt: "Kat eet uit een bak, natvoer of droogvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/beste-natvoer-kat/, /beste-droogvoer-kat/, /kennisbank/kosten-kattenvoer-per-maand/]

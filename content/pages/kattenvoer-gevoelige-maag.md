@@ -11,7 +11,7 @@ meta_description: "Kattenvoer voor een gevoelige maag: wat je zelf kunt proberen
 image: bak
 image_alt: "Kat zit rustig in een voerbak met kattenvoer voor een gevoelige maag"
 featured: pro-plan
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/graanvrij-kattenvoer/, /kennisbank/kat-overzetten-op-ander-voer/, /beste-kattenvoer/]

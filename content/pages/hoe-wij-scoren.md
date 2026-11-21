@@ -10,7 +10,7 @@ seo_title: "Hoe ik kattenvoer score: eiwit, koolhydraten en prijs"
 meta_description: "Uitleg van onze kattenvoer score: eiwit in droge stof (40%), prijs per 100 gram eiwit (25%), koolhydraten (20%) en het etiket (15%). Eerlijk en controleerbaar."
 image: brokken
 image_alt: "Brokken in een kom, de basis van onze kattenvoer score"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, fediaf_label, wsava]
 related: [/veel-eiwit-kattenvoer/, /kattenvoer/, /kennisbank/kattenvoer-etiket-lezen/]

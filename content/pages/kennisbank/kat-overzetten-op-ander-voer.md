@@ -10,7 +10,7 @@ seo_title: "Kat overzetten op ander voer: een schema van 10 dagen"
 meta_description: "Je kat overzetten op ander voer zonder maagklachten? Volg dit schema van 10 dagen, met tips voor kieskeurige katten en wat je doet als het misgaat."
 image: kom
 image_alt: "Kat eet uit een bak tijdens het overzetten op ander voer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [wsava]
 related: [/kattenvoer-gevoelige-maag/, /kittenvoer/, /beste-kattenvoer/]

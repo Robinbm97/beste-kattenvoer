@@ -10,7 +10,7 @@ meta_description: "Kattenvoer eerlijk vergeleken: prijs per dag, prijs per kilo 
 image: hero
 image_alt: "Rode kat kijkt omhoog naar zijn baasje, wachtend op kattenvoer"
 featured: smolke
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims, wsava]
 faq:

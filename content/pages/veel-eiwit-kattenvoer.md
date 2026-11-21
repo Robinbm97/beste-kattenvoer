@@ -11,7 +11,7 @@ meta_description: "Welk kattenvoer heeft veel eiwit voor weinig geld? Per etiket
 image: oranje
 image_alt: "Rode kat eet eiwitrijk kattenvoer uit een zwarte kom"
 featured: wellness-core
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, fediaf_label, wsava]
 related: [/hoe-wij-scoren/, /kattenvoer/, /kennisbank/kattenvoer-etiket-lezen/, /goedkoop-kattenvoer/]

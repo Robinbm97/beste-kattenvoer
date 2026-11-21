@@ -10,7 +10,7 @@ seo_title: "Hypoallergeen kattenvoer: wat het echt betekent en wat werkt"
 meta_description: "Is hypoallergeen kattenvoer zinvol? Het verschil tussen een marketingwoord en echt dieetvoer, plus de beste hypoallergene keuzes met eiwit en prijs per dag."
 image: grijs
 image_alt: "Grijze kat met een gevoelige huid bij een bak hypoallergeen kattenvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [wsava, fediaf]
 related: [/kattenvoer-gevoelige-maag/, /graanvrij-kattenvoer/, /beste-kattenvoer-volgens-dierenarts/, /kennisbank/kat-overzetten-op-ander-voer/]

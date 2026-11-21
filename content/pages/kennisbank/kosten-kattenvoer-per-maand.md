@@ -10,7 +10,7 @@ seo_title: "Kosten kattenvoer per maand: reken het uit voor je kat"
 meta_description: "Wat kost kattenvoer per maand? Reken het uit voor jouw kat met de calculator: gewicht, nat of droog en het aantal katten. Met actuele prijzen van webshops."
 image: duo
 image_alt: "Twee katten bij een voerbak, kosten kattenvoer per maand"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/goedkoop-kattenvoer/, /kennisbank/natvoer-of-droogvoer/, /kattenvoer-vergelijken/]

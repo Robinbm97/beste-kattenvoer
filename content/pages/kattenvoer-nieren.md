@@ -10,7 +10,7 @@ seo_title: "Kattenvoer bij nierproblemen: renal-voer eerlijk uitgelegd"
 meta_description: "Kattenvoer bij nierproblemen: waarom fosfor zo belangrijk is, wat renal-voer anders doet en waarom je het met je dierenarts kiest. Met de renal-diëten."
 image: senior
 image_alt: "Oudere kat met nierproblemen bij een bak renal kattenvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [iris, wsava]
 related: [/senior-kattenvoer/, /urinary-kattenvoer/, /beste-kattenvoer-volgens-dierenarts/, /beste-natvoer-kat/]

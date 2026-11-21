@@ -11,7 +11,7 @@ meta_description: "Is graanvrij kattenvoer beter? Wat het wel en niet betekent, 
 image: grijs
 image_alt: "Kat eet graanvrij kattenvoer uit een metalen voerbak"
 featured: wellness-core
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/kattenvoer-gevoelige-maag/, /kennisbank/kattenvoer-etiket-lezen/, /beste-kattenvoer/]

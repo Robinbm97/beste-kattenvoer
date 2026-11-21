@@ -9,7 +9,7 @@ seo_title: "Over Robin, de maker van Beste-kattenvoer.nl en kattenbaasje"
 meta_description: "Wie maakt Beste-kattenvoer.nl? Robin, baasje van Mila en Nala. Hoe ik kattenvoer vergelijk, waar de prijzen vandaan komen en hoe ik eerlijk geld verdien."
 image: duo
 image_alt: "Twee katten eten samen uit een voerbak"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 ---
 ## Mila en Nala

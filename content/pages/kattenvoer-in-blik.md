@@ -10,7 +10,7 @@ seo_title: "Kattenvoer in blik of zakjes: wat is goedkoper en beter?"
 meta_description: "Kattenvoer in blik vergeleken met maaltijdzakjes: prijs per kilo, bewaren, afval en eiwit. Met het beste natvoer in blik op score en prijs per dag."
 image: kom
 image_alt: "Kom met kattenvoer uit blik op een keukenvloer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [plein_feed, bol_api]
 related: [/beste-natvoer-kat/, /goedkoop-kattenvoer/, /kattenvoer-aanbieding/, /kennisbank/kosten-kattenvoer-per-maand/]

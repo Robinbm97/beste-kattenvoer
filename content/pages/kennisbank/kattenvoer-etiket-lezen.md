@@ -10,7 +10,7 @@ seo_title: "Kattenvoer etiket lezen: zo zie je wat er echt in zit"
 meta_description: "Leer een kattenvoer etiket lezen: compleet of aanvullend, wat ‘met kip’ echt betekent, open of gesloten samenstelling en analytische bestanddelen."
 image: bak
 image_alt: "Kat zit in een voerbak terwijl het baasje het kattenvoer etiket leest"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf_label, claims, fediaf, wsava]
 related: [/beste-kattenvoer/, /merken/almo-nature/, /graanvrij-kattenvoer/]

@@ -10,7 +10,7 @@ seo_title: "Hoeveel kattenvoer per dag? Tabel voor nat en droog voer"
 meta_description: "Hoeveel kattenvoer per dag heeft een kat nodig? Een duidelijke tabel voor droogvoer en natvoer per gewicht, plus tips om je kat op een gezond gewicht te houden."
 image: duo
 image_alt: "Twee katten eten de juiste hoeveelheid kattenvoer per dag"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/kattenvoer-gesteriliseerde-kat/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-kat/]

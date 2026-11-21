@@ -10,7 +10,7 @@ seo_title: "Wat is goed kattenvoer? 5 checks voor gezond kattenvoer"
 meta_description: "Wat is goed en gezond kattenvoer? Vijf checks die je zelf op de zak doet: compleet voer, vlees vooraan, eiwit in droge stof, koolhydraten en prijs."
 image: kom
 image_alt: "Kom met goed kattenvoer op een houten vloer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, fediaf_label, wsava, plantinga]
 related: [/kennisbank/kattenvoer-etiket-lezen/, /beste-kattenvoer/, /hoe-wij-scoren/]

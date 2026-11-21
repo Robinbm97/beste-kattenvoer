@@ -11,7 +11,7 @@ meta_description: "Goedkoop kattenvoer zonder in te leveren op de basis: de voor
 image: duo
 image_alt: "Twee katten eten samen goedkoop kattenvoer uit een voerbak"
 featured: iams
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims]
 related: [/beste-kattenvoer/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-kat/, /merken/iams/]

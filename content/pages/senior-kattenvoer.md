@@ -11,7 +11,7 @@ meta_description: "Senior kattenvoer voor oudere katten: vanaf welke leeftijd, w
 image: senior
 image_alt: "Oudere grijze kat rust bij zijn voerbak met senior kattenvoer"
 featured: iams
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/beste-kattenvoer/, /kennisbank/natvoer-of-droogvoer/, /kattenvoer-gevoelige-maag/]

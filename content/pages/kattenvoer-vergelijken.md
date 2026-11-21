@@ -10,7 +10,7 @@ seo_title: "Kattenvoer vergelijken: alle merken op prijs per dag"
 meta_description: "Kattenvoer vergelijken op prijs per dag en per kilo. Filter op droog of nat, kitten of senior, graanvrij en gevoelige maag. Prijzen dagelijks bijgewerkt."
 image: oranje
 image_alt: "Rode kat eet uit een zwarte kom, kattenvoer vergelijken"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/beste-kattenvoer/, /goedkoop-kattenvoer/, /kennisbank/kosten-kattenvoer-per-maand/]

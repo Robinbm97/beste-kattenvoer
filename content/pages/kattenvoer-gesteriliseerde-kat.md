@@ -11,7 +11,7 @@ meta_description: "Heeft een gesteriliseerde of gecastreerde kat speciaal katten
 image: duo
 image_alt: "Twee katten eten kattenvoer voor een gesteriliseerde kat"
 featured: purina-one
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/kennisbank/hoeveel-kattenvoer-per-dag/, /beste-droogvoer-kat/, /beste-kattenvoer/]

@@ -10,7 +10,7 @@ seo_title: "Kattenvoer uit de supermarkt: hoe goed zijn AH, Jumbo, Lidl?"
 meta_description: "Kattenvoer uit de supermarkt vergeleken: Felix, Whiskas, Gourmet, Sheba en Perfect Fit op eiwit, etiket en prijs per dag, plus wat je weet over de huismerken."
 image: duo
 image_alt: "Twee katten eten kattenvoer uit de supermarkt"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf_label, claims, plein_feed, bol_api]
 related: [/merken/felix/, /merken/whiskas/, /goedkoop-kattenvoer/, /wat-is-goed-kattenvoer/]

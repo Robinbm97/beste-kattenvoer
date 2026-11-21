@@ -10,7 +10,7 @@ seo_title: "Indoor kattenvoer voor binnenkatten: nodig of marketing?"
 meta_description: "Indoor kattenvoer vergeleken met gewoon voer: calorieën, vezels, eiwit en prijs per dag. Wat een binnenkat echt nodig heeft, met de beste indoor-keuzes."
 image: senior
 image_alt: "Binnenkat op de bank naast een bak indoor kattenvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/kattenvoer-gesteriliseerde-kat/, /beste-droogvoer-kat/, /wat-is-goed-kattenvoer/, /kennisbank/hoeveel-kattenvoer-per-dag/]

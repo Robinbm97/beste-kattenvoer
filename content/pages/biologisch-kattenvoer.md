@@ -10,7 +10,7 @@ seo_title: "Biologisch kattenvoer: beter voor je kat of je geweten?"
 meta_description: "Biologisch kattenvoer vergeleken op eiwit in droge stof, koolhydraten en prijs per dag. Wat het keurmerk wel en niet zegt, met de beste biologische keuzes."
 image: oranje
 image_alt: "Rode kat bij een bak biologisch kattenvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
 related: [/merken/yarrah/, /merken/lilys-kitchen/, /graanvrij-kattenvoer/, /premium-kattenvoer/]

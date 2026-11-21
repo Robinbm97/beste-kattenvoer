@@ -11,7 +11,7 @@ meta_description: "Welk kittenvoer is het beste? Waarom een kitten speciaal voer
 image: kittens
 image_alt: "Twee kittens op een krabpaal wachten op kittenvoer"
 featured: edgard-en-cooper
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/beste-kattenvoer/, /kennisbank/hoeveel-kattenvoer-per-dag/, /kennisbank/kat-overzetten-op-ander-voer/]
