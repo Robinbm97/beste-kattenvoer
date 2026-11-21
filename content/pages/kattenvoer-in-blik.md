@@ -13,7 +13,7 @@ image_alt: "Kom met kattenvoer uit blik op een keukenvloer"
 updated: 2026-11-18
 published: 2026-11-18
 sources: [plein_feed, bol_api]
-related: [/beste-natvoer-kat/, /goedkoopste-kattenvoer/, /kattenvoer-aanbieding/, /kennisbank/kosten-kattenvoer-per-maand/]
+related: [/beste-natvoer-kat/, /goedkoop-kattenvoer/, /kattenvoer-aanbieding/, /kennisbank/kosten-kattenvoer-per-maand/]
 faq:
   - q: Is kattenvoer in blik goedkoper dan zakjes?
     a: "In mijn vergelijking kost natvoer in blik gemiddeld {{blik_kg}} per kilo, en natvoer in zakjes {{zak_kg}}. Blik is dus {{blik_verschil}} {{blik_goedkoper}}. Grote blikken zijn per kilo meestal het voordeligst."
@@ -40,7 +40,7 @@ Natvoer in blik, gesorteerd op mijn score.
 
 [[foto likken "Kat likt na het eten van kattenvoer uit blik"]]
 
-## Kattenvoer in blik of zakjes: de andere verschillen
+## De andere verschillen
 
 - **Afval.** Lege blikjes mogen in de meeste gemeenten gewoon bij het PMD. Maaltijdzakjes zijn vaak een mix van plastic en aluminium en dus lastig te recyclen.
 - **Versheid.** Een zakje is in één keer op. Een groot blik moet in de koelkast en is binnen twee dagen op. Heb je één kleine kat, dan zijn kleine blikjes of zakjes soms praktischer.

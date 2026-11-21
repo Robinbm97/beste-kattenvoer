@@ -41,7 +41,7 @@ Natvoer is voor veel oudere katten fijn: zacht voor het gebit en extra vocht.
 
 [[lijst form=nat stage=senior n=6]]
 
-## Senior kattenvoer kiezen: mijn tips
+## Mijn tips
 
 **Weeg je kat elke maand.** Afvallen zonder reden is een reden voor de dierenarts.
 
@@ -51,11 +51,11 @@ Natvoer is voor veel oudere katten fijn: zacht voor het gebit en extra vocht.
 
 **Overweeg natvoer.** Een natvoermaaltijd per dag kan helpen met vocht. Lees meer in [natvoer of droogvoer](/kennisbank/natvoer-of-droogvoer/).
 
-## Senior kattenvoer: wanneer is je kat oud?
+## Wanneer is je kat oud?
 
 De meeste fabrikanten noemen een kat vanaf zeven jaar senior. Dat is vrij vroeg; veel katten van zeven zijn nog net zo fit als op hun vierde. Dierenartsen spreken vaak van een "mature" kat tussen zeven en tien jaar en een echte senior vanaf een jaar of elf. Kijk dus vooral naar je kat zelf: beweegt hij minder, wordt hij dunner of juist dikker, eet hij anders?
 
-## Senior kattenvoer: let op dun worden
+## Let op dun worden
 
 Bij oudere katten zie ik twee kanten. Sommige worden dikker omdat ze minder bewegen. Maar veel katten boven de twaalf worden juist dunner, omdat ze voedsel minder goed verteren of omdat er iets speelt, zoals een schildklier- of nierprobleem. Juist die katten hebben baat bij voer met veel eiwit en veel energie, niet bij een light-voer.
 

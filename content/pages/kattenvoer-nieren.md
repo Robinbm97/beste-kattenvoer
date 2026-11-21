@@ -36,7 +36,7 @@ Een nierdieet doet een paar dingen tegelijk:
 
 > Een renal-dieet is geen gewoon kattenvoer met een ander label. Het is een behandeling. Begin er dus niet zelf mee, en stop er ook niet zelf mee.
 
-## Kattenvoer voor de nieren: de renal-diëten op een rij
+## De renal-diëten op een rij
 
 Dit zijn nierdiëten die ik in de feeds van Plein.nl en bol.com vond. Ik zet ze hier voor het overzicht en de prijs per dag, niet als aanbeveling. Welk dieet past, bespreek je met je dierenarts.
 
@@ -44,7 +44,7 @@ Dit zijn nierdiëten die ik in de feeds van Plein.nl en bol.com vond. Ik zet ze 
 
 [[foto senior "Oudere kat rust na een maaltijd kattenvoer voor de nieren"]]
 
-## Kattenvoer voor de nieren: tips voor thuis
+## Tips voor thuis
 
 Katten met nierproblemen hebben vaak minder trek. Wat helpt:
 
@@ -55,13 +55,13 @@ Katten met nierproblemen hebben vaak minder trek. Wat helpt:
 
 Is je kat oud maar zijn de nieren in orde, dan is eiwit juist belangrijk. Lees daarover bij [senior kattenvoer](/senior-kattenvoer/). Ook bij blaasproblemen is water de sleutel: zie [urinary kattenvoer](/urinary-kattenvoer/).
 
-## Kattenvoer voor de nieren: waarom eiwit een lastig verhaal is
+## Waarom eiwit een lastig verhaal is
 
 Op de rest van mijn site zeg ik steeds: meer eiwit is beter. Bij nierziekte ligt dat anders, en ik wil uitleggen waarom. Bij het verwerken van eiwit ontstaan afvalstoffen die de nieren moeten wegwerken. Zieke nieren kunnen dat minder goed. Daarom bevatten nierdiëten minder eiwit dan gewoon voer, maar wel eiwit van hoge kwaliteit.
 
 Tegelijk is te weinig eiwit ook niet goed: dan breekt je kat zijn eigen spieren af. Het is dus een balans, en die hangt af van het stadium van de nierziekte. Precies daarom hoort de dierenarts te bepalen welk voer en wanneer.
 
-## Kattenvoer voor de nieren: als je kat het dieet niet lust
+## Als je kat het dieet niet lust
 
 Dit is een van de lastigste dingen voor baasjes. Nierdiëten zijn minder smakelijk, en katten met nierziekte hebben vaak al minder trek. Wat kan helpen:
 

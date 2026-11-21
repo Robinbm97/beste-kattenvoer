@@ -4,9 +4,9 @@ slug: /beste-kattenvoer-volgens-dierenarts/
 template: landing
 primary_keyword: beste kattenvoer volgens dierenarts
 breadcrumb: Volgens de dierenarts
-h1: Het beste kattenvoer volgens de dierenarts, waar kijken zij naar?
+h1: "Beste kattenvoer volgens de dierenarts: waar de richtlijnen naar kijken"
 lead: "Dierenartsen verkopen vaak Royal Canin, Hill's of Pro Plan. Is dat dan het beste voer? Ik zocht uit waar de richtlijnen voor dierenartsen echt naar kijken, en hoe die merken bij mij scoren."
-seo_title: "Beste kattenvoer volgens de dierenarts: waar letten zij op?"
+seo_title: "Kattenvoer volgens dierenartsrichtlijnen (WSAVA) uitgelegd"
 meta_description: "Welk kattenvoer raden dierenartsen aan, en waarom? De WSAVA-richtlijnen uitgelegd, plus hoe Royal Canin, Hill's en Pro Plan scoren op eiwit en prijs per dag."
 image: kitten
 image_alt: "Kitten bij de dierenarts naast een bak kattenvoer"

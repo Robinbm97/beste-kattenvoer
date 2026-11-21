@@ -51,7 +51,7 @@ Dit is dieetvoer met gehydrolyseerd eiwit of één eiwitbron. Mijn score kijkt n
 
 [[lijst dieet=alleen zoek=hypo|anallerg|sensitiv|hydrol sort=score n=6]]
 
-## Hypoallergeen kattenvoer proberen: zo pak je het aan
+## Zo pak je het aan
 
 Kies één voer en houd dat minimaal zes weken vol, zonder snoepjes of tafelresten ernaast. Eén likje kip kan de hele proef verpesten. Schakel rustig over in een week, zoals in [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/). Gaat het vooral om de maag en minder om jeuk, kijk dan ook bij [kattenvoer voor een gevoelige maag](/kattenvoer-gevoelige-maag/). En wil je weten waarom graanvrij hier zelden de oplossing is, lees dan [graanvrij kattenvoer](/graanvrij-kattenvoer/).
 

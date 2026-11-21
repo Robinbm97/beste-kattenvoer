@@ -2,11 +2,11 @@
 title: Beste droogvoer kat
 slug: /beste-droogvoer-kat/
 template: landing
-primary_keyword: beste droogvoer kat
+primary_keyword: beste kattenbrokken
 breadcrumb: Beste droogvoer
-h1: Het beste droogvoer voor je kat
+h1: De beste kattenbrokken, vergeleken per dag
 lead: "Brokken zijn per dag het voordeligst en makkelijk in gebruik. Maar welke zak is het geld echt waard? Mijn keuzes, van budget tot premium."
-seo_title: "Beste droogvoer kat 2026: brokken vergeleken per dag"
+seo_title: "Beste kattenbrokken: droogvoer voor je kat vergeleken"
 meta_description: "Wat is het beste droogvoer voor je kat? Ik vergeleek alle complete brokken op prijs per dag en etiket. Mijn keuzes van budget tot premium, eerlijk en duidelijk."
 image: bak
 image_alt: "Grijze kat zit in een voerbak, het beste droogvoer voor een kat"
@@ -70,4 +70,4 @@ Brokken lijken eindeloos houdbaar, maar zodra de zak open is, gaat de kwaliteit 
 
 ## Het beste droogvoer voor een kat die schrokt
 
-Sommige katten storten zich op hun bak en hebben de brokken binnen een minuut naar binnen gewerkt. Soms komen ze er net zo snel weer uit. Dat ligt meestal niet aan het voer, maar aan de snelheid. Een voerpuzzel, een anti-schrokbak met ribbels of de brokken verspreid over een groot bord dwingen je kat om rustiger te eten. Grotere brokken helpen ook: daar moet hij echt op kauwen. Kijk in de review van een voer naar de vorm en grootte van de brok, of probeer eerst een kleine zak.
+Sommige katten storten zich op hun bak en hebben de brokken binnen een minuut naar binnen gewerkt. Soms komen ze er net zo snel weer uit. Dat ligt meestal niet aan het voer, maar aan de snelheid. Een voerpuzzel, een anti-schrokbak met ribbels of de brokken verspreid over een groot bord dwingen je kat om rustiger te eten. Grotere brokken helpen ook: daar moet hij echt op kauwen. Kijk op de verpakking of bij de webshop naar de vorm en grootte van de brok, of probeer eerst een kleine zak.

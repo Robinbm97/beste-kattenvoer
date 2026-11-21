@@ -13,7 +13,7 @@ image_alt: "Twee katten bij een bak premium kattenvoer"
 updated: 2026-11-18
 published: 2026-11-18
 sources: [fediaf, plein_feed, bol_api]
-related: [/veel-eiwit-kattenvoer/, /beste-kattenvoer/, /merken/orijen/, /kattenvoer-test/]
+related: [/veel-eiwit-kattenvoer/, /beste-kattenvoer/, /merken/orijen/, /kattenvoer-vergelijken/]
 faq:
   - q: Wat is premium kattenvoer?
     a: "Een marketingterm zonder vaste regels. Meestal bedoelt een merk er voer mee met meer vlees, een korter etiket en een hogere prijs. Of dat klopt, zie je aan het eiwit in droge stof en de samenstelling."
@@ -42,12 +42,12 @@ En dit is droogvoer met minstens 42% eiwit in droge stof, gesorteerd op de laags
 
 [[foto brokken "Premium kattenvoer brokken van dichtbij"]]
 
-## Premium kattenvoer nat: de beste scores
+## De beste scores
 
 [[lijst form=nat sort=score n=6]]
 
-## Premium kattenvoer: mijn advies
+## Mijn advies
 
-Kies niet op het woord premium, maar op drie dingen: een benoemde vleessoort vooraan, veel eiwit in droge stof en een prijs per dag die je jaren kunt volhouden. Een kat heeft niets aan voer dat je over drie maanden niet meer kunt betalen. Meer van zulke voeders vind je bij [veel eiwit voor weinig geld](/veel-eiwit-kattenvoer/) en in [de kattenvoer test](/kattenvoer-test/). Benieuwd naar een echt premiummerk? Lees mijn oordeel over [Orijen](/merken/orijen/).
+Kies niet op het woord premium, maar op drie dingen: een benoemde vleessoort vooraan, veel eiwit in droge stof en een prijs per dag die je jaren kunt volhouden. Een kat heeft niets aan voer dat je over drie maanden niet meer kunt betalen. Meer van zulke voeders vind je bij [veel eiwit voor weinig geld](/veel-eiwit-kattenvoer/) en in [de kattenvoer test](/kattenvoer-vergelijken/). Benieuwd naar een echt premiummerk? Lees mijn oordeel over [Orijen](/merken/orijen/).
 
 Probeer het ook eens zo: neem je huidige voer en zoek in de vergelijker welk voer dezelfde score haalt voor minder geld per dag. Grote kans dat er iets tussen zit.

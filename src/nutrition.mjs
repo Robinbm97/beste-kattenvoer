@@ -27,7 +27,7 @@ export function parseNutrition(spec, form) {
   const a = ash ?? (form === 'droog' ? 7.5 : 2.2);
   const nfe = Math.max(0, 100 - protein - f - fi - a - moisture);
   const kcalLabel = grab(t, /energie\w*\s*:?\s*(\d{2,3}(?:[.,]\d+)?)\s*kcal\s*\/\s*100/i);
-  const kcalCalc = 3.5 * protein + 8.5 * f + 3.5 * nfe; // aangepaste Atwater (NRC)
+  const kcalCalc = metabolizableEnergy({ protein, fat: f, fiber: fi, nfe, moisture });
   const kcal100 = kcalLabel && kcalLabel > 40 && kcalLabel < 600 ? kcalLabel : kcalCalc;
   return {
     form, protein, fat, fiber, ash, moisture, moistureEstimated, estimatedRest: fat == null || ash == null,
@@ -36,7 +36,23 @@ export function parseNutrition(spec, form) {
   };
 }
 
-// Energiebehoefte: volwassen gecastreerde binnenkat ≈ 52 × kg^0,75 … we rekenen met 200 kcal voor 4 kg
+// Metaboliseerbare energie (kcal/100 g) volgens de NRC 2006-vergelijking voor katten, de methode die FEDIAF
+// aanbeveelt. De oude "aangepaste Atwater"-factoren (3,5/8,5/3,5) onderschatten de energie van commercieel
+// kattenvoer stelselmatig; getoetst tegen de etiketwaarden in onze eigen feed zat Atwater er gemiddeld ~6,5% onder.
+//   1. bruto-energie GE = 5,7 × eiwit + 9,4 × vet + 4,1 × (NFE + ruwe celstof)
+//   2. verteerbaarheid (%) = 87,9 − 0,88 × ruwe celstof in droge stof
+//   3. DE = GE × verteerbaarheid / 100
+//   4. ME = DE − 0,77 × eiwit (energieverlies via de urine bij katten)
+export function metabolizableEnergy({ protein, fat, fiber, nfe, moisture }) {
+  const ge = 5.7 * protein + 9.4 * fat + 4.1 * (nfe + fiber);
+  const fiberDM = (fiber / (100 - moisture)) * 100;
+  const digest = 87.9 - 0.88 * fiberDM;
+  return (ge * digest) / 100 - 0.77 * protein;
+}
+
+// Energiebehoefte van een volwassen kat van 4 kg. FEDIAF (2021): gecastreerde of binnenkatten 52–75 × kg^0,67
+// (132–190 kcal), actieve slanke katten 100 × kg^0,67 (253 kcal). We rekenen met 200 kcal: een gemiddelde
+// gecastreerde kat die af en toe actief is. Voor een rustige binnenkat is het iets minder.
 export const KCAL_DAY = 200;
 
 // samenstelling: alleen als het er echt als een ingrediëntenlijst uitziet
@@ -130,6 +146,8 @@ export function nameClaim(name) {
   return null;
 }
 // energieverdeling: welk deel van de calorieën komt uit eiwit, vet en koolhydraten
+// Bewust met de aangepaste Atwater-factoren: die geven per voedingsstof een verdeling, en zo wordt de
+// energieverdeling ook in vakliteratuur (en in het prooidieronderzoek waarmee we vergelijken) uitgerekend.
 export function energySplit(n) {
   const dm = 100 - n.moisture;
   const p = 3.5 * n.protein, f = 8.5 * (n.fDM * dm / 100), c = 3.5 * (n.nfeDM * dm / 100), t = p + f + c;

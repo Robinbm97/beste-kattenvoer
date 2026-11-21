@@ -22,7 +22,7 @@ Met twee katten gaat er elke maand flink wat voer doorheen. Ik merkte dat ik voo
 
 Dat wilde ik delen. Zonder iemand een schuldgevoel aan te praten, want niet iedereen heeft hetzelfde budget. En zonder te doen alsof duur altijd beter is.
 
-[[foto samen "Twee katten liggen samen, net als Mila en Nala"]]
+[[foto samen "Twee katten liggen samen op een bank"]]
 
 ## Hoe ik vergelijk
 

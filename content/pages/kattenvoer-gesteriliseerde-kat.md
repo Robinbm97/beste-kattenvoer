@@ -2,11 +2,11 @@
 title: Kattenvoer gesteriliseerde kat
 slug: /kattenvoer-gesteriliseerde-kat/
 template: landing
-primary_keyword: kattenvoer gesteriliseerde kat
+primary_keyword: beste kattenvoer gesteriliseerde kat
 breadcrumb: Gesteriliseerde kat
-h1: Kattenvoer voor een gesteriliseerde of gecastreerde kat
+h1: Het beste kattenvoer voor een gesteriliseerde of gecastreerde kat
 lead: "Na sterilisatie of castratie verbrandt je kat vaak minder. Moet je dan ander voer geven, of gewoon minder? Mijn eerlijke antwoord."
-seo_title: "Kattenvoer voor een gesteriliseerde kat: nodig of niet?"
+seo_title: "Beste kattenvoer voor een gesteriliseerde kat: zo kies je"
 meta_description: "Heeft een gesteriliseerde of gecastreerde kat speciaal kattenvoer nodig? Wat sterilised-voer doet, wanneer het helpt en welke merken goed en betaalbaar zijn."
 image: duo
 image_alt: "Twee katten eten kattenvoer voor een gesteriliseerde kat"
@@ -47,22 +47,22 @@ Na sterilisatie of castratie heeft een kat minder energie nodig, terwijl hij vaa
 
 Meer over hoeveelheden lees je in [hoeveel kattenvoer per dag](/kennisbank/hoeveel-kattenvoer-per-dag/).
 
-## Kattenvoer voor een gesteriliseerde kat: wat er in je kat verandert
+## Wat er in je kat verandert
 
 Na sterilisatie of castratie verandert de hormoonhuishouding. Je kat krijgt meer trek, terwijl hij minder energie verbruikt. Onderzoek laat zien dat de energiebehoefte na de ingreep met zo'n twintig tot dertig procent daalt. Geef je hetzelfde voer in dezelfde portie, dan komt je kat dus vrijwel zeker aan.
 
 Sterilisatievoer speelt daarop in met minder calorieën per 100 gram, vaak meer vezels voor een vol gevoel en soms iets voor de blaas. Dat kan helpen. Maar het werkt alleen als je de portie ook echt afweegt.
 
-## Kattenvoer gesteriliseerde kat: waar ik op let
+## Waar ik op let
 
 - **Eiwit hoog houden.** Een gesteriliseerde kat moet zijn spieren houden. Minder calorieën is prima, minder eiwit liever niet. Kijk dus naar het eiwit in droge stof, niet alleen naar de calorieën.
-- **Calorieën per 100 gram.** Bij brokken is onder de 370 kcal per 100 gram netjes. In mijn reviews zie je bij elk voer de energie en hoeveel gram per dag je kat nodig heeft.
+- **Calorieën per 100 gram.** Bij brokken is onder de 370 kcal per 100 gram netjes. In de productanalyses zie je bij elk voer de energie en hoeveel gram per dag je kat nodig heeft.
 - **Niet te veel vulling.** Sommige sterilisatievoeders halen de calorieën omlaag met extra koolhydraten. Dan verlies je eiwit en wint je niets.
 - **Water.** Gecastreerde katers hebben vaker blaasproblemen. Natvoer of een fontein helpt. Zie ook [urinary kattenvoer](/urinary-kattenvoer/).
 
 > Je hoeft niet per se speciaal sterilisatievoer te kopen. Een goed eiwitrijk voer in een iets kleinere, afgewogen portie werkt net zo goed. Het gaat om de hoeveelheid, niet om het etiket "sterilised".
 
-## Kattenvoer gesteriliseerde kat: als je kat al te zwaar is
+## Als je kat al te zwaar is
 
 Is je kat al flink aangekomen, ga dan niet zelf crashdiëten. Een kat die te snel afvalt of dagen niet eet, kan leververvetting krijgen, en dat is gevaarlijk. Veilig afvallen gaat langzaam: ongeveer één tot twee procent van het lichaamsgewicht per week. Voor een kat van 6 kilo is dat 60 tot 120 gram per week. Bespreek bij een flink overgewicht een plan met je dierenarts.
 

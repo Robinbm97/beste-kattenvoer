@@ -5,7 +5,7 @@ template: hub-kennisbank
 primary_keyword: kattenvoer score
 breadcrumb: Alle kattenvoer
 h1: Alle kattenvoer met onze score
-lead: "Elk voer waarvan ik het etiket ken, met een eigen review: eiwit in droge stof, koolhydraten, prijs per 100 gram eiwit en een eerlijke score."
+lead: "Elk voer waarvan ik het etiket ken, met een eigen analyse: eiwit in droge stof, koolhydraten, prijs per 100 gram eiwit en een eerlijke score."
 seo_title: "Alle kattenvoer met score: etiket, eiwit en prijs per dag"
 meta_description: "Overzicht van al het kattenvoer dat ik heb beoordeeld, per merk. Met onze score op basis van eiwit in droge stof, koolhydraten en prijs per 100 gram eiwit."
 image: tabbies

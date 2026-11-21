@@ -6,7 +6,7 @@ primary_keyword: kittenvoer
 breadcrumb: Kittenvoer
 h1: Kittenvoer kiezen zonder twijfel
 lead: "Een kitten groeit hard en heeft ander voer nodig dan een volwassen kat. Dit is het kittenvoer dat ik zou kiezen, met de prijs per dag erbij."
-seo_title: "Kittenvoer kiezen: het beste voer voor je kitten in 2026"
+seo_title: "Kittenvoer kiezen: het beste voer voor je kitten"
 meta_description: "Welk kittenvoer is het beste? Waarom een kitten speciaal voer nodig heeft, hoe lang je het geeft en welke merken goed en betaalbaar zijn. Eerlijk advies."
 image: kittens
 image_alt: "Twee kittens op een krabpaal wachten op kittenvoer"
@@ -37,27 +37,23 @@ Brokken voor kittens zijn kleiner en makkelijker te kauwen. Dit zijn goede compl
 
 [[foto kitten "Britse korthaar kitten eet kittenvoer uit een bakje"]]
 
-## Kittenvoer nat: zacht en lekker
+## Natvoer voor kittens: zacht en lekker
 
 Natvoer is voor jonge kittens vaak makkelijker te eten, zeker in de eerste weken na het spenen. Combineer gerust met brokken.
 
 [[lijst form=nat stage=kitten n=6]]
 
-## Kittenvoer: hoeveel en hoe vaak?
+## Hoeveel en hoe vaak?
 
 Een kitten heeft per kilo lichaamsgewicht meer energie nodig dan een volwassen kat. Volg de voertabel op de verpakking, die gaat uit van leeftijd en gewicht. Verdeel het over meerdere kleine maaltijden: vier tot vijf bij jonge kittens, en drie rond een half jaar.
 
 Weeg je kitten af en toe. Groeit hij gestaag en is hij speels en actief, dan zit je goed. Twijfel je, vraag het dan bij de eerste vaccinatie aan de dierenarts. Meer over hoeveelheden lees je bij [hoeveel kattenvoer per dag](/kennisbank/hoeveel-kattenvoer-per-dag/).
 
+Laat bij kittens gerust wat brokken staan zodat ze kunnen bijeten. Overvoeren is bij een groeiend kitten minder een probleem dan bij een volwassen kat. Na sterilisatie, vaak rond vijf of zes maanden, verandert dat wel: dan daalt de energiebehoefte en moet je beter gaan opletten.
+
 ## Van kittenvoer naar volwassen voer
 
 Rond twaalf maanden stap je over op voer voor volwassen katten. Doe dat geleidelijk, in een week tot tien dagen. Hoe je dat aanpakt, staat in [kat overzetten op ander voer](/kennisbank/kat-overzetten-op-ander-voer/). Is je kitten gecastreerd of gesteriliseerd, kijk dan ook naar [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/).
-
-## Kittenvoer: hoeveel en hoe vaak?
-
-Een kitten heeft per kilo lichaamsgewicht veel meer energie nodig dan een volwassen kat. Een kitten van vier maanden eet daarom per kilo bijna twee keer zoveel. Maar een kittenmaagje is klein. Verdeel het voer daarom over vier tot vijf maaltijden per dag tot een maand of zes, en daarna drie tot vier.
-
-Laat bij kittens gerust wat brokken staan zodat ze kunnen bijeten. Overvoeren is bij een groeiend kitten minder een probleem dan bij een volwassen kat. Na sterilisatie, vaak rond vijf of zes maanden, verandert dat wel: dan daalt de energiebehoefte en moet je beter gaan opletten.
 
 ## Wanneer stop je met kittenvoer?
 

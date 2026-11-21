@@ -13,7 +13,7 @@ image_alt: "Binnenkat op de bank naast een bak indoor kattenvoer"
 updated: 2026-11-18
 published: 2026-11-18
 sources: [fediaf]
-related: [/kattenvoer-gesteriliseerde-kat/, /beste-droogvoer-kat/, /kattenvoer-granen-weinig-eiwit/, /kennisbank/hoeveel-kattenvoer-per-dag/]
+related: [/kattenvoer-gesteriliseerde-kat/, /beste-droogvoer-kat/, /wat-is-goed-kattenvoer/, /kennisbank/hoeveel-kattenvoer-per-dag/]
 faq:
   - q: Wat is het verschil tussen indoor en gewoon kattenvoer?
     a: "Meestal iets minder calorieën per 100 gram en wat meer vezels, vaak met de belofte dat er minder haarballen ontstaan. De verschillen zijn klein; de portiegrootte maakt veel meer uit."
@@ -42,7 +42,7 @@ Compleet voer voor binnenkatten, gesorteerd op mijn score. Let op het eiwit: dat
 
 ## Indoor kattenvoer of gewoon minder geven?
 
-Allebei kan. Gewoon goed voer in een iets kleinere portie werkt ook, zolang je weegt. Hoeveel je precies geeft, lees je bij [hoeveel voer een kat per dag nodig heeft](/kennisbank/hoeveel-kattenvoer-per-dag/). Is je kat gesteriliseerd, kijk dan ook bij [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/). En wil je dat de calorieën vooral uit eiwit komen, lees dan [kattenvoer met granen en weinig eiwit](/kattenvoer-granen-weinig-eiwit/).
+Allebei kan. Gewoon goed voer in een iets kleinere portie werkt ook, zolang je weegt. Hoeveel je precies geeft, lees je bij [hoeveel voer een kat per dag nodig heeft](/kennisbank/hoeveel-kattenvoer-per-dag/). Is je kat gesteriliseerd, kijk dan ook bij [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/). En wil je dat de calorieën vooral uit eiwit komen, lees dan [kattenvoer met granen en weinig eiwit](/wat-is-goed-kattenvoer/).
 
 ## Indoor kattenvoer en haarballen
 
@@ -50,7 +50,7 @@ Veel indoor-voer belooft minder haarballen. Binnenkatten verharen vaak het hele 
 
 Dat werkt, maar borstelen werkt beter. Een paar keer per week een paar minuten borstelen haalt het losse haar weg voordat je kat het inslikt. Bij langharige katten is dat eigenlijk een must.
 
-## Indoor kattenvoer is niet genoeg: een binnenkat wil ook jagen
+## Een binnenkat wil ook jagen
 
 Een binnenkat mist vooral iets wat geen voer kan oplossen: de jacht. Een kat buiten besteedt uren per dag aan sluipen, wachten en springen. Binnen moet je dat een beetje nabootsen:
 
@@ -60,8 +60,8 @@ Een binnenkat mist vooral iets wat geen voer kan oplossen: de jacht. Een kat bui
 
 > Een binnenkat die verveeld is, eet vaak uit verveling. Spelen is dus ook gewoon een manier om zijn gewicht goed te houden.
 
-## Indoor kattenvoer: wat kost het extra?
+## Wat kost het extra?
 
-Indoor-voer is vaak niet veel duurder dan het gewone voer van hetzelfde merk. Maar omdat het minder calorieën heeft, heeft je kat er soms iets meer gram van nodig. Kijk daarom naar de prijs per dag in plaats van de prijs per zak. In elke review staat die voor een kat van 4 kilo, en in de tabel ook voor lichtere en zwaardere katten.
+Indoor-voer is vaak niet veel duurder dan het gewone voer van hetzelfde merk. Maar omdat het minder calorieën heeft, heeft je kat er soms iets meer gram van nodig. Kijk daarom naar de prijs per dag in plaats van de prijs per zak. In elke productanalyse staat die voor een kat van 4 kilo, en in de tabel ook voor lichtere en zwaardere katten.
 
-Kies je toch voor indoor-voer, kijk dan bij de review naar de energie per 100 gram en het eiwit. Dat zijn de twee getallen die voor een binnenkat het meeste zeggen.
+Kies je toch voor indoor-voer, kijk dan in de analyse naar de energie per 100 gram en het eiwit. Dat zijn de twee getallen die voor een binnenkat het meeste zeggen.
