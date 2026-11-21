@@ -27,7 +27,7 @@ Natvoer bestaat voor ongeveer 80 procent uit water. Voor katten, die van nature 
 
 > Ik snap iedereen die natvoer wil geven. Maar ik snap ook iedereen die schrikt van de rekening. Daarom vind ik combineren de slimste route: één natvoermaaltijd per dag en verder brokken.
 
-## Beste natvoer kat: compleet of aanvullend?
+## Compleet of aanvullend?
 
 Dit is de valkuil bij natvoer. Prachtige blikjes met hele stukken tonijn of kip zijn vaak **aanvullend voer**. Lekker, maar geen complete maaltijd. Op dit moment noemen {{aanvullend_aantal}} producten in de feed zichzelf aanvullend. Ik laat ze niet meetellen in mijn lijsten. Bekende voorbeelden zijn veel blikjes van [Almo Nature](/merken/almo-nature/) en de Complementary-lijn van [Schesir](/merken/schesir/).
 
@@ -39,19 +39,25 @@ Dit is de valkuil bij natvoer. Prachtige blikjes met hele stukken tonijn of kip 
 
 [[lijst brand=yarrah form=nat n=3 label="Mijn keuze"]]
 
-## Premium natvoer voor je kat
+## De top volgens de cijfers
+
+Mijn persoonlijke keuze hierboven is gebaseerd op het etiket én op wat ik van het merk weet. Hieronder staat wat alleen de cijfers zeggen: de hoogste scores van {{n_nat_score}} soorten compleet natvoer. Merken met een open samenstelling scoren hier soms hoog door hun eiwitgehalte; kijk dan ook even naar het etiket.
+
+[[ranking top_nat]]
+
+## Als het wat meer mag kosten
 
 Mag het wat meer kosten, kijk dan naar [Edgard & Cooper](/merken/edgard-en-cooper/), [Wellness Core](/merken/wellness-core/) en [Renske](/merken/renske/). Mooi natvoer, maar reken op ruim boven het gemiddelde per dag.
 
 [[lijst brand=edgard-en-cooper,wellness-core,renske form=nat n=3]]
 
-## Goedkoop natvoer voor je kat
+## Voordelig natvoer
 
 Dit is het voordeligste complete natvoer per dag. [Voskes](/merken/voskes/) springt eruit als budgetmerk met een redelijk etiket.
 
 [[lijst form=nat sort=ppd n=4]]
 
-## Natvoer kopen zonder te veel te betalen
+## Kopen zonder te veel te betalen
 
 Kleine bakjes van 85 gram zijn handig, maar per kilo het duurst. Blikken van 400 gram of multipacks van 12 tot 24 stuks zijn vaak een derde goedkoper. Gebruik een open blik binnen twee dagen en bewaar het afgedekt in de koelkast. Laat het voor het voeren even op kamertemperatuur komen, dan ruikt het lekkerder voor je kat.
 
@@ -61,7 +67,7 @@ Natvoer komt in een paar vormen, en katten hebben daar vaak uitgesproken meninge
 
 In de cijfers zie ik dat paté meestal iets beter scoort op eiwit dan stukjes in saus. Dat is geen wet: er is uitstekend voer in gelei. Maar als je kat geen voorkeur heeft, is paté vaak de slimste keus.
 
-## Beste natvoer bewaren en serveren
+## Bewaren en serveren
 
 - **Open blik of zakje:** afgedekt in de koelkast, binnen twee dagen op.
 - **Op kamertemperatuur geven.** Koud natvoer ruikt minder en wordt vaker geweigerd. Haal het een kwartier van tevoren uit de koelkast, of zet het bakje even in een kom warm water.

@@ -8,10 +8,10 @@ export function parseNutrition(spec, form) {
   if (!spec || !spec.ana) return null;
   const t = ' ' + spec.ana.replace(/\\,/g, ',').replace(/\((?:min|max)\.?\)/gi, ' ').replace(/:\s*:/g, ':').replace(/\((\d+(?:[.,]\d+)?)\s*%\)/g, ': $1%').replace(/(\d)%(?=[A-Za-z])/g, '$1% ').replace(/\s+/g, ' ') + ' ';
   const protein = grab(t, /(?:ruw(?:e)?\s*)?(?:eiwit(?:ten)?|prote[iï]ne?)\s*(?:gehalte)?\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
-  const fat = grab(t, /(?:ruw(?:e)?\s*vet(?:ten)?|vetgehalte|vetinhoud|ruwe oli[eë]n en vetten|oli[eë]n en vetten|\bvet(?:ten)?)\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
-  const fiber = grab(t, /(?:ruwe\s*celstof|celstof|ruwe\s*vezels?|vezels?)\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
-  const ash = grab(t, /(?:ruwe\s*as|ruwe\s*als|anorganische\s*stof|\bas)\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
-  let moisture = grab(t, /(?:vocht(?:gehalte)?|water)\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
+  const fat = grab(t, /(?:ruw(?:e)?\s*vet(?:ten)?|vetgehalte|vetinhoud|ruwe oli[eë]n en vetten|oli[eë]n en vetten|\bvet(?:ten)?|crude\s*(?:fat|oils? and fats)|fat content|\bfat)\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
+  const fiber = grab(t, /(?:ruwe\s*celstof|celstof|ruwe\s*vezels?|vezels?|crude\s*fib(?:re|er)s?|\bfib(?:re|er)s?)\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
+  const ash = grab(t, /(?:ruwe\s*as|ruwe\s*als|anorganische\s*stof|\bas|crude\s*ash|inorganic matter|\bash)\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
+  let moisture = grab(t, /(?:vocht(?:gehalte)?|water|moisture)\s*[:=]?\s*(\d+(?:[.,]\d+)?)\s*%?/i);
   let moistureEstimated = false;
   const formHint = moisture != null ? (moisture >= 50 ? 'nat' : moisture <= 14 ? 'droog' : null) : null;
   if (formHint && formHint !== form) form = formHint;
@@ -29,12 +29,45 @@ export function parseNutrition(spec, form) {
   const kcalLabel = grab(t, /energie\w*\s*:?\s*(\d{2,3}(?:[.,]\d+)?)\s*kcal\s*\/\s*100/i);
   const kcalCalc = metabolizableEnergy({ protein, fat: f, fiber: fi, nfe, moisture });
   const kcal100 = kcalLabel && kcalLabel > 40 && kcalLabel < 600 ? kcalLabel : kcalCalc;
+  const minerals = parseMinerals(t);
   return {
+    ...minerals,
     form, protein, fat, fiber, ash, moisture, moistureEstimated, estimatedRest: fat == null || ash == null,
     pDM: +pDM.toFixed(1), fDM: +((f / dm) * 100).toFixed(1), nfeDM: +((nfe / dm) * 100).toFixed(1), kcal100: Math.round(kcal100), kcalFromLabel: !!(kcalLabel && kcalLabel > 40 && kcalLabel < 600),
     sam: cleanSam(spec), doel: spec.doel || '', fabrikant: spec.fabrikant || '',
   };
 }
+
+// Calcium, fosfor en magnesium van het etiket, als % in het voer zoals het is.
+// Etiketten schrijven dit als %, als 'g' (per 100 g), als g/kg of als mg/kg. Waarden die na omrekenen
+// niet kunnen kloppen voor kattenvoer, laten we weg in plaats van te gokken.
+const RANGE = { ca: [0.05, 3.5], p: [0.05, 2.5], mg: [0.005, 0.35] };
+function mineral(t, re, key) {
+  const m = t.match(re);
+  if (!m) return null;
+  let v = num(m[1]);
+  const unit = (m[2] || '').toLowerCase().replace(/\s/g, '');
+  if (!Number.isFinite(v) || v <= 0) return null;
+  if (/^mg\/?kg/.test(unit)) v /= 10000;
+  else if (/^g\/?kg/.test(unit)) v /= 10;
+  else if (!/^%|^g\b|^g$/.test(unit)) {
+    // zonder eenheid: te hoog voor een percentage is waarschijnlijk g/kg of mg/kg
+    if (v > RANGE[key][1]) v = v > 100 ? v / 10000 : v / 10;
+  }
+  const [lo, hi] = RANGE[key];
+  return v >= lo && v <= hi ? v : null;
+}
+export function parseMinerals(t) {
+  const U = '\\s*[:=]?\\s*(\\d+(?:[.,]\\d+)?)\\s*(mg\\s*\\/\\s*kg|g\\s*\\/\\s*kg|%|g\\b)?';
+  return {
+    ca: mineral(t, new RegExp('\\bcalcium' + U, 'i'), 'ca'),
+    p: mineral(t, new RegExp('\\b(?:fosfor|phosphor(?:us)?|fosfaat)' + U, 'i'), 'p'),
+    mg: mineral(t, new RegExp('\\bmagnesium' + U, 'i'), 'mg'),
+  };
+}
+// per 1000 kcal (zo vergelijk je nat en droog eerlijk, en zo praten dierenartsen en IRIS erover)
+export const perMcal = (pct, kcal100) => (pct != null && kcal100 ? (pct / kcal100) * 1000 : null); // gram per 1000 kcal
+export const mgPer100kcal = (pct, kcal100) => (pct != null && kcal100 ? ((pct * 1000) / kcal100) * 100 : null); // mg per 100 kcal
 
 // Metaboliseerbare energie (kcal/100 g) volgens de NRC 2006-vergelijking voor katten, de methode die FEDIAF
 // aanbeveelt. De oude "aangepaste Atwater"-factoren (3,5/8,5/3,5) onderschatten de energie van commercieel

@@ -12,7 +12,7 @@ image: brokken
 image_alt: "Brokken in een kom, de basis van onze kattenvoer score"
 updated: 2026-11-21
 published: 2026-11-18
-sources: [fediaf, fediaf_label, wsava]
+sources: [fediaf, fediaf_label, nrc_energie, fediaf_energie, wsava]
 related: [/veel-eiwit-kattenvoer/, /kattenvoer/, /kennisbank/kattenvoer-etiket-lezen/]
 faq:
   - q: Waar komen de etiketgegevens vandaan?

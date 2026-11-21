@@ -7,7 +7,7 @@ breadcrumb: Beste kattenvoer
 h1: Het beste kattenvoer, eerlijk gekozen per situatie
 lead: "Geen top 10 vol sponsors. Dit is mijn lijst met het beste kattenvoer per situatie, met per keuze wat het je per dag kost."
 seo_title: "Beste kattenvoer: eerlijk vergeleken op etiket en prijs"
-meta_description: "Wat is het beste kattenvoer? Mijn keuzes per situatie: brokken, natvoer, kitten, senior en budget. Met prijs per dag en een kritische blik."
+meta_description: "Wat is het beste kattenvoer voor jouw kat? Mijn keuzes per situatie: brokken, natvoer, kitten, senior en budget. Met prijs per dag en een kritische blik."
 image: kom
 image_alt: "Kat eet het beste kattenvoer uit een metalen voerbak"
 featured: smolke

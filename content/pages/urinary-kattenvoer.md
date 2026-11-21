@@ -4,15 +4,15 @@ slug: /urinary-kattenvoer/
 template: landing
 primary_keyword: urinary kattenvoer
 breadcrumb: Urinary kattenvoer
-h1: Urinary kattenvoer en blaasgruis, wat helpt echt?
+h1: "Het beste urinary kattenvoer bij blaasgruis: vocht, magnesium en fosfor"
 lead: "Blaasgruis of blaasontsteking bij je kat is schrikken. Urinary-voer kan helpen, maar water is minstens zo belangrijk. Mijn eerlijke uitleg, met het voer dat ik vergeleek."
-seo_title: "Urinary kattenvoer bij blaasgruis: wat helpt echt?"
-meta_description: "Urinary kattenvoer bij blaasgruis: dieetvoer of gewone urinary-brokken, waarom water zo belangrijk is en welk voer je overlegt met je dierenarts."
+seo_title: "Beste urinary kattenvoer bij blaasgruis: zo kies je"
+meta_description: "Het beste urinary kattenvoer bij blaasgruis: ik rekende magnesium en fosfor per kcal uit voor {{uri_n_mg}} soorten voer. Met natvoer voorop en dieetvoer apart."
 image: tabbies
 image_alt: "Twee katten drinken water naast een bak urinary kattenvoer"
-updated: 2026-11-18
+updated: 2026-11-21
 published: 2026-11-18
-sources: [icatcare_flutd, wsava]
+sources: [icatcare_flutd, buckley2011, summers2020, wsava]
 related: [/beste-natvoer-kat/, /kattenvoer-gesteriliseerde-kat/, /beste-kattenvoer-volgens-dierenarts/, /kattenvoer-nieren/]
 faq:
   - q: Welk kattenvoer is goed bij blaasgruis?
@@ -22,7 +22,7 @@ faq:
   - q: Wanneer moet ik met spoed naar de dierenarts?
     a: "Als een kater herhaaldelijk op de bak zit en er niets of bijna niets uitkomt. Een verstopte urinebuis is levensgevaarlijk en is altijd een spoedgeval."
 ---
-## Urinary kattenvoer: eerst even dit
+## Eerst even dit
 
 Zit je kater steeds op de bak en komt er weinig of niets uit? Ga dan vandaag nog naar de dierenarts. Een verstopte urinebuis is levensgevaarlijk. Deze pagina is voor daarna, of als je wilt voorkomen dat het gebeurt.
 
@@ -33,7 +33,21 @@ Problemen met de blaas bij katten hebben verschillende oorzaken. Heel vaak is he
 
 Welk soort het is, kan alleen je dierenarts vaststellen. Daarom zet ik dieetvoer op deze pagina apart.
 
-## Urinary kattenvoer en water: de grootste winst
+## Zo kies ik: vocht eerst, dan magnesium en fosfor
+
+Struviet bestaat uit magnesium, ammonium en fosfaat. Voer dat helpt voorkomen, heeft daarom weinig magnesium en fosfor en maakt de urine iets zuurder. Calciumoxalaat voorkom je vooral met verdunde urine, dus met veel vocht. In onderzoek gaf voer met 73% vocht duidelijk dunnere urine dan droogvoer.
+
+Daarom zet ik bij deze ranglijst **vocht voorop** en reken ik magnesium **per 100 kcal** uit. Dat is eerlijker dan het percentage op de zak: natvoer lijkt anders altijd laag, alleen omdat het uit water bestaat. Van {{uri_n_mg}} soorten voer staat magnesium op het etiket. Het midden ligt op {{uri_mg_mid}} mg per 100 kcal. Voer met "urinary" op de zak zit gemiddeld op {{uri_mg_label}} mg.
+
+Dit is gewoon onderhoudsvoer, geen dieet. Het geneest niets, maar is een logische keuze voor een kat die er gevoelig voor is:
+
+[[ranking urinary_nat]]
+
+Geeft je kat liever brokken? Dit zijn de brokken met de minste magnesium per kcal. Zet er dan altijd extra water of een natte maaltijd naast:
+
+[[ranking urinary_droog]]
+
+## Water: de grootste winst
 
 Wat bij elke vorm van blaasproblemen helpt: meer water. Verdunde urine geeft gruis minder kans. En daar heeft voer veel invloed op. Natvoer bestaat voor zo'n 80% uit vocht, droogvoer voor 8 tot 10%. Een kat die alleen brokken eet, krijgt via zijn voer dus bijna geen vocht binnen.
 
@@ -49,17 +63,19 @@ Dit is gewoon compleet voer dat zich richt op gezonde urinewegen. Het is geen me
 
 [[lijst flag=urinewegen sort=score n=6]]
 
-## Urinary dieetvoer van de dierenarts
+## Dieetvoer van de dierenarts
 
 Dit is dieetvoer voor katten met vastgestelde blaasproblemen. Mijn score zegt hier eerlijk gezegd weinig: of het werkt, hangt af van het soort gruis. Geef het alleen in overleg met je dierenarts.
 
-[[lijst dieet=alleen zoek=urinary|s\/o|struvi sort=score n=6]]
+In de feed staan {{uri_n_dieet}} urinary-dieetvoeders. Ik rangschik ze bewust niet: welk dieet past, hangt af van het soort gruis.
 
-## Urinary kattenvoer en een gesteriliseerde kat
+[[ranking urinary_dieet]]
+
+## Blaasproblemen en een gesteriliseerde kat
 
 Gecastreerde katers en katten die weinig bewegen en te zwaar zijn, hebben vaker last van hun blaas. Let dus ook op het gewicht van je kat; zie [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/). Wil je weten hoe dierenartsen naar voer kijken, lees dan [het beste kattenvoer volgens de dierenarts](/beste-kattenvoer-volgens-dierenarts/).
 
-## Urinary kattenvoer en stress
+## De rol van stress
 
 Een blaasontsteking zonder duidelijke oorzaak heeft vaak met stress te maken. Een verhuizing, een nieuwe kat in huis, een kat van de buren die door het raam staart, of een vieze kattenbak: het kan allemaal meespelen. Daarom helpt het om ook naar de omgeving te kijken:
 

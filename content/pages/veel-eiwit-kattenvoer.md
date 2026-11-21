@@ -6,7 +6,7 @@ primary_keyword: eiwitrijk kattenvoer
 breadcrumb: Veel eiwit, eerlijke prijs
 h1: Eiwitrijk kattenvoer, en wat het je kost
 lead: "Een kat is een vleeseter en heeft vooral dierlijk eiwit nodig. Ik rekende voor elk etiket uit hoeveel eiwit erin zit en wat je per 100 gram eiwit betaalt."
-seo_title: "Eiwitrijk kattenvoer: veel eiwit voor weinig geld"
+seo_title: "Eiwitrijk kattenvoer: veel eiwit voor weinig geld per dag"
 meta_description: "Welk kattenvoer heeft veel eiwit voor weinig geld? Per etiket rekende ik het eiwit in droge stof en de prijs per 100 gram eiwit uit, plus wat te weinig heeft."
 image: oranje
 image_alt: "Rode kat eet eiwitrijk kattenvoer uit een zwarte kom"

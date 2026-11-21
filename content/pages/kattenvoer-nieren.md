@@ -6,13 +6,13 @@ primary_keyword: kattenvoer nieren
 breadcrumb: Nierproblemen
 h1: Kattenvoer bij nierproblemen, wat je moet weten
 lead: "Nierproblemen komen veel voor bij oudere katten, en voer speelt een grote rol. Dit is geen pagina om zelf te dokteren, wel om te begrijpen wat je dierenarts voorstelt."
-seo_title: "Kattenvoer bij nierproblemen: renal-voer eerlijk uitgelegd"
-meta_description: "Kattenvoer bij nierproblemen: waarom fosfor zo belangrijk is, wat renal-voer anders doet en waarom je het met je dierenarts kiest. Met de renal-diëten."
+seo_title: "Beste kattenvoer bij nierproblemen: renal-dieet op fosfor"
+meta_description: "Kattenvoer bij nierproblemen: fosfor per 1000 kcal voor {{nier_n}} nierdiëten en {{nier_n_p}} soorten gewoon voer naast elkaar. Kies altijd met je dierenarts."
 image: senior
 image_alt: "Oudere kat met nierproblemen bij een bak renal kattenvoer"
 updated: 2026-11-21
 published: 2026-11-18
-sources: [iris, wsava]
+sources: [iris, iris_dieet, summers2020, wsava]
 related: [/senior-kattenvoer/, /urinary-kattenvoer/, /beste-kattenvoer-volgens-dierenarts/, /beste-natvoer-kat/]
 faq:
   - q: Welk kattenvoer is goed voor de nieren?
@@ -40,7 +40,13 @@ Een nierdieet doet een paar dingen tegelijk:
 
 Dit zijn nierdiëten die ik in de feeds van Plein.nl en bol.com vond. Ik zet ze hier voor het overzicht en de prijs per dag, niet als aanbeveling. Welk dieet past, bespreek je met je dierenarts.
 
-[[lijst dieet=alleen zoek=renal|nierdieet|\bnier\b|kidney sort=ppd n=9]]
+Het belangrijkste verschil met gewoon voer is fosfor. Ik heb het uitgerekend per 1000 kcal, want zo vergelijk je nat en droog eerlijk. Gewoon voer zit in het midden op **{{nier_p_onderhoud}} gram fosfor per 1000 kcal**, met uitschieters tot {{nier_p_max}} gram. De {{nier_n}} nierdiëten in de feed zitten gemiddeld op **{{nier_p_dieet}} gram**. {{nier_conclusie}}
+
+De nierdiëten hieronder staan op volgorde van fosfor. Dat is geen advies om er zelf een te kiezen: welk dieet past, hangt af van de bloedwaarden van je kat.
+
+[[ranking nieren]]
+
+[[lijst dieet=alleen zoek=renal|nierdieet|\bnier\b|kidney sort=ppd n=6]]
 
 [[foto senior "Oudere kat rust na een maaltijd kattenvoer voor de nieren"]]
 

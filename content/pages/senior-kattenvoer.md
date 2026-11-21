@@ -4,16 +4,16 @@ slug: /senior-kattenvoer/
 template: landing
 primary_keyword: senior kattenvoer
 breadcrumb: Senior kattenvoer
-h1: Senior kattenvoer voor je oudere kat
+h1: "Het beste kattenvoer voor oudere katten: spieren houden, fosfor niet te hoog"
 lead: "Vanaf een jaar of zeven tot tien verandert wat je kat nodig heeft. Wanneer is senior kattenvoer zinvol, en welk voer kies je dan?"
-seo_title: "Senior kattenvoer: wanneer nodig en welk voer kies je?"
-meta_description: "Senior kattenvoer voor oudere katten: vanaf welke leeftijd, waar je op let en welke merken goed en betaalbaar zijn. Eerlijk advies met de prijs per dag."
+seo_title: "Beste kattenvoer voor oudere katten: eiwit en fosfor"
+meta_description: "Het beste kattenvoer voor oudere katten: genoeg eiwit per kcal tegen spierverlies, fosfor niet onnodig hoog. Ik rekende {{sen_n}} soorten seniorvoer na."
 image: senior
 image_alt: "Oudere grijze kat rust bij zijn voerbak met senior kattenvoer"
 featured: iams
 updated: 2026-11-21
 published: 2026-11-18
-sources: [fediaf, wsava]
+sources: [fediaf, fediaf_mineralen, summers2020, wsava]
 related: [/beste-kattenvoer/, /kennisbank/natvoer-of-droogvoer/, /kattenvoer-gevoelige-maag/]
 faq:
   - q: Vanaf welke leeftijd geef je senior kattenvoer?
@@ -40,6 +40,18 @@ Maar eerlijk is eerlijk: “senior” op een zak is geen medisch dieet. Heeft je
 Natvoer is voor veel oudere katten fijn: zacht voor het gebit en extra vocht.
 
 [[lijst form=nat stage=senior n=6]]
+
+## Zo kies ik: eiwit per kcal en de fosfor in de gaten
+
+Oudere katten verliezen makkelijk spiermassa, en veel oudere katten krijgen te maken met hun nieren. Het beste seniorvoer houdt met allebei rekening: **genoeg eiwit per kcal** en **geen onnodig hoge fosfor**.
+
+Wat me opviel: seniorvoer heeft gemiddeld {{sen_eiwit_mid}} gram eiwit per 100 kcal, tegen {{adult_eiwit_mid}} gram bij gewoon voer voor volwassen katten. {{sen_conclusie}} Aan de andere kant zit er minder fosfor in: gemiddeld {{sen_p_mid}} gram per 1000 kcal, tegen {{sen_p_mid_all}} gram over al het voer.
+
+Dit is seniorvoer met minstens 9 gram eiwit per 100 kcal en fosfor op of onder het gemiddelde:
+
+[[ranking senior]]
+
+> Heeft je kat al nierproblemen, dan gelden andere regels. Lees dan [kattenvoer bij nierproblemen](/kattenvoer-nieren/) en overleg met je dierenarts.
 
 ## Mijn tips
 
