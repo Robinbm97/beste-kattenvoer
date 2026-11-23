@@ -1,0 +1,32 @@
+name: Sitemap indienen (Search Console)
+
+# Na elke wijziging aan pagina's: wacht tot Cloudflare Pages de nieuwe versie live heeft,
+# en dien dan de sitemap opnieuw in bij Google Search Console. Ook handmatig te starten.
+on:
+  push:
+    branches: [main]
+    paths: ["content/**", "src/**", "static/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sitemap-indienen
+  cancel-in-progress: true
+
+jobs:
+  indienen:
+    runs-on: ubuntu-latest
+    env:
+      GSC_CREDENTIALS: ${{ secrets.GSC_CREDENTIALS }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wachten op de Cloudflare-deploy
+        if: github.event_name == 'push'
+        run: sleep 300
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install google-api-python-client google-auth
+      - run: python scripts/sitemap-indienen.py
