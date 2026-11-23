@@ -337,7 +337,7 @@ function uitleg(p, seed = 0) {
   if (min.length) t += pickV(['Wel even opletten, want ', 'Het minpunt is dat ', 'Eerlijk is eerlijk: ', 'Waar ik minder blij van word, is dat '], (sd >>> 4)) + join(min.slice(0, 2)) + '. ';
   t += pickV([`Voor een kat van 4 kilo ben je ongeveer ${eur(p.ppd)} per dag kwijt, zo'n ${eur0(p.ppd * 30.4)} per maand.`, `Reken op ${eur(p.ppd)} per dag, ofwel ${eur0(p.ppd * 30.4)} per maand voor één kat.`, `Per maand kost het je rond de ${eur0(p.ppd * 30.4)} (${eur(p.ppd)} per dag).`], (sd >>> 5));
   if (!plus.length && !min.length) t += ' Geen uitschieters naar boven of beneden, gewoon degelijk.';
-  return `<p>${t} <a href="${purl(p)}">Bekijk de analyse</a>.</p>`;
+  return `<p>${t}</p>`;
 }
 const uitlegBlock = (xs, n, seed) => { const ps = xs.filter((p) => HASPAGE(p)).slice(0, n).map((p) => uitleg(p, seed)).filter(Boolean); return ps.length ? `<div class="uitleg">${ps.join('')}</div>` : ''; };
 // ---------- markdown ----------
@@ -346,9 +346,9 @@ function md(src, page) {
   src = src.replace(/\[\[ranking (\w+)\]\]/g, (_, k) => '\n\n' + (RANK.tables[k] ?? `<!-- onbekende ranglijst ${k} -->`) + '\n\n');
   src = src.replace(/\[\[calc\]\]/g, () => '\n\n' + calc() + '\n\n');
   src = src.replace(/\[\[budgettabel\]\]/g, () => '\n\n' + budgetTable() + '\n\n');
-  src = src.replace(/\[\[merken\]\]/g, () => '\n\n' + brandGrid() + '\n\n');
+  src = src.replace(/\[\[merken\]\]/g, () => '');
   src = src.replace(/\[\[tegels\]\]/g, () => '\n\n' + tiles() + '\n\n');
-  src = src.replace(/\[\[alleproducten\]\]/g, () => '\n\n' + allProducts() + '\n\n');
+  src = src.replace(/\[\[alleproducten\]\]/g, () => '');
   src = src.replace(/\[\[scoretabel ([^\]]+)\]\]/g, (_, a) => '\n\n' + scoreTable(select(parseArgs(a))) + '\n\n');
   src = src.replace(/\[\[foto (\w+) "([^"]+)"\]\]/g, (_, k, alt) => '\n\n' + photo(k, alt) + '\n\n');
   src = src.replace(/\[\[band (\w+) "([^"]+)" "([^"]+)"(?: "([^"]+)")?\]\]/g, (_, k, t, txt, link) => '\n\n' + band(k, t, txt, link) + '\n\n');
@@ -551,7 +551,7 @@ function schemaFor(p, bc) {
       offers: { '@type': 'AggregateOffer', priceCurrency: 'EUR', lowPrice: Math.min(...prices).toFixed(2), highPrice: Math.max(...prices).toFixed(2), offerCount: pr.variants.length } });
   }
   if (p.slug === '/merken/') g.push({ '@type': 'ItemList', name: 'Kattenvoermerken beoordeeld', itemListElement: brands.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: `${b.name} kattenvoer`, url: abs(`/merken/${b.slug}/`) })) });
-  if (p.slug === '/beste-kattenvoer/') g.push({ '@type': 'ItemList', name: 'Best scorend kattenvoer', itemListElement: ALL.filter(HASPAGE).sort((a, c) => c.score.total - a.score.total).slice(0, 10).map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.name, url: abs(purl(x)) })) });
+  if (p.slug === '/beste-kattenvoer/') g.push({ '@type': 'ItemList', name: 'Best scorend kattenvoer', itemListElement: ALL.filter(HASPAGE).sort((a, c) => c.score.total - a.score.total).slice(0, 10).map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.name })) });
   if (p.faq && p.faq.length) g.push({ '@type': 'FAQPage', mainEntity: p.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: subst(f.a) } })) });
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': g });
 }
@@ -606,7 +606,7 @@ ${site.google_verification ? `<meta name="google-site-verification" content="${s
 <header class="site-header"><div class="wrap header-in">
 <a class="brand" href="/" aria-label="Beste kattenvoer, naar home"><svg class="brand-bg" viewBox="0 0 320 130" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H320C262 0 246 34 220 70 192 108 150 130 86 130H0Z"/></svg>${logo}</a>
 <nav class="main-nav" aria-label="Hoofdmenu">${nav}</nav>
-<a class="head-cta" href="/kattenvoer-vergelijken/">Vergelijk</a>
+<a class="head-cta" href="/beste-kattenvoer/">Beste kattenvoer</a>
 <details class="mobile-nav"><summary aria-label="Menu openen"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></summary><nav aria-label="Mobiel menu">${nav}</nav></details>
 </div></header>
 <main id="inhoud">
@@ -708,7 +708,7 @@ function brandPage(p) {
 function homePage(p) {
   const hero = `<section class="hero"><figure class="hero-full"><svg class="hero-curve" viewBox="0 0 100 800" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h70C24 150 92 330 50 500 24 610 64 720 40 800H0z" fill="currentColor"/></svg><img src="${imgUrl(p.image, 1200, 1300)}" srcset="${imgUrl(p.image, 700, 760)} 700w, ${imgUrl(p.image, 1200, 1300)} 1200w" sizes="(max-width: 900px) 100vw, 48vw" alt="${esc(p.image_alt)}" width="1200" height="1300" fetchpriority="high"></figure><div class="wrap hero-in"><div class="hero-text">
 <h1>${esc(p.h1)}</h1><p class="lead">${esc(p.lead)}</p>
-<p class="hero-cta"><a class="btn btn-lila" href="/kattenvoer-vergelijken/">Vergelijk ${vars.aantal_voer} soorten voer</a><a class="btn btn-ghost" href="/goedkoop-kattenvoer/">Ik heb een krap budget</a></p></div></div>
+<p class="hero-cta"><a class="btn btn-lila" href="/beste-kattenvoer/">Bekijk het beste kattenvoer</a><a class="btn btn-ghost" href="/goedkoop-kattenvoer/">Ik heb een krap budget</a></p></div></div>
 ${wave('wave-down', 'var(--creme)')}</section>`;
   return `${hero}<section class="statband"><div class="wrap stats"><p><b>${vars.aantal}</b><span>kattenproducten vergeleken</span></p><p><b>${vars.droog_mid_dag}</b><span>per dag voor gemiddeld droogvoer</span></p><p><b>${vars.nat_mid_dag}</b><span>per dag voor gemiddeld natvoer</span></p></div></section><div class="wrap content"><div class="prose prose-home">${md(p.body, p)}${faqHtml(p)}${sourcesHtml(p)}</div></div>`;
 }
@@ -748,6 +748,17 @@ function hubPage(p) {
 
 const render = (p) => p.template === 'product' ? productPage(p) : p.template === 'home' ? homePage(p) : p.template === 'review' ? brandPage(p) : p.template === 'vergelijker' ? vergelijkerPage(p) : p.template.startsWith('hub') ? hubPage(p) : articlePage(p);
 
+// ---------- focus: alleen de beste-lijsten ----------
+// Nov 2026: de site richt zich op de 'beste'-lijsten. Productpagina's, merkpagina's, de kennisbank en de
+// vergelijker worden niet meer gebouwd (oude URL's gaan met een 301 via static/_redirects naar de lijsten).
+// De data (feed, brands.yaml, product-notes.yaml) blijft staan en voedt de lijsten.
+const REMOVED = /^\/(kattenvoer|merken|kennisbank)\/|^\/kattenvoer-vergelijken\/$/;
+for (let i = pages.length - 1; i >= 0; i--) if (REMOVED.test(pages[i].slug || '')) pages.splice(i, 1);
+const removedHref = (h) => REMOVED.test(h.replace(/^https?:\/\/[^/]+/, '').replace(/[#?].*$/, ''));
+const dropRemovedLinks = (html) => html
+  .replace(/<li>\s*<a [^>]*href="([^"]+)"[^>]*>[\s\S]*?<\/a>\s*<\/li>/g, (m, h) => removedHref(h) ? '' : m)
+  .replace(/<a ([^>]*)href="([^"]+)"([^>]*)>([\s\S]*?)<\/a>/g, (m, a, h, b, t) => removedHref(h) ? t : m);
+
 // ---------- bouwen ----------
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
@@ -757,7 +768,7 @@ fs.copyFileSync(path.join(ROOT, 'src/app.js'), path.join(DIST, 'assets/app.js'))
 const manifest = [];
 for (const p of pages) {
   if (p.status === 'draft') continue;
-  const html = layout(p, render(p));
+  const html = dropRemovedLinks(layout(p, render(p)));
   const file = p.template === 'notfound' ? '404.html' : path.join(p.slug.slice(1), 'index.html');
   fs.mkdirSync(path.join(DIST, path.dirname(file)), { recursive: true });
   fs.writeFileSync(path.join(DIST, file), html);
@@ -772,6 +783,6 @@ fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nDisall
   const full = content.map((x) => `# ${x.h1 || x.title}\n\nURL: ${abs(x.slug)}\nBijgewerkt: ${isoDate(x.updated || CHECKED)}\n\n${x.lead ? subst(x.lead) + '\n\n' : ''}${clean(x.body)}${x.faq && x.faq.length ? '\n\n## Veelgestelde vragen\n\n' + x.faq.map((f) => `**${f.q}**\n${subst(f.a)}`).join('\n\n') : ''}`).join('\n\n---\n\n');
   fs.writeFileSync(path.join(DIST, 'llms-full.txt'), `# Beste-kattenvoer.nl – volledige tekst\n\n${full}\n`);
 }
-fs.writeFileSync(path.join(DIST, 'llms.txt'), `# Beste-kattenvoer.nl\n\n> Onafhankelijke vergelijking van kattenvoer in Nederland op prijs per kilo en prijs per dag, met een kritische blik op het etiket. Gemaakt door Robin, baasje van Mila en Nala. Elk voer is omgerekend naar eiwit in droge stof, koolhydraten en prijs per 100 gram eiwit.\n\n- [Volledige tekst van alle gidsen](${abs('/llms-full.txt')})\n- [Sitemap](${abs('/sitemap.xml')})\n\n## Gidsen en merken\n\n${indexable.filter((m) => m.template !== 'product').map((m) => `- [${m.title}](${abs(m.url)}): ${m.description}`).join('\n')}\n\n## Productanalyses\n\nAlle voer met score staat op ${abs('/kattenvoer/')}. ${indexable.filter((m) => m.template === 'product').length} producten hebben ook een eigen notitie van Robin.\n`);
+fs.writeFileSync(path.join(DIST, 'llms.txt'), `# Beste-kattenvoer.nl\n\n> Onafhankelijke vergelijking van kattenvoer in Nederland op prijs per kilo en prijs per dag, met een kritische blik op het etiket. Gemaakt door Robin, baasje van Mila en Nala. Elk voer is omgerekend naar eiwit in droge stof, koolhydraten en prijs per 100 gram eiwit.\n\n- [Volledige tekst van alle gidsen](${abs('/llms-full.txt')})\n- [Sitemap](${abs('/sitemap.xml')})\n\n## Gidsen\n\n${indexable.filter((m) => m.template !== 'product').map((m) => `- [${m.title}](${abs(m.url)}): ${m.description}`).join('\n')}\n`);
 fs.writeFileSync(path.join(DIST, 'build-manifest.json'), JSON.stringify({ built: new Date().toISOString(), pages: manifest }, null, 1));
 console.log(`✓ ${manifest.length} pagina's, ${ALL.length} producten (${FOOD.length} voer), feed ${CHECKED}`);
