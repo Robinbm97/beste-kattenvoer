@@ -16,16 +16,15 @@ author:
   tiktok: https://www.tiktok.com/@katplezier
   tiktok_handle: "@katplezier"
 nav:
-  - { label: Vergelijken, url: /kattenvoer-vergelijken/ }
   - { label: Beste kattenvoer, url: /beste-kattenvoer/ }
+  - { label: Droogvoer, url: /beste-droogvoer-kat/ }
+  - { label: Natvoer, url: /beste-natvoer-kat/ }
+  - { label: Kittenvoer, url: /kittenvoer/ }
   - { label: Veel eiwit, url: /veel-eiwit-kattenvoer/ }
   - { label: Goedkoop, url: /goedkoop-kattenvoer/ }
-  - { label: Merken, url: /merken/ }
-  - { label: Kennisbank, url: /kennisbank/ }
 footer:
   - title: Kiezen
     links:
-      - { label: Kattenvoer vergelijken, url: /kattenvoer-vergelijken/ }
       - { label: Beste kattenvoer, url: /beste-kattenvoer/ }
       - { label: Goedkoop kattenvoer, url: /goedkoop-kattenvoer/ }
       - { label: Beste droogvoer, url: /beste-droogvoer-kat/ }
@@ -37,7 +36,6 @@ footer:
       - { label: Gevoelige maag, url: /kattenvoer-gevoelige-maag/ }
       - { label: Kattensnoepjes, url: /kattensnoepjes/ }
       - { label: Veel eiwit, weinig geld, url: /veel-eiwit-kattenvoer/ }
-      - { label: Alle kattenvoer met score, url: /kattenvoer/ }
       - { label: Hoe ik score, url: /hoe-wij-scoren/ }
   - title: Keuzehulpen
     links:
@@ -54,23 +52,8 @@ footer:
       - { label: Biologisch, url: /biologisch-kattenvoer/ }
       - { label: Vloeibaar kattenvoer, url: /vloeibaar-kattenvoer/ }
       - { label: Volgens de dierenarts, url: /beste-kattenvoer-volgens-dierenarts/ }
-  - title: Merken
-    links:
-      - { label: Edgard & Cooper, url: /merken/edgard-en-cooper/ }
-      - { label: Almo Nature, url: /merken/almo-nature/ }
-      - { label: Yarrah, url: /merken/yarrah/ }
-      - { label: Smolke, url: /merken/smolke/ }
-      - { label: Whiskas, url: /merken/whiskas/ }
-      - { label: Felix, url: /merken/felix/ }
-      - { label: Royal Canin, url: /merken/royal-canin/ }
-      - { label: Alle merken, url: /merken/ }
   - title: Weten
     links:
-      - { label: Etiket lezen, url: /kennisbank/kattenvoer-etiket-lezen/ }
-      - { label: Hoeveel voer per dag?, url: /kennisbank/hoeveel-kattenvoer-per-dag/ }
-      - { label: Nat of droog?, url: /kennisbank/natvoer-of-droogvoer/ }
-      - { label: Wat kost een kat aan voer?, url: /kennisbank/kosten-kattenvoer-per-maand/ }
-      - { label: Overstappen op ander voer, url: /kennisbank/kat-overzetten-op-ander-voer/ }
       - { label: Over mij, url: /over-mij/ }
       - { label: Contact, url: /contact/ }
       - { label: Privacy, url: /privacy/ }

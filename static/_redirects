@@ -1,5 +1,16 @@
 /index.html / 301
 /home / 301
 /goedkoopste-kattenvoer/ /goedkoop-kattenvoer/ 301
-/kattenvoer-test/ /kattenvoer-vergelijken/ 301
+/kattenvoer-test/ /beste-kattenvoer/ 301
 /kattenvoer-granen-weinig-eiwit/ /wat-is-goed-kattenvoer/ 301
+
+# Nov 2026: focus op de beste-lijsten. Oude product-, merk-, kennisbank- en vergelijkerpagina's
+/kattenvoer-vergelijken/ /beste-kattenvoer/ 301
+/kennisbank/natvoer-of-droogvoer/ /beste-natvoer-kat/ 301
+/kennisbank/kosten-kattenvoer-per-maand/ /goedkoop-kattenvoer/ 301
+/kennisbank/hoeveel-kattenvoer-per-dag/ /wat-is-goed-kattenvoer/ 301
+/kennisbank/kattenvoer-etiket-lezen/ /wat-is-goed-kattenvoer/ 301
+/kennisbank/kat-overzetten-op-ander-voer/ /wat-is-goed-kattenvoer/ 301
+/kennisbank/* /wat-is-goed-kattenvoer/ 301
+/merken/* /beste-kattenvoer/ 301
+/kattenvoer/* /beste-kattenvoer/ 301
