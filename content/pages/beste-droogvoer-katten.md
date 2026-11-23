@@ -3,6 +3,7 @@ title: Beste droogvoer voor katten
 slug: /beste-droogvoer-katten/
 template: landing
 primary_keyword: beste droogvoer voor katten
+synonyms: [kattenbrokken, brokken, droogvoer voor je kat]
 breadcrumb: Beste droogvoer
 h1: Beste droogvoer voor katten
 lead: "Op zoek naar het beste droogvoer voor katten? Ik vergeleek alle complete kattenbrokken op eiwit, koolhydraten en prijs per dag. Dit is mijn top 10, van goedkoop tot premium, met de cijfers erbij."

@@ -66,11 +66,17 @@ const pages = manifest.pages.map((m) => {
   const density = wc ? (exact / wc) * 100 : 0;
   const near = nearCount(text, kw);
   const densityNear = wc ? (near / wc) * 100 : 0;
+  // onderwerpdichtheid: zoekwoord (incl. varianten) plus synoniemen uit de frontmatter
+  const syns = (m.synonyms || []).filter(Boolean);
+  const synHits = syns.reduce((n, sy) => n + nearCount(text, sy), 0);
+  const topicDensity = wc ? ((near + synHits) / wc) * 100 : 0;
+  const h2all = root.querySelectorAll('main .prose h2, main .prose-wide h2, main h2').map((h) => h.text.trim());
+  const firstH2 = h2all[0] || '';
   const intro = (main?.querySelector('p')?.text || '') + ' ' + (main?.querySelectorAll('p').slice(0, 3).map((p) => p.text).join(' ') || '');
   const has = (t) => kw && (words(t).join(' ').includes(words(kw).join(' ')) || nearCount(t, kw) > 0);
   const placementMissing = kw ? [['title', title], ['h1', h1.join(' ')], ['intro', intro], ['description', description], ['slug', m.url.replace(/[-/]/g, ' ')]].filter(([, t]) => !has(t)).map(([n]) => n) : [];
   const partial = kw ? words(kw).reduce((s, w) => s + words(text).filter((x) => x === w).length, 0) : 0;
-  return { url: m.url, meta: m, title, description, canonical, robots, h1, headingSkips, internal, contextLinks, affiliateUnmarked, imgNoAlt, imgAlts, schemaErrors, wordCount: wc, proseWords, density, densityNear, near, exact, partial, placementMissing, h2: root.querySelectorAll('main h2').map((h) => h.text.trim()), proseH2: root.querySelectorAll('main .prose h2, main .prose-wide h2').map((h) => h.text.trim()).filter((t) => !['Waar we dit vandaan hebben', 'Waar ik dit vandaan heb', 'Vragen van andere kattenbaasjes', 'Lees ook'].includes(t)), images: root.querySelectorAll('main img').length, sources: root.querySelectorAll('.sources li').length };
+  return { url: m.url, meta: m, title, description, canonical, robots, h1, headingSkips, internal, contextLinks, affiliateUnmarked, imgNoAlt, imgAlts, schemaErrors, wordCount: wc, proseWords, density, densityNear, near, exact, synHits, topicDensity, firstH2, partial, placementMissing, h2: root.querySelectorAll('main h2').map((h) => h.text.trim()), proseH2: root.querySelectorAll('main .prose h2, main .prose-wide h2').map((h) => h.text.trim()).filter((t) => !['Waar we dit vandaan hebben', 'Waar ik dit vandaan heb', 'Vragen van andere kattenbaasjes', 'Lees ook'].includes(t)), images: root.querySelectorAll('main img').length, sources: root.querySelectorAll('.sources li').length };
 });
 
 // context

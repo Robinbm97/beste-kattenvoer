@@ -415,9 +415,11 @@ const ptok = (t) => String(t).replace(/\{\{p:([\w-]+):(\w+)\}\}/g, (m, id, f) =>
 const subst = (t) => ptok(t).replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? `{{${k}}}`);
 // genummerde, redactionele toplijst: [[top id:Label|id:Label|...]] met live cijfers uit de feed
 function topList(arg) {
+  let cap = 'het beste droogvoer voor katten';
+  arg = arg.replace(/^\s*"([^"]+)"\s*/, (_, c) => { cap = c; return ''; });
   const rows = arg.split('|').map((x) => x.trim()).filter(Boolean).map((x) => { const i = x.indexOf(':'); const id = x.slice(0, i).trim(); const p = BYID[id]; if (!p || !p.score) { console.warn('top: onbekend of zonder score', id); return null; } return { p, label: x.slice(i + 1).trim() }; }).filter(Boolean);
   if (!rows.length) return '';
-  return `<div class="table-wrap"><table class="ttable rtable toplist"><caption>Top ${rows.length}: het beste droogvoer voor katten</caption><thead><tr><th scope="col">#</th><th scope="col">Voer</th><th scope="col">Score</th><th scope="col">Eiwit (ds)</th><th scope="col">Koolh. (ds)</th><th scope="col">Per dag</th><th scope="col"><span class="sr">Winkel</span></th></tr></thead><tbody>${rows.map(({ p, label }, i) => `<tr><td>${i + 1}</td><th scope="row"><a href="${purl(p)}">${esc(p.short || p.name)}</a><small>${esc(label)}</small></th><td><b class="sc">${score(p.score.total)}</b></td><td>${pct1(p.nut.pDM)}</td><td>±${pct(p.nut.nfeDM)}</td><td>${eur(p.ppd)}</td><td>${cta(p, p.best, 'Bekijk', 'btn btn-buy')}</td></tr>`).join('')}</tbody></table></div><p class="fine">Score, eiwit en koolhydraten in droge stof volgens het etiket, omgerekend met <a href="/hoe-wij-scoren/">mijn methode</a>. Prijs per dag voor een volwassen kat van 4 kilo die alleen dit voer eet, bij de goedkoopste verpakking in de feed. Prijzen van ${nlDate(CHECKED)}, de webshop is leidend.</p>`;
+  return `<div class="table-wrap"><table class="ttable rtable toplist"><caption>Top ${rows.length}: ${esc(cap)}</caption><thead><tr><th scope="col">#</th><th scope="col">Voer</th><th scope="col">Score</th><th scope="col">Eiwit (ds)</th><th scope="col">Koolh. (ds)</th><th scope="col">Per dag</th><th scope="col"><span class="sr">Winkel</span></th></tr></thead><tbody>${rows.map(({ p, label }, i) => `<tr><td>${i + 1}</td><th scope="row"><a href="${purl(p)}">${esc(p.short || p.name)}</a><small>${esc(label)}</small></th><td><b class="sc">${score(p.score.total)}</b></td><td>${pct1(p.nut.pDM)}</td><td>±${pct(p.nut.nfeDM)}</td><td>${eur(p.ppd)}</td><td>${cta(p, p.best, 'Bekijk', 'btn btn-buy')}</td></tr>`).join('')}</tbody></table></div><p class="fine">Score, eiwit en koolhydraten in droge stof volgens het etiket, omgerekend met <a href="/hoe-wij-scoren/">mijn methode</a>. Prijs per dag voor een volwassen kat van 4 kilo die alleen dit voer eet, bij de goedkoopste verpakking in de feed. Prijzen van ${nlDate(CHECKED)}, de webshop is leidend.</p>`;
 }
 // ---------- pagina's laden ----------
 function walk(dir) { return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(dir, e.name)) : e.name.endsWith('.md') ? [path.join(dir, e.name)] : []); }
@@ -773,7 +775,7 @@ for (const p of pages) {
   const file = p.template === 'notfound' ? '404.html' : path.join(p.slug.slice(1), 'index.html');
   fs.mkdirSync(path.join(DIST, path.dirname(file)), { recursive: true });
   fs.writeFileSync(path.join(DIST, file), html);
-  manifest.push({ url: p.slug, file, template: p.template, updated: p.updated || CHECKED, primary_keyword: p.primary_keyword || '', index: p.index !== false && p.template !== 'notfound', title: p.seo_title, description: p.meta_description, source: p.source });
+  manifest.push({ url: p.slug, file, template: p.template, updated: p.updated || CHECKED, primary_keyword: p.primary_keyword || '', synonyms: p.synonyms || [], index: p.index !== false && p.template !== 'notfound', title: p.seo_title, description: p.meta_description, source: p.source });
 }
 const indexable = manifest.filter((m) => m.index);
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexable.map((m) => `<url><loc>${abs(m.url)}</loc><lastmod>${isoDate(m.updated)}</lastmod></url>`).join('\n')}\n</urlset>\n`);
