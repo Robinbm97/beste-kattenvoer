@@ -13,7 +13,7 @@ image_alt: "Grote zak kattenvoer in grootverpakking met brokken in een schep"
 updated: 2026-11-21
 published: 2026-11-18
 sources: [plein_feed, bol_api]
-related: [/goedkoop-kattenvoer/, /beste-droogvoer-kat/, /kattenvoer-aanbieding/, /merken/iams/]
+related: [/goedkoop-kattenvoer/, /beste-droogvoer-katten/, /kattenvoer-aanbieding/, /merken/iams/]
 faq:
   - q: Is een grote zak kattenvoer goedkoper?
     a: "Ja. In mijn vergelijking is een zak vanaf 7 kilo per kilo gemiddeld {{groot_besparing}} goedkoper dan een zak tot 2,5 kilo van hetzelfde voer. Dat heb ik bij {{groot_aantal}} droogvoeders kunnen vergelijken."
@@ -53,4 +53,4 @@ Wil je veel eiwit en toch voordelig? Dan is dit de lijst: droogvoer in grootverp
 
 [[lijst form=droog mingram=7000 mineiwit=38 sort=p100 n=6]]
 
-Wil je eerst testen of je kat het lust, koop dan één keer een kleine zak. Meer over droogvoer lees je bij [het beste droogvoer](/beste-droogvoer-kat/), en kijk ook bij [de aanbiedingen](/kattenvoer-aanbieding/) en [het goedkoopste kattenvoer per dag](/goedkoop-kattenvoer/).
+Wil je eerst testen of je kat het lust, koop dan één keer een kleine zak. Meer over droogvoer lees je bij [het beste droogvoer](/beste-droogvoer-katten/), en kijk ook bij [de aanbiedingen](/kattenvoer-aanbieding/) en [het goedkoopste kattenvoer per dag](/goedkoop-kattenvoer/).

@@ -13,7 +13,7 @@ image_alt: "Twee katten eten de juiste hoeveelheid kattenvoer per dag"
 updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
-related: [/kattenvoer-gesteriliseerde-kat/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-kat/]
+related: [/kattenvoer-gesteriliseerde-kat/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-katten/]
 faq:
   - q: Hoeveel gram droogvoer per dag voor een kat van 4 kilo?
     a: "Gemiddeld zo’n 50 tot 60 gram, afhankelijk van het merk en hoe actief je kat is. Kijk altijd naar de voertabel op de zak."

@@ -13,7 +13,7 @@ image_alt: "Binnenkat op de bank naast een bak indoor kattenvoer"
 updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf]
-related: [/kattenvoer-gesteriliseerde-kat/, /beste-droogvoer-kat/, /wat-is-goed-kattenvoer/, /kennisbank/hoeveel-kattenvoer-per-dag/]
+related: [/kattenvoer-gesteriliseerde-kat/, /beste-droogvoer-katten/, /wat-is-goed-kattenvoer/, /kennisbank/hoeveel-kattenvoer-per-dag/]
 faq:
   - q: Wat is het verschil tussen indoor en gewoon kattenvoer?
     a: "Meestal iets minder calorieën per 100 gram en wat meer vezels, vaak met de belofte dat er minder haarballen ontstaan. De verschillen zijn klein; de portiegrootte maakt veel meer uit."

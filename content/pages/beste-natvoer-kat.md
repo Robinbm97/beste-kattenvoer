@@ -14,7 +14,7 @@ featured: yarrah
 updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims]
-related: [/beste-droogvoer-kat/, /kennisbank/natvoer-of-droogvoer/, /merken/almo-nature/, /goedkoop-kattenvoer/]
+related: [/beste-droogvoer-katten/, /kennisbank/natvoer-of-droogvoer/, /merken/almo-nature/, /goedkoop-kattenvoer/]
 faq:
   - q: Hoeveel natvoer geef je een kat per dag?
     a: "Een volwassen kat van 4 kilo die alleen natvoer eet, heeft gemiddeld zo’n 200 tot 250 gram per dag nodig. Combineer je met brokken, dan geef je minder van allebei."
