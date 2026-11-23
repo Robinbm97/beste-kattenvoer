@@ -42,7 +42,7 @@ Voor de meeste baasjes vormen brokken de basis. Ze zijn per dag het goedkoopst e
 
 [[lijst brand=smolke form=droog n=3 label="Mijn keuze"]]
 
-Wil je meer droogvoer vergelijken, kijk dan bij [het beste droogvoer voor katten](/beste-droogvoer-kat/).
+Wil je meer droogvoer vergelijken, kijk dan bij [het beste droogvoer voor katten](/beste-droogvoer-katten/).
 
 [[foto oranje "Rode kat eet het beste kattenvoer uit een zwarte kom"]]
 

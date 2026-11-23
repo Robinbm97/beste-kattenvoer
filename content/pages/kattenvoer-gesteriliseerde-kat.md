@@ -14,7 +14,7 @@ featured: purina-one
 updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, fediaf_energie, nrc_energie, wsava]
-related: [/kennisbank/hoeveel-kattenvoer-per-dag/, /beste-droogvoer-kat/, /beste-kattenvoer/]
+related: [/kennisbank/hoeveel-kattenvoer-per-dag/, /beste-droogvoer-katten/, /beste-kattenvoer/]
 faq:
   - q: Waarom worden gesteriliseerde katten dik?
     a: "Na sterilisatie of castratie daalt de energiebehoefte, terwijl de eetlust vaak gelijk blijft of toeneemt. Geef je evenveel als ervoor, dan komt je kat aan."

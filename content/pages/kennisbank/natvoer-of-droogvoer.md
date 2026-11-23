@@ -13,7 +13,7 @@ image_alt: "Kat eet uit een bak, natvoer of droogvoer"
 updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, wsava]
-related: [/beste-natvoer-kat/, /beste-droogvoer-kat/, /kennisbank/kosten-kattenvoer-per-maand/]
+related: [/beste-natvoer-kat/, /beste-droogvoer-katten/, /kennisbank/kosten-kattenvoer-per-maand/]
 faq:
   - q: Is droogvoer slecht voor de nieren van een kat?
     a: "Compleet droogvoer is niet slecht voor gezonde katten, zolang ze genoeg drinken. Katten met nierproblemen hebben vaak baat bij extra vocht en een dieet in overleg met de dierenarts."
@@ -50,7 +50,7 @@ Met de [kostencalculator](/kennisbank/kosten-kattenvoer-per-maand/) zie je wat c
 
 ## Wanneer kies je bewust voor meer natvoer?
 
-Bij katten die slecht drinken, oudere katten, katten met een urinewegprobleem in de voorgeschiedenis en kieskeurige eters. Overleg bij medische klachten altijd met je dierenarts. Mijn favoriete natvoer staat bij [het beste natvoer](/beste-natvoer-kat/), mijn favoriete brokken bij [het beste droogvoer](/beste-droogvoer-kat/).
+Bij katten die slecht drinken, oudere katten, katten met een urinewegprobleem in de voorgeschiedenis en kieskeurige eters. Overleg bij medische klachten altijd met je dierenarts. Mijn favoriete natvoer staat bij [het beste natvoer](/beste-natvoer-kat/), mijn favoriete brokken bij [het beste droogvoer](/beste-droogvoer-katten/).
 
 ## Wat eet een kat van nature?
 
@@ -87,7 +87,7 @@ Je hoort vaak dat brokken de tanden schoonhouden. Dat klopt maar een beetje. Een
 - **Kat die te zwaar is:** natvoer helpt, want het vult meer per calorie.
 - **Kat die alleen thuis is:** brokken in een voerpuzzel of automaat, en 's avonds natvoer.
 
-Welk natvoer en welke brokken goed scoren, zie je bij [het beste natvoer](/beste-natvoer-kat/) en [het beste droogvoer](/beste-droogvoer-kat/).
+Welk natvoer en welke brokken goed scoren, zie je bij [het beste natvoer](/beste-natvoer-kat/) en [het beste droogvoer](/beste-droogvoer-katten/).
 
 ## Natvoer of droogvoer voor een kitten
 

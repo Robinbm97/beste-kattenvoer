@@ -14,7 +14,7 @@ featured: iams
 updated: 2026-11-21
 published: 2026-11-18
 sources: [fediaf, claims]
-related: [/beste-kattenvoer/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-kat/, /merken/iams/]
+related: [/beste-kattenvoer/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-katten/, /merken/iams/]
 faq:
   - q: Wat is het goedkoopste kattenvoer dat nog goed is?
     a: "Kijk naar compleet droogvoer van een merk met een duidelijk etiket, in een grote zak. In mijn vergelijking zijn IAMS, Voskes en Smolke sterke keuzes met een lage prijs per dag."
@@ -63,7 +63,7 @@ Natvoer is per dag het duurste deel van het menu. Gemiddeld natvoer kost {{nat_m
 
 [[lijst form=nat sort=ppd n=6]]
 
-[[band brokken "Brokken zijn je beste vriend" "Droogvoer kost per dag maar een fractie van natvoer. Eén natvoermaaltijd plus degelijke brokken is voor veel katten de slimste mix." "/beste-droogvoer-kat/|Bekijk het beste droogvoer"]]
+[[band brokken "Brokken zijn je beste vriend" "Droogvoer kost per dag maar een fractie van natvoer. Eén natvoermaaltijd plus degelijke brokken is voor veel katten de slimste mix." "/beste-droogvoer-katten/|Bekijk het beste droogvoer"]]
 
 ## Het beste goedkope kattenvoer: meeste eiwit per euro
 

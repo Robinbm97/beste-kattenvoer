@@ -150,7 +150,7 @@ const brandGrid = () => `<div class="bgrid">${brands.map((b) => { const n = ALL.
 // ---------- beeld ----------
 const photo = (k, alt) => `<figure class="foto"><img src="${imgUrl(k, 1200, 760)}" srcset="${imgUrl(k, 700, 440)} 700w, ${imgUrl(k, 1200, 760)} 1200w" sizes="(max-width: 800px) 100vw, 760px" alt="${esc(alt)}" loading="lazy" width="1200" height="760"><figcaption>Foto: ${esc(images[k].credit)}</figcaption></figure>`;
 const TILES = [
-  ['/beste-droogvoer-kat/', 'Droogvoer', 'brokken', 'Kom met brokken kattenvoer'],
+  ['/beste-droogvoer-katten/', 'Droogvoer', 'brokken', 'Kom met brokken kattenvoer'],
   ['/beste-natvoer-kat/', 'Natvoer', 'oranje', 'Rode kat eet natvoer uit een zwarte kom'],
   ['/kittenvoer/', 'Kitten', 'kitten', 'Britse korthaar kitten eet uit een bakje'],
   ['/senior-kattenvoer/', 'Senior', 'senior', 'Oudere gestreepte kat kijkt rustig opzij'],
@@ -352,6 +352,8 @@ function md(src, page) {
   src = src.replace(/\[\[scoretabel ([^\]]+)\]\]/g, (_, a) => '\n\n' + scoreTable(select(parseArgs(a))) + '\n\n');
   src = src.replace(/\[\[foto (\w+) "([^"]+)"\]\]/g, (_, k, alt) => '\n\n' + photo(k, alt) + '\n\n');
   src = src.replace(/\[\[band (\w+) "([^"]+)" "([^"]+)"(?: "([^"]+)")?\]\]/g, (_, k, t, txt, link) => '\n\n' + band(k, t, txt, link) + '\n\n');
+  src = src.replace(/\[\[top ([^\]]+)\]\]/g, (_, a) => '\n\n' + topList(a) + '\n\n');
+  src = ptok(src);
   src = src.replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? `{{${k}}}`);
   let html = marked.parse(src);
   html = html.replace(/<blockquote>([\s\S]*?)<\/blockquote>/g, (_, inner) => `<aside class="robin">${inner}<p class="robin-sign">Robin, baasje van Mila en Nala</p></aside>`);
@@ -406,7 +408,17 @@ for (const form of ['droog', 'nat']) {
 }
 const pctRank = (form, key, v) => { const xs = ALL.filter((p) => p.form === form && p.score).map((p) => key(p)).sort((a, b) => a - b); let i = 0; while (i < xs.length && xs[i] < v) i++; return xs.length ? i / xs.length : 0.5; };
 if (process.env.VARS) console.log(vars);
-const subst = (t) => String(t).replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? `{{${k}}}`);
+// productwaarden in teksten, altijd actueel uit de feed: {{p:product-id:veld}}
+const BYID = Object.fromEntries(ALL.map((p) => [p.id, p]));
+const PFIELD = { score: (p) => score(p.score.total), eiwit: (p) => pct(p.nut.pDM), eiwit1: (p) => pct1(p.nut.pDM), kh: (p) => pct(p.nut.nfeDM), dag: (p) => eur(p.ppd), maand: (p) => eur0(p.ppd * 30.4), kg: (p) => eur(p.ppk), naam: (p) => p.short || p.name, url: (p) => purl(p) };
+const ptok = (t) => String(t).replace(/\{\{p:([\w-]+):(\w+)\}\}/g, (m, id, f) => { const p = BYID[id]; if (!p || !PFIELD[f]) { console.warn('onbekende producttoken', m); return m; } try { return PFIELD[f](p); } catch { console.warn('geen waarde voor', m); return m; } });
+const subst = (t) => ptok(t).replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? `{{${k}}}`);
+// genummerde, redactionele toplijst: [[top id:Label|id:Label|...]] met live cijfers uit de feed
+function topList(arg) {
+  const rows = arg.split('|').map((x) => x.trim()).filter(Boolean).map((x) => { const i = x.indexOf(':'); const id = x.slice(0, i).trim(); const p = BYID[id]; if (!p || !p.score) { console.warn('top: onbekend of zonder score', id); return null; } return { p, label: x.slice(i + 1).trim() }; }).filter(Boolean);
+  if (!rows.length) return '';
+  return `<div class="table-wrap"><table class="ttable rtable toplist"><caption>Top ${rows.length}: beste droogvoer voor volwassen katten</caption><thead><tr><th scope="col">#</th><th scope="col">Voer</th><th scope="col">Score</th><th scope="col">Eiwit (ds)</th><th scope="col">Koolh. (ds)</th><th scope="col">Per dag</th><th scope="col"><span class="sr">Winkel</span></th></tr></thead><tbody>${rows.map(({ p, label }, i) => `<tr><td>${i + 1}</td><th scope="row"><a href="${purl(p)}">${esc(p.short || p.name)}</a><small>${esc(label)}</small></th><td><b class="sc">${score(p.score.total)}</b></td><td>${pct1(p.nut.pDM)}</td><td>±${pct(p.nut.nfeDM)}</td><td>${eur(p.ppd)}</td><td>${cta(p, p.best, 'Bekijk', 'btn btn-buy')}</td></tr>`).join('')}</tbody></table></div><p class="fine">Score, eiwit en koolhydraten in droge stof volgens het etiket, omgerekend met <a href="/hoe-wij-scoren/">mijn methode</a>. Prijs per dag voor een volwassen kat van 4 kilo die alleen dit voer eet, bij de goedkoopste verpakking in de feed. Prijzen van ${nlDate(CHECKED)}, de webshop is leidend.</p>`;
+}
 // ---------- pagina's laden ----------
 function walk(dir) { return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(dir, e.name)) : e.name.endsWith('.md') ? [path.join(dir, e.name)] : []); }
 const pages = walk(path.join(ROOT, 'content/pages')).map((f) => {
