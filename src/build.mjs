@@ -73,7 +73,10 @@ const cta = (p, v = p.best, label, cls = 'btn') => `<a class="${cls}" href="${es
 
 // ---------- productkaart ----------
 const shortOf = (name) => name.split(/\s+[-–|]\s+/).filter((seg, i) => i === 0 || !/kattenvoer|kattenbrok|natvoer|droogvoer|brokjes|brokken|natte voeding|\d|kat\b|multipack|voordeel/i.test(seg)).join(' - ').replace(/\s*-\s*\d.*$/, '').replace(/\s+\d+\s*x\s*\d.*$/i, '').replace(/\s+\d+([.,]\d+)?\s*(kg|gr|gram|g)\b.*$/i, '').trim();
-for (const p of ALL) p.short = shortOf(p.name) || p.name;
+// typfouten uit de feed in de weergave rechtzetten (id en URL blijven gelijk)
+const TYPO = [[/\bgaanvrij\b/gi, 'graanvrij']];
+const fixTypo = (t) => TYPO.reduce((s, [re, to]) => s.replace(re, to), t);
+for (const p of ALL) { p.name = fixTypo(p.name); p.short = shortOf(p.name) || p.name; }
 const HASPAGE = (p) => p.score && p.ppd && (p.form === 'droog' || p.form === 'nat');
 const purl = (p) => `/kattenvoer/${p.id}/`;
 const pct = (n) => String(Math.round(n)).replace('.', ',') + '%';
@@ -419,7 +422,7 @@ function topList(arg) {
   arg = arg.replace(/^\s*"([^"]+)"\s*/, (_, c) => { cap = c; return ''; });
   const rows = arg.split('|').map((x) => x.trim()).filter(Boolean).map((x) => { const i = x.indexOf(':'); const id = x.slice(0, i).trim(); const p = BYID[id]; if (!p || !p.score) { console.warn('top: onbekend of zonder score', id); return null; } return { p, label: x.slice(i + 1).trim() }; }).filter(Boolean);
   if (!rows.length) return '';
-  return `<div class="table-wrap"><table class="ttable rtable toplist"><caption>Top ${rows.length}: ${esc(cap)}</caption><thead><tr><th scope="col">#</th><th scope="col">Voer</th><th scope="col">Score</th><th scope="col">Eiwit (ds)</th><th scope="col">Koolh. (ds)</th><th scope="col">Per dag</th><th scope="col"><span class="sr">Winkel</span></th></tr></thead><tbody>${rows.map(({ p, label }, i) => `<tr><td>${i + 1}</td><th scope="row"><a href="${purl(p)}">${esc(p.short || p.name)}</a><small>${esc(label)}</small></th><td><b class="sc">${score(p.score.total)}</b></td><td>${pct1(p.nut.pDM)}</td><td>±${pct(p.nut.nfeDM)}</td><td>${eur(p.ppd)}</td><td>${cta(p, p.best, 'Bekijk', 'btn btn-buy')}</td></tr>`).join('')}</tbody></table></div><p class="fine">Score, eiwit en koolhydraten in droge stof volgens het etiket, omgerekend met <a href="/hoe-wij-scoren/">mijn methode</a>. Prijs per dag voor een volwassen kat van 4 kilo die alleen dit voer eet, bij de goedkoopste verpakking in de feed. Prijzen van ${nlDate(CHECKED)}, de webshop is leidend.</p>`;
+  return `<div class="table-wrap"><table class="ttable rtable toplist"><caption>Top ${rows.length}: ${esc(cap)}</caption><thead><tr><th scope="col">#</th><th scope="col">Voer</th><th scope="col">Score</th><th scope="col">Eiwit (ds)</th><th scope="col">Koolh. (ds)</th><th scope="col">Per dag</th><th scope="col"><span class="sr">Winkel</span></th></tr></thead><tbody>${rows.map(({ p, label }, i) => `<tr><td>${i + 1}</td><th scope="row"><a href="${purl(p)}">${esc(p.short || p.name)}</a><small>${esc(label)}</small></th><td data-l="Score"><b class="sc">${score(p.score.total)}</b></td><td data-l="Eiwit">${pct1(p.nut.pDM)}</td><td data-l="Koolh.">±${pct(p.nut.nfeDM)}</td><td data-l="Per dag">${eur(p.ppd)}</td><td class="buy">${cta(p, p.best, 'Bekijk', 'btn btn-buy')}</td></tr>`).join('')}</tbody></table></div><p class="fine">Score, eiwit en koolhydraten in droge stof volgens het etiket, omgerekend met <a href="/hoe-wij-scoren/">mijn methode</a>. Prijs per dag voor een volwassen kat van 4 kilo die alleen dit voer eet, bij de goedkoopste verpakking in de feed. Prijzen van ${nlDate(CHECKED)}, de webshop is leidend.</p>`;
 }
 // ---------- pagina's laden ----------
 function walk(dir) { return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(dir, e.name)) : e.name.endsWith('.md') ? [path.join(dir, e.name)] : []); }
