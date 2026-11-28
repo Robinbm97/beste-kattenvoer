@@ -5,8 +5,8 @@ template: landing
 primary_keyword: indoor kattenvoer
 breadcrumb: Indoor kattenvoer
 h1: 'Beste indoor kattenvoer'
-seo_title: 'Beste indoor kattenvoer 2026: top 10 voor binnenkatten'
-meta_description: 'Beste indoor kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Beste indoor kattenvoer 2026: top 7 voor binnenkatten'
+meta_description: 'Beste indoor kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 7 met eiwit en prijs per dag.'
 image: senior
 image_alt: "Binnenkat op de bank naast een bak indoor kattenvoer"
 updated: 2026-11-28

@@ -5,7 +5,7 @@ template: landing
 primary_keyword: kattenvoer nieren
 breadcrumb: Nierproblemen
 h1: 'Beste kattenvoer bij nierproblemen'
-seo_title: 'Kattenvoer nieren 2026: top 10 nierdiëten op fosfor'
+seo_title: 'Kattenvoer nieren 2026: top 5 nierdiëten op fosfor'
 meta_description: "Kattenvoer bij nierproblemen: fosfor per 1000 kcal voor {{nier_n}} nierdiëten en {{nier_n_p}} soorten gewoon voer naast elkaar. Kies altijd met je dierenarts."
 image: senior
 image_alt: "Oudere kat met nierproblemen bij een bak renal kattenvoer"

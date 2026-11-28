@@ -5,8 +5,8 @@ template: landing
 primary_keyword: kittenvoer
 breadcrumb: Kittenvoer
 h1: 'Beste kittenvoer'
-seo_title: 'Beste kittenvoer 2026: top 10 voor een kitten in de groei'
-meta_description: 'Beste kittenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Beste kittenvoer 2026: top 8 voor een kitten in de groei'
+meta_description: 'Beste kittenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 8 met eiwit en prijs per dag.'
 image: kittens
 image_alt: "Twee kittens op een krabpaal wachten op kittenvoer"
 featured: edgard-en-cooper

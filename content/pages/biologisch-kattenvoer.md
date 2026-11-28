@@ -5,8 +5,8 @@ template: landing
 primary_keyword: biologisch kattenvoer
 breadcrumb: Biologisch kattenvoer
 h1: 'Beste biologisch kattenvoer'
-seo_title: 'Beste biologisch kattenvoer 2026: top 10 met prijs per dag'
-meta_description: 'Beste biologisch kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Beste biologisch kattenvoer 2026: top 6 met prijs per dag'
+meta_description: 'Beste biologisch kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 6 met eiwit en prijs per dag.'
 image: oranje
 image_alt: "Rode kat bij een bak biologisch kattenvoer"
 updated: 2026-11-28

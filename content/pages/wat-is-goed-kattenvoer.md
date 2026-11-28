@@ -5,8 +5,8 @@ template: landing
 primary_keyword: goed kattenvoer
 breadcrumb: Wat is goed kattenvoer
 h1: 'Wat is goed kattenvoer?'
-seo_title: 'Goed kattenvoer: top 10 dat alle vijf checks haalt'
-meta_description: 'Wat is goed kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Goed kattenvoer: top 6 dat alle vijf checks haalt'
+meta_description: 'Wat is goed kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 6 met eiwit en prijs per dag.'
 image: kom
 image_alt: "Kom met goed kattenvoer op een houten vloer"
 updated: 2026-11-28

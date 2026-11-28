@@ -5,8 +5,8 @@ template: landing
 primary_keyword: beste natvoer kat
 breadcrumb: Beste natvoer
 h1: 'Beste natvoer voor je kat'
-seo_title: 'Beste natvoer kat 2026: top 10 op eiwit en prijs per dag'
-meta_description: 'Beste natvoer voor je kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top 10 natvoer.'
+seo_title: 'Beste natvoer kat 2026: top 8 op eiwit en prijs per dag'
+meta_description: 'Beste natvoer voor je kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top 8 natvoer.'
 image: kom
 image_alt: "Kat eet het beste natvoer voor een kat uit een metalen bak"
 featured: yarrah

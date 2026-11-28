@@ -5,8 +5,8 @@ template: landing
 primary_keyword: kattenvoer aanbieding
 breadcrumb: Kattenvoer aanbieding
 h1: 'Kattenvoer aanbieding'
-seo_title: 'Kattenvoer aanbieding: top 10 deals met een goede score'
-meta_description: 'Kattenvoer in de aanbieding? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Alleen deals met een goede score in mijn top 10.'
+seo_title: 'Kattenvoer aanbieding: top 9 deals met een goede score'
+meta_description: 'Kattenvoer in de aanbieding? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Alleen deals met een goede score in mijn top 9.'
 image: samen
 image_alt: "Twee katten bij een bak kattenvoer uit de aanbieding"
 updated: 2026-11-28

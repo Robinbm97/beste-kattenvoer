@@ -5,8 +5,8 @@ template: landing
 primary_keyword: beste kattenvoer gesteriliseerde kat
 breadcrumb: Gesteriliseerde kat
 h1: 'Beste kattenvoer voor een gesteriliseerde kat'
-seo_title: 'Beste kattenvoer gesteriliseerde kat 2026: top 10 brokken'
-meta_description: 'Beste kattenvoer voor een gesteriliseerde kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus mijn top 10 brokken met de prijs per dag.'
+seo_title: 'Beste kattenvoer gesteriliseerde kat 2026: top 8 brokken'
+meta_description: 'Beste kattenvoer voor een gesteriliseerde kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus mijn top 8 brokken met de prijs per dag.'
 image: duo
 image_alt: "Twee katten eten kattenvoer voor een gesteriliseerde kat"
 featured: purina-one

@@ -5,8 +5,8 @@ template: landing
 primary_keyword: senior kattenvoer
 breadcrumb: Senior kattenvoer
 h1: 'Beste kattenvoer voor oudere katten'
-seo_title: 'Beste senior kattenvoer 2026: top 10 voor oudere katten'
-meta_description: 'Beste kattenvoer voor oudere katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Beste senior kattenvoer 2026: top 8 voor oudere katten'
+meta_description: 'Beste kattenvoer voor oudere katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 8 met eiwit en prijs per dag.'
 image: senior
 image_alt: "Oudere grijze kat rust bij zijn voerbak met senior kattenvoer"
 featured: iams

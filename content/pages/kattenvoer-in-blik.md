@@ -5,8 +5,8 @@ template: landing
 primary_keyword: kattenvoer blik
 breadcrumb: Kattenvoer in blik
 h1: 'Beste kattenvoer in blik'
-seo_title: 'Beste kattenvoer in blik 2026: top 10 op score en prijs'
-meta_description: 'Beste kattenvoer in blik? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Beste kattenvoer in blik 2026: top 6 op score en prijs'
+meta_description: 'Beste kattenvoer in blik? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 6 met eiwit en prijs per dag.'
 image: kom
 image_alt: "Kom met kattenvoer uit blik op een keukenvloer"
 updated: 2026-11-28

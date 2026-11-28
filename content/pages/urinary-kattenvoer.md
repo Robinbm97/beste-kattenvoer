@@ -5,8 +5,8 @@ template: landing
 primary_keyword: urinary kattenvoer
 breadcrumb: Urinary kattenvoer
 h1: 'Beste urinary kattenvoer'
-seo_title: 'Beste urinary kattenvoer 2026: top 10 bij blaasgruis'
-meta_description: 'Beste urinary kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Beste urinary kattenvoer 2026: top 6 bij blaasgruis'
+meta_description: 'Beste urinary kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 6 met eiwit en prijs per dag.'
 image: tabbies
 image_alt: "Twee katten drinken water naast een bak urinary kattenvoer"
 updated: 2026-11-28

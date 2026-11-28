@@ -5,8 +5,8 @@ template: landing
 primary_keyword: kattensnoepjes
 breadcrumb: Kattensnoepjes
 h1: 'Beste kattensnoepjes'
-seo_title: 'Beste kattensnoepjes 2026: top 10 en wat ze echt kosten'
-meta_description: 'Beste kattensnoepjes? Mijn nummer 1 is {{top1}} voor {{top1_dag}}. Bekijk mijn top 10 met de prijs per verpakking en wat erin zit.'
+seo_title: 'Beste kattensnoepjes 2026: top 8 en wat ze echt kosten'
+meta_description: 'Beste kattensnoepjes? Mijn nummer 1 is {{top1}} voor {{top1_dag}}. Bekijk mijn top 8 met de prijs per verpakking en wat erin zit.'
 image: poot
 image_alt: "Kat likt zijn poot na kattensnoepjes"
 updated: 2026-11-28

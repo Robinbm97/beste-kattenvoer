@@ -5,8 +5,8 @@ template: landing
 primary_keyword: kattenvoer gevoelige darmen
 breadcrumb: Gevoelige maag
 h1: 'Beste kattenvoer voor gevoelige darmen'
-seo_title: 'Kattenvoer gevoelige darmen: top 10 voor een rustige maag'
-meta_description: 'Kattenvoer voor gevoelige darmen? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Kattenvoer gevoelige darmen: top 7 voor een rustige maag'
+meta_description: 'Kattenvoer voor gevoelige darmen? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 7 met eiwit en prijs per dag.'
 image: bak
 image_alt: "Kat zit rustig in een voerbak met kattenvoer voor een gevoelige maag"
 featured: pro-plan

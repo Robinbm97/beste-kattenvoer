@@ -5,8 +5,8 @@ template: landing
 primary_keyword: kattenvoer grootverpakking
 breadcrumb: Grootverpakking
 h1: 'Beste kattenvoer in grootverpakking'
-seo_title: 'Kattenvoer grootverpakking 2026: top 10 zakken vanaf 7 kilo'
-meta_description: 'Kattenvoer in grootverpakking? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Kattenvoer grootverpakking 2026: top 8 zakken vanaf 7 kilo'
+meta_description: 'Kattenvoer in grootverpakking? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 8 met eiwit en prijs per dag.'
 image: brokken
 image_alt: "Grote zak kattenvoer in grootverpakking met brokken in een schep"
 updated: 2026-11-28

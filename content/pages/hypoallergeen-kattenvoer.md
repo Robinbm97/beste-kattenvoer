@@ -5,8 +5,8 @@ template: landing
 primary_keyword: hypoallergeen kattenvoer
 breadcrumb: Hypoallergeen kattenvoer
 h1: 'Beste hypoallergeen kattenvoer'
-seo_title: 'Hypoallergeen kattenvoer 2026: top 10 met één eiwitbron'
-meta_description: 'Beste hypoallergeen kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Hypoallergeen kattenvoer 2026: top 6 met één eiwitbron'
+meta_description: 'Beste hypoallergeen kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 6 met eiwit en prijs per dag.'
 image: grijs
 image_alt: "Grijze kat met een gevoelige huid bij een bak hypoallergeen kattenvoer"
 updated: 2026-11-28

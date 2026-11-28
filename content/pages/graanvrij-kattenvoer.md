@@ -5,8 +5,8 @@ template: landing
 primary_keyword: graanvrij kattenvoer
 breadcrumb: Graanvrij kattenvoer
 h1: 'Beste graanvrij kattenvoer'
-seo_title: 'Beste graanvrij kattenvoer 2026: top 10 op koolhydraten'
-meta_description: 'Beste graanvrij kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Beste graanvrij kattenvoer 2026: top 8 op koolhydraten'
+meta_description: 'Beste graanvrij kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 8 met eiwit en prijs per dag.'
 image: grijs
 image_alt: "Kat eet graanvrij kattenvoer uit een metalen voerbak"
 featured: wellness-core

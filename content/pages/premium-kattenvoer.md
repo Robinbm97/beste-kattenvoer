@@ -5,8 +5,8 @@ template: landing
 primary_keyword: premium kattenvoer
 breadcrumb: Premium kattenvoer
 h1: 'Beste premium kattenvoer'
-seo_title: 'Premium kattenvoer 2026: top 10 die zijn prijs waard is'
-meta_description: 'Beste premium kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Premium kattenvoer 2026: top 7 die zijn prijs waard is'
+meta_description: 'Beste premium kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 7 met eiwit en prijs per dag.'
 image: tabbies
 image_alt: "Twee katten bij een bak premium kattenvoer"
 updated: 2026-11-28

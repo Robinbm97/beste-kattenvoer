@@ -5,8 +5,8 @@ template: landing
 primary_keyword: vloeibaar kattenvoer
 breadcrumb: Vloeibaar kattenvoer
 h1: 'Beste vloeibaar kattenvoer'
-seo_title: 'Vloeibaar kattenvoer 2026: top 10 likbare snacks en soep'
-meta_description: 'Beste vloeibaar kattenvoer? Mijn nummer 1 is {{top1}} voor {{top1_dag}}. Bekijk mijn top 10 met de prijs per verpakking en wat erin zit.'
+seo_title: 'Vloeibaar kattenvoer 2026: top 6 likbare snacks en soep'
+meta_description: 'Beste vloeibaar kattenvoer? Mijn nummer 1 is {{top1}} voor {{top1_dag}}. Bekijk mijn top 6 met de prijs per verpakking en wat erin zit.'
 image: likken
 image_alt: "Kat likt aan vloeibaar kattenvoer uit een tube"
 updated: 2026-11-28

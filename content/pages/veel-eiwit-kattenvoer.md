@@ -5,8 +5,8 @@ template: landing
 primary_keyword: eiwitrijk kattenvoer
 breadcrumb: Veel eiwit, eerlijke prijs
 h1: 'Beste eiwitrijk kattenvoer'
-seo_title: 'Eiwitrijk kattenvoer 2026: top 10 met veel eiwit per euro'
-meta_description: 'Beste eiwitrijk kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
+seo_title: 'Eiwitrijk kattenvoer 2026: top 9 met veel eiwit per euro'
+meta_description: 'Beste eiwitrijk kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 9 met eiwit en prijs per dag.'
 image: oranje
 image_alt: "Rode kat eet eiwitrijk kattenvoer uit een zwarte kom"
 featured: wellness-core
