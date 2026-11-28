@@ -25,7 +25,7 @@ top10: 'stage=adult minscore=5.5 sort=ppd'
 top10_kw: 'goedkoop kattenvoer met een goede score'
 top_n: 10
 keuze: |
-  **{{top1}}.** {{top1_dag}} per dag en toch een score van {{top1_score}}. Goedkoop en goed gaan prima samen, als je weet waar de grens ligt.
+  **Wat is het beste goedkope kattenvoer?** Mijn keuze is **{{top1}}**. {{top1_dag}} per dag en toch een score van {{top1_score}}. Goedkoop en goed gaan prima samen, als je weet waar de grens ligt.
 
   In dit artikel vind je een overzicht met het beste goedkope kattenvoer: de voordeligste brokken, goedkoop natvoer dat deugt en waar goedkoop te goedkoop wordt.
 ---

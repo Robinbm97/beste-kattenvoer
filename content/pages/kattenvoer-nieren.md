@@ -22,9 +22,9 @@ top10: 'ranking=nieren'
 top10_kw: 'nierdieetvoer'
 top_n: 5
 keuze: |
-  **Kies een nierdieet altijd samen met je dierenarts.** Het stadium van de nierziekte bepaalt wat je kat nodig heeft.
+  **Wat is het beste kattenvoer bij nierproblemen?** Mijn keuze om mee te beginnen is **{{top1}}**, het nierdieet met de minste fosfor per 1000 kcal in mijn vergelijking.
 
-  **Mijn keuze om mee te beginnen: {{top1}}**, het nierdieet met de minste fosfor per 1000 kcal in mijn vergelijking.
+  **Kies een nierdieet altijd samen met je dierenarts.** Het stadium van de nierziekte bepaalt wat je kat nodig heeft.
 
   In dit artikel vind je een overzicht met de beste nierdiëten op fosfor, het beste natte nierdieet en waarom gewoon voer niet volstaat.
 ---

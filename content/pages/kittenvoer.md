@@ -25,7 +25,7 @@ top10: 'ranking=kitten'
 top10_kw: 'kittenvoer'
 top_n: 8
 keuze: |
-  **{{top1}}.** Score {{top1_score}} en {{top1_dag}} per dag. Het staat bovenaan mijn ranglijst voor kittenvoer met veel eiwit én de juiste verhouding tussen calcium en fosfor.
+  **Wat is het beste kittenvoer?** Mijn keuze is **{{top1}}**. Score {{top1_score}} en {{top1_dag}} per dag. Het staat bovenaan mijn ranglijst voor kittenvoer met veel eiwit én de juiste verhouding tussen calcium en fosfor.
 
   In dit artikel vind je een overzicht met het beste kittenvoer: de beste brok voor weinig geld, het beste natvoer voor een kitten en wat je beter kunt laten staan.
 ---

@@ -30,7 +30,7 @@ top10: 'ids=hill-s-prescription-diet-c-d-multicare-urinary-care-kattenvoer-kip-8
 top10_kw: 'kattenvoer volgens de dierenarts'
 top_n: 10
 keuze: |
-  **Per probleem een ander dieet, altijd na overleg met je dierenarts.** Dierenartsen schrijven vooral Royal Canin en Hill's voor. Dat komt doordat die merken hun dieetvoer laten onderzoeken, niet doordat het etiket het beste is.
+  **Wat is het beste kattenvoer volgens de dierenarts?** Mijn keuze is per probleem een ander dieet, altijd na overleg met je dierenarts. Dierenartsen schrijven vooral Royal Canin en Hill's voor. Dat komt doordat die merken hun dieetvoer laten onderzoeken, niet doordat het etiket het beste is.
 
   In dit artikel vind je een overzicht met het beste dieetvoer per probleem, zoals de dierenarts het zou kiezen, en wat je zelf kunt doen als je kat gezond is.
 ---

@@ -32,7 +32,7 @@ top10: 'form=droog stage=adult sort=score'
 top10_kw: 'beste droogvoer voor katten'
 top_n: 10
 keuze: |
-  **{{top1}}.** Score {{top1_score}}, {{top1_eiwit}} eiwit in de droge stof en {{top1_dag}} per dag. Geen bekend merk, wel de beste brok die ik vond.
+  **Wat is het beste droogvoer voor katten?** Mijn keuze is **{{top1}}**. Score {{top1_score}}, {{top1_eiwit}} eiwit in de droge stof en {{top1_dag}} per dag. Geen bekend merk, wel de beste brok die ik vond.
 
   In dit artikel vind je een overzicht met het beste droogvoer voor katten: voor een krap budget, voor wie het beste van het beste wil, en welke bekende brokken ik zou laten liggen.
 ---

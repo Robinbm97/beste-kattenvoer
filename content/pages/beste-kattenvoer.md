@@ -25,7 +25,7 @@ top10: 'form=droog,nat stage=adult sort=score'
 top10_kw: 'beste kattenvoer'
 top_n: 10
 keuze: |
-  **{{top1}}.** Score {{top1_score}}, {{top1_eiwit}} eiwit en {{top1_dag}} per dag. Het beste kattenvoer dat ik vond, komt gewoon uit de supermarkt. Dure merken scoren lager.
+  **Wat is het beste kattenvoer?** Mijn keuze is **{{top1}}**. Score {{top1_score}}, {{top1_eiwit}} eiwit en {{top1_dag}} per dag. Het beste kattenvoer dat ik vond, komt gewoon uit de supermarkt. Dure merken scoren lager.
 
   In dit artikel vind je een overzicht met het beste kattenvoer voor je kat: natvoer en brokken, voor een krap en een ruim budget, en de merken die hun prijs niet waarmaken.
 ---

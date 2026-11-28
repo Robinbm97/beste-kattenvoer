@@ -23,7 +23,7 @@ top10: 'ranking=senior'
 top10_kw: 'seniorvoer'
 top_n: 8
 keuze: |
-  **{{top1}}.** Het staat bovenaan mijn ranglijst voor seniorvoer: genoeg eiwit per kcal om spieren te houden, en geen bovengemiddelde fosfor. {{top1_dag}} per dag.
+  **Wat is het beste kattenvoer voor oudere katten?** Mijn keuze is **{{top1}}**. Het staat bovenaan mijn ranglijst voor seniorvoer: genoeg eiwit per kcal om spieren te houden, en geen bovengemiddelde fosfor. {{top1_dag}} per dag.
 
   In dit artikel vind je een overzicht met het beste kattenvoer voor oudere katten: brokken, natvoer, voor een kleine portemonnee en wanneer seniorvoer niet nodig is.
 ---

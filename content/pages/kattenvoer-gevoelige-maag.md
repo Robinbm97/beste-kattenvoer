@@ -23,7 +23,7 @@ top10: 'ranking=gevoelig'
 top10_kw: 'kattenvoer voor gevoelige darmen'
 top_n: 7
 keuze: |
-  **{{top1}}.** Het staat bovenaan mijn ranglijst voor gevoelige darmen: niet te vet, niet te veel ruwe celstof en goed verteerbaar. {{top1_dag}} per dag.
+  **Wat is het beste kattenvoer voor een gevoelige maag?** Mijn keuze is **{{top1}}**. Het staat bovenaan mijn ranglijst voor gevoelige darmen: niet te vet, niet te veel ruwe celstof en goed verteerbaar. {{top1_dag}} per dag.
 
   In dit artikel vind je een overzicht met het beste kattenvoer voor een gevoelige maag: brokken, natvoer, dieetvoer van de dierenarts en wanneer het niet aan het voer ligt.
 ---

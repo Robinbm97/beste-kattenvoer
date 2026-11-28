@@ -22,7 +22,7 @@ top10: 'flag=binnenkat sort=score'
 top10_kw: 'indoor kattenvoer'
 top_n: 7
 keuze: |
-  **{{top1}}.** Score {{top1_score}} en {{top1_dag}} per dag. Het beste indoorvoer dat ik vond, al vind ik dat een binnenkat geen speciaal voer nodig heeft: minder eten werkt net zo goed.
+  **Wat is het beste indoor kattenvoer?** Mijn keuze is **{{top1}}**. Score {{top1_score}} en {{top1_dag}} per dag. Het beste indoorvoer dat ik vond, al vind ik dat een binnenkat geen speciaal voer nodig heeft: minder eten werkt net zo goed.
 
   In dit artikel vind je een overzicht met het beste indoor kattenvoer, het voordeligste indoorvoer en wat een binnenkat echt nodig heeft.
 ---

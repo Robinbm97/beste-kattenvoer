@@ -22,7 +22,7 @@ top10: 'form=snack zoek=churu|puree|lik|lick|cream|creamy|soep|soup|broth sort=p
 top10_kw: 'vloeibaar kattenvoer'
 top_n: 6
 keuze: |
-  **{{top1}}.** Voor {{top1_dag}} een likbare snack waar de meeste katten gek op zijn. Mijn advies: gebruik vloeibaar voer als extraatje of om vocht binnen te krijgen, niet als maaltijd.
+  **Wat is het beste vloeibare kattenvoer?** Mijn keuze is **{{top1}}**. Voor {{top1_dag}} een likbare snack waar de meeste katten gek op zijn. Mijn advies: gebruik vloeibaar voer als extraatje of om vocht binnen te krijgen, niet als maaltijd.
 
   In dit artikel vind je een overzicht met het beste vloeibare kattenvoer: likbare tubes en wanneer ze echt handig zijn.
 ---

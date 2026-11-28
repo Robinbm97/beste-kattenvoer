@@ -22,7 +22,7 @@ top10: 'form=droog,nat class=premium sort=score'
 top10_kw: 'premium kattenvoer'
 top_n: 7
 keuze: |
-  **{{top1}}.** Score {{top1_score}}. Het beste premium voer dat ik vond. Maar eerlijk: voor de helft van het geld krijg je vaak net zoveel eiwit.
+  **Wat is het beste premium kattenvoer?** Mijn keuze is **{{top1}}**. Score {{top1_score}}. Het beste premium voer dat ik vond. Maar eerlijk: voor de helft van het geld krijg je vaak net zoveel eiwit.
 
   In dit artikel vind je een overzicht met het beste premium kattenvoer, wat je bij premium wél krijgt en welke dure merken hun prijs niet waarmaken.
 ---

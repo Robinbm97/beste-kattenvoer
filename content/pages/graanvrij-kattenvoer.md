@@ -23,7 +23,7 @@ top10: 'ranking=graanvrij'
 top10_kw: 'graanvrij kattenvoer'
 top_n: 8
 keuze: |
-  **{{top1}}.** Het staat bovenaan mijn ranglijst van graanvrij voer dat ook echt weinig koolhydraten heeft. Want graanvrij zegt op zich weinig: aardappel en erwten vullen net zo goed.
+  **Wat is het beste graanvrije kattenvoer?** Mijn keuze is **{{top1}}**. Het staat bovenaan mijn ranglijst van graanvrij voer dat ook echt weinig koolhydraten heeft. Want graanvrij zegt op zich weinig: aardappel en erwten vullen net zo goed.
 
   In dit artikel vind je een overzicht met het beste graanvrije kattenvoer: brokken, natvoer en de graanvrije zakken waar ik niet voor zou kiezen.
 ---

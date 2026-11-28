@@ -22,7 +22,7 @@ top10: 'brand=felix,gourmet,whiskas,sheba,perfect-fit sort=score'
 top10_kw: 'kattenvoer uit de supermarkt'
 top_n: 10
 keuze: |
-  **{{top1}}.** Score {{top1_score}} en {{top1_dag}} per dag. Het beste kattenvoer uit de supermarkt is ook een van de beste kattenvoeders die ik überhaupt vond.
+  **Wat is het beste kattenvoer uit de supermarkt?** Mijn keuze is **{{top1}}**. Score {{top1_score}} en {{top1_dag}} per dag. Het beste kattenvoer uit de supermarkt is ook een van de beste kattenvoeders die ik überhaupt vond.
 
   In dit artikel vind je een overzicht met het beste supermarkt-kattenvoer per merk, de beste supermarktbrokken en wat er op het etiket beter kan.
 ---

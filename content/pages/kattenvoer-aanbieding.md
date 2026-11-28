@@ -22,7 +22,7 @@ top10: 'korting=10 minscore=6 sort=korting'
 top10_kw: 'kattenvoer in de aanbieding'
 top_n: 9
 keuze: |
-  **{{top1}}.** Nu met flinke korting, en het scoort {{top1_score}}. Een aanbieding is alleen een goede deal als het voer zelf ook goed is.
+  **Wat is de beste kattenvoer-aanbieding van dit moment?** Mijn keuze is **{{top1}}**. Nu met flinke korting, en het scoort {{top1_score}}. Een aanbieding is alleen een goede deal als het voer zelf ook goed is.
 
   In dit artikel vind je een overzicht met de beste kattenvoer-aanbiedingen van dit moment: alleen voer met een goede score, brokken met de grootste korting en hoe je een nepkorting herkent.
 ---

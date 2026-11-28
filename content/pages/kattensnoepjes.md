@@ -22,7 +22,7 @@ top10: 'form=snack sort=prijs'
 top10_kw: 'kattensnoepjes'
 top_n: 8
 keuze: |
-  **{{top1}}.** Voor {{top1_dag}} een fijne beloning, zonder dat je er veel aan kwijt bent. Mijn regel: snoepjes zijn maximaal een tiende van wat je kat per dag eet.
+  **Wat zijn de beste kattensnoepjes?** Mijn keuze is **{{top1}}**. Voor {{top1_dag}} een fijne beloning, zonder dat je er veel aan kwijt bent. Mijn regel: snoepjes zijn maximaal een tiende van wat je kat per dag eet.
 
   In dit artikel vind je een overzicht met de beste kattensnoepjes: voordelige snoepjes, likbare snacks en waar je op let.
 ---

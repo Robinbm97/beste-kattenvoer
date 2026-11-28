@@ -23,7 +23,7 @@ top10: 'ranking=steri'
 top10_kw: 'kattenvoer voor een gesteriliseerde kat'
 top_n: 8
 keuze: |
-  **{{top1}}.** Het staat bovenaan mijn ranglijst voor gesteriliseerde katten: niet te veel energie en veel eiwit per kcal. {{top1_dag}} per dag.
+  **Wat is het beste kattenvoer voor een gesteriliseerde kat?** Mijn keuze is **{{top1}}**. Het staat bovenaan mijn ranglijst voor gesteriliseerde katten: niet te veel energie en veel eiwit per kcal. {{top1_dag}} per dag.
 
   In dit artikel vind je een overzicht met het beste kattenvoer voor een gesteriliseerde of gecastreerde kat: brokken, natvoer, voor weinig geld en hoe je overgewicht voorkomt.
 ---

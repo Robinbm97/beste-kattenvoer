@@ -23,7 +23,7 @@ top10: 'form=nat stage=adult sort=score'
 top10_kw: 'beste natvoer voor katten'
 top_n: 8
 keuze: |
-  **{{top1}}.** Score {{top1_score}}, {{top1_eiwit}} eiwit en {{top1_dag}} per dag. Het beste natvoer is ook het goedkoopste van de top: je hoeft voor goed natvoer niet naar de dierenwinkel.
+  **Wat is het beste natvoer voor je kat?** Mijn keuze is **{{top1}}**. Score {{top1_score}}, {{top1_eiwit}} eiwit en {{top1_dag}} per dag. Het beste natvoer is ook het goedkoopste van de top: je hoeft voor goed natvoer niet naar de dierenwinkel.
 
   In dit artikel vind je een overzicht met het beste natte kattenvoer voor je kat: met een krap budget, voor een kieskeurige kat, per vorm en wat je beter kunt laten staan.
 ---

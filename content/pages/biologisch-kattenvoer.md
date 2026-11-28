@@ -22,7 +22,7 @@ top10: 'flag=bio sort=score'
 top10_kw: 'biologisch kattenvoer'
 top_n: 6
 keuze: |
-  **{{top1}}.** Score {{top1_score}} en {{top1_dag}} per dag. Het beste biologische voer dat ik vond, met een eerlijke kanttekening: biologisch is vooral beter voor de dieren en de boer, niet automatisch voor je kat.
+  **Wat is het beste biologische kattenvoer?** Mijn keuze is **{{top1}}**. Score {{top1_score}} en {{top1_dag}} per dag. Het beste biologische voer dat ik vond, met een eerlijke kanttekening: biologisch is vooral beter voor de dieren en de boer, niet automatisch voor je kat.
 
   In dit artikel vind je een overzicht met het beste biologische kattenvoer: natvoer, brokken en wat je betaalt voor het keurmerk.
 ---

@@ -25,7 +25,7 @@ top10: 'form=droog,nat mineiwit=45 sort=p100'
 top10_kw: 'eiwitrijk kattenvoer'
 top_n: 9
 keuze: |
-  **{{top1}}.** Je betaalt hier het minst per 100 gram eiwit, met {{top1_eiwit}} eiwit in de droge stof. Eiwitrijk voer hoeft dus niet duur te zijn.
+  **Wat is het beste eiwitrijke kattenvoer?** Mijn keuze is **{{top1}}**. Je betaalt hier het minst per 100 gram eiwit, met {{top1_eiwit}} eiwit in de droge stof. Eiwitrijk voer hoeft dus niet duur te zijn.
 
   In dit artikel vind je een overzicht met het beste eiwitrijke kattenvoer: de beste brokken, het beste natvoer en wanneer veel eiwit niet goed is.
 ---

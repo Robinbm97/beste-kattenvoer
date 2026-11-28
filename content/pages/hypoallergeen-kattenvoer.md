@@ -24,7 +24,7 @@ top10: 'ranking=hypo'
 top10_kw: 'hypoallergeen kattenvoer'
 top_n: 6
 keuze: |
-  **{{top1}}.** Het staat bovenaan mijn lijst van voer met één benoemde dierlijke eiwitbron. Dat is wat ik zoek bij een kat die ergens op reageert, niet de sticker "hypoallergeen".
+  **Wat is het beste hypoallergene kattenvoer?** Mijn keuze is **{{top1}}**. Het staat bovenaan mijn lijst van voer met één benoemde dierlijke eiwitbron. Dat is wat ik zoek bij een kat die ergens op reageert, niet de sticker "hypoallergeen".
 
   In dit artikel vind je een overzicht met het beste hypoallergene kattenvoer: voer met één eiwitbron, dieetvoer van de dierenarts en hoe je uitzoekt waar je kat op reageert.
 ---

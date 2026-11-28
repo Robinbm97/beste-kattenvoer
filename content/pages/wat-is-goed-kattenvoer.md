@@ -22,7 +22,7 @@ top10: 'mineiwit=40 minscore=6.5 sort=ppd'
 top10_kw: 'goed kattenvoer'
 top_n: 6
 keuze: |
-  **Goed kattenvoer haalt vijf checks: compleet, veel dierlijk eiwit, weinig koolhydraten, een duidelijk etiket en een eerlijke prijs per dag.** {{top1}} haalt ze allemaal, voor {{top1_dag}} per dag.
+  **Wat is goed kattenvoer?** Goed kattenvoer haalt vijf checks: compleet, veel dierlijk eiwit, weinig koolhydraten, een duidelijk etiket en een eerlijke prijs per dag. Mijn keuze is **{{top1}}**: dat haalt ze allemaal, voor {{top1_dag}} per dag.
 
   In dit artikel vind je mijn vijf checks en een overzicht met goed kattenvoer dat ze allemaal haalt, nat en droog.
 ---

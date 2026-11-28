@@ -24,9 +24,9 @@ top10: 'ranking=urinary_nat+urinary_droog'
 top10_kw: 'urinary kattenvoer'
 top_n: 6
 keuze: |
-  **Eerst dit: plast je kat niet of bijna niet, bel dan vandaag je dierenarts.** Een verstopte plasbuis is levensgevaarlijk, vooral bij katers.
+  **Wat is het beste urinary kattenvoer?** Mijn keuze voor preventie is **{{top1}}**, bovenaan mijn ranglijst voor natvoer met weinig magnesium per kcal. Vocht doet voor de blaas meer dan welke urinary-brok ook.
 
-  **Mijn keuze voor preventie: {{top1}}**, bovenaan mijn ranglijst voor natvoer met weinig magnesium per kcal. Vocht doet voor de blaas meer dan welke urinary-brok ook.
+  **Plast je kat niet of bijna niet? Bel dan vandaag je dierenarts.** Een verstopte plasbuis is levensgevaarlijk, vooral bij katers.
 
   In dit artikel vind je een overzicht met het beste urinary kattenvoer: natvoer voor meer vocht, brokken voor weinig geld en wanneer je dieetvoer van de dierenarts nodig hebt.
 ---

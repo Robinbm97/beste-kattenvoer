@@ -22,7 +22,7 @@ top10: 'form=droog stage=adult mingram=7000 minscore=6 sort=p100'
 top10_kw: 'kattenvoer in grootverpakking'
 top_n: 8
 keuze: |
-  **{{top1}}.** In een zak vanaf 7 kilo betaal je hier het minst per gram eiwit: score {{top1_score}}, {{top1_dag}} per dag. Een grote zak bespaart gemiddeld {{groot_besparing}} per kilo, maar alleen als je hem op tijd opmaakt.
+  **Wat is het beste kattenvoer in grootverpakking?** Mijn keuze is **{{top1}}**. In een zak vanaf 7 kilo betaal je hier het minst per gram eiwit: score {{top1_score}}, {{top1_dag}} per dag. Een grote zak bespaart gemiddeld {{groot_besparing}} per kilo, maar alleen als je hem op tijd opmaakt.
 
   In dit artikel vind je een overzicht met het beste kattenvoer in grootverpakking, de voordeligste grote zakken en wanneer groot kopen niet slim is.
 ---

@@ -22,7 +22,7 @@ top10: 'form=nat zoek=blik|\bcan\b|dose sort=score'
 top10_kw: 'kattenvoer in blik'
 top_n: 6
 keuze: |
-  **{{top1}}.** Score {{top1_score}} en {{top1_dag}} per dag. Blik is per kilo {{blik_goedkoper}} dan zakjes, en je hebt minder afval.
+  **Wat is het beste kattenvoer in blik?** Mijn keuze is **{{top1}}**. Score {{top1_score}} en {{top1_dag}} per dag. Blik is per kilo {{blik_goedkoper}} dan zakjes, en je hebt minder afval.
 
   In dit artikel vind je een overzicht met het beste kattenvoer in blik, het goedkoopste blik en hoe je een open blik bewaart.
 ---
