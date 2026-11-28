@@ -35,7 +35,8 @@ export function buildRankings(ALL, { HASPAGE, purl, esc, eur, pct, pct1, score, 
   const coreName = (p) => (p.brand + ' ' + sizeless(p.name)).toLowerCase().replace(/\d+([.,]\d+)?/g, ' ').replace(/\bx\b/g, ' ').replace(/kattenvoer|kattenbrokken|natvoer|droogvoer|multipack|maaltijdzakjes?|zakjes|\bkat\b|-|®|™/g, ' ').replace(/\s+/g, ' ').trim();
   const recipe = (p) => `${p.brand}|${p.form}|${p.nut.pDM}|${p.nut.kcal100}|${p.nut.nfeDM}`; // zelfde merk + zelfde voedingswaarden = zelfde recept
   const uniq = (rows) => { const seen = new Set(); return rows.filter((p) => { const k = coreName(p); const r = recipe(p); if (seen.has(r)) return false; seen.add(r); if (seen.has(k)) return false; seen.add(k); return true; }); };
-  const table = (rows0, cols, caption) => { const rows = uniq(rows0).slice(0, cols.limit || 12); return rows.length ? `<div class="table-wrap"><table class="ttable rtable"><caption>${esc(caption)}</caption><thead><tr><th scope="col">#</th><th scope="col">Voer</th>${cols.map((c) => `<th scope="col">${c.h}</th>`).join('')}</tr></thead><tbody>${rows.map((p, i) => `<tr><td>${i + 1}</td><th scope="row">${link(p)}</th>${cols.map((c) => `<td>${c.v(p)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '<p class="fine">Op dit moment staan er niet genoeg producten met volledige gegevens in de feed om een eerlijke ranglijst te maken.</p>'; };
+  const seenRows = new Map();
+  const table = (rows0, cols, caption) => { const rows = uniq(rows0).slice(0, cols.limit || 12); const html = rows.length ? `<div class="table-wrap"><table class="ttable rtable"><caption>${esc(caption)}</caption><thead><tr><th scope="col">#</th><th scope="col">Voer</th>${cols.map((c) => `<th scope="col">${c.h}</th>`).join('')}</tr></thead><tbody>${rows.map((p, i) => `<tr><td>${i + 1}</td><th scope="row">${link(p)}</th>${cols.map((c) => `<td>${c.v(p)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '<p class="fine">Op dit moment staan er niet genoeg producten met volledige gegevens in de feed om een eerlijke ranglijst te maken.</p>'; seenRows.set(html, rows); return html; };
   const C = {
     score: { h: 'Score', v: (p) => `<b class="sc">${score(p.score.total)}</b>` },
     ppd: { h: 'Per dag', v: (p) => eur(p.ppd) },
@@ -185,5 +186,6 @@ export function buildRankings(ALL, { HASPAGE, purl, esc, eur, pct, pct1, score, 
   vars.n_nat_score = String(wet.length);
   vars.n_droog_score = String(dry.length);
 
-  return { tables, vars };
+  const lists = Object.fromEntries(Object.entries(tables).map(([k, h]) => [k, seenRows.get(h) || []]));
+  return { tables, vars, lists };
 }

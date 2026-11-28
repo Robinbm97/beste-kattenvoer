@@ -4,13 +4,13 @@ slug: /hypoallergeen-kattenvoer/
 template: landing
 primary_keyword: hypoallergeen kattenvoer
 breadcrumb: Hypoallergeen kattenvoer
-h1: "Het beste hypoallergeen kattenvoer: tel de eiwitbronnen"
+h1: 'Beste hypoallergeen kattenvoer'
 lead: "Hypoallergeen staat op veel zakken, maar het woord is niet beschermd. Ik leg uit wanneer het echt iets betekent, en welk voer voor een gevoelige kat het proberen waard is."
-seo_title: "Beste hypoallergeen kattenvoer: zo herken je echt goed voer"
-meta_description: "Het beste hypoallergeen kattenvoer heeft zo weinig mogelijk eiwitbronnen. Ik telde ze in {{hypo_n_sam}} samenstellingen; vaak zat er meer in dan de zak doet geloven."
+seo_title: 'Hypoallergeen kattenvoer 2026: top 10 met één eiwitbron'
+meta_description: 'Beste hypoallergeen kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: grijs
 image_alt: "Grijze kat met een gevoelige huid bij een bak hypoallergeen kattenvoer"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [wsava, fediaf]
 related: [/kattenvoer-gevoelige-maag/, /graanvrij-kattenvoer/, /beste-kattenvoer-volgens-dierenarts/, /kennisbank/kat-overzetten-op-ander-voer/]
@@ -21,6 +21,8 @@ faq:
     a: "Alleen met een eliminatiedieet van zes tot acht weken, onder begeleiding van je dierenarts. Bloedtests voor voedselallergie bij katten zijn niet betrouwbaar."
   - q: Is graanvrij hetzelfde als hypoallergeen?
     a: "Nee. Katten reageren veel vaker op een eiwitbron zoals kip, rund of vis dan op granen."
+top10: 'ranking=hypo'
+top10_kw: 'hypoallergeen kattenvoer'
 ---
 ## Hypoallergeen kattenvoer: een woord zonder regels
 

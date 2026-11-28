@@ -4,13 +4,13 @@ slug: /supermarkt-kattenvoer/
 template: landing
 primary_keyword: kattenvoer supermarkt
 breadcrumb: Supermarkt
-h1: Kattenvoer uit de supermarkt, AH, Jumbo, Lidl en Aldi
+h1: 'Beste kattenvoer uit de supermarkt'
 lead: "Felix, Whiskas, Gourmet en Sheba haal je bij de supermarkt. Maar hoe scoren ze, en is online goedkoper? Ik zet de supermarktmerken eerlijk naast de rest."
-seo_title: "Kattenvoer uit de supermarkt: hoe goed zijn AH, Jumbo, Lidl?"
-meta_description: "Kattenvoer uit de supermarkt vergeleken: Felix, Whiskas, Gourmet, Sheba en Perfect Fit op eiwit, etiket en prijs per dag, plus wat je weet over de huismerken."
+seo_title: 'Kattenvoer supermarkt 2026: top 10 op etiket en prijs'
+meta_description: 'Beste kattenvoer uit de supermarkt? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: duo
 image_alt: "Twee katten eten kattenvoer uit de supermarkt"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf_label, claims, plein_feed, bol_api]
 related: [/merken/felix/, /merken/whiskas/, /goedkoop-kattenvoer/, /wat-is-goed-kattenvoer/]
@@ -19,6 +19,8 @@ faq:
     a: "Nee, het is compleet voer en je kat kan er gezond op leven. Wel staat er vaker een vage omschrijving als 'vlees en dierlijke bijproducten' op, en bij brokken zit er vaak veel graan in."
   - q: Is huismerk kattenvoer van AH, Jumbo of Lidl goed?
     a: "Huismerken staan niet in mijn vergelijking, omdat ik er geen betrouwbare etiketgegevens van heb. Lees zelf het etiket: staat er een benoemde vleessoort vooraan en hoeveel eiwit is het in droge stof?"
+top10: 'brand=felix,gourmet,whiskas,sheba,perfect-fit sort=score'
+top10_kw: 'kattenvoer uit de supermarkt'
 ---
 ## Kattenvoer uit de supermarkt: welke merken liggen er?
 

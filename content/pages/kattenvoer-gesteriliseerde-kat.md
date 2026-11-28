@@ -4,14 +4,14 @@ slug: /kattenvoer-gesteriliseerde-kat/
 template: landing
 primary_keyword: beste kattenvoer gesteriliseerde kat
 breadcrumb: Gesteriliseerde kat
-h1: Het beste kattenvoer voor een gesteriliseerde of gecastreerde kat
+h1: 'Beste kattenvoer voor een gesteriliseerde kat'
 lead: "Na sterilisatie of castratie verbrandt je kat vaak minder. Moet je dan ander voer geven, of gewoon minder? Mijn eerlijke antwoord."
-seo_title: "Beste kattenvoer voor een gesteriliseerde kat: zo kies je"
-meta_description: "Het beste kattenvoer voor een gesteriliseerde kat: minder kcal, wel veel eiwit per hap. Ik rekende {{steri_n_label}} sterilised-brokken na en vond ook goed gewoon voer."
+seo_title: 'Beste kattenvoer gesteriliseerde kat 2026: top 10 brokken'
+meta_description: 'Beste kattenvoer voor een gesteriliseerde kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus mijn top 10 brokken met de prijs per dag.'
 image: duo
 image_alt: "Twee katten eten kattenvoer voor een gesteriliseerde kat"
 featured: purina-one
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, fediaf_energie, nrc_energie, wsava]
 related: [/kennisbank/hoeveel-kattenvoer-per-dag/, /beste-droogvoer-katten/, /beste-kattenvoer/]
@@ -20,6 +20,8 @@ faq:
     a: "Na sterilisatie of castratie daalt de energiebehoefte, terwijl de eetlust vaak gelijk blijft of toeneemt. Geef je evenveel als ervoor, dan komt je kat aan."
   - q: Is sterilised-voer verplicht na castratie?
     a: "Nee. Het kan helpen omdat het minder energierijk is, maar minder geven van gewoon compleet voer werkt ook. Weeg je kat regelmatig."
+top10: 'ranking=steri'
+top10_kw: 'kattenvoer voor een gesteriliseerde kat'
 ---
 ## Waarom kattenvoer voor een gesteriliseerde kat anders is
 

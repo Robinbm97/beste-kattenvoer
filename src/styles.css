@@ -417,3 +417,13 @@ p{margin:0 0 1em}
 .site-footer .brand{margin:0 0 14px}
 .site-footer .brand-bg,.site-footer .brand::before{display:none}
 .site-footer .logo{transform:skewY(-6deg)!important}
+
+/* vaste opbouw: top 10 direct onder de H1 */
+.top10-intro{font-size:1.08rem}
+.top10-tekst{padding-left:1.4em;margin:.4em 0 1.4em}
+.top10-tekst li{margin:.25em 0}
+.top10-tekst a{font-weight:600}
+.top10-grid{margin-top:1.4em}
+.top10-item{position:relative;display:flex;scroll-margin-top:90px}
+.top10-item>.pcard{flex:1}
+.top10-nr{position:absolute;z-index:3;top:-11px;left:-11px;width:36px;height:36px;border-radius:50%;background:var(--petrol);color:var(--lila);border:3px solid var(--creme);display:grid;place-items:center;font:800 15px/1 var(--display)}

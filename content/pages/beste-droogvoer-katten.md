@@ -5,20 +5,20 @@ template: landing
 primary_keyword: beste droogvoer voor katten
 synonyms: [kattenbrokken, brokken, droogvoer voor je kat]
 breadcrumb: Beste droogvoer
-h1: Beste droogvoer voor katten
+h1: 'Beste droogvoer voor katten'
 lead: "Op zoek naar het beste droogvoer voor katten? Ik vergeleek alle complete kattenbrokken op eiwit, koolhydraten en prijs per dag. Dit is mijn top 10, van goedkoop tot premium, met de cijfers erbij."
-seo_title: "Beste droogvoer voor katten 2026: top 10 kattenbrokken"
-meta_description: "Beste droogvoer voor katten? Onze top 10 kattenbrokken op eiwit, koolhydraten en prijs per dag. IAMS wint op prijs, Natural Health op kwaliteit."
+seo_title: 'Beste droogvoer voor katten 2026: top 10 kattenbrokken'
+meta_description: 'Beste droogvoer voor katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top 10 kattenbrokken.'
 image: bak
 image_alt: "Grijze kat zit in een voerbak, het beste droogvoer voor katten"
 featured: iams
-updated: 2026-11-23
+updated: 2026-11-28
 published: 2026-11-18
 sources: [consumentenbond, fediaf, wsava, claims]
 related: [/beste-natvoer-kat/, /veel-eiwit-kattenvoer/, /kattenvoer-grootverpakking/, /goedkoop-kattenvoer/, /beste-kattenvoer/]
 faq:
   - q: Welk droogvoer is het beste voor katten?
-    a: "In mijn vergelijking scoort Natural Health Graanvrij Adult Carnivore Fish & Beans het hoogst: {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:eiwit}} eiwit en ongeveer {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:kh}} koolhydraten in droge stof, voor {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:dag}} per dag. Wil je het beste droogvoer voor katten voor weinig geld, dan is IAMS Adult Kip in de zak van 10 kilo mijn keuze."
+    a: "In mijn vergelijking scoort Natural Health Graanvrij Adult Carnivore het hoogst: {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:eiwit}} eiwit en ongeveer {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:kh}} koolhydraten in droge stof, voor {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:dag}} per dag. Wil je het beste droogvoer voor katten voor weinig geld, dan is IAMS Adult Kip in de zak van 10 kilo mijn keuze."
   - q: Wat is volgens de Consumentenbond het beste kattenvoer?
     a: "De Consumentenbond noemt voer het best als het veel vocht, veel eiwit en zo weinig mogelijk koolhydraten bevat. Brokken zijn volgens hun deskundige prima, maar niet ideaal, omdat er geen vocht in zit. Zoek je het beste droogvoer voor katten, let dan vooral op een hoog eiwitgehalte en weinig koolhydraten, en zorg voor genoeg water."
   - q: Welk kattenvoer raden dierenartsen aan?
@@ -29,16 +29,9 @@ faq:
     a: "Ook het beste droogvoer voor katten is alleen genoeg als het compleet is. Compleet droogvoer bevat alle voedingsstoffen die een kat nodig heeft. Zorg wel voor genoeg vers water, want katten drinken van nature weinig. Een drinkfontein of een extra waterbak helpt."
   - q: Hoeveel droogvoer geef je een kat per dag?
     a: "Een volwassen kat van 4 kilo eet gemiddeld zo'n 50 tot 60 gram droogvoer per dag. Kijk altijd naar de tabel op de zak, want ook bij het beste droogvoer voor katten verschilt de energie per merk."
+top10: 'form=droog stage=adult sort=score'
+top10_kw: 'beste droogvoer voor katten'
 ---
-## Beste droogvoer voor katten: mijn top 10 in het kort
-
-- **Beste droogvoer voor katten overall:** [Natural Health Graanvrij Adult Carnivore Fish & Beans](/kattenvoer/natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i/). Score {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:score}}, {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:eiwit}} eiwit, {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:dag}} per dag.
-- **Beste prijs-kwaliteit:** [IAMS Adult Kip](/kattenvoer/iams-kattenvoer-adult-kip-10-kg-wmont/) in de zak van 10 kilo. {{p:iams-kattenvoer-adult-kip-10-kg-wmont:eiwit}} eiwit voor {{p:iams-kattenvoer-adult-kip-10-kg-wmont:dag}} per dag.
-- **Bekend merk, maar duur per dag:** [Edgard & Cooper](/merken/edgard-en-cooper/). Lekker merk, maar je betaalt vooral voor de naam. Hieronder leg ik uit waarom.
-
-Hieronder staat mijn volledige top 10 met het beste droogvoer voor katten. Het gaat om complete brokken voor volwassen katten. Ik heb per merk één voer gekozen, zodat je per situatie het beste droogvoer voor katten vindt.
-
-[[top natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:Beste overall|iams-kattenvoer-adult-kip-10-kg-wmont:Beste prijs-kwaliteit|pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-u9s4u:Hoge score voor weinig geld|opti-life-kattenvoer-adult-kip-graanvrij-7-5-kg-4spv1:Graanvrij en voordelig|wellness-core-grain-free-cat-original-kattenbrokken-kalkoenenkip-4-kg-w6e9j:Premium graanvrij|farmina-nend-prime-adult-kattenvoer-chicken-10-kg-1qoum:Veel vlees, weinig zetmeel|applaws-gaanvrij-kip-en-zalm-kattenvoer-2-kg-dr8jq:Meeste eiwit|orijen-kattenvoer-whole-prey-six-fish-vis-5-4-kg-aush0:Beste visbrok|carnilove-duck-pheasant-for-all-breed-sterilised-adults-6-kg-1-stuks-wz9ww:Voor een gesteriliseerde kat|husse-opus-lynx-graanvrij-kattenvoer-graanvrije-kattenbrokken-kattenvo-1tam7:Voor een gevoelige maag]]
 
 ## Waar ik op let: eiwit, koolhydraten en prijs per dag
 
@@ -54,19 +47,19 @@ Zo vind je het beste droogvoer voor katten op basis van feiten. Daarna kijk ik p
 
 ## Beste prijs-kwaliteit: IAMS
 
-Zoek je het beste droogvoer voor katten zonder veel te betalen, dan kies ik [IAMS](/merken/iams/). Er zit {{p:iams-kattenvoer-adult-kip-10-kg-wmont:eiwit}} eiwit in de gewone Adult Kip, en de [Indoor-variant](/kattenvoer/iams-kat-adult-indoor-kip-10-kg-hxy4x/) komt zelfs op {{p:iams-kat-adult-indoor-kip-10-kg-hxy4x:eiwit}}. Dat is meer dan prima voor een volwassen kat. Het voer is compleet en de score is netjes.
+Zoek je het beste droogvoer voor katten zonder veel te betalen, dan kies ik [IAMS](/merken/iams/). Er zit {{p:iams-proactive-health-adult-kip-kattenvoer-10-kg-wmont:eiwit}} eiwit in de gewone Adult Kip, en de [Indoor-variant](/kattenvoer/iams-kat-adult-indoor-kip-10-kg-hxy4x/) komt zelfs op {{p:iams-kat-adult-indoor-kip-10-kg-hxy4x:eiwit}}. Dat is meer dan prima voor een volwassen kat. Het voer is compleet en de score is netjes.
 
-Het grote voordeel is de prijs. In de zak van 10 kilo betaal je {{p:iams-kattenvoer-adult-kip-10-kg-wmont:dag}} per dag, zo'n {{p:iams-kattenvoer-adult-kip-10-kg-wmont:maand}} per maand. Dat is ongeveer de helft van het gemiddelde droogvoer.
+Het grote voordeel is de prijs. In de zak van 10 kilo betaal je {{p:iams-proactive-health-adult-kip-kattenvoer-10-kg-wmont:dag}} per dag, zo'n {{p:iams-proactive-health-adult-kip-kattenvoer-10-kg-wmont:maand}} per maand. Dat is ongeveer de helft van het gemiddelde droogvoer.
 
-Eerlijk is eerlijk: [Pro Plan Delicate Digestion](/kattenvoer/pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-u9s4u/) scoort op papier nog iets hoger ({{p:pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-u9s4u:score}}) voor {{p:pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-u9s4u:dag}} per dag. Dat is ook een kandidaat voor het beste droogvoer voor katten met een gevoelige maag.
+Eerlijk is eerlijk: [Pro Plan Delicate Digestion](/kattenvoer/pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-9n7k8/) scoort op papier nog iets hoger ({{p:pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-9n7k8:score}}) voor {{p:pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-9n7k8:dag}} per dag. Dat is ook een kandidaat voor het beste droogvoer voor katten met een gevoelige maag.
 
 [[lijst brand=iams form=droog stage=adult minscore=5 sort=ppd n=3 permerk=nee label="Prijs-kwaliteit"]]
 
 ## Het allerbeste droogvoer voor katten: Natural Health
 
-Wil je meer uitgeven voor een beter etiket, dan kom je bij Natural Health uit. De [graanvrije Adult Carnivore Fish & Beans](/kattenvoer/natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i/) heeft de hoogste score van alle brokken in mijn vergelijking: {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:score}}.
+Wil je meer uitgeven voor een beter etiket, dan kom je bij Natural Health uit. De [graanvrije Adult Carnivore](/kattenvoer/natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh/) heeft de hoogste score van alle brokken in mijn vergelijking: {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:score}}.
 
-Er zit {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:eiwit}} eiwit in en maar zo'n {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:kh}} koolhydraten. Dat komt dicht in de buurt van wat een kat in de natuur eet, en daarom is dit voor mij het beste droogvoer voor katten. Hij hoort bij de duurdere brokken, maar per dag valt het mee: {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:dag}}. Dat is zelfs minder dan Edgard & Cooper.
+Er zit {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:eiwit}} eiwit in en maar zo'n {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:kh}} koolhydraten. Dat komt dicht in de buurt van wat een kat in de natuur eet, en daarom is dit voor mij het beste droogvoer voor katten. Hij hoort bij de duurdere brokken, maar per dag valt het mee: {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:dag}}. Dat is zelfs minder dan Edgard & Cooper.
 
 [[lijst zoek="Natural Health graanvrij" form=droog stage=adult sort=score n=3 permerk=nee label="Beste kwaliteit"]]
 
@@ -91,7 +84,7 @@ Het beste droogvoer voor katten hoeft niet duur te zijn. Ik heb de prijzen zelf 
 | Voer | Kleine verpakking | Grote verpakking |
 |---|---|---|
 | Edgard & Cooper Adult Kip | {{p:edgard-en-cooper-kattenvoer-kip-325-gr-1puon:kg}} per kilo (325 gram) | {{p:edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y:kg}} per kilo (4 kilo) |
-| IAMS Adult Kip | {{p:iams-kat-adult-kip-3-kg-13lfr:kg}} per kilo (3 kilo) | {{p:iams-kattenvoer-adult-kip-10-kg-wmont:kg}} per kilo (10 kilo) |
+| IAMS Adult Kip | {{p:iams-kat-adult-kip-3-kg-13lfr:kg}} per kilo (3 kilo) | {{p:iams-proactive-health-adult-kip-kattenvoer-10-kg-wmont:kg}} per kilo (10 kilo) |
 
 Een paar tips:
 

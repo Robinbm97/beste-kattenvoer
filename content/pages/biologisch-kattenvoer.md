@@ -4,13 +4,13 @@ slug: /biologisch-kattenvoer/
 template: landing
 primary_keyword: biologisch kattenvoer
 breadcrumb: Biologisch kattenvoer
-h1: Biologisch kattenvoer, beter voor je kat of vooral voor je geweten?
+h1: 'Beste biologisch kattenvoer'
 lead: "Biologisch zegt iets over hoe het vlees en de groenten zijn geteeld. Niet over hoeveel eiwit erin zit. Ik zet de biologische keuzes eerlijk naast de rest."
-seo_title: "Biologisch kattenvoer: beter voor je kat of je geweten?"
-meta_description: "Biologisch kattenvoer vergeleken op eiwit in droge stof, koolhydraten en prijs per dag. Wat het keurmerk wel en niet zegt, met de beste biologische keuzes."
+seo_title: 'Beste biologisch kattenvoer 2026: top 10 met prijs per dag'
+meta_description: 'Beste biologisch kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: oranje
 image_alt: "Rode kat bij een bak biologisch kattenvoer"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf]
 related: [/merken/yarrah/, /merken/lilys-kitchen/, /graanvrij-kattenvoer/, /premium-kattenvoer/]
@@ -19,6 +19,8 @@ faq:
     a: "Niet automatisch. Het biologische keurmerk gaat over teelt en dierenwelzijn: geen kunstmest, geen chemische bestrijdingsmiddelen en meer ruimte voor de dieren. Hoeveel eiwit erin zit, staat daar los van."
   - q: Welk merk biologisch kattenvoer is goed?
     a: "Yarrah en Lily's Kitchen zijn de bekendste. Kijk per product naar het eiwit in droge stof en de prijs per dag; die verschillen binnen één merk flink."
+top10: 'flag=bio sort=score'
+top10_kw: 'biologisch kattenvoer'
 ---
 ## Wat betekent biologisch kattenvoer?
 

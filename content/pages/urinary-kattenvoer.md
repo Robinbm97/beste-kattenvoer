@@ -4,13 +4,13 @@ slug: /urinary-kattenvoer/
 template: landing
 primary_keyword: urinary kattenvoer
 breadcrumb: Urinary kattenvoer
-h1: "Het beste urinary kattenvoer bij blaasgruis: vocht, magnesium en fosfor"
+h1: 'Beste urinary kattenvoer'
 lead: "Blaasgruis of blaasontsteking bij je kat is schrikken. Urinary-voer kan helpen, maar water is minstens zo belangrijk. Mijn eerlijke uitleg, met het voer dat ik vergeleek."
-seo_title: "Beste urinary kattenvoer bij blaasgruis: zo kies je"
-meta_description: "Het beste urinary kattenvoer bij blaasgruis: ik rekende magnesium en fosfor per kcal uit voor {{uri_n_mg}} soorten voer. Met natvoer voorop en dieetvoer apart."
+seo_title: 'Beste urinary kattenvoer 2026: top 10 bij blaasgruis'
+meta_description: 'Beste urinary kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: tabbies
 image_alt: "Twee katten drinken water naast een bak urinary kattenvoer"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [icatcare_flutd, buckley2011, summers2020, wsava]
 related: [/beste-natvoer-kat/, /kattenvoer-gesteriliseerde-kat/, /beste-kattenvoer-volgens-dierenarts/, /kattenvoer-nieren/]
@@ -21,6 +21,8 @@ faq:
     a: "Gewoon urinary-voer uit de winkel kan geen kwaad voor de meeste katten, maar is ook niet nodig. Echt dieetvoer zoals 'Urinary S/O' geef je alleen op advies van de dierenarts."
   - q: Wanneer moet ik met spoed naar de dierenarts?
     a: "Als een kater herhaaldelijk op de bak zit en er niets of bijna niets uitkomt. Een verstopte urinebuis is levensgevaarlijk en is altijd een spoedgeval."
+top10: 'ranking=urinary_nat+urinary_droog'
+top10_kw: 'urinary kattenvoer'
 ---
 ## Eerst even dit
 

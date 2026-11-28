@@ -4,14 +4,14 @@ slug: /senior-kattenvoer/
 template: landing
 primary_keyword: senior kattenvoer
 breadcrumb: Senior kattenvoer
-h1: "Het beste kattenvoer voor oudere katten: spieren houden, fosfor niet te hoog"
+h1: 'Beste kattenvoer voor oudere katten'
 lead: "Vanaf een jaar of zeven tot tien verandert wat je kat nodig heeft. Wanneer is senior kattenvoer zinvol, en welk voer kies je dan?"
-seo_title: "Beste kattenvoer voor oudere katten: eiwit en fosfor"
-meta_description: "Het beste kattenvoer voor oudere katten: genoeg eiwit per kcal tegen spierverlies, fosfor niet onnodig hoog. Ik rekende {{sen_n}} soorten seniorvoer na."
+seo_title: 'Beste senior kattenvoer 2026: top 10 voor oudere katten'
+meta_description: 'Beste kattenvoer voor oudere katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: senior
 image_alt: "Oudere grijze kat rust bij zijn voerbak met senior kattenvoer"
 featured: iams
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, fediaf_mineralen, summers2020, wsava]
 related: [/beste-kattenvoer/, /kennisbank/natvoer-of-droogvoer/, /kattenvoer-gevoelige-maag/]
@@ -20,6 +20,8 @@ faq:
     a: "Veel merken noemen 7 jaar of ouder. Er is geen harde grens: een fitte kat van negen kan prima volwassen voer blijven eten. Let op gewicht, energie en eetlust."
   - q: Moet een oudere kat meer natvoer eten?
     a: "Oudere katten drinken vaak te weinig. Natvoer helpt om meer vocht binnen te krijgen. Bij nierproblemen geldt een dieet in overleg met de dierenarts."
+top10: 'ranking=senior'
+top10_kw: 'seniorvoer'
 ---
 ## Waarom senior kattenvoer voor een oudere kat
 

@@ -122,7 +122,7 @@ function select(q) {
   const sorts = { ppd: (a, b) => a.ppd - b.ppd, ppk: (a, b) => a.ppk - b.ppk, duur: (a, b) => b.ppk - a.ppk, prijs: (a, b) => a.best.price - b.best.price, naam: (a, b) => a.name.localeCompare(b.name, 'nl'), score: (a, b) => b.score.total - a.score.total, eiwit: (a, b) => b.nut.pDM - a.nut.pDM, weinigeiwit: (a, b) => a.nut.pDM - b.nut.pDM, p100: (a, b) => a.p100 - b.p100, p100duur: (a, b) => b.p100 - a.p100, populair: (a, b) => (a.bolRank || 9999) - (b.bolRank || 9999), korting: (a, b) => b.korting - a.korting, kh: (a, b) => b.nut.nfeDM - a.nut.nfeDM };
   xs.sort(sorts[q.sort || 'ppd'] || sorts.ppd);
   // max één product per merk, tenzij merk opgegeven
-  if (!q.brand && q.permerk !== 'nee') { const seen = new Set(); xs = xs.filter((p) => !seen.has(p.brand) && seen.add(p.brand)); }
+  if ((!q.brand || q.permerk === 'ja') && q.permerk !== 'nee') { const seen = new Set(); xs = xs.filter((p) => !seen.has(p.brand) && seen.add(p.brand)); }
   return xs.slice(0, Number(q.n || 6));
 }
 const parseArgs = (s) => Object.fromEntries([...s.matchAll(/(\w+)=("([^"]*)"|\S+)/g)].map((m) => [m[1], m[3] ?? m[2]]));
@@ -523,6 +523,72 @@ for (const pr of ALL.filter(HASPAGE)) {
   pages.push({ title: kw, slug: purl(pr), template: 'product', prod: pr, primary_keyword: kw, seo_title: t, meta_description: d.length > 160 ? d.slice(0, 157).replace(/\s\S*$/, '') + '…' : d, h1: `${kw}: ${kind} doorgerekend`, index: INDEX_PRODUCT(pr), breadcrumb: kw.length > 40 ? kw.slice(0, 38) + '…' : kw, updated: CHECKED, published: CHECKED, sources: ['fediaf', 'fediaf_label'], body: '', source: 'data/feed' });
 }
 
+// ---------- vaste opbouw: H1, top 10 in platte tekst, top 10 als kaarten, daarna de verdieping ----------
+// frontmatter top10: een lijst-query ("form=droog sort=score"), "ranking=kitten" of "ids=id:Label|id:Label"
+const tieRule = (xs) => { const a = xs.slice(); let ch = true; while (ch) { ch = false; for (let k = 0; k < a.length - 1; k++) { const x = a[k], y = a[k + 1]; if (x.score && y.score && x.form === y.form && x.score.total - y.score.total <= 0.2001 && y.ppd < x.ppd) { a[k] = y; a[k + 1] = x; ch = true; } } } return a; };
+function top10Of(pg) {
+  const spec = String(pg.top10 || '').trim();
+  if (!spec) return null;
+  let rows, mode;
+  if (spec.startsWith('ranking=')) { mode = 'ranking'; rows = spec.slice(8).split('+').flatMap((k) => (RANK.lists[k.trim()] || (console.warn('top10: onbekende ranglijst', k), []))).map((x) => ({ p: x })); }
+  else if (spec.startsWith('ids=')) { mode = 'ids'; rows = spec.slice(4).split('|').map((x) => { const i = x.indexOf(':'); const id = (i < 0 ? x : x.slice(0, i)).trim(); if (!BYID[id]) { console.warn('top10: onbekend product', id); return null; } return { p: BYID[id], label: i < 0 ? '' : x.slice(i + 1).trim() }; }).filter(Boolean); }
+  else {
+    const q = parseArgs(spec); mode = q.sort || 'ppd';
+    let xs = select({ ...q, n: 400, permerk: 'nee' });
+    if (mode === 'score') xs = tieRule(xs.sort((a, b) => b.score.total - a.score.total || a.ppd - b.ppd));
+    if (q.permerk !== 'nee' && !q.brand) { const seen = new Set(); xs = xs.filter((p) => !seen.has(p.brand) && seen.add(p.brand)); }
+    else { const seen = new Set(); xs = xs.filter((p) => { const k = (p.short || p.name).toLowerCase(); return !seen.has(k) && seen.add(k); }); }
+    rows = xs.map((x) => ({ p: x }));
+  }
+  const seen = new Set();
+  rows = rows.filter((r) => !seen.has(r.p.id) && seen.add(r.p.id)).slice(0, 10);
+  if (!rows.length) { console.warn('top10: geen producten voor', pg.slug); return null; }
+  const xs = rows.map((r) => r.p);
+  const cheap = xs.filter((x) => x.ppd).reduce((a, b) => (!a || b.ppd < a.ppd ? b : a), null);
+  const prot = xs.filter((x) => x.score && x.nut).reduce((a, b) => (!a || b.nut.pDM > a.nut.pDM ? b : a), null);
+  rows.forEach((r, i) => { if (!r.label) r.label = i === 0 ? 'Mijn nummer 1' : r.p === cheap ? 'Goedkoopst per dag' : r.p === prot ? 'Meeste eiwit' : ''; });
+  rows.mode = mode;
+  return rows;
+}
+const ORDER_TXT = {
+  score: 'Bovenaan staat het voer met de hoogste score. Scheelt het 0,2 punt of minder bij dezelfde soort voer, dan zet ik het goedkoopste hoger.',
+  ppd: 'Ik zet het voer dat per dag het minst kost bovenaan.',
+  prijs: 'Ik zet de laagste prijs bovenaan.',
+  korting: 'Bovenaan staat de grootste korting, alleen voor voer met een goede score.',
+  p100: 'Bovenaan staat het voer waar je het minst betaalt per 100 gram eiwit.',
+  eiwit: 'Bovenaan staat het voer met het meeste eiwit in de droge stof.',
+  ranking: 'De volgorde komt uit mijn ranglijst voor deze categorie. Hoe ik die opstel, lees je verderop.',
+  ids: 'Ik heb deze tien zelf gekozen, elk voor een eigen situatie.',
+};
+function top10Html(pg) {
+  const rows = pg._top10;
+  if (!rows) return '';
+  const kw = esc(pg.top10_kw || pg.primary_keyword);
+  const line = (r, i) => { const p = r.p; const bits = []; if (p.score) bits.push(`score ${score(p.score.total)}`); if (p.score && p.nut) bits.push(`${pct(p.nut.pDM)} eiwit`); bits.push(p.ppd ? `${eur(p.ppd)} per dag` : eur(p.best.price)); return `<li><a href="#top-${i + 1}">${esc(p.short || p.name)}</a>${r.label && i > 0 ? ` (${esc(r.label.charAt(0).toLowerCase() + r.label.slice(1))})` : ''}: ${bits.join(', ')}.</li>`; };
+  const fine = (grid([rows[0].p]).match(/<p class="fine">[\s\S]*<\/p>$/) || [''])[0];
+  return `<section class="top10" aria-labelledby="top10-kop"><p class="top10-intro">Dit is mijn top ${rows.length} ${kw}, bijgewerkt op ${nlDate(CHECKED)}. ${ORDER_TXT[rows.mode] || ORDER_TXT.score}</p>
+<ol class="top10-tekst">${rows.map(line).join('')}</ol>
+<h2 id="top10-kop">Top ${rows.length} ${kw}</h2>
+<div class="pgrid top10-grid">${rows.map((r, i) => `<div class="top10-item" id="top-${i + 1}"><span class="top10-nr" aria-label="Plek ${i + 1}">${i + 1}</span>${card(r.p, { pick: r.label || undefined })}</div>`).join('')}</div>${fine}</section>`;
+}
+for (const p of pages) {
+  if (!p.top10) continue;
+  p._top10 = top10Of(p);
+  const t = p._top10 && p._top10[0].p;
+  if (!t) continue;
+  const tv = { top1: t.short || t.name, top1_score: t.score ? score(t.score.total) : '', top1_dag: t.ppd ? eur(t.ppd) : eur(t.best.price), top1_eiwit: t.nut ? pct(t.nut.pDM) : '', top_n: String(p._top10.length) };
+  for (const k of ['seo_title', 'meta_description', 'lead', 'h1']) if (typeof p[k] === 'string') p[k] = p[k].replace(/\{\{(top1\w*|top_n)\}\}/g, (_, x) => tv[x] ?? '');
+  // meta binnen 160 tekens houden: eerst de productnaam inkorten, pas als laatste de slotzin weg
+  const m0 = p.meta_description || '';
+  if (m0.length > 160) {
+    const words = tv.top1.split(/\s+/);
+    let m = m0;
+    for (let n = words.length - 1; n >= 2 && m.length > 160; n--) m = m0.replace(tv.top1, words.slice(0, n).join(' ').replace(/[\s\-–&,(]+$/, ''));
+    if (m.length > 160) m = m.replace(/\s+[^.?!]*[.?!]$/, '');
+    p.meta_description = m;
+  }
+}
+
 // cijfers in titels, descriptions en intro's invullen (zodat ze met de feed meebewegen)
 for (const p of pages) for (const k of ['seo_title', 'meta_description', 'lead', 'h1']) if (typeof p[k] === 'string' && p[k].includes('{{')) p[k] = subst(p[k]);
 
@@ -752,7 +818,7 @@ function vergelijkerPage(p) {
 }
 
 function articlePage(p) {
-  return `${pageHead(p)}<div class="wrap content"><div class="prose">${md(p.body, p)}${faqHtml(p)}${p.template === 'page' || p.template === 'contact' ? '' : sourcesHtml(p)}${related(p)}</div></div>`;
+  return `${pageHead(p)}<div class="wrap content"><div class="prose">${top10Html(p)}${md(p.body, p)}${faqHtml(p)}${p.template === 'page' || p.template === 'contact' ? '' : sourcesHtml(p)}${related(p)}</div></div>`;
 }
 function hubPage(p) {
   const kids = pages.filter((x) => x.slug !== p.slug && x.slug.startsWith(p.slug) && x.slug.split('/').length === p.slug.split('/').length + 1 && x.template !== 'review');

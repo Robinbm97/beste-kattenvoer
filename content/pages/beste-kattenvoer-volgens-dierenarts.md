@@ -5,14 +5,14 @@ template: landing
 primary_keyword: beste kattenvoer volgens dierenarts
 synonyms: [dierenartsvoer, dieetvoer, voer van de dierenarts, speciaal kattenvoer, advies van de dierenarts, dierenartsen aanraden, veterinary diet, prescription diet]
 breadcrumb: Volgens de dierenarts
-h1: Beste kattenvoer volgens de dierenarts
+h1: 'Beste kattenvoer volgens de dierenarts'
 lead: "Wat is het beste kattenvoer volgens de dierenarts? Meestal Royal Canin of Hill's, zeker als je kat iets speciaals nodig heeft. Mijn top 10 per probleem, en waar je op let als je het bij de dierenarts koopt."
-seo_title: "Beste kattenvoer volgens de dierenarts: top 10 (2026)"
+seo_title: 'Beste kattenvoer volgens dierenarts: top 10 per probleem'
 meta_description: "Beste kattenvoer volgens de dierenarts? Top 10 van Royal Canin en Hill's per probleem: blaas, nieren, maag en gewicht. Plus waarom je niet blind koopt."
 image: kitten
 image_alt: "Kitten bij de dierenarts naast een bak met het beste kattenvoer volgens de dierenarts"
 featured: royal-canin
-updated: 2026-11-23
+updated: 2026-11-28
 published: 2026-11-18
 sources: [wsava, fediaf, icatcare_flutd, iris]
 related: [/urinary-kattenvoer/, /kattenvoer-nieren/, /hypoallergeen-kattenvoer/, /merken/royal-canin/, /beste-droogvoer-katten/]
@@ -27,12 +27,9 @@ faq:
     a: "Je hoort een dierenarts zelden Felix of ander goedkoop supermarktvoer aanraden. Felix droogvoer heeft weinig eiwit en veel koolhydraten. Het is wel compleet, maar het is niet wat een kat het beste helpt."
   - q: Kan ik dieetvoer zomaar geven?
     a: "Liever niet. Dieetvoer zoals urinary of renal is gemaakt voor een specifiek probleem. Geef het alleen na het advies van de dierenarts, en laat je kat op tijd controleren."
+top10: 'ids=hill-s-prescription-diet-c-d-multicare-urinary-care-kattenvoer-kip-8-k-4a7g3:Blaasproblemen (droog)|royal-canin-veterinary-diet-urinary-s-o-natvoer-12x85-g-1odrk:Blaasproblemen (nat)|royal-canin-urinary-s-o-moderate-calorie-kattenvoer-9-kg-ij79k:Blaas en te zwaar|hill-s-prescription-diet-k-d-kidney-care-kattenvoer-kip-3-kg-ondersteu-1i1r6:Nierproblemen|royal-canin-gastro-intestinal-moderate-calorie-4-kg-kattenvoer-1gxuw:Maag en darmen|royal-canin-veterinary-diet-diabetic-3-5-kg-kattenvoer-1p1q4:Diabetes|royal-canin-satiety-weight-management-kattenvoer-6-kg-6tjt9:Overgewicht|royal-canin-veterinary-diet-cat-skin-en-coat-3-5-kg-kattenvoer-upybl:Huid en vacht|pro-plan-veterinary-diets-feline-ha-hypoallergenic-kattenvoer-3-5-kg-1tm6r:Voedselallergie|royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:Gezonde kat'
+top10_kw: 'kattenvoer volgens de dierenarts'
 ---
-## Beste kattenvoer volgens de dierenarts: de top 10 per probleem
-
-Heeft je kat iets speciaals nodig, dan kom je bij de dierenarts bijna altijd uit bij **Royal Canin** of **Hill's**. Die merken hebben voor vrijwel elk probleem een eigen lijn met speciaal kattenvoer. Hieronder staat per probleem het beste kattenvoer volgens de dierenarts, met de cijfers erbij. Dit is het dieetvoer dat dierenartsen aanraden, van Royal Canin (Veterinary Diet), Hill's (Prescription Diet) en één keer Pro Plan.
-
-[[top "het beste kattenvoer volgens de dierenarts, per probleem" hill-s-prescription-diet-c-d-multicare-urinary-care-kattenvoer-kip-8-k-4a7g3:Blaasproblemen (droog)|royal-canin-veterinary-diet-urinary-s-o-natvoer-12x85-g-1odrk:Blaasproblemen (nat)|royal-canin-urinary-s-o-moderate-calorie-kattenvoer-9-kg-ij79k:Blaas en te zwaar|hill-s-prescription-diet-k-d-kidney-care-kattenvoer-kip-3-kg-ondersteu-1i1r6:Nierproblemen|royal-canin-gastro-intestinal-moderate-calorie-4-kg-kattenvoer-1gxuw:Maag en darmen|royal-canin-veterinary-diet-diabetic-3-5-kg-kattenvoer-1p1q4:Diabetes|royal-canin-satiety-weight-management-kattenvoer-6-kg-6tjt9:Overgewicht|royal-canin-veterinary-diet-cat-skin-en-coat-3-5-kg-kattenvoer-upybl:Huid en vacht|pro-plan-veterinary-diets-feline-ha-hypoallergenic-kattenvoer-3-5-kg-1tm6r:Voedselallergie|royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:Gezonde kat]]
 
 Let op: bij dieetvoer zegt mijn score minder. Nierdieet heeft bijvoorbeeld bewust minder eiwit en fosfor, dus dat scoort bij mij laag, terwijl het voor een kat met zieke nieren juist goed is. Geef dieetvoer altijd na het advies van de dierenarts. Het beste kattenvoer volgens de dierenarts is dus niet altijd het voer met de hoogste score bij mij.
 
@@ -68,7 +65,7 @@ Ter vergelijking, alle drie droogvoer voor een volwassen kat:
 |---|---|---|---|
 | Felix Dubbel Zo Lekker | {{p:felix-dubbel-zo-lekker-rund-en-kip-7-5kg-10cnh:eiwit}} | ±{{p:felix-dubbel-zo-lekker-rund-en-kip-7-5kg-10cnh:kh}} | {{p:felix-dubbel-zo-lekker-rund-en-kip-7-5kg-10cnh:dag}} |
 | Royal Canin Fussy | {{p:royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:eiwit}} | ±{{p:royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:kh}} | {{p:royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:dag}} |
-| Natural Health Carnivore Fish & Beans | {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:eiwit}} | ±{{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:kh}} | {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-fish-en-beans-10-k-wf10i:dag}} |
+| Natural Health Carnivore | {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:eiwit}} | ±{{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:kh}} | {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:dag}} |
 
 Je hoort een dierenarts eigenlijk nooit Felix aanraden, en dat snap ik: weinig eiwit en veel koolhydraten. Royal Canin zit er netjes tussenin: prima voer van de dierenarts, maar niet automatisch het beste kattenvoer volgens de cijfers. Maar wil je voor een gezonde kat het meeste eiwit voor je geld, kijk dan ook naar mijn [beste droogvoer voor katten](/beste-droogvoer-katten/).
 

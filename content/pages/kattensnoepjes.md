@@ -4,13 +4,13 @@ slug: /kattensnoepjes/
 template: landing
 primary_keyword: kattensnoepjes
 breadcrumb: Kattensnoepjes
-h1: Kattensnoepjes zonder schuldgevoel
+h1: 'Beste kattensnoepjes'
 lead: "Snacks zijn leuk, voor jou en je kat. Maar ze zijn per kilo vaak duurder dan het duurste voer. Zo kies en geef je ze slim."
-seo_title: "Kattensnoepjes: welke zijn lekker, gezond en betaalbaar?"
-meta_description: "Kattensnoepjes en snacks vergeleken: hoeveel mag je geven, waar let je op en welke snacks zijn voordelig? Eerlijk advies voor een verwende kat."
+seo_title: 'Beste kattensnoepjes 2026: top 10 en wat ze echt kosten'
+meta_description: 'Beste kattensnoepjes? Mijn nummer 1 is {{top1}} voor {{top1_dag}}. Bekijk mijn top 10 met de prijs per verpakking en wat erin zit.'
 image: poot
 image_alt: "Kat likt zijn poot na kattensnoepjes"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf]
 related: [/kattenvoer-gesteriliseerde-kat/, /kennisbank/hoeveel-kattenvoer-per-dag/, /beste-kattenvoer/]
@@ -19,6 +19,8 @@ faq:
     a: "Als vuistregel geldt: snacks maximaal 10 procent van wat je kat per dag eet. Haal dat van het gewone voer af."
   - q: Zijn likbare snacks zoals Churu gezond?
     a: "Het zijn snacks, geen maaltijd. Katten vinden ze heerlijk en ze zijn handig om pilletjes te geven. Geef ze met mate."
+top10: 'form=snack sort=prijs'
+top10_kw: 'kattensnoepjes'
 ---
 ## Kattensnoepjes: leuk, maar reken even mee
 

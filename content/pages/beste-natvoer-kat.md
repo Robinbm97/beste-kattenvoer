@@ -4,14 +4,14 @@ slug: /beste-natvoer-kat/
 template: landing
 primary_keyword: beste natvoer kat
 breadcrumb: Beste natvoer
-h1: Het beste natvoer voor je kat
+h1: 'Beste natvoer voor je kat'
 lead: "Natvoer is lekker en geeft extra vocht, maar het is ook het duurste deel van het menu. Zo kies je natvoer dat goed is én betaalbaar blijft."
-seo_title: "Beste natvoer voor je kat: eerlijk vergeleken per dag"
-meta_description: "Wat is het beste natvoer voor je kat? Ik vergeleek compleet natvoer op prijs per dag en etiket, en waarschuw voor aanvullend voer. Mijn keuzes per budget."
+seo_title: 'Beste natvoer kat 2026: top 10 op eiwit en prijs per dag'
+meta_description: 'Beste natvoer voor je kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top 10 natvoer.'
 image: kom
 image_alt: "Kat eet het beste natvoer voor een kat uit een metalen bak"
 featured: yarrah
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, claims]
 related: [/beste-droogvoer-katten/, /kennisbank/natvoer-of-droogvoer/, /merken/almo-nature/, /goedkoop-kattenvoer/]
@@ -20,6 +20,8 @@ faq:
     a: "Een volwassen kat van 4 kilo die alleen natvoer eet, heeft gemiddeld zo’n 200 tot 250 gram per dag nodig. Combineer je met brokken, dan geef je minder van allebei."
   - q: Hoe lang mag natvoer in de bak blijven staan?
     a: "Niet te lang, zeker niet als het warm is. Haal restjes na een paar uur weg. Een open blik bewaar je afgedekt in de koelkast en gebruik je binnen een dag of twee."
+top10: 'form=nat stage=adult sort=score'
+top10_kw: 'beste natvoer voor katten'
 ---
 ## Waarom natvoer kiezen?
 

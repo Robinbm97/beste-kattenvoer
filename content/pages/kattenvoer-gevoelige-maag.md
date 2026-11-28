@@ -4,14 +4,14 @@ slug: /kattenvoer-gevoelige-maag/
 template: landing
 primary_keyword: kattenvoer gevoelige darmen
 breadcrumb: Gevoelige maag
-h1: "Kattenvoer voor gevoelige darmen en een gevoelige maag"
+h1: 'Beste kattenvoer voor gevoelige darmen'
 lead: "Braakt je kat vaak of heeft hij zachte ontlasting? Voer kan helpen, maar begin bij de juiste stap. Dit is wat ik zou doen."
-seo_title: "Kattenvoer voor gevoelige darmen: licht verteerbaar kiezen"
-meta_description: "Kattenvoer voor gevoelige darmen: niet te vet, weinig ruwe celstof en zo min mogelijk wisselen. Mijn ranglijst uit {{gev_n}} soorten sensitive-voer, met prijs."
+seo_title: 'Kattenvoer gevoelige darmen: top 10 voor een rustige maag'
+meta_description: 'Kattenvoer voor gevoelige darmen? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: bak
 image_alt: "Kat zit rustig in een voerbak met kattenvoer voor een gevoelige maag"
 featured: pro-plan
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/graanvrij-kattenvoer/, /kennisbank/kat-overzetten-op-ander-voer/, /beste-kattenvoer/]
@@ -20,6 +20,8 @@ faq:
     a: "Bij herhaald braken op één dag, bloed, sloomheid, niet eten of afvallen ga je direct. Af en toe een haarbal uitbraken is bij veel katten normaal."
   - q: Helpt monoproteïne voer bij een gevoelige maag?
     a: "Voer met één eiwitbron kan helpen uitzoeken waar je kat op reageert. Doe zo’n eliminatiedieet bij voorkeur samen met je dierenarts."
+top10: 'ranking=gevoelig'
+top10_kw: 'kattenvoer voor gevoelige darmen'
 ---
 ## Gevoelige maag: ligt het echt aan het kattenvoer?
 

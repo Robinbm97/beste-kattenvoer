@@ -4,13 +4,13 @@ slug: /kattenvoer-grootverpakking/
 template: landing
 primary_keyword: kattenvoer grootverpakking
 breadcrumb: Grootverpakking
-h1: Kattenvoer in grootverpakking, hoeveel scheelt een zak van 10 kilo?
+h1: 'Beste kattenvoer in grootverpakking'
 lead: "Een grote zak brokken is per kilo flink goedkoper. Maar een open zak blijft niet eeuwig vers. Ik rekende uit hoeveel je bespaart en wanneer het niet slim is."
-seo_title: "Kattenvoer grootverpakking: hoeveel bespaar je met 10 kg?"
-meta_description: "Kattenvoer in grootverpakking van 7 tot 15 kilo: hoeveel je per kilo bespaart, hoe lang een open zak goed blijft en welk voer in een grote zak het beste scoort."
+seo_title: 'Kattenvoer grootverpakking 2026: top 10 zakken vanaf 7 kilo'
+meta_description: 'Kattenvoer in grootverpakking? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: brokken
 image_alt: "Grote zak kattenvoer in grootverpakking met brokken in een schep"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [plein_feed, bol_api]
 related: [/goedkoop-kattenvoer/, /beste-droogvoer-katten/, /kattenvoer-aanbieding/, /merken/iams/]
@@ -19,6 +19,8 @@ faq:
     a: "Ja. In mijn vergelijking is een zak vanaf 7 kilo per kilo gemiddeld {{groot_besparing}} goedkoper dan een zak tot 2,5 kilo van hetzelfde voer. Dat heb ik bij {{groot_aantal}} droogvoeders kunnen vergelijken."
   - q: Hoe lang blijft een open zak kattenvoer goed?
     a: "Reken op zes tot acht weken. Daarna kunnen de vetten gaan ranzen en verliest het voer geur en smaak. Een kat van 4 kilo eet ongeveer 50 tot 55 gram per dag, dus zo'n 1,6 kilo per maand."
+top10: 'form=droog mingram=7000 sort=score'
+top10_kw: 'kattenvoer in grootverpakking'
 ---
 ## Kattenvoer grootverpakking: de besparing
 

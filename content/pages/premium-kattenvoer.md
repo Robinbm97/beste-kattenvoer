@@ -4,13 +4,13 @@ slug: /premium-kattenvoer/
 template: landing
 primary_keyword: premium kattenvoer
 breadcrumb: Premium kattenvoer
-h1: Premium kattenvoer, krijg je meer voor je geld?
+h1: 'Beste premium kattenvoer'
 lead: "Premium, hoogwaardig, super premium. Ik rekende uit wat je per gram eiwit betaalt bij het duurste voer, en waar je dezelfde kwaliteit voor minder vindt."
-seo_title: "Premium kattenvoer: krijg je echt meer voor je geld?"
-meta_description: "Is premium kattenvoer beter? Ik vergeleek het duurste kattenvoer op prijs per 100 gram eiwit en vond voer met evenveel eiwit voor de helft van de prijs."
+seo_title: 'Premium kattenvoer 2026: top 10 die zijn prijs waard is'
+meta_description: 'Beste premium kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: tabbies
 image_alt: "Twee katten bij een bak premium kattenvoer"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, plein_feed, bol_api]
 related: [/veel-eiwit-kattenvoer/, /beste-kattenvoer/, /merken/orijen/, /kattenvoer-vergelijken/]
@@ -19,6 +19,8 @@ faq:
     a: "Een marketingterm zonder vaste regels. Meestal bedoelt een merk er voer mee met meer vlees, een korter etiket en een hogere prijs. Of dat klopt, zie je aan het eiwit in droge stof en de samenstelling."
   - q: Is duur kattenvoer beter?
     a: "Vaak een beetje, maar lang niet altijd naar verhouding. In mijn vergelijking zit er tussen de duurste en de voordeligste eiwitrijke brokken soms een factor twee in prijs per gram eiwit."
+top10: 'form=droog,nat class=premium sort=score'
+top10_kw: 'premium kattenvoer'
 ---
 ## Premium kattenvoer: wat betaal je eigenlijk?
 

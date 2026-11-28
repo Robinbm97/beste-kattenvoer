@@ -4,14 +4,14 @@ slug: /goedkoop-kattenvoer/
 template: landing
 primary_keyword: goedkoop kattenvoer
 breadcrumb: Goedkoop kattenvoer
-h1: Goedkoop kattenvoer dat wél deugt
+h1: 'Goedkoop kattenvoer'
 lead: "Een krappe portemonnee betekent geen slecht voer. Ik zocht de voordeligste complete brokken en natvoer, en vertel eerlijk waar goedkoop duurkoop wordt."
-seo_title: "Beste goedkope kattenvoer: de meeste eiwit voor je geld"
-meta_description: "Goedkoop kattenvoer dat wel deugt: voer met score 6+ en de laagste prijs per 100 gram eiwit. Zo betaal je voor vlees, niet voor vulling. Met bespaartips."
+seo_title: 'Goedkoop kattenvoer 2026: top 10 met een goede score'
+meta_description: 'Goedkoop kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Alleen voer met een voldoende score in mijn top 10.'
 image: duo
 image_alt: "Twee katten eten samen goedkoop kattenvoer uit een voerbak"
 featured: iams
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, claims]
 related: [/beste-kattenvoer/, /kennisbank/kosten-kattenvoer-per-maand/, /beste-droogvoer-katten/, /merken/iams/]
@@ -22,6 +22,8 @@ faq:
     a: "Nee. Het meeste supermarktvoer is compleet. Het etiket is vaak wel vager, en voor iets meer geld krijg je soms een veel duidelijker recept."
   - q: Hoe bespaar ik op kattenvoer?
     a: "Koop grote verpakkingen, combineer natvoer met brokken, geef niet te veel en blijf bij één merk. Dat scheelt al snel tientallen euro’s per jaar."
+top10: 'stage=adult minscore=5.5 sort=ppd'
+top10_kw: 'goedkoop kattenvoer met een goede score'
 ---
 ## Goedkoop kattenvoer: kan dat zonder schuldgevoel?
 

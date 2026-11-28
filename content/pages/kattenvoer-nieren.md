@@ -4,13 +4,13 @@ slug: /kattenvoer-nieren/
 template: landing
 primary_keyword: kattenvoer nieren
 breadcrumb: Nierproblemen
-h1: Kattenvoer bij nierproblemen, wat je moet weten
+h1: 'Beste kattenvoer bij nierproblemen'
 lead: "Nierproblemen komen veel voor bij oudere katten, en voer speelt een grote rol. Dit is geen pagina om zelf te dokteren, wel om te begrijpen wat je dierenarts voorstelt."
-seo_title: "Beste kattenvoer bij nierproblemen: renal-dieet op fosfor"
+seo_title: 'Kattenvoer nieren 2026: top 10 nierdiëten op fosfor'
 meta_description: "Kattenvoer bij nierproblemen: fosfor per 1000 kcal voor {{nier_n}} nierdiëten en {{nier_n_p}} soorten gewoon voer naast elkaar. Kies altijd met je dierenarts."
 image: senior
 image_alt: "Oudere kat met nierproblemen bij een bak renal kattenvoer"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [iris, iris_dieet, summers2020, wsava]
 related: [/senior-kattenvoer/, /urinary-kattenvoer/, /beste-kattenvoer-volgens-dierenarts/, /beste-natvoer-kat/]
@@ -19,6 +19,8 @@ faq:
     a: "Bij een kat met vastgestelde nierziekte adviseert de dierenarts meestal een nierdieet met minder fosfor en aangepast eiwit. Voor een gezonde kat is speciaal niervoer niet nodig."
   - q: Moet een oudere kat minder eiwit eten voor zijn nieren?
     a: "Een gezonde oudere kat niet: die heeft juist eiwit nodig om zijn spieren te behouden. Alleen bij nierziekte gaat het om minder fosfor en een aangepaste hoeveelheid eiwit, en dat bepaalt de dierenarts."
+top10: 'ranking=nieren'
+top10_kw: 'nierdieetvoer'
 ---
 ## Kattenvoer bij nierproblemen: eerst naar de dierenarts
 

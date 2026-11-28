@@ -4,13 +4,13 @@ slug: /wat-is-goed-kattenvoer/
 template: landing
 primary_keyword: goed kattenvoer
 breadcrumb: Wat is goed kattenvoer
-h1: Wat is goed kattenvoer? Vijf checks die ik altijd doe
+h1: 'Wat is goed kattenvoer?'
 lead: "Goed kattenvoer hoeft niet duur te zijn. Met vijf simpele checks op de zak zie je in een minuut of een voer deugt. Dit zijn ze."
-seo_title: "Wat is goed kattenvoer? 5 checks voor gezond kattenvoer"
-meta_description: "Wat is goed en gezond kattenvoer? Vijf checks die je zelf op de zak doet: compleet voer, vlees vooraan, eiwit in droge stof, koolhydraten en prijs."
+seo_title: 'Goed kattenvoer: top 10 dat alle vijf checks haalt'
+meta_description: 'Wat is goed kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: kom
 image_alt: "Kom met goed kattenvoer op een houten vloer"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, fediaf_label, wsava, plantinga]
 related: [/kennisbank/kattenvoer-etiket-lezen/, /beste-kattenvoer/, /hoe-wij-scoren/]
@@ -19,6 +19,8 @@ faq:
     a: "Compleet voer met veel dierlijk eiwit, weinig vulling en een etiket waar je wijs uit wordt. Daarnaast telt de hoeveelheid: ook het beste voer is ongezond als je kat er te dik van wordt."
   - q: Is duur kattenvoer beter?
     a: "Niet automatisch. Er is voordelig voer met veel eiwit en duur voer met gemiddeld eiwit. Reken naar de prijs per 100 gram eiwit om dat te zien."
+top10: 'mineiwit=40 minscore=6.5 sort=ppd'
+top10_kw: 'goed kattenvoer'
 ---
 ## Wat is goed kattenvoer volgens mij?
 

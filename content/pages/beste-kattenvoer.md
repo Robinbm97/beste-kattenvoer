@@ -4,14 +4,14 @@ slug: /beste-kattenvoer/
 template: landing
 primary_keyword: beste kattenvoer
 breadcrumb: Beste kattenvoer
-h1: Het beste kattenvoer, eerlijk gekozen per situatie
+h1: 'Beste kattenvoer'
 lead: "Geen top 10 vol sponsors. Dit is mijn lijst met het beste kattenvoer per situatie, met per keuze wat het je per dag kost."
-seo_title: "Beste kattenvoer: eerlijk vergeleken op etiket en prijs"
-meta_description: "Wat is het beste kattenvoer voor jouw kat? Mijn keuzes per situatie: brokken, natvoer, kitten, senior en budget. Met prijs per dag en een kritische blik."
+seo_title: 'Beste kattenvoer 2026: top 10 op etiket en prijs per dag'
+meta_description: 'Beste kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn top 10 natvoer en brokken met eiwit en prijs.'
 image: kom
 image_alt: "Kat eet het beste kattenvoer uit een metalen voerbak"
 featured: smolke
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, claims, wsava]
 related: [/goedkoop-kattenvoer/, /kattenvoer-vergelijken/, /kennisbank/kattenvoer-etiket-lezen/, /merken/]
@@ -22,6 +22,8 @@ faq:
     a: "Niet automatisch. Duur voer heeft vaak een duidelijker etiket en meer benoemd vlees, maar een deel van de prijs is merk en verpakking. Degelijk middenklassevoer is voor veel katten prima."
   - q: Hoe vaak mag ik van kattenvoer wisselen?
     a: "Zo weinig mogelijk. Wissel je toch, bouw het nieuwe voer dan in 7 tot 10 dagen op om maagklachten te voorkomen."
+top10: 'form=droog,nat stage=adult sort=score'
+top10_kw: 'beste kattenvoer'
 ---
 ## Wat maakt het beste kattenvoer?
 

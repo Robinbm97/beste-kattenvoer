@@ -4,14 +4,14 @@ slug: /kittenvoer/
 template: landing
 primary_keyword: kittenvoer
 breadcrumb: Kittenvoer
-h1: "Het beste kittenvoer: eiwit, energie en de juiste mineralen"
+h1: 'Beste kittenvoer'
 lead: "Een kitten groeit hard en heeft ander voer nodig dan een volwassen kat. Dit is het kittenvoer dat ik zou kiezen, met de prijs per dag erbij."
-seo_title: "Beste kittenvoer: zo kies je voer dat echt groei ondersteunt"
-meta_description: "Het beste kittenvoer: veel eiwit en een calcium-fosforverhouding binnen de FEDIAF-groeinorm. Ik rekende {{kit_n}} soorten kittenvoer na, met prijs per dag."
+seo_title: 'Beste kittenvoer 2026: top 10 voor een kitten in de groei'
+meta_description: 'Beste kittenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: kittens
 image_alt: "Twee kittens op een krabpaal wachten op kittenvoer"
 featured: edgard-en-cooper
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, fediaf_mineralen, wsava]
 related: [/beste-kattenvoer/, /kennisbank/hoeveel-kattenvoer-per-dag/, /kennisbank/kat-overzetten-op-ander-voer/]
@@ -22,6 +22,8 @@ faq:
     a: "Af en toe is geen probleem, maar kittenvoer is energierijker. Als vast voer voor een volwassen kat kan het leiden tot overgewicht."
   - q: Hoe vaak eet een kitten per dag?
     a: "Jonge kittens eten vaak, verdeeld over 4 tot 5 kleine maaltijden. Naarmate ze ouder worden, ga je terug naar 2 tot 3 maaltijden."
+top10: 'ranking=kitten'
+top10_kw: 'kittenvoer'
 ---
 ## Waarom kittenvoer echt nodig is
 

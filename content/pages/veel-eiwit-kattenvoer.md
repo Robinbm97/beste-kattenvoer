@@ -4,14 +4,14 @@ slug: /veel-eiwit-kattenvoer/
 template: landing
 primary_keyword: eiwitrijk kattenvoer
 breadcrumb: Veel eiwit, eerlijke prijs
-h1: Eiwitrijk kattenvoer, en wat het je kost
+h1: 'Beste eiwitrijk kattenvoer'
 lead: "Een kat is een vleeseter en heeft vooral dierlijk eiwit nodig. Ik rekende voor elk etiket uit hoeveel eiwit erin zit en wat je per 100 gram eiwit betaalt."
-seo_title: "Eiwitrijk kattenvoer: veel eiwit voor weinig geld per dag"
-meta_description: "Welk kattenvoer heeft veel eiwit voor weinig geld? Per etiket rekende ik het eiwit in droge stof en de prijs per 100 gram eiwit uit, plus wat te weinig heeft."
+seo_title: 'Eiwitrijk kattenvoer 2026: top 10 met veel eiwit per euro'
+meta_description: 'Beste eiwitrijk kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: oranje
 image_alt: "Rode kat eet eiwitrijk kattenvoer uit een zwarte kom"
 featured: wellness-core
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, fediaf_label, wsava]
 related: [/hoe-wij-scoren/, /kattenvoer/, /kennisbank/kattenvoer-etiket-lezen/, /goedkoop-kattenvoer/]
@@ -22,6 +22,8 @@ faq:
     a: "Natvoer bestaat voor zo’n 80 procent uit water. Op het etiket lijkt het eiwitpercentage daardoor laag. Pas als je het water eruit rekent, kun je natvoer en brokken eerlijk vergelijken."
   - q: Is meer eiwit altijd beter?
     a: "Voor een gezonde kat is veel dierlijk eiwit prima en past het bij hoe een kat van nature eet. Bij nierproblemen kan de dierenarts juist minder eiwit adviseren. Overleg dan altijd eerst."
+top10: 'form=droog,nat mineiwit=45 sort=p100'
+top10_kw: 'eiwitrijk kattenvoer'
 ---
 ## Waarom eiwit het belangrijkste is in kattenvoer
 

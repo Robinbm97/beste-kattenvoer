@@ -4,13 +4,13 @@ slug: /indoor-kattenvoer/
 template: landing
 primary_keyword: indoor kattenvoer
 breadcrumb: Indoor kattenvoer
-h1: Indoor kattenvoer voor binnenkatten, nodig of niet?
+h1: 'Beste indoor kattenvoer'
 lead: "Binnenkatten bewegen minder en worden sneller te zwaar. Indoor-voer belooft daar iets aan te doen. Ik keek wat er echt anders is aan de zak."
-seo_title: "Indoor kattenvoer voor binnenkatten: nodig of marketing?"
-meta_description: "Indoor kattenvoer vergeleken met gewoon voer: calorieën, vezels, eiwit en prijs per dag. Wat een binnenkat echt nodig heeft, met de beste indoor-keuzes."
+seo_title: 'Beste indoor kattenvoer 2026: top 10 voor binnenkatten'
+meta_description: 'Beste indoor kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: senior
 image_alt: "Binnenkat op de bank naast een bak indoor kattenvoer"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf]
 related: [/kattenvoer-gesteriliseerde-kat/, /beste-droogvoer-katten/, /wat-is-goed-kattenvoer/, /kennisbank/hoeveel-kattenvoer-per-dag/]
@@ -19,6 +19,8 @@ faq:
     a: "Meestal iets minder calorieën per 100 gram en wat meer vezels, vaak met de belofte dat er minder haarballen ontstaan. De verschillen zijn klein; de portiegrootte maakt veel meer uit."
   - q: Moet een binnenkat indoor-voer krijgen?
     a: "Nee. Een binnenkat kan prima gewoon compleet voer eten, zolang je de porties afweegt. Indoor-voer kan helpen als je kat snel aankomt."
+top10: 'flag=binnenkat sort=score'
+top10_kw: 'indoor kattenvoer'
 ---
 ## Indoor kattenvoer: wat is er anders?
 

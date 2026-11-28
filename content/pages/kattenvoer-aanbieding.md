@@ -4,13 +4,13 @@ slug: /kattenvoer-aanbieding/
 template: landing
 primary_keyword: kattenvoer aanbieding
 breadcrumb: Kattenvoer aanbieding
-h1: Kattenvoer in de aanbieding, maar is het ook een goede deal?
+h1: 'Kattenvoer aanbieding'
 lead: "Korting is pas korting als het voer ook deugt. Ik zet de aanbiedingen van vandaag naast mijn score, zodat je niet in de aanbieding koopt wat je eigenlijk niet wilt."
-seo_title: "Kattenvoer aanbieding: alleen korting op voer dat deugt"
-meta_description: "Kattenvoer in de aanbieding, gefilterd op voer dat ook goed scoort op eiwit en etiket. Felix, Gourmet, Royal Canin en IAMS met korting, dagelijks bijgewerkt."
+seo_title: 'Kattenvoer aanbieding: top 10 deals met een goede score'
+meta_description: 'Kattenvoer in de aanbieding? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Alleen deals met een goede score in mijn top 10.'
 image: samen
 image_alt: "Twee katten bij een bak kattenvoer uit de aanbieding"
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [plein_feed, bol_api]
 related: [/goedkoop-kattenvoer/, /kattenvoer-grootverpakking/, /merken/felix/]
@@ -19,6 +19,8 @@ faq:
     a: "Op deze pagina staan de aanbiedingen van Plein.nl en bol.com van vandaag, met de korting ten opzichte van de doorgestreepte prijs. Ik werk de lijst elke dag bij."
   - q: Is kattenvoer in de aanbieding altijd voordelig?
     a: "Nee. Een 'van-voor'-prijs zegt iets over de winkel, niet over het voer. Kijk naar de prijs per dag na korting: soms is ander voer zonder korting nog steeds goedkoper."
+top10: 'korting=10 minscore=6 sort=korting'
+top10_kw: 'kattenvoer in de aanbieding'
 ---
 ## Kattenvoer aanbieding: waar ik op let
 

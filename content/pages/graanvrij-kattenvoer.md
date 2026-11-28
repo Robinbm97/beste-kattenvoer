@@ -4,14 +4,14 @@ slug: /graanvrij-kattenvoer/
 template: landing
 primary_keyword: graanvrij kattenvoer
 breadcrumb: Graanvrij kattenvoer
-h1: "Het beste graanvrij kattenvoer: graanvrij is nog niet koolhydraatarm"
+h1: 'Beste graanvrij kattenvoer'
 lead: "Graanvrij staat op steeds meer zakken. Maar is het beter voor je kat? Mijn eerlijke kijk, met de beste graanvrije keuzes als je het toch wilt."
-seo_title: "Beste graanvrij kattenvoer: let op de koolhydraten"
-meta_description: "Het beste graanvrij kattenvoer heeft ook echt weinig koolhydraten. Van {{gv_n_droog}} graanvrije brokken zat {{gv_hoog}} toch boven 30%. Mijn ranglijst met eiwit en prijs."
+seo_title: 'Beste graanvrij kattenvoer 2026: top 10 op koolhydraten'
+meta_description: 'Beste graanvrij kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: grijs
 image_alt: "Kat eet graanvrij kattenvoer uit een metalen voerbak"
 featured: wellness-core
-updated: 2026-11-21
+updated: 2026-11-28
 published: 2026-11-18
 sources: [fediaf, wsava]
 related: [/kattenvoer-gevoelige-maag/, /kennisbank/kattenvoer-etiket-lezen/, /beste-kattenvoer/]
@@ -20,6 +20,8 @@ faq:
     a: "Niet automatisch. Katten hebben geen granen nodig, maar in compleet voer zijn kleine hoeveelheden voor de meeste katten geen probleem. Graanvrij voer bevat vaak aardappel, erwten of andere vervangers."
   - q: Wanneer kies je graanvrij kattenvoer?
     a: "Als je kat aantoonbaar slecht reageert op granen, of als je het etiket en de samenstelling van een graanvrij merk gewoon beter vindt. Overleg bij klachten met je dierenarts."
+top10: 'ranking=graanvrij'
+top10_kw: 'graanvrij kattenvoer'
 ---
 ## Wat betekent graanvrij kattenvoer?
 
