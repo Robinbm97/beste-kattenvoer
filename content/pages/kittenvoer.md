@@ -5,8 +5,8 @@ template: landing
 primary_keyword: kittenvoer
 breadcrumb: Kittenvoer
 h1: 'Beste kittenvoer'
-seo_title: 'Beste kittenvoer 2026: top 8 voor een kitten in de groei'
-meta_description: 'Beste kittenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 8 met eiwit en prijs per dag.'
+seo_title: 'Beste kittenvoer 2026: top {{top_n}} (goedkoper dan je denkt)'
+meta_description: 'Beste kittenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top {{top_n}} met eiwit en prijs per dag.'
 image: kittens
 image_alt: "Twee kittens op een krabpaal wachten op kittenvoer"
 featured: edgard-en-cooper
@@ -23,38 +23,40 @@ faq:
     a: "Jonge kittens eten vaak, verdeeld over 4 tot 5 kleine maaltijden. Naarmate ze ouder worden, ga je terug naar 2 tot 3 maaltijden."
 top10: 'ranking=kitten'
 top10_kw: 'kittenvoer'
-top_n: 8
+top_n: 7
 keuze: |
-  **Wat is het beste kittenvoer?** Mijn keuze is **{{top1}}**. Score {{top1_score}} en {{top1_dag}} per dag. Het staat bovenaan mijn ranglijst voor kittenvoer met veel eiwit én de juiste verhouding tussen calcium en fosfor.
+  **Wat is het beste kittenvoer?** Mijn keuze is **{{top1}}**, bovenaan mijn ranglijst voor kittenvoer met veel eiwit én de juiste verhouding calcium en fosfor. {{top1_dag}} per dag.
 
-  In dit artikel vind je een overzicht met het beste kittenvoer: de beste brok voor weinig geld, het beste natvoer voor een kitten en wat je beter kunt laten staan.
+  Hieronder mijn top {{top_n}}. Daarna: de beste kittenbrok voor weinig geld, het beste natvoer voor een kitten en wat ik zou laten liggen.
 ---
-## Beste kittenvoer voor weinig geld
+## Beste kittenvoer met weinig geld
 
-**Goed kittenvoer kost als brok rond de 20 tot 30 cent per dag.**
+**Een goede kittenbrok kost 20 tot 30 cent per dag.**
 
 [[mini form=droog stage=kitten minscore=5.5 sort=ppd n=3]]
 
-Dat is minder dan de bekende kittenbrokken uit de dierenwinkel, met minstens zoveel eiwit.
+Minder dan de bekende merken uit de dierenwinkel, met minstens zoveel eiwit.
 
-## Beste natte kittenvoer
+## Beste natvoer voor een kitten
 
 [[mini form=nat stage=kitten sort=score n=3]]
 
-Natvoer geeft vocht en wordt goed gegeten. Geef een jong kitten liever mousse of paté: dat eet makkelijker dan stukjes.
+Heel jonge kittens eten makkelijker mousse of paté dan stukjes. Daarna mag het grover.
 
 ## Beste kittenvoer met het meeste eiwit
 
 [[mini stage=kitten sort=eiwit n=3]]
 
-Een kitten groeit hard en heeft meer eiwit en energie nodig dan een volwassen kat. Voer voor volwassen katten is daarom geen vervanging, ook al scoort het hoog.
+Een kitten groeit hard. Gewoon kattenvoer is geen vervanging, ook al scoort het hoog.
 
-## Duur kittenvoer dat tegenvalt
-
-**Royal Canin Kitten wordt vaak meegegeven door fokkers.** Het voldoet, maar je krijgt elders meer eiwit voor minder geld.
+## Kittenvoer dat ik zou laten liggen
 
 [[mini ids=royal-canin-kitten-kattenvoer-10kg-kittens-van-4-tot-12-maanden-1oflk,orijen-kitten-kattenvoer-2x-1-8-kg-1mkqf]]
 
-## Hoe lang en hoe vaak geef je kittenvoer?
+Royal Canin Kitten krijg je vaak mee van de fokker. Prima voer, maar je krijgt elders meer eiwit voor minder geld.
 
-Tot ongeveer twaalf maanden. Grote rassen zoals de Maine Coon groeien langer door. Tot zes maanden geef je drie tot vier kleine maaltijden per dag, daarna twee of drie. Laat een kitten aan verschillende smaken en vormen wennen. Een kat die als kitten maar één merk kreeg, wil later vaak niets anders.
+## Mijn tips voor de eerste maanden
+
+- **Geef kittenvoer tot ongeveer 12 maanden.** Grote rassen, zoals de Maine Coon, langer.
+- **Vaker kleine porties.** Tot zes maanden drie tot vier keer per dag.
+- **Laat proeven.** Geef verschillende smaken en vormen. Een kat die als kitten maar één merk kreeg, wordt later vaak kieskeurig.

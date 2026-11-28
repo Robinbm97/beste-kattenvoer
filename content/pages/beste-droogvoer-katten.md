@@ -6,8 +6,8 @@ primary_keyword: beste droogvoer voor katten
 synonyms: [kattenbrokken, brokken, droogvoer voor je kat]
 breadcrumb: Beste droogvoer
 h1: 'Beste droogvoer voor katten'
-seo_title: 'Beste droogvoer voor katten 2026: top 10 kattenbrokken'
-meta_description: 'Beste droogvoer voor katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top 10 kattenbrokken.'
+seo_title: 'Beste droogvoer voor katten 2026: top {{top_n}} (nagerekend)'
+meta_description: 'Beste droogvoer voor katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top {{top_n}} kattenbrokken.'
 image: bak
 image_alt: "Grijze kat zit in een voerbak, het beste droogvoer voor katten"
 featured: iams
@@ -30,44 +30,46 @@ faq:
     a: "Een volwassen kat van 4 kilo eet gemiddeld zo'n 50 tot 60 gram droogvoer per dag. Kijk altijd naar de tabel op de zak, want ook bij het beste droogvoer voor katten verschilt de energie per merk."
 top10: 'form=droog stage=adult sort=score'
 top10_kw: 'beste droogvoer voor katten'
-top_n: 10
+top_n: 9
 keuze: |
-  **Wat is het beste droogvoer voor katten?** Mijn keuze is **{{top1}}**. Score {{top1_score}}, {{top1_eiwit}} eiwit in de droge stof en {{top1_dag}} per dag. Geen bekend merk, wel de beste brok die ik vond.
+  **Wat is het beste droogvoer voor katten?** Mijn keuze is **{{top1}}**: {{top1_eiwit}} eiwit in de droge stof voor {{top1_dag}} per dag. Geen bekend merk, wel de beste brok die ik vond.
 
-  In dit artikel vind je een overzicht met het beste droogvoer voor katten: voor een krap budget, voor wie het beste van het beste wil, en welke bekende brokken ik zou laten liggen.
+  Hieronder mijn top {{top_n}}. Daarna: de beste brokken voor weinig geld, met het meeste eiwit, en welke bekende zakken ik zou laten staan.
 ---
-## Beste droogvoer voor katten met een krap budget
+## Beste droogvoer voor katten met weinig geld
 
-**De beste goedkope brokken kosten rond de 22 tot 25 cent per dag en scoren toch een 6 of hoger.**
+**Goede brokken kosten rond de 22 tot 25 cent per dag.** Deze scoren toch een 6 of hoger:
 
 [[mini form=droog stage=adult minscore=6 sort=ppd n=3]]
 
-Dat is minder dan de helft van wat je voor veel merkbrokken betaalt. Een zak van 7 tot 10 kilo is per dag het voordeligst. Bij één kat doe je daar een paar maanden mee, dus bewaar de brokken goed afgesloten.
+Mijn tip: neem een zak van 7 tot 10 kilo, dat is per dag het goedkoopst. Heb je één kat? Doe de brokken in een afsluitbare bak, anders worden ze oud.
 
 ## Beste kattenbrokken met het meeste eiwit
 
-**Een kat is een vleeseter, dus eiwit is het eerste waar ik naar kijk.** Deze brokken halen 50% of meer in de droge stof:
-
 [[mini form=droog stage=adult sort=eiwit n=3]]
 
-Onder de 35% vind ik brokken mager. Daar vul je de bak vooral met granen of aardappel.
+Een kat is een vleeseter. Dus eiwit is het eerste waar ik naar kijk. Onder de 35% vind ik brokken mager.
 
-## Beste droogvoer als prijs niet uitmaakt
+## Beste droogvoer als geld niet uitmaakt
 
 [[mini form=droog stage=adult class=premium sort=score n=3]]
 
-Deze brokken zijn duur, maar ze maken iets waar: veel eiwit en een kort etiket. Toch scoort mijn nummer 1 hoger voor minder geld. Premium hoeft dus niet.
+Mooie brokken. Maar mijn nummer 1 scoort hoger en is goedkoper. Premium hoeft dus echt niet.
 
-## Bekende brokken die ik zou laten liggen
-
-**Bekend betekent niet beter.** De gewone brokken van Royal Canin en Edgard & Cooper hebben weinig eiwit voor wat ze kosten, en Whiskas-brokken zijn goedkoop maar mager.
+## Brokken die ik zou laten staan
 
 [[mini ids=royal-canin-indoor-27-kattenvoer-10kg-voor-de-volwassen-binnenkat-xn12c,edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y,whiskas-1-kattenbrokken-kip-7-kg-1u4cr]]
 
-## Is droogvoer goed voor je kat?
+**Bekend betekent niet beter.** Weinig eiwit, en bij de eerste twee betaal je er ook nog flink voor.
 
-Ja, als het compleet voer is. Het enige echte nadeel is het vocht: er zit bijna niets in. Zet water op een paar plekken in huis, niet naast het voer. Een drinkfontein helpt bij veel katten. Of geef één keer per dag een zakje natvoer erbij, bijvoorbeeld van mijn lijst met [het beste natvoer](/beste-natvoer-kat/).
+## Is alleen droogvoer wel goed?
 
-## Zo lees je de zak
+Ja, als er "compleet" op de zak staat. Eén ding: er zit bijna geen vocht in. Dus:
 
-Kijk naar het eerste ingrediënt. Staat daar een dier met naam, zoals kip of zalm, dan is dat een goed teken. Staat er "granen" of "vlees en dierlijke bijproducten", dan weet je minder goed wat erin zit. De koolhydraten staan niet op de zak: die reken je uit door eiwit, vet, as, vezel en vocht van 100 af te halen. Uitleg staat bij [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/).
+- Zet water op een paar plekken in huis.
+- Probeer een drinkfontein. Veel katten drinken daar meer uit.
+- Of geef één zakje natvoer per dag erbij.
+
+## Zo check je een zak in 10 seconden
+
+Draai de zak om. Staat er een dier vooraan, zoals kip of zalm? Goed teken. Staat er "granen" of "vlees en dierlijke bijproducten"? Dan weet je minder goed wat erin zit. Meer uitleg bij [etiket lezen](/kennisbank/kattenvoer-etiket-lezen/).

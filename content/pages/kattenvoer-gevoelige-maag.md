@@ -4,9 +4,9 @@ slug: /kattenvoer-gevoelige-maag/
 template: landing
 primary_keyword: kattenvoer gevoelige darmen
 breadcrumb: Gevoelige maag
-h1: 'Beste kattenvoer voor gevoelige darmen'
-seo_title: 'Kattenvoer gevoelige darmen: top 7 voor een rustige maag'
-meta_description: 'Kattenvoer voor gevoelige darmen? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 7 met eiwit en prijs per dag.'
+h1: 'Beste kattenvoer voor een gevoelige maag'
+seo_title: 'Beste kattenvoer gevoelige maag 2026: top {{top_n}} (rustig voer)'
+meta_description: 'Kattenvoer voor gevoelige darmen? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top {{top_n}} met eiwit en prijs per dag.'
 image: bak
 image_alt: "Kat zit rustig in een voerbak met kattenvoer voor een gevoelige maag"
 featured: pro-plan
@@ -23,13 +23,13 @@ top10: 'ranking=gevoelig'
 top10_kw: 'kattenvoer voor gevoelige darmen'
 top_n: 7
 keuze: |
-  **Wat is het beste kattenvoer voor een gevoelige maag?** Mijn keuze is **{{top1}}**. Het staat bovenaan mijn ranglijst voor gevoelige darmen: niet te vet, niet te veel ruwe celstof en goed verteerbaar. {{top1_dag}} per dag.
+  **Wat is het beste kattenvoer voor een gevoelige maag?** Mijn keuze is **{{top1}}**: niet te vet, niet te veel ruwe celstof en goed verteerbaar. {{top1_dag}} per dag.
 
-  In dit artikel vind je een overzicht met het beste kattenvoer voor een gevoelige maag: brokken, natvoer, dieetvoer van de dierenarts en wanneer het niet aan het voer ligt.
+  Hieronder mijn top {{top_n}}. Daarna: brokken, natvoer, dieetvoer van de dierenarts en wanneer het niet aan het voer ligt.
 ---
-## Beste kattenvoer voor een gevoelige maag: rustig en simpel
+## Rustig en simpel voer
 
-**Bij een gevoelige maag zoek ik voer dat niet te vet is en weinig verschillende ingrediënten heeft.** Te veel vet en te veel ruwe celstof kunnen de darmen van streek maken.
+**Bij een gevoelige maag kies ik voer dat niet te vet is en weinig verschillende ingrediënten heeft.** Te veel vet en te veel ruwe celstof kunnen de darmen van streek maken.
 
 ## Beste brokken voor gevoelige darmen
 
@@ -43,8 +43,14 @@ keuze: |
 
 [[mini dieet=alleen zoek=^(?!.*honden).*(gastro|intestinal) sort=ppd n=3]]
 
-Dieetvoer voor de darmen is goed verteerbaar en vetarm. Gebruik het op advies van je dierenarts, bijvoorbeeld na een periode van diarree.
+Licht verteerbaar en vetarm. Gebruik het op advies van de dierenarts, bijvoorbeeld na een periode met diarree.
 
 ## Ligt het wel aan het voer?
 
-**Braakt je kat af en toe een haarbal, dan is dat normaal.** Braakt hij vaker dan eens per week, heeft hij langer dan twee dagen diarree of valt hij af, ga dan naar de dierenarts. Snel eten is ook een veelvoorkomende oorzaak: een anti-schrokbak helpt dan meer dan ander voer.
+**Af en toe een haarbal uitspugen is normaal.** Ga naar de dierenarts als je kat:
+
+- vaker dan eens per week braakt,
+- langer dan twee dagen diarree heeft,
+- of afvalt.
+
+Schrokt je kat? Dan helpt een anti-schrokbak vaak meer dan ander voer.

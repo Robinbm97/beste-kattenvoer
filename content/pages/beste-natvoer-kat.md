@@ -5,8 +5,8 @@ template: landing
 primary_keyword: beste natvoer kat
 breadcrumb: Beste natvoer
 h1: 'Beste natvoer voor je kat'
-seo_title: 'Beste natvoer kat 2026: top 8 op eiwit en prijs per dag'
-meta_description: 'Beste natvoer voor je kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top 8 natvoer.'
+seo_title: 'Beste natvoer voor je kat 2026: top {{top_n}} (supermarkt wint)'
+meta_description: 'Beste natvoer voor je kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top {{top_n}} natvoer.'
 image: kom
 image_alt: "Kat eet het beste natvoer voor een kat uit een metalen bak"
 featured: yarrah
@@ -21,48 +21,46 @@ faq:
     a: "Niet te lang, zeker niet als het warm is. Haal restjes na een paar uur weg. Een open blik bewaar je afgedekt in de koelkast en gebruik je binnen een dag of twee."
 top10: 'form=nat stage=adult sort=score'
 top10_kw: 'beste natvoer voor katten'
-top_n: 8
+top_n: 7
 keuze: |
-  **Wat is het beste natvoer voor je kat?** Mijn keuze is **{{top1}}**. Score {{top1_score}}, {{top1_eiwit}} eiwit en {{top1_dag}} per dag. Het beste natvoer is ook het goedkoopste van de top: je hoeft voor goed natvoer niet naar de dierenwinkel.
+  **Wat is het beste natvoer voor je kat?** Mijn keuze is **{{top1}}**: score {{top1_score}}, {{top1_eiwit}} eiwit en {{top1_dag}} per dag. Het beste natvoer is gewoon ook het goedkoopste van de top.
 
-  In dit artikel vind je een overzicht met het beste natte kattenvoer voor je kat: met een krap budget, voor een kieskeurige kat, per vorm en wat je beter kunt laten staan.
+  Hieronder mijn top {{top_n}}. Daarna: het beste natvoer met weinig geld, voor een kieskeurige kat, in blik, en wat je beter kunt laten liggen.
 ---
-## Beste nat kattenvoer met een krap budget
+## Beste natvoer met weinig geld
 
-**Het goedkoopste goede natvoer kost minder dan een euro per dag.**
+**Goed natvoer kost minder dan een euro per dag.**
 
 [[mini form=nat stage=adult minscore=7 sort=ppd n=3]]
 
-Een kat van 4 kilo op alleen natvoer eet zo'n drie zakjes per dag. Wil je het nog goedkoper, geef dan één zakje en de rest brokken.
-
-## Beste natte kattenvoer als prijs niet uitmaakt
-
-[[mini form=nat stage=adult class=premium sort=score n=3]]
-
-Dit natvoer is goed, maar per dag een veelvoud van wat mijn nummer 1 kost. Je betaalt voor een korter etiket en mooiere stukjes, niet voor meer voeding.
+Een kat van 4 kilo eet zo'n drie zakjes per dag. Wil je het goedkoper? Geef één zakje en de rest brokken.
 
 ## Beste natvoer voor een kieskeurige kat
 
-**Laat je kat staan wat je geeft? Probeer dan eerst een andere vorm, niet een duurder merk.** Veel katten hebben een voorkeur voor paté, brokjes in saus of stukjes in gelei. Deze paté's scoren goed:
+**Laat je kat het staan? Probeer eerst een andere vorm, niet een duurder merk.** Veel katten kiezen óf paté, óf brokjes in saus. Deze paté's scoren goed:
 
 [[mini form=nat stage=adult zoek=paté|pate|mousse sort=score n=3]]
 
-Geef nieuw voer op kamertemperatuur. Koud natvoer uit de koelkast ruikt minder, en een kat eet vooral op geur.
+Mijn tip: haal natvoer een kwartier van tevoren uit de koelkast. Een kat eet op geur, en koud voer ruikt naar niks.
 
 ## Beste natvoer in blik
 
 [[mini form=nat stage=adult zoek=blik sort=score n=3]]
 
-Blikken van 400 of 800 gram zijn per kilo vaak goedkoper dan zakjes, en je hebt minder afval. Een open blik dek je af en bewaar je maximaal twee dagen in de koelkast. Meer daarover op [kattenvoer in blik](/kattenvoer-in-blik/).
+Blik is per kilo vaak goedkoper en je hebt minder afval. Open blik? Deksel erop, koelkast in, binnen twee dagen op. Meer bij [kattenvoer in blik](/kattenvoer-in-blik/).
 
-## Duur natvoer dat zijn prijs niet waard is
+## Beste natvoer als geld niet uitmaakt
 
-**Duur natvoer scoort vaak lager dan mijn nummer 1, terwijl je per dag vijf tot negen keer zoveel betaalt.**
+[[mini form=nat stage=adult class=premium sort=score n=3]]
+
+Goed voer, maar per dag een veelvoud van mijn nummer 1. Je betaalt voor mooie stukjes, niet voor meer voeding.
+
+## Duur natvoer dat ik zou laten liggen
 
 [[mini ids=sheba-kattenvoer-nat-filets-witte-vis-in-saus-multipack-6x60-gr-17r72,royal-canin-instinctive-12x85-g-jelly-in-jelly-kattenvoer-4ehew,schesir-special-cat-mousse-skin-en-coat-zalm-en-kip-70-gr-1fa2f]]
 
-Let ook op het woord "aanvullend" op de verpakking. Veel filets en luxe zakjes zijn een snack, geen maaltijd.
+**Vijf tot negen keer zo duur, en toch een lagere score.** Let ook op het woord "aanvullend" op de verpakking. Dan is het een snack, geen maaltijd.
 
-## Hoeveel natvoer geef je per dag?
+## Hoeveel natvoer geef je?
 
-Een volwassen kat van 4 kilo heeft op alleen natvoer ongeveer 200 tot 250 gram per dag nodig. De prijs per dag op deze pagina gaat daarvan uit. Geef je ook brokken, dan halveer je dat ongeveer. Reken het na met [hoeveel kattenvoer per dag](/kennisbank/hoeveel-kattenvoer-per-dag/).
+Ongeveer 200 tot 250 gram per dag voor een kat van 4 kilo, als hij alleen natvoer eet. Reken het na bij [hoeveel kattenvoer per dag](/kennisbank/hoeveel-kattenvoer-per-dag/).

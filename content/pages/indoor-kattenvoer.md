@@ -5,8 +5,8 @@ template: landing
 primary_keyword: indoor kattenvoer
 breadcrumb: Indoor kattenvoer
 h1: 'Beste indoor kattenvoer'
-seo_title: 'Beste indoor kattenvoer 2026: top 7 voor binnenkatten'
-meta_description: 'Beste indoor kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 7 met eiwit en prijs per dag.'
+seo_title: 'Beste indoor kattenvoer 2026: top {{top_n}} (nodig of niet?)'
+meta_description: 'Beste indoor kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top {{top_n}} met eiwit en prijs per dag.'
 image: senior
 image_alt: "Binnenkat op de bank naast een bak indoor kattenvoer"
 updated: 2026-11-28
@@ -22,15 +22,15 @@ top10: 'flag=binnenkat sort=score'
 top10_kw: 'indoor kattenvoer'
 top_n: 7
 keuze: |
-  **Wat is het beste indoor kattenvoer?** Mijn keuze is **{{top1}}**. Score {{top1_score}} en {{top1_dag}} per dag. Het beste indoorvoer dat ik vond, al vind ik dat een binnenkat geen speciaal voer nodig heeft: minder eten werkt net zo goed.
+  **Wat is het beste indoor kattenvoer?** Mijn keuze is **{{top1}}**: score {{top1_score}}, {{top1_dag}} per dag. Al vind ik dat een binnenkat geen speciaal voer nodig heeft. Minder geven werkt ook.
 
-  In dit artikel vind je een overzicht met het beste indoor kattenvoer, het voordeligste indoorvoer en wat een binnenkat echt nodig heeft.
+  Hieronder mijn top {{top_n}}. Daarna: goedkoop indoorvoer, indoorbrokken met veel eiwit en wat een binnenkat echt nodig heeft.
 ---
-## Beste indoor kattenvoer: wat is er anders?
+## Wat is er anders aan indoorvoer?
 
-**Indoorvoer heeft meestal iets minder energie en meer vezels.** Een binnenkat beweegt minder dan een buitenkat en wordt sneller te zwaar. De vezels helpen tegen haarballen.
+**Iets minder energie en meer vezels.** Een binnenkat beweegt minder en wordt sneller dik. De vezels helpen tegen haarballen.
 
-## Beste indoor kattenvoer voor weinig geld
+## Beste indoorvoer met weinig geld
 
 [[mini flag=binnenkat minscore=5 sort=ppd n=3]]
 
@@ -38,8 +38,12 @@ keuze: |
 
 [[mini flag=binnenkat form=droog sort=eiwit n=3]]
 
-Minder energie mag nooit ten koste gaan van eiwit. Sommige indoorbrokken zitten onder de 30%. Die zou ik laten liggen.
+Minder energie mag nooit minder eiwit betekenen. Indoorbrokken onder de 30% zou ik laten liggen.
 
-## Heeft een binnenkat indoorvoer nodig?
+## Wat een binnenkat echt nodig heeft
 
-**Nee.** Je kunt ook gewoon goed voer geven en de portie afwegen. Dat is vaak goedkoper. Wel belangrijk voor een binnenkat: genoeg spelen, een krabpaal en water op een paar plekken in huis.
+**Geen speciaal voer, wel aandacht.** Gewoon goed voer, afgewogen, werkt prima. Belangrijker:
+
+- Elke dag spelen, liefst twee korte rondjes.
+- Een krabpaal en een plek om hoog te zitten.
+- Water op een paar plekken in huis.

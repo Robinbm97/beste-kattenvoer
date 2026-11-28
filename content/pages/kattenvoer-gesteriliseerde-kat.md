@@ -5,8 +5,8 @@ template: landing
 primary_keyword: beste kattenvoer gesteriliseerde kat
 breadcrumb: Gesteriliseerde kat
 h1: 'Beste kattenvoer voor een gesteriliseerde kat'
-seo_title: 'Beste kattenvoer gesteriliseerde kat 2026: top 8 brokken'
-meta_description: 'Beste kattenvoer voor een gesteriliseerde kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus mijn top 8 brokken met de prijs per dag.'
+seo_title: 'Beste kattenvoer gesteriliseerde kat 2026: top {{top_n}} (+ tips)'
+meta_description: 'Beste kattenvoer voor een gesteriliseerde kat? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus mijn top {{top_n}} brokken met de prijs per dag.'
 image: duo
 image_alt: "Twee katten eten kattenvoer voor een gesteriliseerde kat"
 featured: purina-one
@@ -21,30 +21,30 @@ faq:
     a: "Nee. Het kan helpen omdat het minder energierijk is, maar minder geven van gewoon compleet voer werkt ook. Weeg je kat regelmatig."
 top10: 'ranking=steri'
 top10_kw: 'kattenvoer voor een gesteriliseerde kat'
-top_n: 8
+top_n: 7
 keuze: |
-  **Wat is het beste kattenvoer voor een gesteriliseerde kat?** Mijn keuze is **{{top1}}**. Het staat bovenaan mijn ranglijst voor gesteriliseerde katten: niet te veel energie en veel eiwit per kcal. {{top1_dag}} per dag.
+  **Wat is het beste kattenvoer voor een gesteriliseerde kat?** Mijn keuze is **{{top1}}**: niet te veel energie, wel veel eiwit per kcal. {{top1_dag}} per dag.
 
-  In dit artikel vind je een overzicht met het beste kattenvoer voor een gesteriliseerde of gecastreerde kat: brokken, natvoer, voor weinig geld en hoe je overgewicht voorkomt.
+  Hieronder mijn top {{top_n}}. Daarna: natvoer, goedkope brokken, en of je speciaal voer nodig hebt of gewoon minder kunt geven.
 ---
-## Beste kattenvoer voor een gesteriliseerde kat: minder energie, wel eiwit
+## Minder energie, wel eiwit
 
-**Na sterilisatie heeft een kat tot een derde minder energie nodig, maar niet minder eiwit.** Daarom kijk ik naar het eiwit per kcal. Zo krijgt je kat genoeg bouwstoffen zonder aan te komen.
+**Na sterilisatie heeft een kat tot een derde minder energie nodig, maar niet minder eiwit.** Daarom kijk ik naar eiwit per kcal. Zo blijft je kat sterk zonder dik te worden.
 
 ## Beste natvoer voor een gesteriliseerde kat
 
 [[mini ranking=steri_nat n=3]]
 
-Natvoer helpt ook bij overgewicht: het vult de maag met water in plaats van calorieën.
+Natvoer helpt ook tegen overgewicht. Het vult de maag met water in plaats van calorieën.
 
-## Beste gesteriliseerd-brokken voor weinig geld
+## Beste brokken met weinig geld
 
 [[mini form=droog flag=gesteriliseerd minscore=5.5 sort=ppd n=3]]
 
-## Gesteriliseerd voer of gewoon minder geven?
+## Speciaal voer of gewoon minder?
 
-Allebei kan. Speciaal voer is handig omdat je de portie niet zo ver hoeft te verkleinen. Geef je gewoon voer, weeg dan de portie af en volg het advies op de zak voor een kat met weinig beweging.
+Allebei kan. Speciaal voer is handig: je hoeft de portie minder te verkleinen, dus je kat heeft minder honger. Geef je gewoon voer? Weeg dan af en volg het advies voor een kat die weinig beweegt.
 
 ## Mijn tip voor gecastreerde katers
 
-Gecastreerde katers hebben vaker blaasproblemen. Geef ze natvoer en let op het gewicht. Meer daarover op [urinary kattenvoer](/urinary-kattenvoer/).
+Katers krijgen na castratie vaker blaasproblemen. Geef ze natvoer en houd het gewicht in de gaten. Meer bij [urinary kattenvoer](/urinary-kattenvoer/).

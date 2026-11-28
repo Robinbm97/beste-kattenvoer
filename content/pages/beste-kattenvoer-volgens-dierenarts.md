@@ -6,7 +6,7 @@ primary_keyword: beste kattenvoer volgens dierenarts
 synonyms: [dierenartsvoer, dieetvoer, voer van de dierenarts, speciaal kattenvoer, advies van de dierenarts, dierenartsen aanraden, veterinary diet, prescription diet]
 breadcrumb: Volgens de dierenarts
 h1: 'Beste kattenvoer volgens de dierenarts'
-seo_title: 'Beste kattenvoer volgens dierenarts: top 10 per probleem'
+seo_title: 'Beste kattenvoer volgens dierenarts: top {{top_n}} (per probleem)'
 meta_description: "Beste kattenvoer volgens de dierenarts? Top 10 van Royal Canin en Hill's per probleem: blaas, nieren, maag en gewicht. Plus waarom je niet blind koopt."
 image: kitten
 image_alt: "Kitten bij de dierenarts naast een bak met het beste kattenvoer volgens de dierenarts"
@@ -30,34 +30,32 @@ top10: 'ids=hill-s-prescription-diet-c-d-multicare-urinary-care-kattenvoer-kip-8
 top10_kw: 'kattenvoer volgens de dierenarts'
 top_n: 10
 keuze: |
-  **Wat is het beste kattenvoer volgens de dierenarts?** Mijn keuze is per probleem een ander dieet, altijd na overleg met je dierenarts. Dierenartsen schrijven vooral Royal Canin en Hill's voor. Dat komt doordat die merken hun dieetvoer laten onderzoeken, niet doordat het etiket het beste is.
+  **Wat is het beste kattenvoer volgens de dierenarts?** Mijn keuze is per probleem een ander dieet, altijd na overleg. Dierenartsen schrijven vooral Royal Canin en Hill's voor. Dat komt doordat die merken hun voer laten onderzoeken.
 
-  In dit artikel vind je een overzicht met het beste dieetvoer per probleem, zoals de dierenarts het zou kiezen, en wat je zelf kunt doen als je kat gezond is.
+  Hieronder de top {{top_n}} per probleem. Daarna: blaas, nieren, waarom juist die merken, en wat ik geef aan een gezonde kat.
 ---
-## Beste kattenvoer volgens de dierenarts bij blaasproblemen
+## Bij blaasproblemen
 
-**Bij struvietgruis kiest de dierenarts een dieet dat de urine iets zuurder maakt en weinig magnesium heeft.**
+**Bij struvietgruis kiest de dierenarts voer dat de urine iets zuurder maakt en weinig magnesium heeft.**
 
 [[mini brand=royal-canin,hill-s dieet=alleen flag=urinewegen sort=score n=3 permerk=nee]]
 
-Gebruik dit alleen als de dierenarts struviet heeft vastgesteld. Voor een gezonde kat is dieetvoer niet nodig. Meer op [urinary kattenvoer](/urinary-kattenvoer/).
+Alleen geven als struviet is vastgesteld. Meer bij [urinary kattenvoer](/urinary-kattenvoer/).
 
-## Beste dieetvoer bij nierproblemen
+## Bij nierproblemen
 
-Bij nierproblemen draait het om minder fosfor. Welk nierdieet het beste past, hangt af van het stadium. Ik zet ze op fosfor naast elkaar op [kattenvoer bij nierproblemen](/kattenvoer-nieren/).
+Hier draait het om minder fosfor. Welk dieet past, hangt af van het stadium. Ik zet ze naast elkaar bij [kattenvoer bij nierproblemen](/kattenvoer-nieren/).
 
-## Waarom dierenartsen Royal Canin en Hill's noemen
+## Waarom altijd Royal Canin en Hill's?
 
-Veel dierenartsen volgen de richtlijnen van de WSAVA. Die vragen of een fabrikant eigen voedingsdeskundigen heeft en zijn voer laat testen. Grote merken als Royal Canin, Hill's en Pro Plan doen dat. Dat zegt iets over de fabrikant, niet over het etiket van elk product.
+Veel dierenartsen volgen de richtlijnen van de WSAVA. Die vragen of een merk eigen voedingsdeskundigen heeft en zijn voer laat testen. Grote merken doen dat. **Dat zegt iets over het bedrijf, niet over elk etiket.**
 
-## Beste kattenvoer volgens de dierenarts voor een gezonde kat
+## Wat ik geef aan een gezonde kat
 
-**Is je kat gezond, dan heeft hij geen dieetvoer nodig.** Kies dan gewoon compleet voer met veel eiwit. Het merk dat de dierenarts verkoopt, is niet per se de beste keuze voor je portemonnee:
+[[mini brand=pro-plan,royal-canin,hill-s form=droog stage=adult sort=score n=3 permerk=ja]]
 
-[[mini brand=pro-plan,royal-canin,hill-s form=droog stage=adult dieet=nee sort=score n=3 permerk=ja]]
-
-Mijn eigen top staat bij [het beste kattenvoer](/beste-kattenvoer/).
+**Een gezonde kat heeft geen dieetvoer nodig.** Gewoon compleet voer met veel eiwit is genoeg. Mijn eigen top staat bij [het beste kattenvoer](/beste-kattenvoer/).
 
 ## Mijn mening over het advies van de dierenarts
 
-Ik vertrouw de dierenarts bij een diagnose. Bij gewoon voer kijk ik liever zelf naar de cijfers. Dieetvoer koop je niet op gevoel en ook niet zonder controle: laat na een paar weken de urine of het bloed opnieuw testen.
+Bij een diagnose vertrouw ik de dierenarts. Bij gewoon voer kijk ik liever zelf naar de cijfers. En dieetvoer geef je nooit zonder controle: laat na een paar weken opnieuw testen.

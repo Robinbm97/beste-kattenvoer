@@ -5,8 +5,8 @@ template: landing
 primary_keyword: senior kattenvoer
 breadcrumb: Senior kattenvoer
 h1: 'Beste kattenvoer voor oudere katten'
-seo_title: 'Beste senior kattenvoer 2026: top 8 voor oudere katten'
-meta_description: 'Beste kattenvoer voor oudere katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 8 met eiwit en prijs per dag.'
+seo_title: 'Beste kattenvoer voor oudere katten 2026: top {{top_n}} (+ tips)'
+meta_description: 'Beste kattenvoer voor oudere katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top {{top_n}} met eiwit en prijs per dag.'
 image: senior
 image_alt: "Oudere grijze kat rust bij zijn voerbak met senior kattenvoer"
 featured: iams
@@ -21,32 +21,34 @@ faq:
     a: "Oudere katten drinken vaak te weinig. Natvoer helpt om meer vocht binnen te krijgen. Bij nierproblemen geldt een dieet in overleg met de dierenarts."
 top10: 'ranking=senior'
 top10_kw: 'seniorvoer'
-top_n: 8
+top_n: 7
 keuze: |
-  **Wat is het beste kattenvoer voor oudere katten?** Mijn keuze is **{{top1}}**. Het staat bovenaan mijn ranglijst voor seniorvoer: genoeg eiwit per kcal om spieren te houden, en geen bovengemiddelde fosfor. {{top1_dag}} per dag.
+  **Wat is het beste kattenvoer voor oudere katten?** Mijn keuze is **{{top1}}**: genoeg eiwit om spieren te houden en geen hoge fosfor. {{top1_dag}} per dag.
 
-  In dit artikel vind je een overzicht met het beste kattenvoer voor oudere katten: brokken, natvoer, voor een kleine portemonnee en wanneer seniorvoer niet nodig is.
+  Hieronder mijn top {{top_n}}. Daarna: het beste natvoer voor een oudere kat, goedkope seniorbrokken en wanneer je seniorvoer niet nodig hebt.
 ---
-## Beste kattenvoer voor oudere katten: waar het om draait
+## Wat een oudere kat echt nodig heeft
 
-**Een oudere kat verliest makkelijk spiermassa. Daarom wil ik in seniorvoer juist genoeg eiwit, niet minder.** Veel seniorvoer heeft minder eiwit dan gewoon voer. Dat is alleen nodig als de nieren slechter werken, en dat stelt de dierenarts vast.
+**Genoeg eiwit, niet minder.** Oudere katten verliezen snel spieren. Veel seniorvoer heeft juist minder eiwit. Dat is alleen nodig als de nieren slechter werken, en dat ziet de dierenarts in het bloed.
 
 ## Beste natvoer voor een oudere kat
 
 [[mini form=nat stage=senior sort=score n=3]]
 
-Natvoer helpt een oudere kat aan vocht, en dat is goed voor de nieren. Het is ook makkelijker te eten bij slechte tanden.
+Natvoer geeft vocht, goed voor de nieren. En het is makkelijker te eten met slechte tanden.
 
-## Beste seniorbrokken met een krap budget
+## Beste seniorbrokken met weinig geld
 
 [[mini form=droog stage=senior minscore=4 sort=ppd n=3]]
 
-Let bij goedkope seniorbrokken op het eiwit. Onder de 32% vind ik het mager voor een kat die spieren moet houden.
+Kijk bij goedkope seniorbrokken goed naar het eiwit. Onder de 32% vind ik het te weinig.
 
 ## Heeft je kat wel seniorvoer nodig?
 
-**Niet per se.** Een gezonde kat van tien die goed op gewicht is, kan gewoon zijn volwassen voer blijven eten. Seniorvoer is een marketingcategorie zonder vaste regels. Valt je kat af, drinkt hij meer of eet hij slecht, laat dan bloed nakijken. Bij nierproblemen kijk je naar [kattenvoer voor de nieren](/kattenvoer-nieren/).
+**Eerlijk? Vaak niet.** Is je kat gezond en op gewicht, dan mag hij gewoon zijn eigen voer houden. "Senior" is geen beschermd woord.
 
-## Mijn tip voor een oudere kat
+## Mijn tips voor een oudere kat
 
-Weeg je oudere kat elke maand. Gewichtsverlies is vaak het eerste teken dat er iets is, nog voor je het ziet.
+- **Weeg hem elke maand.** Afvallen is vaak het eerste teken dat er iets is.
+- **Drinkt hij ineens meer?** Laat het bloed nakijken.
+- **Nierproblemen?** Kijk bij [kattenvoer voor de nieren](/kattenvoer-nieren/).
