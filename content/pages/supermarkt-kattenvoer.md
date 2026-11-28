@@ -5,7 +5,6 @@ template: landing
 primary_keyword: kattenvoer supermarkt
 breadcrumb: Supermarkt
 h1: 'Beste kattenvoer uit de supermarkt'
-lead: "Felix, Whiskas, Gourmet en Sheba haal je bij de supermarkt. Maar hoe scoren ze, en is online goedkoper? Ik zet de supermarktmerken eerlijk naast de rest."
 seo_title: 'Kattenvoer supermarkt 2026: top 10 op etiket en prijs'
 meta_description: 'Beste kattenvoer uit de supermarkt? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: duo
@@ -21,35 +20,28 @@ faq:
     a: "Huismerken staan niet in mijn vergelijking, omdat ik er geen betrouwbare etiketgegevens van heb. Lees zelf het etiket: staat er een benoemde vleessoort vooraan en hoeveel eiwit is het in droge stof?"
 top10: 'brand=felix,gourmet,whiskas,sheba,perfect-fit sort=score'
 top10_kw: 'kattenvoer uit de supermarkt'
+top_n: 10
+keuze: |
+  **{{top1}}.** Score {{top1_score}} en {{top1_dag}} per dag. Het beste kattenvoer uit de supermarkt is ook een van de beste kattenvoeders die ik überhaupt vond.
+
+  In dit artikel vind je een overzicht met het beste supermarkt-kattenvoer per merk, de beste supermarktbrokken en wat er op het etiket beter kan.
 ---
-## Kattenvoer uit de supermarkt: welke merken liggen er?
+## Beste kattenvoer uit de supermarkt: natvoer
 
-In de meeste supermarkten vind je dezelfde grote merken: Felix, Whiskas, Gourmet, Sheba, Perfect Fit en Purina ONE. Daarnaast hebben de meeste ketens een eigen huismerk; Lidl verkoopt bijvoorbeeld Coshida. Die huismerken staan niet in mijn vergelijking, omdat ik er geen betrouwbare etiketgegevens van heb. De A-merken wel, en die kun je ook online kopen.
+**Het natvoer van Felix en Gourmet scoort hoger dan veel voer uit de dierenwinkel.** Veel dierlijk eiwit, weinig koolhydraten en een lage prijs per dag.
 
-## Kattenvoer uit de supermarkt: wat zie ik op het etiket?
+[[mini brand=felix,gourmet,sheba,whiskas form=nat stage=adult sort=score n=4 permerk=ja]]
 
-Bij supermarktvoer zie ik vaker twee dingen. Bij natvoer een open samenstelling, zoals "vlees en dierlijke bijproducten (waarvan 4% kip)". Dat is legaal, maar je weet niet precies wat erin zit. En bij brokken vaak granen bij de eerste ingrediënten en een eiwitgehalte onder het gemiddelde. Hoe je dat herkent, lees je bij [kattenvoer met granen en weinig eiwit](/wat-is-goed-kattenvoer/).
+## Beste supermarktbrokken
 
-Toch wil ik eerlijk zijn: het eiwit in het natvoer van deze merken is vaak gewoon prima, als je het water wegrekent. Felix en Gourmet zitten bij natvoer regelmatig boven de {{eiwit_mid_nat}} die het midden is.
+[[mini brand=felix,whiskas,perfect-fit,purina-one form=droog stage=adult sort=score n=3 permerk=ja]]
 
-> Supermarktvoer is niet het probleem. Het probleem is dat de zak beter klinkt dan het etiket. "Met kip" is minimaal 4% kip, niet meer.
+**Bij brokken scoort de supermarkt minder goed.** Felix- en Whiskas-brokken hebben vaak weinig eiwit en veel granen. Perfect Fit en Purina ONE doen het beter.
 
-## De beste scores
+## Wat er op het etiket beter kan
 
-[[lijst brand=felix sort=score n=3]]
+Op veel supermarktvoer staat "vlees en dierlijke bijproducten" in plaats van een duidelijke vleessoort. En in de gelei of saus zit vaak een beetje suiker. Dat drukt de score niet veel, maar een kort, duidelijk etiket vind ik prettiger.
 
-[[lijst brand=gourmet sort=score n=3]]
+## Huismerken van AH, Jumbo, Lidl en Aldi
 
-[[lijst brand=sheba sort=score n=3]]
-
-[[lijst brand=whiskas sort=score n=3]]
-
-[[lijst brand=perfect-fit sort=score n=3]]
-
-[[foto kom "Kom met kattenvoer uit de supermarkt"]]
-
-## Wat is goedkoper?
-
-Ik kan de schapprijzen van de supermarkt niet dagelijks volgen; de prijzen hier komen van Plein.nl en bol.com. Wat ik wel zie: online zijn grote dozen natvoer en zakken brokken per kilo vaak voordeliger dan de kleine verpakkingen in het schap. En online zijn de [aanbiedingen](/kattenvoer-aanbieding/) makkelijk te vergelijken.
-
-Mijn oordeel per merk lees je bij [Felix](/merken/felix/), [Whiskas](/merken/whiskas/), [Gourmet](/merken/gourmet/), [Sheba](/merken/sheba/) en [Perfect Fit](/merken/perfect-fit/). Zoek je vooral voordelig voer met een beter etiket, kijk dan bij [goedkoop kattenvoer dat wel deugt](/goedkoop-kattenvoer/).
+Huismerken staan niet in mijn database, omdat de supermarkten geen productfeed delen. Lees zelf het etiket: zoek naar minstens 8% eiwit bij natvoer en 30% bij brokken, en vlees of vis als eerste ingrediënt.

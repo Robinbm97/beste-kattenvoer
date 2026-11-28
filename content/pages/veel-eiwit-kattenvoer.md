@@ -5,7 +5,6 @@ template: landing
 primary_keyword: eiwitrijk kattenvoer
 breadcrumb: Veel eiwit, eerlijke prijs
 h1: 'Beste eiwitrijk kattenvoer'
-lead: "Een kat is een vleeseter en heeft vooral dierlijk eiwit nodig. Ik rekende voor elk etiket uit hoeveel eiwit erin zit en wat je per 100 gram eiwit betaalt."
 seo_title: 'Eiwitrijk kattenvoer 2026: top 10 met veel eiwit per euro'
 meta_description: 'Beste eiwitrijk kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: oranje
@@ -24,53 +23,32 @@ faq:
     a: "Voor een gezonde kat is veel dierlijk eiwit prima en past het bij hoe een kat van nature eet. Bij nierproblemen kan de dierenarts juist minder eiwit adviseren. Overleg dan altijd eerst."
 top10: 'form=droog,nat mineiwit=45 sort=p100'
 top10_kw: 'eiwitrijk kattenvoer'
+top_n: 9
+keuze: |
+  **{{top1}}.** Je betaalt hier het minst per 100 gram eiwit, met {{top1_eiwit}} eiwit in de droge stof. Eiwitrijk voer hoeft dus niet duur te zijn.
+
+  In dit artikel vind je een overzicht met het beste eiwitrijke kattenvoer: de beste brokken, het beste natvoer en wanneer veel eiwit niet goed is.
 ---
-## Waarom eiwit het belangrijkste is in kattenvoer
+## Beste eiwitrijke kattenbrokken
 
-Een kat is een echte vleeseter. Waar een hond nog redelijk overweg kan met granen, haalt een kat zijn energie vooral uit dierlijk eiwit en vet. Toch bestaat veel kattenvoer, en dan vooral goedkope brokken, voor een groot deel uit koolhydraten. Die zijn goedkoop en vullen de zak.
+**Brokken met meer dan 45% eiwit in de droge stof zijn eiwitrijk.** Deze kosten het minst per 100 gram eiwit:
 
-Daarom kijk ik bij elk voer naar twee dingen: **hoeveel eiwit zit er in de droge stof**, en **wat betaal je per 100 gram eiwit**. Dat tweede getal laat zien of je echt kwaliteit koopt, of vooral een merk.
+[[mini form=droog mineiwit=45 sort=p100 n=3]]
 
-> Dit vind ik het eerlijkste getal dat er is. Een zak van €10 met weinig eiwit kan per gram eiwit duurder zijn dan een zak van €40 met veel eiwit. Goedkoop is dan echt duurkoop.
+## Beste eiwitrijke natvoer
 
-## Eiwitrijk kattenvoer voor weinig geld: droogvoer
+[[mini form=nat mineiwit=55 sort=p100 n=3]]
 
-Brokken met minstens 40% eiwit in de droge stof, gesorteerd op de laagste prijs per 100 gram eiwit:
+Natvoer is bijna altijd eiwitrijker dan brokken, als je het water eruit rekent.
 
-[[lijst form=droog mineiwit=40 sort=p100 n=6 label="Veel eiwit, lage prijs"]]
+## Het meeste eiwit, ongeacht de prijs
 
-## Eiwitrijk natvoer voor weinig geld
+[[mini form=droog,nat stage=adult sort=eiwit n=3]]
 
-Natvoer met minstens 45% eiwit in de droge stof, voordeligste eiwit eerst:
+## Wanneer is veel eiwit niet goed?
 
-[[lijst form=nat mineiwit=45 sort=p100 n=6 label="Veel eiwit, lage prijs"]]
+**Bij een gezonde kat bestaat te veel eiwit eigenlijk niet.** Een kat is gemaakt om op vlees te leven. Alleen bij nierproblemen adviseert de dierenarts soms minder eiwit en fosfor. Zie [kattenvoer bij nierproblemen](/kattenvoer-nieren/).
 
-## Eiwitrijk kattenvoer met een hoge prijs
+## Zo reken je eiwit om naar droge stof
 
-Ook veel eiwit, maar dan betaal je er flink voor. Vaak is dat het merk, de kleine verpakking of extra beloftes op de zak. Goed voer, maar weet wat je betaalt:
-
-[[scoretabel mineiwit=42 sort=p100duur n=10]]
-
-## Hier ben ik kritisch
-
-Dit voer heeft het minste eiwit in de droge stof van alles wat ik ken. Het is compleet en dus niet gevaarlijk, maar voor een vleeseter vind ik het mager. Het gat wordt meestal gevuld met granen of andere koolhydraten.
-
-[[scoretabel maxeiwit=31 sort=weinigeiwit n=10]]
-
-## Populair en eiwitrijk kattenvoer per soort
-
-Wat kopen andere kattenbaasjes het meest? Dit zijn de populairste producten bij bol.com, met onze score erbij:
-
-[[scoretabel form=droog sort=populair n=8 permerk=nee]]
-
-[[scoretabel form=nat sort=populair n=8 permerk=nee]]
-
-## Zo reken ik eiwit in kattenvoer uit
-
-Ik neem het percentage ruw eiwit en het vochtgehalte van het etiket. Eiwit gedeeld door (100 min vocht) geeft het eiwit in de droge stof. Voor de prijs neem ik de prijs per kilo en deel ik die door het aantal grammen eiwit per kilo. Alles staat uitgelegd bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
-
-## Kan het te veel zijn?
-
-Voor een gezonde kat is veel eiwit geen probleem. Katten zijn gemaakt om vooral van eiwit en vet te leven. Alleen bij nierziekte ligt dat anders; daar bepaalt je dierenarts hoeveel eiwit je kat krijgt. Lees daarover bij [kattenvoer bij nierproblemen](/kattenvoer-nieren/).
-
-Wil je weten hoeveel eiwit je kat nu binnenkrijgt? Zoek je huidige voer op in de vergelijker. In de analyse staat hoeveel gram eiwit per dag hij eet bij zijn gewicht.
+Deel het eiwit op de zak door (100 min het vocht), en vermenigvuldig met 100. Natvoer met 10% eiwit en 80% vocht heeft dus 50% eiwit in de droge stof. Zo vergelijk je eerlijk met brokken.

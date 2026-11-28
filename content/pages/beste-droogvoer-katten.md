@@ -6,7 +6,6 @@ primary_keyword: beste droogvoer voor katten
 synonyms: [kattenbrokken, brokken, droogvoer voor je kat]
 breadcrumb: Beste droogvoer
 h1: 'Beste droogvoer voor katten'
-lead: "Op zoek naar het beste droogvoer voor katten? Ik vergeleek alle complete kattenbrokken op eiwit, koolhydraten en prijs per dag. Dit is mijn top 10, van goedkoop tot premium, met de cijfers erbij."
 seo_title: 'Beste droogvoer voor katten 2026: top 10 kattenbrokken'
 meta_description: 'Beste droogvoer voor katten? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Plus de rest van mijn top 10 kattenbrokken.'
 image: bak
@@ -31,84 +30,44 @@ faq:
     a: "Een volwassen kat van 4 kilo eet gemiddeld zo'n 50 tot 60 gram droogvoer per dag. Kijk altijd naar de tabel op de zak, want ook bij het beste droogvoer voor katten verschilt de energie per merk."
 top10: 'form=droog stage=adult sort=score'
 top10_kw: 'beste droogvoer voor katten'
+top_n: 10
+keuze: |
+  **{{top1}}.** Score {{top1_score}}, {{top1_eiwit}} eiwit in de droge stof en {{top1_dag}} per dag. Geen bekend merk, wel de beste brok die ik vond.
+
+  In dit artikel vind je een overzicht met het beste droogvoer voor katten: voor een krap budget, voor wie het beste van het beste wil, en welke bekende brokken ik zou laten liggen.
 ---
+## Beste droogvoer voor katten met een krap budget
 
-## Waar ik op let: eiwit, koolhydraten en prijs per dag
+**De beste goedkope brokken kosten rond de 22 tot 25 cent per dag en scoren toch een 6 of hoger.**
 
-Een kat is een echte vleeseter. Zijn lichaam draait op dierlijk eiwit, niet op graan of aardappel. Daarom kijk ik bij elk voer naar drie dingen:
+[[mini form=droog stage=adult minscore=6 sort=ppd n=3]]
 
-1. **Eiwit in droge stof.** Dat is het eiwit zonder het water. Zo vergelijk je eerlijk. Vanaf zo'n 35% vind ik droogvoer prima, vanaf 45% echt goed.
-2. **Koolhydraten.** Die staan niet op de zak, dus ik reken ze uit. Hoe minder, hoe beter. Bij goede brokken is dat rond de 20% of lager.
-3. **Prijs per dag.** De prijs op de zak zegt weinig. Ik reken uit wat het kost voor een kat van 4 kilo. Gemiddeld droogvoer kost {{droog_mid_dag}} per dag, gemiddeld natvoer {{nat_mid_dag}}.
+Dat is minder dan de helft van wat je voor veel merkbrokken betaalt. Een zak van 7 tot 10 kilo is per dag het voordeligst. Bij één kat doe je daar een paar maanden mee, dus bewaar de brokken goed afgesloten.
 
-Zo vind je het beste droogvoer voor katten op basis van feiten. Daarna kijk ik pas naar het merk. Een mooie zak en een bekende naam maken het voer niet beter. Hoe ik precies score, lees je bij [hoe ik kattenvoer score](/hoe-wij-scoren/).
+## Beste kattenbrokken met het meeste eiwit
 
-> Ik kijk bij brokken altijd eerst naar de achterkant van de zak. De voorkant is voor de marketingafdeling, de achterkant is voor jou en je kat.
+**Een kat is een vleeseter, dus eiwit is het eerste waar ik naar kijk.** Deze brokken halen 50% of meer in de droge stof:
 
-## Beste prijs-kwaliteit: IAMS
+[[mini form=droog stage=adult sort=eiwit n=3]]
 
-Zoek je het beste droogvoer voor katten zonder veel te betalen, dan kies ik [IAMS](/merken/iams/). Er zit {{p:iams-proactive-health-adult-kip-kattenvoer-10-kg-wmont:eiwit}} eiwit in de gewone Adult Kip, en de [Indoor-variant](/kattenvoer/iams-kat-adult-indoor-kip-10-kg-hxy4x/) komt zelfs op {{p:iams-kat-adult-indoor-kip-10-kg-hxy4x:eiwit}}. Dat is meer dan prima voor een volwassen kat. Het voer is compleet en de score is netjes.
+Onder de 35% vind ik brokken mager. Daar vul je de bak vooral met granen of aardappel.
 
-Het grote voordeel is de prijs. In de zak van 10 kilo betaal je {{p:iams-proactive-health-adult-kip-kattenvoer-10-kg-wmont:dag}} per dag, zo'n {{p:iams-proactive-health-adult-kip-kattenvoer-10-kg-wmont:maand}} per maand. Dat is ongeveer de helft van het gemiddelde droogvoer.
+## Beste droogvoer als prijs niet uitmaakt
 
-Eerlijk is eerlijk: [Pro Plan Delicate Digestion](/kattenvoer/pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-9n7k8/) scoort op papier nog iets hoger ({{p:pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-9n7k8:score}}) voor {{p:pro-plan-adult-delicate-digestion-kattenvoer-droogvoer-kalkoen-10-kg-9n7k8:dag}} per dag. Dat is ook een kandidaat voor het beste droogvoer voor katten met een gevoelige maag.
+[[mini form=droog stage=adult class=premium sort=score n=3]]
 
-[[lijst brand=iams form=droog stage=adult minscore=5 sort=ppd n=3 permerk=nee label="Prijs-kwaliteit"]]
+Deze brokken zijn duur, maar ze maken iets waar: veel eiwit en een kort etiket. Toch scoort mijn nummer 1 hoger voor minder geld. Premium hoeft dus niet.
 
-## Het allerbeste droogvoer voor katten: Natural Health
+## Bekende brokken die ik zou laten liggen
 
-Wil je meer uitgeven voor een beter etiket, dan kom je bij Natural Health uit. De [graanvrije Adult Carnivore](/kattenvoer/natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh/) heeft de hoogste score van alle brokken in mijn vergelijking: {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:score}}.
+**Bekend betekent niet beter.** De gewone brokken van Royal Canin en Edgard & Cooper hebben weinig eiwit voor wat ze kosten, en Whiskas-brokken zijn goedkoop maar mager.
 
-Er zit {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:eiwit}} eiwit in en maar zo'n {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:kh}} koolhydraten. Dat komt dicht in de buurt van wat een kat in de natuur eet, en daarom is dit voor mij het beste droogvoer voor katten. Hij hoort bij de duurdere brokken, maar per dag valt het mee: {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:dag}}. Dat is zelfs minder dan Edgard & Cooper.
+[[mini ids=royal-canin-indoor-27-kattenvoer-10kg-voor-de-volwassen-binnenkat-xn12c,edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y,whiskas-1-kattenbrokken-kip-7-kg-1u4cr]]
 
-[[lijst zoek="Natural Health graanvrij" form=droog stage=adult sort=score n=3 permerk=nee label="Beste kwaliteit"]]
+## Is droogvoer goed voor je kat?
 
-## Edgard & Cooper: leuk merk, maar je betaalt vooral voor de naam
+Ja, als het compleet voer is. Het enige echte nadeel is het vocht: er zit bijna niets in. Zet water op een paar plekken in huis, niet naast het voer. Een drinkfontein helpt bij veel katten. Of geef één keer per dag een zakje natvoer erbij, bijvoorbeeld van mijn lijst met [het beste natvoer](/beste-natvoer-kat/).
 
-Ik vind [Edgard & Cooper](/merken/edgard-en-cooper/) een sympathiek merk. Mooie verpakking, een vrolijke uitstraling en je koopt het gewoon bij de Albert Heijn. Daar is niets mis mee.
+## Zo lees je de zak
 
-Maar is het ook het beste droogvoer voor katten? Kijk je naar de cijfers, dan valt het tegen. De [Adult Kip](/kattenvoer/edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y/) heeft {{p:edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y:eiwit}} eiwit in droge stof en ongeveer {{p:edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y:kh}} koolhydraten. Je betaalt er {{p:edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y:dag}} per dag voor. Dat is meer dan Natural Health, terwijl daar veel meer eiwit in zit.
-
-Je betaalt bij Edgard & Cooper dus vooral voor het merk. Wil je toch een merk uit de supermarkt, prima. Maar wil je het meeste voer voor je geld, kies dan IAMS. Wil je de beste kwaliteit, kies dan Natural Health. Dat is mijn eerlijke mening over het beste droogvoer voor katten, op basis van de cijfers.
-
-## Wat zegt de Consumentenbond?
-
-De [Consumentenbond](https://www.consumentenbond.nl/test/voeding-gezondheid/het-beste-kattenvoer) noemt geen vast merk als winnaar, maar wel waar goed voer aan voldoet: veel vocht, veel eiwit en zo weinig mogelijk koolhydraten. Brokken zijn volgens hun deskundige prima, maar niet ideaal, omdat er bijna geen vocht in zit. Het beste droogvoer voor katten heeft dus vooral veel eiwit en weinig koolhydraten.
-
-Dat sluit precies aan bij hoe ik het beste droogvoer voor katten kies. Ik heb gekozen op veel eiwit en weinig koolhydraten. Het vocht los je op met genoeg water, of met een maaltijd [natvoer](/beste-natvoer-kat/) per dag. Dierenartsen verwijzen vaak naar de WSAVA-richtlijnen. Meer daarover lees je in [het beste kattenvoer volgens de dierenarts](/beste-kattenvoer-volgens-dierenarts/).
-
-## Zo krijg je goed droogvoer goedkoper
-
-Het beste droogvoer voor katten hoeft niet duur te zijn. Ik heb de prijzen zelf geanalyseerd. Het grootste verschil zit niet in het merk, maar in de **verpakking**. Hetzelfde voer kost in een kleine zak soms twee keer zoveel per kilo.
-
-| Voer | Kleine verpakking | Grote verpakking |
-|---|---|---|
-| Edgard & Cooper Adult Kip | {{p:edgard-en-cooper-kattenvoer-kip-325-gr-1puon:kg}} per kilo (325 gram) | {{p:edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y:kg}} per kilo (4 kilo) |
-| IAMS Adult Kip | {{p:iams-kat-adult-kip-3-kg-13lfr:kg}} per kilo (3 kilo) | {{p:iams-proactive-health-adult-kip-kattenvoer-10-kg-wmont:kg}} per kilo (10 kilo) |
-
-Een paar tips:
-
-- **Koop de grootste zak die je binnen zes tot acht weken opmaakt.** Met één kat is dat vaak 3 tot 4 kilo, met twee katten of meer 7 tot 10 kilo.
-- **Let op aanbiedingen** van grote zakken. Daar zit vaak de meeste korting op. Kijk ook bij [kattenvoer in grootverpakking](/kattenvoer-grootverpakking/).
-- **Vergelijk per dag, niet per zak.** Zo vind je het beste droogvoer voor katten voor jouw budget. Voer met veel energie geef je minder, dus een duurdere zak kan per dag toch meevallen.
-
-Moet het nog goedkoper dan het beste droogvoer voor katten uit mijn top 10? Dit zijn de complete brokken met de laagste prijs per dag. Let wel op het etiket: bij de allergoedkoopste zakken is dat vaak summier.
-
-[[lijst form=droog stage=adult sort=ppd n=4]]
-
-## Droogvoer en water: let hierop
-
-Ook het beste droogvoer voor katten bevat bijna geen vocht. Katten stammen af van woestijndieren en drinken van nature weinig. Eet je kat alleen brokken, zet dan meerdere waterbakken op rustige plekken, of een drinkfontein. Zet het water liever niet direct naast de voerbak. Twijfel je of je kat genoeg drinkt, geef dan één maaltijd natvoer per dag erbij. Meer daarover in [natvoer of droogvoer](/kennisbank/natvoer-of-droogvoer/).
-
-## Brokken goed bewaren
-
-Zelfs het beste droogvoer voor katten blijft niet eeuwig goed. Zodra de zak open is, gaat de kwaliteit langzaam achteruit. De vetten reageren met zuurstof en kunnen ranzig worden. Dat ruikt je kat eerder dan jij.
-
-- **Laat de brokken in de originele zak** en rol die goed dicht met een clip.
-- **Gebruik je een voerton,** zet dan de hele zak erin. Anders blijft er een vetlaagje in de ton achter.
-- **Koel en droog bewaren,** niet naast de verwarming of in de zon.
-- **Zes tot acht weken.** Langer zou ik een open zak niet gebruiken.
-
-## Mijn kat schrokt zijn brokken naar binnen
-
-Dat ligt meestal niet aan het voer, ook niet bij het beste droogvoer voor katten, maar aan de snelheid. Een voerpuzzel, een anti-schrokbak of de brokken verspreid over een groot bord helpen je kat rustiger te eten. Grotere brokken helpen ook, zoals de [Large Bite van Natural Health](/kattenvoer/natural-health-graanvrij-kattenvoer-adult-carnivore-large-bite-10-kg-k-147vf/): daar moet hij echt op kauwen.
+Kijk naar het eerste ingrediënt. Staat daar een dier met naam, zoals kip of zalm, dan is dat een goed teken. Staat er "granen" of "vlees en dierlijke bijproducten", dan weet je minder goed wat erin zit. De koolhydraten staan niet op de zak: die reken je uit door eiwit, vet, as, vezel en vocht van 100 af te halen. Uitleg staat bij [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/).

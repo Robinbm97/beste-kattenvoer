@@ -5,7 +5,6 @@ template: landing
 primary_keyword: kittenvoer
 breadcrumb: Kittenvoer
 h1: 'Beste kittenvoer'
-lead: "Een kitten groeit hard en heeft ander voer nodig dan een volwassen kat. Dit is het kittenvoer dat ik zou kiezen, met de prijs per dag erbij."
 seo_title: 'Beste kittenvoer 2026: top 10 voor een kitten in de groei'
 meta_description: 'Beste kittenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: kittens
@@ -24,51 +23,38 @@ faq:
     a: "Jonge kittens eten vaak, verdeeld over 4 tot 5 kleine maaltijden. Naarmate ze ouder worden, ga je terug naar 2 tot 3 maaltijden."
 top10: 'ranking=kitten'
 top10_kw: 'kittenvoer'
+top_n: 8
+keuze: |
+  **{{top1}}.** Score {{top1_score}} en {{top1_dag}} per dag. Het staat bovenaan mijn ranglijst voor kittenvoer met veel eiwit én de juiste verhouding tussen calcium en fosfor.
+
+  In dit artikel vind je een overzicht met het beste kittenvoer: de beste brok voor weinig geld, het beste natvoer voor een kitten en wat je beter kunt laten staan.
 ---
-## Waarom kittenvoer echt nodig is
+## Beste kittenvoer voor weinig geld
 
-Een kitten verdubbelt in de eerste maanden een paar keer in gewicht. Daar is energie voor nodig, en extra eiwit, calcium en andere bouwstoffen. Kittenvoer is daarop afgestemd. Op het etiket staat dan iets als “compleet diervoeder voor kittens” of “voor groei”.
+**Goed kittenvoer kost als brok rond de 20 tot 30 cent per dag.**
 
-> Een kitten in huis is chaos en liefde tegelijk. Bespaar op veel dingen, maar niet op kittenvoer. Dit eerste jaar legt de basis, en het verschil met gewoon voer kost per dag maar een paar cent.
+[[mini form=droog stage=kitten minscore=5.5 sort=ppd n=3]]
 
-## Kittenvoer droog: mijn keuzes
+Dat is minder dan de bekende kittenbrokken uit de dierenwinkel, met minstens zoveel eiwit.
 
-Brokken voor kittens zijn kleiner en makkelijker te kauwen. Dit zijn goede complete keuzes, gesorteerd op prijs per dag:
+## Beste natte kittenvoer
 
-[[lijst form=droog stage=kitten n=6]]
+[[mini form=nat stage=kitten sort=score n=3]]
 
-[[foto kitten "Britse korthaar kitten eet kittenvoer uit een bakje"]]
+Natvoer geeft vocht en wordt goed gegeten. Geef een jong kitten liever mousse of paté: dat eet makkelijker dan stukjes.
 
-## Zo kies ik: eiwit, energie en de calcium-fosforverhouding
+## Beste kittenvoer met het meeste eiwit
 
-Een kitten bouwt in een jaar een heel skelet. Daarvoor zijn niet alleen eiwit en energie belangrijk, maar ook de verhouding tussen calcium en fosfor. FEDIAF, de Europese branchevereniging, adviseert voor groeiende katten een verhouding **tussen 1:1 en 1,5:1**.
+[[mini stage=kitten sort=eiwit n=3]]
 
-Van {{kit_n}} soorten kittenvoer in de vergelijking staan calcium en fosfor bij {{kit_n_ratio}} op het etiket. Daarvan zitten er {{kit_n_ok}} binnen de norm, {{kit_n_buiten}} erbuiten. {{kit_conclusie}} Het eiwit ligt in het midden op {{kit_eiwit_mid}} in droge stof.
+Een kitten groeit hard en heeft meer eiwit en energie nodig dan een volwassen kat. Voer voor volwassen katten is daarom geen vervanging, ook al scoort het hoog.
 
-Dit is kittenvoer met minstens 35% eiwit in droge stof én een Ca:P-verhouding binnen de FEDIAF-groeinorm:
+## Duur kittenvoer dat tegenvalt
 
-[[ranking kitten]]
+**Royal Canin Kitten wordt vaak meegegeven door fokkers.** Het voldoet, maar je krijgt elders meer eiwit voor minder geld.
 
-## Natvoer voor kittens: zacht en lekker
+[[mini ids=royal-canin-kitten-kattenvoer-10kg-kittens-van-4-tot-12-maanden-1oflk,orijen-kitten-kattenvoer-2x-1-8-kg-1mkqf]]
 
-Natvoer is voor jonge kittens vaak makkelijker te eten, zeker in de eerste weken na het spenen. Combineer gerust met brokken.
+## Hoe lang en hoe vaak geef je kittenvoer?
 
-[[lijst form=nat stage=kitten n=6]]
-
-## Hoeveel en hoe vaak?
-
-Een kitten heeft per kilo lichaamsgewicht meer energie nodig dan een volwassen kat. Volg de voertabel op de verpakking, die gaat uit van leeftijd en gewicht. Verdeel het over meerdere kleine maaltijden: vier tot vijf bij jonge kittens, en drie rond een half jaar.
-
-Weeg je kitten af en toe. Groeit hij gestaag en is hij speels en actief, dan zit je goed. Twijfel je, vraag het dan bij de eerste vaccinatie aan de dierenarts. Meer over hoeveelheden lees je bij [hoeveel kattenvoer per dag](/kennisbank/hoeveel-kattenvoer-per-dag/).
-
-Laat bij kittens gerust wat brokken staan zodat ze kunnen bijeten. Overvoeren is bij een groeiend kitten minder een probleem dan bij een volwassen kat. Na sterilisatie, vaak rond vijf of zes maanden, verandert dat wel: dan daalt de energiebehoefte en moet je beter gaan opletten.
-
-## Van kittenvoer naar volwassen voer
-
-Rond twaalf maanden stap je over op voer voor volwassen katten. Doe dat geleidelijk, in een week tot tien dagen. Hoe je dat aanpakt, staat in [kat overzetten op ander voer](/kennisbank/kat-overzetten-op-ander-voer/). Is je kitten gecastreerd of gesteriliseerd, kijk dan ook naar [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/).
-
-## Wanneer stop je met kittenvoer?
-
-De meeste katten zijn rond hun eerste verjaardag uitgegroeid. Grote rassen zoals de Maine Coon groeien door tot hun tweede of zelfs derde jaar en kunnen langer kittenvoer krijgen. Stap rustig over in een week, zoals in [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/).
-
-> Kittenvoer is de beste investering die je in een jonge kat kunt doen. Juist in die eerste maanden bouwt hij zijn spieren en botten op.
+Tot ongeveer twaalf maanden. Grote rassen zoals de Maine Coon groeien langer door. Tot zes maanden geef je drie tot vier kleine maaltijden per dag, daarna twee of drie. Laat een kitten aan verschillende smaken en vormen wennen. Een kat die als kitten maar één merk kreeg, wil later vaak niets anders.

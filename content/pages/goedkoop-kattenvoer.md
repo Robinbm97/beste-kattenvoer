@@ -5,7 +5,6 @@ template: landing
 primary_keyword: goedkoop kattenvoer
 breadcrumb: Goedkoop kattenvoer
 h1: 'Goedkoop kattenvoer'
-lead: "Een krappe portemonnee betekent geen slecht voer. Ik zocht de voordeligste complete brokken en natvoer, en vertel eerlijk waar goedkoop duurkoop wordt."
 seo_title: 'Goedkoop kattenvoer 2026: top 10 met een goede score'
 meta_description: 'Goedkoop kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Alleen voer met een voldoende score in mijn top 10.'
 image: duo
@@ -24,75 +23,36 @@ faq:
     a: "Koop grote verpakkingen, combineer natvoer met brokken, geef niet te veel en blijf bij één merk. Dat scheelt al snel tientallen euro’s per jaar."
 top10: 'stage=adult minscore=5.5 sort=ppd'
 top10_kw: 'goedkoop kattenvoer met een goede score'
+top_n: 10
+keuze: |
+  **{{top1}}.** {{top1_dag}} per dag en toch een score van {{top1_score}}. Goedkoop en goed gaan prima samen, als je weet waar de grens ligt.
+
+  In dit artikel vind je een overzicht met het beste goedkope kattenvoer: de voordeligste brokken, goedkoop natvoer dat deugt en waar goedkoop te goedkoop wordt.
 ---
-## Goedkoop kattenvoer: kan dat zonder schuldgevoel?
+## Beste goedkope kattenbrokken
 
-Ja. Laat ik daar meteen duidelijk over zijn. Veel sites doen alsof je je kat tekortdoet als je niet het duurste voer koopt. Dat vind ik onzin. Compleet voer voldoet aan de basisbehoefte van je kat, of het nu €0,20 of €1 per dag kost.
+**De goedkoopste brokken met een voldoende score kosten zo'n 20 tot 25 cent per dag.**
 
-Wat wel klopt: tussen de goedkoopste en de duurste voeders zitten verschillen in het etiket. Bij goedkoop voer lees je vaker “vlees en dierlijke bijproducten” in plaats van een benoemde vleessoort. Mijn doel op deze pagina is voer vinden dat goedkoop is én een etiket heeft waar je wijs uit wordt.
+[[mini form=droog stage=adult minscore=6 sort=ppd n=3]]
 
-> Ik zeg altijd: goedkoop is duurkoop. Maar bij kattenvoer betekent dat niet dat je het duurste moet kopen. Het betekent dat je niet het allergoedkoopste moet kopen zonder te kijken wat erin zit. Daartussen ligt een hele grote, betaalbare middenweg.
+Dat is ongeveer €7 per maand voor een kat van 4 kilo. Goedkoper kan, maar dan lever je eiwit in.
 
-## Het goedkoopste kattenvoer per dag: zo reken ik
+## Beste goedkope natvoer
 
-Ik reken niet met de prijs per zak en ook niet alleen met de prijs per kilo. Een zak die per kilo goedkoop is, maar weinig calorieën heeft, moet je kat meer van eten. Daarom reken ik door naar de **prijs per dag** voor een volwassen kat van 4 kilo, op basis van de energie op het etiket.
+[[mini form=nat stage=adult minscore=6.5 sort=ppd n=3]]
 
-Het goedkoopste complete droogvoer kost vandaag {{goedkoopste_droog_dag}} per dag. De goedkoopste 10% droogvoer zit onder de {{droog_goedkoop_dag}}, het midden op {{droog_mid_dag}}. Bij natvoer betaal je voor dezelfde voeding gemiddeld zo'n {{verschil_nat_droog}} keer zoveel, omdat je voor het water betaalt.
+Natvoer kost per dag altijd meer dan brokken, omdat je voor water betaalt. Een goedkope mix: één zakje per dag en de rest brokken.
 
-[[budgettabel]]
+## Waar goedkoop te goedkoop wordt
 
-## De voordeligste brokken
+**Met 33% eiwit of minder in de droge stof koop je vooral vulling.** De allergoedkoopste brokken zitten precies daar:
 
-Brokken zijn per dag veruit het voordeligst. Dit zijn de goedkoopste complete droogvoeders per dag, één per merk:
+[[mini form=droog stage=adult score=ja maxeiwit=33 sort=ppd n=3]]
 
-[[lijst form=droog sort=ppd n=6]]
+Een paar cent per dag besparen is het niet waard als je kat er minder eiwit door krijgt.
 
-Let op: de allergoedkoopste brokken komen vaak van huismerken en zijn bedoeld voor grote aantallen katten. Ze zijn compleet, maar het etiket is minimaal. Wil je iets meer zekerheid, kies dan uit de middengroep hieronder.
+## Zo bespaar je zonder slechter voer
 
-## Voordelig met een goed etiket
-
-Deze merken vind ik de beste balans tussen prijs en etiket. Ze kosten per dag iets meer dan de allergoedkoopste, maar nog steeds minder dan gemiddeld:
-
-[[lijst brand=iams,smolke,voskes,purina-one form=droog n=4]]
-
-Lees mijn oordeel per merk bij [IAMS](/merken/iams/), [Smolke](/merken/smolke/) en [Voskes](/merken/voskes/).
-
-[[foto tabbies "Twee gestreepte katten op een houten vloer, goedkoop kattenvoer voor meerdere katten"]]
-
-## Voordelig natvoer
-
-Natvoer is per dag het duurste deel van het menu. Gemiddeld natvoer kost {{nat_mid_dag}} per dag, tegen {{droog_mid_dag}} voor gemiddeld droogvoer. Dit is het voordeligste complete natvoer:
-
-[[lijst form=nat sort=ppd n=6]]
-
-[[band brokken "Brokken zijn je beste vriend" "Droogvoer kost per dag maar een fractie van natvoer. Eén natvoermaaltijd plus degelijke brokken is voor veel katten de slimste mix." "/beste-droogvoer-katten/|Bekijk het beste droogvoer"]]
-
-## Het beste goedkope kattenvoer: meeste eiwit per euro
-
-De prijs per dag zegt hoeveel je uitgeeft. De prijs per 100 gram eiwit zegt wat je ervoor krijgt. Eiwit is het duurste en belangrijkste deel van kattenvoer, dus dit is voor mij de eerlijkste maat voor "goedkoop".
-
-Van al het voer met een score van 6 of hoger ({{goed_n6}} soorten), is dit de top op prijs per 100 gram eiwit:
-
-[[ranking goedkoop_eiwit]]
-
-[[ranking goedkoop_eiwit_nat]]
-
-## Vijf manieren om te besparen op kattenvoer
-
-**1. Koop groot.** Een zak van 10 kilo is per kilo vaak een derde goedkoper dan een zak van 2 kilo. Bewaar hem wel droog en afgesloten.
-
-**2. Combineer nat en droog.** Geef één natvoermaaltijd per dag en verder brokken. Je kat krijgt extra vocht, jij houdt het betaalbaar. Wat dat scheelt, reken je uit met de [kostencalculator](/kennisbank/kosten-kattenvoer-per-maand/).
-
-**3. Geef niet te veel.** Veel katten krijgen meer dan ze nodig hebben. Dat kost geld en is slecht voor hun gewicht. Zie [hoeveel kattenvoer per dag](/kennisbank/hoeveel-kattenvoer-per-dag/).
-
-**4. Blijf bij één merk.** Wisselen kost je vaak half opgegeten zakken en een kat met maagklachten.
-
-**5. Pas op met snacks.** Kleine zakjes snoepjes zijn per kilo vaak duurder dan het duurste voer.
-
-## Wanneer goedkoop duurkoop is
-
-Ik zou niet besparen als je kat een medisch dieet nodig heeft, als je kat het voer slecht verdraagt, of als je eigenlijk aanvullend voer koopt omdat het per blikje goedkoop lijkt. Een goedkoop blikje dat geen complete maaltijd is, is per saldo juist duur.
-
-## Wat kost het per maand?
+Koop grote zakken: een zak van 10 kilo is per kilo vaak een stuk goedkoper dan een kleine. Let op aanbiedingen van voer dat al goed scoort, zie [kattenvoer aanbieding](/kattenvoer-aanbieding/). En weeg het voer af: de meeste katten krijgen te veel, en dat kost geld én gewicht.
 
 [[budgettabel]]

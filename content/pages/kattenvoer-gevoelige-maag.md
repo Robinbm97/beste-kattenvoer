@@ -5,7 +5,6 @@ template: landing
 primary_keyword: kattenvoer gevoelige darmen
 breadcrumb: Gevoelige maag
 h1: 'Beste kattenvoer voor gevoelige darmen'
-lead: "Braakt je kat vaak of heeft hij zachte ontlasting? Voer kan helpen, maar begin bij de juiste stap. Dit is wat ik zou doen."
 seo_title: 'Kattenvoer gevoelige darmen: top 10 voor een rustige maag'
 meta_description: 'Kattenvoer voor gevoelige darmen? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: bak
@@ -22,62 +21,30 @@ faq:
     a: "Voer met één eiwitbron kan helpen uitzoeken waar je kat op reageert. Doe zo’n eliminatiedieet bij voorkeur samen met je dierenarts."
 top10: 'ranking=gevoelig'
 top10_kw: 'kattenvoer voor gevoelige darmen'
+top_n: 7
+keuze: |
+  **{{top1}}.** Het staat bovenaan mijn ranglijst voor gevoelige darmen: niet te vet, niet te veel ruwe celstof en goed verteerbaar. {{top1_dag}} per dag.
+
+  In dit artikel vind je een overzicht met het beste kattenvoer voor een gevoelige maag: brokken, natvoer, dieetvoer van de dierenarts en wanneer het niet aan het voer ligt.
 ---
-## Gevoelige maag: ligt het echt aan het kattenvoer?
+## Beste kattenvoer voor een gevoelige maag: rustig en simpel
 
-Een gevoelige maag kan veel oorzaken hebben: te snel eten, stress, haarballen, parasieten of een ziekte. Voer is één van de mogelijke oorzaken. Blijft je kat braken of heeft hij vaak diarree, laat hem dan eerst nakijken. Pas daarna is ander voer een logische stap.
+**Bij een gevoelige maag zoek ik voer dat niet te vet is en weinig verschillende ingrediënten heeft.** Te veel vet en te veel ruwe celstof kunnen de darmen van streek maken.
 
-> Ik weet hoe naar het is om je kat te zien spugen. Maar wissel niet meteen van merk. Elke wissel is voor een gevoelige maag een nieuwe uitdaging.
+## Beste brokken voor gevoelige darmen
 
-## Kattenvoer gevoelige maag: wat helpt?
+[[mini form=droog flag=gevoelig sort=score n=3]]
 
-**Rustig eten.** Eet je kat te snel, gebruik dan een anti-schrokbak of verdeel het voer over meer kleine maaltijden.
+## Beste natvoer voor een gevoelige maag
 
-**Eén eiwitbron.** Voer met maar één dierlijke eiwitbron, bijvoorbeeld alleen eend of alleen lam, helpt om te ontdekken waar je kat op reageert.
+[[mini form=nat flag=gevoelig sort=score n=3]]
 
-**Langzaam overstappen.** Bouw nieuw voer op in tien dagen. Zie [kat overzetten op ander voer](/kennisbank/kat-overzetten-op-ander-voer/).
+## Beste dieetvoer bij darmklachten
 
-**Geen snoepjes tussendoor.** Tijdens een proefperiode alleen het nieuwe voer geven.
+[[mini dieet=alleen zoek=^(?!.*honden).*(gastro|intestinal) sort=ppd n=3]]
 
-[[foto poot "Kat likt zijn poot, kattenvoer voor een gevoelige maag"]]
+Dieetvoer voor de darmen is goed verteerbaar en vetarm. Gebruik het op advies van je dierenarts, bijvoorbeeld na een periode van diarree.
 
-## Kattenvoer voor een gevoelige maag: droog
+## Ligt het wel aan het voer?
 
-[[lijst form=droog flag=gevoelig n=6]]
-
-## Kattenvoer voor een gevoelige maag: nat
-
-[[lijst form=nat flag=gevoelig n=6]]
-
-## Zo kies ik: niet te vet, niet te veel ruwe celstof
-
-Bij gevoelige darmen helpt voer dat licht verteerbaar is. Op het etiket zie je dat vooral aan twee dingen: het vetgehalte en de ruwe celstof. Veel vet kan bij gevoelige katten zachte ontlasting geven, en veel onverteerbare vezel maakt het voer minder goed verteerbaar.
-
-Opvallend: voer met "sensitive" of "gevoelig" op de zak heeft gemiddeld {{gev_vergelijk}} ({{gev_vet_mid}} in droge stof) dan gemiddeld voer ({{vet_mid}}). {{gev_conclusie}} Dit is sensitive-voer met maximaal 22% vet en 5% ruwe celstof in de droge stof:
-
-[[ranking gevoelig]]
-
-## Dieetvoer bij een gevoelige maag
-
-Dieetvoer voor maag en darmen haal je bij voorkeur via de dierenarts. Dat voer is bedoeld voor een specifiek probleem en hoort in een behandelplan. In mijn lijsten laat ik dieetvoer daarom bewust weg.
-
-## Braken of haarballen?
-
-Niet elke kat die af en toe overgeeft, heeft een gevoelige maag. Katten braken soms haarballen uit, vooral langharige katten in de ruiperiode. Dat is een sigaar-achtig propje haar, vaak met wat vocht. Een paar keer per maand is dat niet ongewoon, al is het goed om het te bespreken als het vaker gebeurt.
-
-Bij een gevoelige maag zie je eerder onverteerd voer kort na het eten, dunne of wisselende ontlasting, veel winden of een kat die gras eet en daarna braakt. Schrokken kan ook de boosdoener zijn: een kat die zijn bak in één minuut leegeet, gooit het er soms net zo snel weer uit.
-
-## Wat je zelf kunt proberen
-
-- **Langzamer laten eten.** Een voerpuzzel, een plat bord of de portie in drie keer geven helpt schrokkers vaak al.
-- **Eén eiwitbron.** Kies een voer met één vleessoort, en houd dat een paar weken vol zonder snoepjes van een andere soort.
-- **Vaste tijden.** Een voorspelbaar ritme is voor de maag fijner dan een bak die de hele dag gevuld wordt.
-- **Rustig overstappen.** Een snelle wissel van voer is de meest voorkomende oorzaak van maagklachten. Zie [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/).
-
-> Braakt je kat vaker dan een keer per week, is hij sloom, valt hij af of zit er bloed in? Dan is het geen kwestie van voer meer. Ga naar de dierenarts.
-
-Licht verteerbaar voer heeft vaak iets minder vet en eiwitbronnen die makkelijk te verteren zijn. Dat kan helpen. Gaat het meer om jeuk en huid, lees dan [hypoallergeen kattenvoer](/hypoallergeen-kattenvoer/).
-
-## Natvoer of brokken?
-
-Er is geen vaste regel. Sommige katten met een gevoelige maag doen het beter op natvoer, omdat het makkelijker te verteren is en minder zetmeel bevat. Andere katten reageren juist op bepaalde verdikkingsmiddelen in natvoer. Probeer het rustig uit, en verander één ding tegelijk. Zo weet je achteraf wat hielp.
+**Braakt je kat af en toe een haarbal, dan is dat normaal.** Braakt hij vaker dan eens per week, heeft hij langer dan twee dagen diarree of valt hij af, ga dan naar de dierenarts. Snel eten is ook een veelvoorkomende oorzaak: een anti-schrokbak helpt dan meer dan ander voer.

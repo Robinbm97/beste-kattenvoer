@@ -5,7 +5,6 @@ template: landing
 primary_keyword: urinary kattenvoer
 breadcrumb: Urinary kattenvoer
 h1: 'Beste urinary kattenvoer'
-lead: "Blaasgruis of blaasontsteking bij je kat is schrikken. Urinary-voer kan helpen, maar water is minstens zo belangrijk. Mijn eerlijke uitleg, met het voer dat ik vergeleek."
 seo_title: 'Beste urinary kattenvoer 2026: top 10 bij blaasgruis'
 meta_description: 'Beste urinary kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: tabbies
@@ -23,68 +22,34 @@ faq:
     a: "Als een kater herhaaldelijk op de bak zit en er niets of bijna niets uitkomt. Een verstopte urinebuis is levensgevaarlijk en is altijd een spoedgeval."
 top10: 'ranking=urinary_nat+urinary_droog'
 top10_kw: 'urinary kattenvoer'
+top_n: 6
+keuze: |
+  **Eerst dit: plast je kat niet of bijna niet, bel dan vandaag je dierenarts.** Een verstopte plasbuis is levensgevaarlijk, vooral bij katers.
+
+  **Mijn keuze voor preventie: {{top1}}**, bovenaan mijn ranglijst voor natvoer met weinig magnesium per kcal. Vocht doet voor de blaas meer dan welke urinary-brok ook.
+
+  In dit artikel vind je een overzicht met het beste urinary kattenvoer: natvoer voor meer vocht, brokken voor weinig geld en wanneer je dieetvoer van de dierenarts nodig hebt.
 ---
-## Eerst even dit
+## Beste urinary kattenvoer: vocht eerst
 
-Zit je kater steeds op de bak en komt er weinig of niets uit? Ga dan vandaag nog naar de dierenarts. Een verstopte urinebuis is levensgevaarlijk. Deze pagina is voor daarna, of als je wilt voorkomen dat het gebeurt.
+**Hoe meer je kat drinkt, hoe dunner de urine en hoe kleiner de kans op gruis.** Natvoer bestaat voor zo'n 80% uit water. Daarom staat natvoer bovenaan mijn lijst. Onderzoek liet zien dat voer met veel vocht de urine verdunt en het risico op oxalaatgruis verlaagt.
 
-Problemen met de blaas bij katten hebben verschillende oorzaken. Heel vaak is het een blaasontsteking zonder duidelijke oorzaak, waarbij stress een grote rol speelt. Daarnaast zijn er twee soorten gruis of stenen:
+## Beste brokken met weinig magnesium
 
-- **Struviet** kan oplossen met speciaal dieetvoer dat de urine zuurder maakt.
-- **Calciumoxalaat** lost niet op met voer. Daar draait het om voorkomen.
+[[mini ranking=urinary_droog n=3]]
 
-Welk soort het is, kan alleen je dierenarts vaststellen. Daarom zet ik dieetvoer op deze pagina apart.
+Niet elke brok hier heet urinary, maar ze hebben allemaal weinig magnesium per kcal. Daar gaat het om. Geef er altijd vocht bij: een zakje natvoer per dag of een drinkfontein.
 
-## Zo kies ik: vocht eerst, dan magnesium en fosfor
+## Beste urinary dieetvoer bij struviet
 
-Struviet bestaat uit magnesium, ammonium en fosfaat. Voer dat helpt voorkomen, heeft daarom weinig magnesium en fosfor en maakt de urine iets zuurder. Calciumoxalaat voorkom je vooral met verdunde urine, dus met veel vocht. In onderzoek gaf voer met 73% vocht duidelijk dunnere urine dan droogvoer.
+**Struviet kan oplossen met dieetvoer. Calciumoxalaat niet.** Welk gruis je kat heeft, ziet alleen de dierenarts. Dieetvoer geef je op advies en met controle.
 
-Daarom zet ik bij deze ranglijst **vocht voorop** en reken ik magnesium **per 100 kcal** uit. Dat is eerlijker dan het percentage op de zak: natvoer lijkt anders altijd laag, alleen omdat het uit water bestaat. Van {{uri_n_mg}} soorten voer staat magnesium op het etiket. Het midden ligt op {{uri_mg_mid}} mg per 100 kcal. Voer met "urinary" op de zak zit gemiddeld op {{uri_mg_label}} mg.
+[[mini brand=royal-canin,hill-s dieet=alleen flag=urinewegen sort=score n=3 permerk=nee]]
 
-Dit is gewoon onderhoudsvoer, geen dieet. Het geneest niets, maar is een logische keuze voor een kat die er gevoelig voor is:
+## Waar ik niet voor zou kiezen
 
-[[ranking urinary_nat]]
+Een zak met "urinary" of "blaasgruis" erop zegt niet dat het voer goed is. Sommige urinary-brokken hebben minder dan 30% eiwit. Voor een gezonde kat helpt genoeg vocht meer dan een duurdere brok.
 
-Geeft je kat liever brokken? Dit zijn de brokken met de minste magnesium per kcal. Zet er dan altijd extra water of een natte maaltijd naast:
+## Stress en blaasproblemen
 
-[[ranking urinary_droog]]
-
-## Water: de grootste winst
-
-Wat bij elke vorm van blaasproblemen helpt: meer water. Verdunde urine geeft gruis minder kans. En daar heeft voer veel invloed op. Natvoer bestaat voor zo'n 80% uit vocht, droogvoer voor 8 tot 10%. Een kat die alleen brokken eet, krijgt via zijn voer dus bijna geen vocht binnen.
-
-> Bij blaasproblemen zou ik altijd eerst kijken of er meer natvoer in het menu kan. Desnoods een scheutje lauw water door het natvoer. Dat is goedkoper dan welk speciaal voer ook.
-
-Meer over natvoer lees je bij [het beste natvoer](/beste-natvoer-kat/).
-
-[[foto likken "Kat likt zijn lippen na een portie urinary kattenvoer"]]
-
-## Urinary kattenvoer uit de winkel
-
-Dit is gewoon compleet voer dat zich richt op gezonde urinewegen. Het is geen medicijn, maar een redelijke keus voor een kat die gevoelig is.
-
-[[lijst flag=urinewegen sort=score n=6]]
-
-## Dieetvoer van de dierenarts
-
-Dit is dieetvoer voor katten met vastgestelde blaasproblemen. Mijn score zegt hier eerlijk gezegd weinig: of het werkt, hangt af van het soort gruis. Geef het alleen in overleg met je dierenarts.
-
-In de feed staan {{uri_n_dieet}} urinary-dieetvoeders. Ik rangschik ze bewust niet: welk dieet past, hangt af van het soort gruis.
-
-[[ranking urinary_dieet]]
-
-## Blaasproblemen en een gesteriliseerde kat
-
-Gecastreerde katers en katten die weinig bewegen en te zwaar zijn, hebben vaker last van hun blaas. Let dus ook op het gewicht van je kat; zie [kattenvoer voor een gesteriliseerde kat](/kattenvoer-gesteriliseerde-kat/). Wil je weten hoe dierenartsen naar voer kijken, lees dan [het beste kattenvoer volgens de dierenarts](/beste-kattenvoer-volgens-dierenarts/).
-
-## De rol van stress
-
-Een blaasontsteking zonder duidelijke oorzaak heeft vaak met stress te maken. Een verhuizing, een nieuwe kat in huis, een kat van de buren die door het raam staart, of een vieze kattenbak: het kan allemaal meespelen. Daarom helpt het om ook naar de omgeving te kijken:
-
-- **Genoeg kattenbakken:** één per kat plus één extra, op rustige plekken.
-- **Een schone bak.** Dagelijks scheppen, regelmatig helemaal verschonen.
-- **Rust en eigen plekken.** Vooral in huizen met meer katten heeft elke kat een eigen plek nodig om te eten, te drinken en te slapen.
-
-> Voer is maar een deel van het verhaal. Water, een schone bak en een rustige kat doen minstens zoveel voor de blaas.
-
-Wil je weten of je kat genoeg drinkt? Kijk naar de plasballen in de kattenbak. Twee tot vier middelgrote ballen per dag is normaal. Worden ze opeens veel groter of veel kleiner, of zit je kat steeds op de bak, dan is het tijd voor de dierenarts.
+Veel blaasontstekingen bij katten hebben geen duidelijke oorzaak, en stress speelt dan mee. Denk aan een verhuizing, een nieuwe kat of ruzie met de buurkat. Zorg voor genoeg kattenbakken (één per kat plus één), vaste etenstijden en plekken om te schuilen.

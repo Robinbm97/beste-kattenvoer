@@ -5,7 +5,6 @@ template: landing
 primary_keyword: kattenvoer grootverpakking
 breadcrumb: Grootverpakking
 h1: 'Beste kattenvoer in grootverpakking'
-lead: "Een grote zak brokken is per kilo flink goedkoper. Maar een open zak blijft niet eeuwig vers. Ik rekende uit hoeveel je bespaart en wanneer het niet slim is."
 seo_title: 'Kattenvoer grootverpakking 2026: top 10 zakken vanaf 7 kilo'
 meta_description: 'Kattenvoer in grootverpakking? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: brokken
@@ -19,40 +18,30 @@ faq:
     a: "Ja. In mijn vergelijking is een zak vanaf 7 kilo per kilo gemiddeld {{groot_besparing}} goedkoper dan een zak tot 2,5 kilo van hetzelfde voer. Dat heb ik bij {{groot_aantal}} droogvoeders kunnen vergelijken."
   - q: Hoe lang blijft een open zak kattenvoer goed?
     a: "Reken op zes tot acht weken. Daarna kunnen de vetten gaan ranzen en verliest het voer geur en smaak. Een kat van 4 kilo eet ongeveer 50 tot 55 gram per dag, dus zo'n 1,6 kilo per maand."
-top10: 'form=droog mingram=7000 sort=score'
+top10: 'form=droog stage=adult mingram=7000 minscore=6 sort=p100'
 top10_kw: 'kattenvoer in grootverpakking'
+top_n: 8
+keuze: |
+  **{{top1}}.** In een zak vanaf 7 kilo betaal je hier het minst per gram eiwit: score {{top1_score}}, {{top1_dag}} per dag. Een grote zak bespaart gemiddeld {{groot_besparing}} per kilo, maar alleen als je hem op tijd opmaakt.
+
+  In dit artikel vind je een overzicht met het beste kattenvoer in grootverpakking, de voordeligste grote zakken en wanneer groot kopen niet slim is.
 ---
-## Kattenvoer grootverpakking: de besparing
+## Beste kattenvoer in grootverpakking: de besparing
 
-Ik heb alle droogvoeders gezocht die zowel in een kleine zak (tot 2,5 kilo) als in een grote zak (7 kilo of meer) te koop zijn. Dat waren er {{groot_aantal}}. Gemiddeld is de grote zak per kilo **{{groot_besparing}} goedkoper**. Over een jaar is dat voor één kat al snel een paar tientjes, en met twee of drie katten nog meer.
+**Een zak vanaf 7 kilo is per kilo gemiddeld {{groot_besparing}} goedkoper dan een kleine zak van hetzelfde voer.** Over een jaar kan dat tientallen euro's schelen.
 
-## Kattenvoer in grootverpakking: wanneer is het níet slim?
+## Beste grote zakken voor weinig geld
 
-Een open zak brokken blijft ongeveer zes tot acht weken goed. Daarna ranzen de vetten en ruikt het voer minder lekker. Een kat van 4 kilo eet zo'n 52 gram droogvoer per dag, dus ongeveer 1,6 kilo per maand.
+[[mini form=droog stage=adult mingram=7000 minscore=5.5 sort=ppd n=3]]
 
-- **Eén kat:** een zak van 10 kilo duurt bijna een half jaar. Dat is te lang, tenzij je de zak opdeelt.
-- **Twee of drie katten:** dan ben je met 7 tot 10 kilo in twee tot drie maanden klaar. Prima.
+## Beste grote zak met veel eiwit
 
-> Mijn tip bij één grote zak: meteen verdelen over een paar luchtdichte bakken of de originele zak goed dichtrollen met een clip. Alleen de bak die in gebruik is, gaat open.
+[[mini form=droog stage=adult mingram=7000 sort=eiwit n=3]]
 
-Bewaar de brokken in de originele zak, ook als je een voerton gebruikt. De zak houdt licht en lucht tegen, en je houdt het etiket en de houdbaarheidsdatum bij de hand.
+## Wanneer is een grote zak níet slim?
 
-[[foto bak "Brokken uit een grootverpakking kattenvoer in een voerbak"]]
+**Bij één kat doe je met 10 kilo ongeveer vijf maanden.** Brokken worden oud als de zak openstaat: het vet wordt ranzig en de geur verdwijnt. Bewaar de brokken in de originele zak, in een afsluitbare bak, op een koele plek. Heb je één kat, kies dan liever 4 tot 7 kilo. Bij twee of meer katten is 10 kilo of meer ideaal.
 
-## Het beste kattenvoer in grootverpakking
+## Mijn tip voor grote zakken
 
-Droogvoer dat in zakken van 7 kilo of meer te koop is, gesorteerd op mijn score.
-
-[[lijst form=droog mingram=7000 sort=score n=6]]
-
-## Goedkoopste kattenvoer in grootverpakking
-
-[[lijst form=droog mingram=7000 sort=ppd n=6]]
-
-## Veel eiwit in een grote zak kattenvoer
-
-Wil je veel eiwit en toch voordelig? Dan is dit de lijst: droogvoer in grootverpakking, gesorteerd op de prijs per 100 gram eiwit.
-
-[[lijst form=droog mingram=7000 mineiwit=38 sort=p100 n=6]]
-
-Wil je eerst testen of je kat het lust, koop dan één keer een kleine zak. Meer over droogvoer lees je bij [het beste droogvoer](/beste-droogvoer-katten/), en kijk ook bij [de aanbiedingen](/kattenvoer-aanbieding/) en [het goedkoopste kattenvoer per dag](/goedkoop-kattenvoer/).
+Koop pas groot als je zeker weet dat je kat het voer lust. Probeer eerst een kleine zak.

@@ -5,7 +5,6 @@ template: landing
 primary_keyword: premium kattenvoer
 breadcrumb: Premium kattenvoer
 h1: 'Beste premium kattenvoer'
-lead: "Premium, hoogwaardig, super premium. Ik rekende uit wat je per gram eiwit betaalt bij het duurste voer, en waar je dezelfde kwaliteit voor minder vindt."
 seo_title: 'Premium kattenvoer 2026: top 10 die zijn prijs waard is'
 meta_description: 'Beste premium kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: tabbies
@@ -21,35 +20,38 @@ faq:
     a: "Vaak een beetje, maar lang niet altijd naar verhouding. In mijn vergelijking zit er tussen de duurste en de voordeligste eiwitrijke brokken soms een factor twee in prijs per gram eiwit."
 top10: 'form=droog,nat class=premium sort=score'
 top10_kw: 'premium kattenvoer'
+top_n: 7
+keuze: |
+  **{{top1}}.** Score {{top1_score}}. Het beste premium voer dat ik vond. Maar eerlijk: voor de helft van het geld krijg je vaak net zoveel eiwit.
+
+  In dit artikel vind je een overzicht met het beste premium kattenvoer, wat je bij premium wél krijgt en welke dure merken hun prijs niet waarmaken.
 ---
-## Premium kattenvoer: wat betaal je eigenlijk?
+## Beste premium kattenvoer: wat krijg je voor je geld?
 
-Het woord premium is niet beschermd. Iedere fabrikant mag het op een zak zetten. Daarom kijk ik naar één getal dat je niet kunt opsmukken: **de prijs per 100 gram eiwit**. Bij droogvoer ligt het midden in mijn vergelijking op {{p100_mid_droog}}, bij natvoer op {{p100_mid_nat}}.
+**Bij premium voer betaal je vooral voor een korter etiket, benoemd vlees en minder granen.** Dat is iets waard. Maar meer eiwit krijg je er niet altijd voor.
 
-Bij het duurste voer betaal je vaak het drie- tot viervoudige. Soms krijg je daar echt iets voor terug: meer vlees, minder vulling, een samenstelling met benoemde vleessoorten. Maar soms betaal je vooral voor een mooie zak.
+## Beste premium brokken
 
-> Ik heb niets tegen duur voer. Ik heb iets tegen duur voer dat niet meer eiwit heeft dan een merk van de helft van de prijs.
+[[mini form=droog stage=adult class=premium sort=score n=3]]
 
-## Het duurste kattenvoer per gram eiwit
+## Beste premium natvoer
 
-Dit droogvoer kost het meest per 100 gram eiwit. Kijk naar het eiwitpercentage: is dat ook echt hoger?
+[[mini form=nat stage=adult class=premium sort=score n=3]]
 
-[[lijst form=droog sort=p100duur n=6]]
+## Premium kwaliteit voor een normale prijs
 
-## Premium kattenvoer voor een normale prijs
+**Deze brokken hebben 42% eiwit of meer, voor een gewone prijs per 100 gram eiwit:**
 
-En dit is droogvoer met minstens 42% eiwit in droge stof, gesorteerd op de laagste prijs per gram eiwit. Hoogwaardig op het etiket, zonder premiumprijs.
+[[mini form=droog mineiwit=42 sort=p100 n=3]]
 
-[[lijst form=droog mineiwit=42 sort=p100 n=6]]
+Dit zijn mijn favorieten als je premium cijfers wilt zonder premium prijs.
 
-[[foto brokken "Premium kattenvoer brokken van dichtbij"]]
+## Dure merken die tegenvallen
 
-## De beste scores
+[[mini ids=royal-canin-indoor-27-kattenvoer-10kg-voor-de-volwassen-binnenkat-xn12c,edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y,renske-super-premium-senior-kattenvoer-kip-en-eend-6-kg-1by4h,yarrah-bio-kattenvoer-adult-kip-10-kg-1qw50]]
 
-[[lijst form=nat sort=score n=6]]
+Ze zijn niet slecht. Maar per gram eiwit betaal je hier vaak twee keer zoveel als bij het voer hierboven.
 
-## Mijn advies
+## Mijn mening over premium kattenvoer
 
-Kies niet op het woord premium, maar op drie dingen: een benoemde vleessoort vooraan, veel eiwit in droge stof en een prijs per dag die je jaren kunt volhouden. Een kat heeft niets aan voer dat je over drie maanden niet meer kunt betalen. Meer van zulke voeders vind je bij [veel eiwit voor weinig geld](/veel-eiwit-kattenvoer/) en in [de kattenvoer test](/kattenvoer-vergelijken/). Benieuwd naar een echt premiummerk? Lees mijn oordeel over [Orijen](/merken/orijen/).
-
-Probeer het ook eens zo: neem je huidige voer en zoek in de vergelijker welk voer dezelfde score haalt voor minder geld per dag. Grote kans dat er iets tussen zit.
+Koop premium als je kat goed reageert op een kort etiket, of als je bewust minder granen wilt. Koop het niet omdat je denkt dat duur automatisch beter is.

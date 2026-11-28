@@ -5,7 +5,6 @@ template: landing
 primary_keyword: graanvrij kattenvoer
 breadcrumb: Graanvrij kattenvoer
 h1: 'Beste graanvrij kattenvoer'
-lead: "Graanvrij staat op steeds meer zakken. Maar is het beter voor je kat? Mijn eerlijke kijk, met de beste graanvrije keuzes als je het toch wilt."
 seo_title: 'Beste graanvrij kattenvoer 2026: top 10 op koolhydraten'
 meta_description: 'Beste graanvrij kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: grijs
@@ -22,53 +21,30 @@ faq:
     a: "Als je kat aantoonbaar slecht reageert op granen, of als je het etiket en de samenstelling van een graanvrij merk gewoon beter vindt. Overleg bij klachten met je dierenarts."
 top10: 'ranking=graanvrij'
 top10_kw: 'graanvrij kattenvoer'
+top_n: 8
+keuze: |
+  **{{top1}}.** Het staat bovenaan mijn ranglijst van graanvrij voer dat ook echt weinig koolhydraten heeft. Want graanvrij zegt op zich weinig: aardappel en erwten vullen net zo goed.
+
+  In dit artikel vind je een overzicht met het beste graanvrije kattenvoer: brokken, natvoer en de graanvrije zakken waar ik niet voor zou kiezen.
 ---
-## Wat betekent graanvrij kattenvoer?
+## Beste graanvrij kattenvoer: let op de koolhydraten
 
-Graanvrij betekent dat er geen tarwe, maïs, rijst of andere granen in het voer zitten. Dat klinkt natuurlijk, want een kat is een vleeseter. Maar het zegt niets over hoeveel vlees er wél in zit. Vaak worden granen vervangen door aardappel, erwten of linzen. Dat zijn ook koolhydraten.
+**Graanvrij is geen garantie voor weinig koolhydraten.** Veel graanvrije brokken gebruiken aardappel, erwten of tapioca in plaats van graan. Daarom zet ik alleen voer in mijn lijst met maximaal 25% koolhydraten in de droge stof.
 
-Op dit moment noemen {{graanvrij_aantal}} complete voeders in de vergelijking zichzelf graanvrij.
+## Beste graanvrije kattenbrokken
 
-> Ik zie graanvrij vaak als prijsopdrijver. Het woord doet het goed op een zak. Kies een voer om het hele etiket, niet om één woord op de voorkant.
+[[mini form=droog flag=graanvrij sort=score n=3]]
 
-## Is graanvrij kattenvoer beter?
+## Beste graanvrije natvoer
 
-Er is geen bewijs dat graanvrij voer voor een gezonde kat beter is dan compleet voer met een beetje granen. Echte graanallergie is bij katten zeldzaam; vaker reageren katten op een bepaalde eiwitbron, zoals kip of vis. Heeft je kat jeuk of maagklachten, dan is uitzoeken op welke eiwitbron hij reageert zinvoller dan alleen granen weglaten. Lees daarover bij [kattenvoer voor een gevoelige maag](/kattenvoer-gevoelige-maag/).
+[[mini form=nat flag=graanvrij sort=score n=3]]
 
-[[foto grijs "Grijze kat eet graanvrij kattenvoer uit een voerbak"]]
+Natvoer is bijna altijd laag in koolhydraten, graanvrij of niet. Een graanvrij label op natvoer zegt dus nog minder dan op brokken.
 
-## Zo kies ik: graanvrij én weinig koolhydraten
+## Heeft je kat graanvrij nodig?
 
-Wie graanvrij koopt, wil meestal voer met meer vlees en minder vulling. Maar granen worden vaak vervangen door aardappel, erwten of tapioca. Ook dat zijn koolhydraten. Daarom kijk ik niet naar het woord graanvrij, maar naar de koolhydraten die ik uit het etiket uitreken.
+**Meestal niet.** Een allergie voor graan is bij katten zeldzaam. Vaker reageert een kat op een eiwitbron, zoals kip of vis. Denk je aan een allergie, kijk dan bij [hypoallergeen kattenvoer](/hypoallergeen-kattenvoer/).
 
-De uitkomst: graanvrije brokken hebben gemiddeld {{gv_kh_droog}} koolhydraten in de droge stof, gewone brokken {{kh_droog}}. {{gv_conclusie}} Van de {{gv_n_droog}} graanvrije brokken zitten er **{{gv_hoog}} boven 30% koolhydraten**.
+## Beste graanvrije brok voor weinig geld
 
-Dit is graanvrij voer dat ook echt weinig koolhydraten heeft, maximaal 25% in droge stof:
-
-[[ranking graanvrij]]
-
-## Droogvoer zonder granen: goede keuzes
-
-[[lijst form=droog flag=graanvrij n=6]]
-
-## Graanvrij kattenvoer nat
-
-[[lijst form=nat flag=graanvrij n=6]]
-
-## Waar let je op?
-
-Kijk niet alleen naar het woord graanvrij, maar naar wat er bovenaan het etiket staat. Een benoemde vleessoort als eerste ingrediënt is een goed teken. En reken de prijs per dag uit: graanvrij voer is in de vergelijking gemiddeld duurder. Hoe je een etiket leest, zie je in [kattenvoer etiket lezen](/kennisbank/kattenvoer-etiket-lezen/).
-
-## Hartproblemen: wat is er bekend?
-
-Je leest soms dat graanvrij voer hartproblemen zou geven. Dat verhaal komt uit Amerikaans onderzoek bij honden, waarbij een verband werd onderzocht tussen graanvrij voer met veel peulvruchten en een bepaalde hartziekte. Bij katten is zo'n verband niet aangetoond. Katten hebben wel taurine nodig voor hun hart, maar dat wordt aan compleet kattenvoer toegevoegd. Je hoeft je dus geen zorgen te maken over graanvrij voer op zich, zolang het compleet is.
-
-## Zo herken je slimme marketing
-
-Graanvrij voer staat vaak vol met peulvruchten: erwten, linzen, kikkererwten. Die leveren zetmeel en ook plantaardig eiwit. Daardoor lijkt het eiwitpercentage hoog, terwijl een deel uit planten komt. Kijk daarom bij graanvrij voer extra goed naar de eerste vijf ingrediënten. Staan daar drie soorten peulvruchten, dan is het vooral een andere vulling, geen betere.
-
-> Mijn conclusie: graanvrij is prima als het etiket verder goed is. Maar betaal er niet extra voor alleen vanwege dat ene woord. Meer over die vulling lees je bij [kattenvoer met granen en weinig eiwit](/wat-is-goed-kattenvoer/).
-
-## Wat het je per maand kost
-
-Graanvrij voer is in mijn vergelijking gemiddeld duurder dan voer met granen. Dat verschil is niet altijd groot, maar over een jaar telt het op. Wil je graanvrij en toch voordelig, sorteer dan in de [vergelijker](/kattenvoer-vergelijken/) met het filter graanvrij op goedkoopste eiwit. Je ziet dan bovenaan graanvrij voer waar je per euro het meeste eiwit voor krijgt. Dat zijn vaak niet de bekendste merken, maar wel slimme keuzes.
+[[mini form=droog flag=graanvrij minscore=5.5 sort=ppd n=3]]

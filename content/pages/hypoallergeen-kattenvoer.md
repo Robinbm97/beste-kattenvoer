@@ -5,7 +5,6 @@ template: landing
 primary_keyword: hypoallergeen kattenvoer
 breadcrumb: Hypoallergeen kattenvoer
 h1: 'Beste hypoallergeen kattenvoer'
-lead: "Hypoallergeen staat op veel zakken, maar het woord is niet beschermd. Ik leg uit wanneer het echt iets betekent, en welk voer voor een gevoelige kat het proberen waard is."
 seo_title: 'Hypoallergeen kattenvoer 2026: top 10 met één eiwitbron'
 meta_description: 'Beste hypoallergeen kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn hele top 10 met eiwit en prijs per dag.'
 image: grijs
@@ -23,50 +22,30 @@ faq:
     a: "Nee. Katten reageren veel vaker op een eiwitbron zoals kip, rund of vis dan op granen."
 top10: 'ranking=hypo'
 top10_kw: 'hypoallergeen kattenvoer'
+top_n: 6
+keuze: |
+  **{{top1}}.** Het staat bovenaan mijn lijst van voer met één benoemde dierlijke eiwitbron. Dat is wat ik zoek bij een kat die ergens op reageert, niet de sticker "hypoallergeen".
+
+  In dit artikel vind je een overzicht met het beste hypoallergene kattenvoer: voer met één eiwitbron, dieetvoer van de dierenarts en hoe je uitzoekt waar je kat op reageert.
 ---
-## Hypoallergeen kattenvoer: een woord zonder regels
+## Beste hypoallergeen kattenvoer: tel de eiwitbronnen
 
-Dit vind ik belangrijk om te weten voordat je geld uitgeeft: "hypoallergeen" is geen beschermde term. Een fabrikant mag het op de zak zetten zonder dat er een bepaalde norm achter zit. Soms betekent het alleen dat er geen kip of geen granen in zit.
+**"Hypoallergeen" is geen beschermd woord.** Iedere fabrikant mag het op de zak zetten. Wat wel helpt, is voer met zo min mogelijk verschillende dierlijke eiwitbronnen. Dan weet je waar je kat op reageert.
 
-Echte voedselallergie bij katten gaat bijna altijd over een **eiwitbron**: kip, rund, vis of zuivel. Granen spelen veel minder vaak een rol. Er zijn grofweg twee soorten voer die echt iets doen:
+## Beste voer met één eiwitbron
 
-- **Eén nieuwe eiwitbron.** Voer met één dier dat je kat nog nooit heeft gehad, zoals eend, hert of konijn. Werkt alleen als er echt niets anders in zit.
-- **Gehydrolyseerd eiwit.** Dieetvoer van de dierenarts waarin het eiwit zo klein is geknipt dat het afweersysteem het niet herkent. Dat is het meest betrouwbaar, maar ook het duurst.
+[[mini ranking=hypo n=4]]
 
-> Jeukt je kat of heeft hij steeds diarree, ga dan eerst naar de dierenarts. Ik zie te vaak dat mensen zak na zak proberen, terwijl een goed eliminatiedieet in acht weken duidelijkheid geeft.
+## Beste hypoallergene dieetvoer
 
-## Hypoallergeen kattenvoer droog voor gevoelige katten
+[[mini dieet=alleen zoek=hypo|anallergen|hydroly sort=ppd n=3]]
 
-Dit is compleet droogvoer dat zichzelf geschikt noemt voor gevoelige katten, gesorteerd op mijn score.
+Dit dieetvoer gebruikt gehydrolyseerd eiwit: zo klein geknipt dat het lichaam het niet meer herkent. Het is bedoeld voor een eliminatiedieet onder begeleiding van de dierenarts.
 
-[[lijst form=droog flag=gevoelig sort=score n=6]]
+## Zo zoek je uit waar je kat op reageert
 
-## Hypoallergeen kattenvoer nat
+Geef zes tot acht weken alleen één nieuw voer, zonder snoepjes of tafelresten. Worden de klachten minder, dan voeg je oude eiwitbronnen één voor één weer toe. Zo vind je de boosdoener. Jeuk, krabben en dunne ontlasting kunnen ook andere oorzaken hebben, dus laat je kat eerst nakijken.
 
-[[lijst form=nat flag=gevoelig sort=score n=6]]
+## Mijn mening over hypoallergeen voer
 
-[[foto senior "Oudere kat eet rustig hypoallergeen kattenvoer"]]
-
-## Zo kies ik: zo weinig mogelijk dierlijke eiwitbronnen
-
-Een voedselallergie bij katten is bijna altijd een reactie op een eiwit, meestal van een dier dat de kat al vaak heeft gegeten. Hoe minder verschillende eiwitbronnen in een voer, hoe groter de kans dat je de boosdoener vermijdt. Daarom tel ik de dierlijke bronnen in de samenstelling: kip, rund, vis, lam, enzovoort.
-
-Van {{hypo_n_sam}} producten kon ik de samenstelling lezen. Van de {{hypo_n_gev}} daarvan met "sensitive" of "hypoallergeen" op de zak, hadden er **{{hypo_gev_multi}} twee of meer dierlijke eiwitbronnen**. Een "sensitive" kipvoer met ook vis en ei erin is voor een allergische kat geen oplossing.
-
-Dit zijn de complete voeders met één benoemde dierlijke eiwitbron volgens de samenstelling:
-
-[[ranking hypo]]
-
-> Let op: "één bron op het etiket" is nog geen garantie. Bij een echt vermoeden van allergie werkt alleen een eliminatiedieet van acht weken, met dieetvoer van je dierenarts. Daar staan er {{hypo_n_dieet}} van in de feed.
-
-## Hypoallergeen dieetvoer van de dierenarts
-
-Dit is dieetvoer met gehydrolyseerd eiwit of één eiwitbron. Mijn score kijkt naar eiwit, etiket en prijs; of het bij jouw kat werkt, kan alleen je dierenarts beoordelen.
-
-[[lijst dieet=alleen zoek=hypo|anallerg|sensitiv|hydrol sort=score n=6]]
-
-## Zo pak je het aan
-
-Kies één voer en houd dat minimaal zes weken vol, zonder snoepjes of tafelresten ernaast. Eén likje kip kan de hele proef verpesten. Schakel rustig over in een week, zoals in [overstappen op ander voer](/kennisbank/kat-overzetten-op-ander-voer/). Gaat het vooral om de maag en minder om jeuk, kijk dan ook bij [kattenvoer voor een gevoelige maag](/kattenvoer-gevoelige-maag/). En wil je weten waarom graanvrij hier zelden de oplossing is, lees dan [graanvrij kattenvoer](/graanvrij-kattenvoer/).
-
-Houd een kort dagboekje bij tijdens de proef: wat je kat at, hoe de ontlasting was en hoeveel hij krabde. Na zes weken zie je dan zwart op wit of er iets veranderd is.
+Begin niet met het duurste dieetvoer. Probeer eerst een voer met één andere eiwitbron dan je kat nu eet, bijvoorbeeld konijn of eend in plaats van kip. Werkt dat niet, dan is dieetvoer de volgende stap.

@@ -5,7 +5,6 @@ template: landing
 primary_keyword: kattenvoer aanbieding
 breadcrumb: Kattenvoer aanbieding
 h1: 'Kattenvoer aanbieding'
-lead: "Korting is pas korting als het voer ook deugt. Ik zet de aanbiedingen van vandaag naast mijn score, zodat je niet in de aanbieding koopt wat je eigenlijk niet wilt."
 seo_title: 'Kattenvoer aanbieding: top 10 deals met een goede score'
 meta_description: 'Kattenvoer in de aanbieding? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Alleen deals met een goede score in mijn top 10.'
 image: samen
@@ -21,49 +20,26 @@ faq:
     a: "Nee. Een 'van-voor'-prijs zegt iets over de winkel, niet over het voer. Kijk naar de prijs per dag na korting: soms is ander voer zonder korting nog steeds goedkoper."
 top10: 'korting=10 minscore=6 sort=korting'
 top10_kw: 'kattenvoer in de aanbieding'
+top_n: 9
+keuze: |
+  **{{top1}}.** Nu met flinke korting, en het scoort {{top1_score}}. Een aanbieding is alleen een goede deal als het voer zelf ook goed is.
+
+  In dit artikel vind je een overzicht met de beste kattenvoer-aanbiedingen van dit moment: alleen voer met een goede score, brokken met de grootste korting en hoe je een nepkorting herkent.
 ---
-## Kattenvoer aanbieding: waar ik op let
+## Beste kattenvoer in de aanbieding: brokken
 
-Vandaag staan er {{korting_aantal}} soorten compleet kattenvoer met minstens 10% korting in de vergelijking. Daarvan halen er **{{korting_goed}}** bij mij een 6 of hoger. Dat verschil is precies waarom deze pagina bestaat.
+[[mini form=droog stage=adult korting=10 minscore=5.5 sort=korting n=3]]
 
-Korting werkt op je gevoel. "30% korting" leest als winst, maar als het voer weinig eiwit heeft en vol vulling zit, koop je vooral goedkoper vulmiddel. Ik kijk daarom eerst naar de score en pas daarna naar de korting. En ik reken alles door naar de prijs per dag, zodat een grote zak met korting eerlijk naast een klein zakje staat.
+## Beste natvoer in de aanbieding
 
-> Mijn advies: zie een aanbieding als reden om voer dat je toch al koopt in te slaan, niet als reden om iets nieuws te proberen.
+[[mini form=nat stage=adult korting=10 minscore=6 sort=korting n=3]]
 
-## Kattenvoer in de aanbieding met een goede score
+## Hoe herken je een goede deal?
 
-Compleet voer met minstens 10% korting en een score van 6 of hoger, gesorteerd op de grootste korting.
+**Kijk naar de prijs per dag, niet naar het kortingspercentage.** Een korting van 30% op duur voer kan nog steeds duurder zijn dan gewoon goedkoop voer. Kijk ook of de "van-prijs" realistisch is: sommige winkels zetten de oude prijs hoog om de korting groter te laten lijken.
 
-[[lijst korting=10 minscore=6 sort=korting n=9]]
+## Mijn tip voor slim inslaan
 
-## Droogvoer met de grootste korting
+Sla alleen in als je kat het voer al kent en lust. Een grote voorraad van voer dat je kat laat staan, is geen besparing. Let ook op de houdbaarheidsdatum bij grote zakken.
 
-[[lijst form=droog korting=10 sort=korting n=6]]
-
-## Natvoer met de grootste korting
-
-[[lijst form=nat korting=10 sort=korting n=6]]
-
-[[foto kom "Volle kom kattenvoer uit de aanbieding"]]
-
-## Felix, Gourmet en Royal Canin kattenvoer in de aanbieding
-
-Naar deze merken wordt het meest gezocht. Hieronder wat er vandaag met korting staat. Staat er niets, dan is er op dit moment geen aanbieding van minstens 10%.
-
-[[lijst brand=felix korting=10 sort=korting n=3]]
-
-[[lijst brand=gourmet korting=10 sort=korting n=3]]
-
-[[lijst brand=royal-canin korting=10 sort=korting n=3]]
-
-Wat ik van die merken vind, lees je bij [Felix](/merken/felix/), [Gourmet](/merken/gourmet/) en [Royal Canin](/merken/royal-canin/).
-
-## Slim kopen als kattenvoer in de aanbieding is
-
-Een paar dingen die je meer opleveren dan de hoogste korting:
-
-- **Kijk naar de prijs per dag na korting.** Die staat op elke kaart. Een aanbieding op duur voer is vaak nog steeds duurder dan voer zonder korting.
-- **Let op de houdbaarheid.** Natvoer kun je makkelijk een jaar bewaren. Een open zak brokken wil je binnen zes tot acht weken leeg hebben. Koop dus niet meer droogvoer dan je kat in die tijd eet; zie [grootverpakking](/kattenvoer-grootverpakking/).
-- **Wissel niet steeds van voer.** Elke keer een ander merk omdat het in de aanbieding is, is voor de maag van je kat vervelend.
-
-Zoek je altijd het voordeligste, kijk dan bij [het goedkoopste kattenvoer per dag](/goedkoop-kattenvoer/) of [goedkoop kattenvoer dat wel deugt](/goedkoop-kattenvoer/).
+Deze lijst wordt elke dag bijgewerkt uit de prijzen van de webshops.

@@ -6,7 +6,6 @@ primary_keyword: beste kattenvoer volgens dierenarts
 synonyms: [dierenartsvoer, dieetvoer, voer van de dierenarts, speciaal kattenvoer, advies van de dierenarts, dierenartsen aanraden, veterinary diet, prescription diet]
 breadcrumb: Volgens de dierenarts
 h1: 'Beste kattenvoer volgens de dierenarts'
-lead: "Wat is het beste kattenvoer volgens de dierenarts? Meestal Royal Canin of Hill's, zeker als je kat iets speciaals nodig heeft. Mijn top 10 per probleem, en waar je op let als je het bij de dierenarts koopt."
 seo_title: 'Beste kattenvoer volgens dierenarts: top 10 per probleem'
 meta_description: "Beste kattenvoer volgens de dierenarts? Top 10 van Royal Canin en Hill's per probleem: blaas, nieren, maag en gewicht. Plus waarom je niet blind koopt."
 image: kitten
@@ -29,63 +28,36 @@ faq:
     a: "Liever niet. Dieetvoer zoals urinary of renal is gemaakt voor een specifiek probleem. Geef het alleen na het advies van de dierenarts, en laat je kat op tijd controleren."
 top10: 'ids=hill-s-prescription-diet-c-d-multicare-urinary-care-kattenvoer-kip-8-k-4a7g3:Blaasproblemen (droog)|royal-canin-veterinary-diet-urinary-s-o-natvoer-12x85-g-1odrk:Blaasproblemen (nat)|royal-canin-urinary-s-o-moderate-calorie-kattenvoer-9-kg-ij79k:Blaas en te zwaar|hill-s-prescription-diet-k-d-kidney-care-kattenvoer-kip-3-kg-ondersteu-1i1r6:Nierproblemen|royal-canin-gastro-intestinal-moderate-calorie-4-kg-kattenvoer-1gxuw:Maag en darmen|royal-canin-veterinary-diet-diabetic-3-5-kg-kattenvoer-1p1q4:Diabetes|royal-canin-satiety-weight-management-kattenvoer-6-kg-6tjt9:Overgewicht|royal-canin-veterinary-diet-cat-skin-en-coat-3-5-kg-kattenvoer-upybl:Huid en vacht|pro-plan-veterinary-diets-feline-ha-hypoallergenic-kattenvoer-3-5-kg-1tm6r:Voedselallergie|royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:Gezonde kat'
 top10_kw: 'kattenvoer volgens de dierenarts'
+top_n: 10
+keuze: |
+  **Per probleem een ander dieet, altijd na overleg met je dierenarts.** Dierenartsen schrijven vooral Royal Canin en Hill's voor. Dat komt doordat die merken hun dieetvoer laten onderzoeken, niet doordat het etiket het beste is.
+
+  In dit artikel vind je een overzicht met het beste dieetvoer per probleem, zoals de dierenarts het zou kiezen, en wat je zelf kunt doen als je kat gezond is.
 ---
+## Beste kattenvoer volgens de dierenarts bij blaasproblemen
 
-Let op: bij dieetvoer zegt mijn score minder. Nierdieet heeft bijvoorbeeld bewust minder eiwit en fosfor, dus dat scoort bij mij laag, terwijl het voor een kat met zieke nieren juist goed is. Geef dieetvoer altijd na het advies van de dierenarts. Het beste kattenvoer volgens de dierenarts is dus niet altijd het voer met de hoogste score bij mij.
+**Bij struvietgruis kiest de dierenarts een dieet dat de urine iets zuurder maakt en weinig magnesium heeft.**
 
-## Waarom juist Royal Canin en Hill's?
+[[mini brand=royal-canin,hill-s dieet=alleen flag=urinewegen sort=score n=3 permerk=nee]]
 
-Royal Canin en Hill's zijn grote fabrikanten met eigen voedingsdeskundigen en eigen onderzoek. Dat is precies waar de internationale richtlijnen voor dierenartsen (WSAVA) naar kijken: wie maakt het voer, wie schrijft de recepten en wordt het getest? Die richtlijnen noemen geen merk, maar dit soort fabrikanten voldoet er wel aan.
+Gebruik dit alleen als de dierenarts struviet heeft vastgesteld. Voor een gezonde kat is dieetvoer niet nodig. Meer op [urinary kattenvoer](/urinary-kattenvoer/).
 
-Het grootste voordeel is de keuze. Royal Canin en Hill's hebben samen tientallen lijnen met speciaal kattenvoer: voor de blaas, de nieren, de maag, de huid, diabetes en overgewicht. Ander voer heeft dat meestal niet. Daarom is dierenartsvoer van deze twee merken voor mij altijd de eerste keuze als je kat iets mankeert. Het is ook het beste kattenvoer volgens de dierenarts omdat je dierenarts weet hoe het werkt en wat hij kan verwachten.
+## Beste dieetvoer bij nierproblemen
 
-> Mila had een paar keer last van haar blaas. Toen kreeg ze Hill's dieetvoer op advies van de dierenarts, en dat hielp echt. Heeft je kat iets, dan zou ik altijd voor dit soort speciaal kattenvoer gaan. Voor mij is dat het beste kattenvoer volgens de dierenarts.
+Bij nierproblemen draait het om minder fosfor. Welk nierdieet het beste past, hangt af van het stadium. Ik zet ze op fosfor naast elkaar op [kattenvoer bij nierproblemen](/kattenvoer-nieren/).
 
-## Dieetvoer per probleem
+## Waarom dierenartsen Royal Canin en Hill's noemen
 
-Het beste kattenvoer volgens de dierenarts hangt af van wat je kat heeft. Dierenartsen raden per probleem ander dieetvoer aan. Een kort overzicht van het dieetvoer dat dierenartsen aanraden:
+Veel dierenartsen volgen de richtlijnen van de WSAVA. Die vragen of een fabrikant eigen voedingsdeskundigen heeft en zijn voer laat testen. Grote merken als Royal Canin, Hill's en Pro Plan doen dat. Dat zegt iets over de fabrikant, niet over het etiket van elk product.
 
-- **Blaasproblemen of blaasgruis:** urinary-voer, zoals [Hill's c/d](/kattenvoer/hill-s-prescription-diet-c-d-multicare-urinary-care-kattenvoer-kip-8-k-4a7g3/) of [Royal Canin Urinary S/O](/kattenvoer/royal-canin-urinary-s-o-moderate-calorie-kattenvoer-9-kg-ij79k/). Natvoer helpt extra, omdat je kat dan meer vocht binnenkrijgt. Meer in [urinary kattenvoer](/urinary-kattenvoer/).
-- **Nierproblemen:** nierdieet met minder fosfor, zoals [Hill's k/d](/kattenvoer/hill-s-prescription-diet-k-d-kidney-care-kattenvoer-kip-3-kg-ondersteu-1i1r6/) of [Royal Canin Renal](/kattenvoer/royal-canin-renal-special-4-kg-kattenvoer-8h2ff/). Lees ook [kattenvoer bij nierproblemen](/kattenvoer-nieren/).
-- **Maag en darmen:** licht verteerbaar dieetvoer, zoals Royal Canin Gastro Intestinal. Zie [kattenvoer voor een gevoelige maag](/kattenvoer-gevoelige-maag/).
-- **Voedselallergie:** hypoallergeen dieetvoer met gesplitst eiwit. Zie [hypoallergeen kattenvoer](/hypoallergeen-kattenvoer/).
-- **Diabetes en overgewicht:** voer met veel eiwit en weinig koolhydraten. Royal Canin Diabetic heeft {{p:royal-canin-veterinary-diet-diabetic-3-5-kg-kattenvoer-1p1q4:eiwit}} eiwit en ongeveer {{p:royal-canin-veterinary-diet-diabetic-3-5-kg-kattenvoer-1p1q4:kh}} koolhydraten.
+## Beste kattenvoer volgens de dierenarts voor een gezonde kat
 
-[[lijst brand=royal-canin,hill-s dieet=alleen flag=urinewegen sort=score n=3 permerk=nee label="Bij blaasproblemen"]]
+**Is je kat gezond, dan heeft hij geen dieetvoer nodig.** Kies dan gewoon compleet voer met veel eiwit. Het merk dat de dierenarts verkoopt, is niet per se de beste keuze voor je portemonnee:
 
-## Is kattenvoer van de dierenarts beter?
+[[mini brand=pro-plan,royal-canin,hill-s form=droog stage=adult dieet=nee sort=score n=3 permerk=ja]]
 
-Bij een aandoening: ja. Daar is dieetvoer voor gemaakt, en dan is dierenartsvoer echt het beste kattenvoer volgens de dierenarts én volgens mij. Voor een gezonde kat ligt het anders.
+Mijn eigen top staat bij [het beste kattenvoer](/beste-kattenvoer/).
 
-Het gewone voer van Royal Canin en Hill's, dus geen dieetvoer, scoort bij mij namelijk minder op eiwit. Het [Hill's Feline Adult](/kattenvoer/hill-s-feline-adult-zalm-kattenvoer-7-kg-2t734/) droogvoer heeft {{p:hill-s-feline-adult-zalm-kattenvoer-7-kg-2t734:eiwit}} eiwit in droge stof. Er zitten ook vaak extra toevoegingen in, zoals plantaardige vezels, gluten of rijst. Dat is niet slecht, maar een kat is een vleeseter. De basis van het beste kattenvoer blijft gewoon: **veel eiwit**.
+## Mijn mening over het advies van de dierenarts
 
-Ter vergelijking, alle drie droogvoer voor een volwassen kat:
-
-| Voer | Eiwit (droge stof) | Koolhydraten | Per dag |
-|---|---|---|---|
-| Felix Dubbel Zo Lekker | {{p:felix-dubbel-zo-lekker-rund-en-kip-7-5kg-10cnh:eiwit}} | ±{{p:felix-dubbel-zo-lekker-rund-en-kip-7-5kg-10cnh:kh}} | {{p:felix-dubbel-zo-lekker-rund-en-kip-7-5kg-10cnh:dag}} |
-| Royal Canin Fussy | {{p:royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:eiwit}} | ±{{p:royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:kh}} | {{p:royal-canin-fussy-exigent-kattenvoer-10-kg-1gp5x:dag}} |
-| Natural Health Carnivore | {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:eiwit}} | ±{{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:kh}} | {{p:natural-health-graanvrij-kattenvoer-adult-carnivore-10-kg-kat-1u0sh:dag}} |
-
-Je hoort een dierenarts eigenlijk nooit Felix aanraden, en dat snap ik: weinig eiwit en veel koolhydraten. Royal Canin zit er netjes tussenin: prima voer van de dierenarts, maar niet automatisch het beste kattenvoer volgens de cijfers. Maar wil je voor een gezonde kat het meeste eiwit voor je geld, kijk dan ook naar mijn [beste droogvoer voor katten](/beste-droogvoer-katten/).
-
-Bij natvoer is het anders. Daar scoort het voer van de dierenarts, zeker Royal Canin, juist heel goed, met veel eiwit en weinig koolhydraten:
-
-[[lijst brand=royal-canin form=nat stage=adult sort=score n=3 permerk=nee label="Natvoer van de dierenarts"]]
-
-## Koop dieetvoer niet blind in de praktijk
-
-Veel dierenartsen verkopen zelf voer in de praktijk. Daar verdienen ze aan, en sommige praktijken werken nauw samen met één merk. Dat betekent niet dat het advies slecht is. Maar het voer van de dierenarts is niet altijd het enige of het voordeligste voer dat bij dat advies past. Het beste kattenvoer volgens je dierenarts kun je vaak ook ergens anders kopen.
-
-Ik zie het te vaak: je komt voor een controle en loopt naar buiten met een zak uit het winkeltje, zonder te weten waarom precies dat voer. Doe daarom dit:
-
-1. **Vraag naar het advies van de dierenarts zelf.** Wat heeft je kat nodig? Bijvoorbeeld een urinary-dieet, minder fosfor of minder calorieën.
-2. **Vraag of het een dieet moet zijn**, of dat gewoon goed voer ook mag.
-3. **Kies daarna zelf het voer dat bij dat advies past.** Hetzelfde dieetvoer is online vaak een stuk goedkoper dan in de praktijk.
-4. **Twijfel je, vraag dan door.** Een goede dierenarts legt graag uit waarom.
-
-Zo krijgt je kat het beste kattenvoer volgens de dierenarts, past het bij het advies van de dierenarts, en betaal je niet meer dan nodig voor dieetvoer.
-
-## Wat je kunt vragen bij de controle
-
-Wil je het beste kattenvoer volgens de dierenarts voor jouw kat? Neem het etiket mee naar de volgende controle. Vraag of het gewicht van je kat goed is, hoeveel calorieën hij per dag nodig heeft, en of er een reden is om op eiwit, fosfor of magnesium te letten. Met het advies van de dierenarts op zak kies je in de [vergelijker](/kattenvoer-vergelijken/) zelf het beste voer binnen je budget. Wil je weten hoe ik dierenartsvoer en ander voer beoordeel, lees dan [hoe ik kattenvoer score](/hoe-wij-scoren/).
+Ik vertrouw de dierenarts bij een diagnose. Bij gewoon voer kijk ik liever zelf naar de cijfers. Dieetvoer koop je niet op gevoel en ook niet zonder controle: laat na een paar weken de urine of het bloed opnieuw testen.

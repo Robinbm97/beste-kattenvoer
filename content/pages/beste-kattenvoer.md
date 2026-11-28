@@ -5,7 +5,6 @@ template: landing
 primary_keyword: beste kattenvoer
 breadcrumb: Beste kattenvoer
 h1: 'Beste kattenvoer'
-lead: "Geen top 10 vol sponsors. Dit is mijn lijst met het beste kattenvoer per situatie, met per keuze wat het je per dag kost."
 seo_title: 'Beste kattenvoer 2026: top 10 op etiket en prijs per dag'
 meta_description: 'Beste kattenvoer? Mijn nummer 1 is {{top1}}: score {{top1_score}} voor {{top1_dag}} per dag. Bekijk mijn top 10 natvoer en brokken met eiwit en prijs.'
 image: kom
@@ -24,76 +23,54 @@ faq:
     a: "Zo weinig mogelijk. Wissel je toch, bouw het nieuwe voer dan in 7 tot 10 dagen op om maagklachten te voorkomen."
 top10: 'form=droog,nat stage=adult sort=score'
 top10_kw: 'beste kattenvoer'
+top_n: 10
+keuze: |
+  **{{top1}}.** Score {{top1_score}}, {{top1_eiwit}} eiwit en {{top1_dag}} per dag. Het beste kattenvoer dat ik vond, komt gewoon uit de supermarkt. Dure merken scoren lager.
+
+  In dit artikel vind je een overzicht met het beste kattenvoer voor je kat: natvoer en brokken, voor een krap en een ruim budget, en de merken die hun prijs niet waarmaken.
 ---
-## Wat maakt het beste kattenvoer?
+## Beste kattenvoer: natvoer of brokken?
 
-Ik heb lang gezocht naar één antwoord op de vraag wat het beste kattenvoer is. Dat antwoord bestaat niet. Wat wel bestaat, is het beste voer **voor jouw kat en jouw budget**. Daarom kies ik per situatie, en zet ik er steeds bij wat het per dag kost.
+**Het beste kattenvoer is voor de meeste katten een mix: natvoer voor het vocht, brokken voor de prijs.** Natvoer bestaat voor zo'n 80% uit water. Daar heeft een kat iets aan, want katten drinken van nature weinig. Brokken zijn per dag een stuk goedkoper. Gemiddeld natvoer kost {{nat_mid_dag}} per dag, gemiddeld droogvoer {{droog_mid_dag}}.
 
-Mijn vier vragen bij elk voer:
+Mijn advies: geef 's ochtends een zakje van het beste natvoer en vul de rest aan met goede brokken. Dan zit je onder de helft van wat alleen natvoer kost.
 
-1. **Is het compleet?** Anders is het een snack, hoe mooi het blikje ook is.
-2. **Staat er een benoemde vleessoort vooraan?** Hoe specifieker, hoe beter.
-3. **Past het bij de levensfase?** Kitten, volwassen of senior.
-4. **Wat kost het per dag?** Goed voer dat je na drie maanden niet meer kunt betalen, is geen goed voer.
+## Beste natte kattenvoer
 
-> Ik ben kritisch, maar niet zuur. De meeste katten in Nederland krijgen prima voer. Het verschil zit vaak in een paar euro per maand en een etiket dat je even moet leren lezen.
+[[mini form=nat stage=adult sort=score n=3]]
 
-## Beste kattenvoer droog: mijn keuze
+De top van het natvoer wordt gedomineerd door Felix en Gourmet. Dat verrast veel mensen. Het etiket is niet het mooiste, maar er zit veel dierlijk eiwit in en weinig koolhydraten. Meer keuze vind je op [het beste natvoer voor je kat](/beste-natvoer-kat/).
 
-Voor de meeste baasjes vormen brokken de basis. Ze zijn per dag het goedkoopst en makkelijk te bewaren. Mijn favoriet voor prijs en kwaliteit is [Smolke](/merken/smolke/): een kort etiket en een prijs per dag die je jaren kunt volhouden.
+## Beste kattenbrokken
 
-[[lijst brand=smolke form=droog n=3 label="Mijn keuze"]]
+[[mini form=droog stage=adult sort=score n=3]]
 
-Wil je meer droogvoer vergelijken, kijk dan bij [het beste droogvoer voor katten](/beste-droogvoer-katten/).
+Bij brokken loopt het eiwit ver uiteen: van onder de 30% tot ruim 50% in de droge stof. Kies brokken met minstens 40% eiwit. Alles op een rij staat bij [het beste droogvoer voor katten](/beste-droogvoer-katten/).
 
-[[foto oranje "Rode kat eet het beste kattenvoer uit een zwarte kom"]]
+## Beste kattenvoer met een krap budget
 
-## Natvoer: mijn keuze
+**Goed kattenvoer hoeft niet duur te zijn.** Deze brokken scoren een 6 of hoger en kosten het minst per dag:
 
-Natvoer geeft je kat extra vocht, en veel katten eten het graag. Het is wel veel duurder per dag. Mijn keuze is [Yarrah](/merken/yarrah/): biologisch, een helder etiket en per dag goedkoper dan veel niet-biologische premiummerken.
+[[mini form=droog stage=adult minscore=6 sort=ppd n=3]]
 
-[[lijst brand=yarrah form=nat n=3 label="Mijn keuze"]]
+Voor zo'n bedrag per dag krijg je meer eiwit dan in de meeste brokken van bekende merken. Zoek je meer, kijk dan bij [goedkoop kattenvoer](/goedkoop-kattenvoer/).
 
-## Met een krap budget
+## Beste kattenvoer als prijs niet uitmaakt
 
-Je wilt het beste, maar het moet betaalbaar blijven. Dan kies ik voor [IAMS](/merken/iams/) als brokken en [Voskes](/merken/voskes/) als natvoer. Allebei compleet en per dag ruim onder het gemiddelde.
+Mag het wat kosten? Dan krijg je bij deze premium brokken veel eiwit en een kort etiket:
 
-[[lijst brand=iams form=droog n=2 label="Budgetkeuze"]]
+[[mini form=droog stage=adult class=premium sort=score n=3]]
 
-[[lijst brand=voskes form=nat n=2 label="Budgetkeuze"]]
+Eerlijk is eerlijk: het verschil met de top van het goedkope voer is klein. Je betaalt vooral voor een kortere ingrediëntenlijst en minder granen.
 
-Meer opties staan bij [goedkoop kattenvoer](/goedkoop-kattenvoer/).
+## Bekende merken die tegenvallen
 
-## Als het geld er is
+Royal Canin, Edgard & Cooper en Renske hebben een goede naam. Op de cijfers vallen hun gewone brokken tegen: minder eiwit en een hogere prijs per dag dan de brokken hierboven.
 
-Wil je je kat verwennen met een rijk etiket, dan zijn [Edgard & Cooper](/merken/edgard-en-cooper/), [Renske](/merken/renske/) en [Wellness Core](/merken/wellness-core/) mijn favorieten. Mooi voer, eerlijke recepten. Maar weet dat je per dag ongeveer twee keer zoveel betaalt als voor degelijke middenklasse.
+[[mini ids=royal-canin-indoor-27-kattenvoer-10kg-voor-de-volwassen-binnenkat-xn12c,edgard-en-cooper-kattenvoer-adult-kip-4-kg-1384y,renske-super-premium-senior-kattenvoer-kip-en-eend-6-kg-1by4h]]
 
-[[lijst brand=edgard-en-cooper,renske,wellness-core form=droog n=3]]
+Slecht voer is het niet. Maar voor hetzelfde geld kun je meer eiwit kopen. Op [premium kattenvoer](/premium-kattenvoer/) zoek ik uit waar je dan wel voor betaalt.
 
-## Voor kittens en senioren
+## Zo kies ik het beste kattenvoer
 
-Een kitten groeit en heeft meer energie en voedingsstoffen nodig. Een oudere kat heeft juist andere behoeften. Kies daarom altijd voer dat voor die levensfase bedoeld is. Mijn tips per leeftijd staan bij [kittenvoer](/kittenvoer/) en [senior kattenvoer](/senior-kattenvoer/).
-
-[[band kittens "Elke leeftijd eigen voer" "Een kitten groeit hard, een oudere kat heeft juist rust en vocht nodig. Kies voer dat bij die fase past." "/kittenvoer/|Naar kittenvoer"]]
-
-## Wat ik níet aanraad als beste kattenvoer
-
-**Aanvullend voer als enige maaltijd.** Merken als [Almo Nature](/merken/almo-nature/) en [Schesir](/merken/schesir/) hebben prachtige blikjes die aanvullend zijn. Lekker, maar geen compleet dieet.
-
-**Alleen kopen op ‘graanvrij’.** Graanvrij is geen kwaliteitskeurmerk. Lees waarom bij [graanvrij kattenvoer](/graanvrij-kattenvoer/).
-
-**Elke maand een ander merk.** Katten houden van routine, en hun maag ook.
-
-## Zo heb ik het beste kattenvoer gekozen
-
-Ik heb {{aantal_voer}} complete voeders vergeleken op prijs per kilo en prijs per dag, en per merk het etiket en het assortiment bekeken. Mijn score per merk is mijn eigen oordeel. Ik heb niet elk voer aan mijn eigen katten gegeven, en dat zeg ik er eerlijk bij. Prijzen zijn van {{datum}}.
-
-## Het beste kattenvoer is ook het voer dat je kunt volhouden
-
-Ik zie veel mensen die vol goede moed overstappen op een duur voer, en na een paar maanden terugvallen omdat het niet in het budget past. Dat is jammer, want al dat wisselen is niet goed voor de maag van je kat. Kies daarom liever een voer dat je jarenlang kunt geven. Een goede 7 die je kunt blijven betalen, is beter dan een 9 die je na drie maanden niet meer koopt.
-
-## Het beste kattenvoer combineren
-
-Je hoeft niet één voer te kiezen. Veel baasjes geven brokken als basis en natvoer als vaste maaltijd. Dat is een prima aanpak: de brokken houden het betaalbaar, het natvoer geeft extra vocht en eiwit. Kies dan voor allebei een voer dat goed scoort, en tel de calorieën bij elkaar op zodat je kat niet te veel krijgt.
-
-> Begin bij je budget per dag, en zoek daarbinnen het voer met de hoogste score. Dat is eigenlijk het hele geheim.
+Elke score komt uit een formule: eiwit in de droge stof telt voor 40%, de prijs per 100 gram eiwit voor 25%, koolhydraten voor 20% en het etiket voor 15%. Smaak meet ik niet. Een voer met een 8 dat je kat laat staan, is voor jouw kat geen goed voer. Hoe het precies werkt, lees je bij [hoe ik score](/hoe-wij-scoren/).

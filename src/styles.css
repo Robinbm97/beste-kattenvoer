@@ -427,3 +427,12 @@ p{margin:0 0 1em}
 .top10-item{position:relative;display:flex;scroll-margin-top:90px}
 .top10-item>.pcard{flex:1}
 .top10-nr{position:absolute;z-index:3;top:-11px;left:-11px;width:36px;height:36px;border-radius:50%;background:var(--petrol);color:var(--lila);border:3px solid var(--creme);display:grid;place-items:center;font:800 15px/1 var(--display)}
+
+.keuze{background:var(--paper);border:2px solid var(--mint);border-radius:var(--r);padding:16px 20px;margin:0 0 1.4em}
+.keuze-kop{margin:0 0 .3em;font:800 13px/1 var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--mint-d)}
+.keuze p{margin:.35em 0}
+.mini{list-style:none;padding:0;margin:.6em 0 1.2em;border:1px solid var(--line);border-radius:14px;background:var(--paper);overflow:hidden}
+.mini li{padding:10px 14px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px}
+.mini li:first-child{border-top:0}
+.mini li a{font-weight:600}
+.mini li span{color:var(--ink-2);font-size:.92em;white-space:nowrap}

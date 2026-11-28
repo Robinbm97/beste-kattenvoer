@@ -353,6 +353,7 @@ function md(src, page) {
   src = src.replace(/\[\[foto (\w+) "([^"]+)"\]\]/g, (_, k, alt) => '\n\n' + photo(k, alt) + '\n\n');
   src = src.replace(/\[\[band (\w+) "([^"]+)" "([^"]+)"(?: "([^"]+)")?\]\]/g, (_, k, t, txt, link) => '\n\n' + band(k, t, txt, link) + '\n\n');
   src = src.replace(/\[\[top ([^\]]+)\]\]/g, (_, a) => '\n\n' + topList(a) + '\n\n');
+  src = src.replace(/\[\[mini ([^\]]+)\]\]/g, (_, a) => '\n\n' + miniList(a) + '\n\n');
   src = ptok(src);
   src = src.replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? `{{${k}}}`);
   let html = marked.parse(src);
@@ -525,6 +526,17 @@ for (const pr of ALL.filter(HASPAGE)) {
 
 // ---------- vaste opbouw: H1, top 10 in platte tekst, top 10 als kaarten, daarna de verdieping ----------
 // frontmatter top10: een lijst-query ("form=droog sort=score"), "ranking=kitten" of "ids=id:Label|id:Label"
+// compacte productlijst onder een H2: [[mini query]] of [[mini ranking=key n=3]] of [[mini ids=a,b]]
+function miniList(arg) {
+  const q = parseArgs(arg);
+  let xs;
+  if (q.ranking) xs = q.ranking.split('+').flatMap((k) => RANK.lists[k] || []);
+  else if (q.ids) xs = q.ids.split(',').map((id) => BYID[id.trim()] || (console.warn('mini: onbekend', id), null)).filter(Boolean);
+  else { xs = select({ ...q, n: 400, permerk: 'nee' }); if ((q.sort || 'ppd') === 'score') xs = tieRule(xs.sort((a, b) => b.score.total - a.score.total || a.ppd - b.ppd)); if (q.permerk === 'ja' || (q.permerk !== 'nee' && !q.brand)) { const seen = new Set(); xs = xs.filter((p) => !seen.has(p.brand) && seen.add(p.brand)); } }
+  xs = xs.slice(0, Number(q.n || (q.ids ? 99 : 3)));
+  if (!xs.length) { console.warn('mini: leeg', arg); return ''; }
+  return `<ul class="mini">${xs.map((p) => { const bits = []; if (p.score) bits.push(`score ${score(p.score.total)}`); if (p.score && p.nut) bits.push(`${pct(p.nut.pDM)} eiwit`); bits.push(p.ppd ? `${eur(p.ppd)} per dag` : eur(p.best.price)); const name = HASPAGE(p) ? `<a href="${purl(p)}">${esc(p.short || p.name)}</a>` : esc(p.short || p.name); return `<li>${name} <span>${bits.join(' · ')}</span></li>`; }).join('')}</ul>`;
+}
 const tieRule = (xs) => { const a = xs.slice(); let ch = true; while (ch) { ch = false; for (let k = 0; k < a.length - 1; k++) { const x = a[k], y = a[k + 1]; if (x.score && y.score && x.form === y.form && x.score.total - y.score.total <= 0.2001 && y.ppd < x.ppd) { a[k] = y; a[k + 1] = x; ch = true; } } } return a; };
 function top10Of(pg) {
   const spec = String(pg.top10 || '').trim();
@@ -536,12 +548,12 @@ function top10Of(pg) {
     const q = parseArgs(spec); mode = q.sort || 'ppd';
     let xs = select({ ...q, n: 400, permerk: 'nee' });
     if (mode === 'score') xs = tieRule(xs.sort((a, b) => b.score.total - a.score.total || a.ppd - b.ppd));
-    if (q.permerk !== 'nee' && !q.brand) { const seen = new Set(); xs = xs.filter((p) => !seen.has(p.brand) && seen.add(p.brand)); }
+    if (q.permerk === 'ja' || (q.permerk !== 'nee' && !q.brand)) { const seen = new Set(); xs = xs.filter((p) => !seen.has(p.brand) && seen.add(p.brand)); }
     else { const seen = new Set(); xs = xs.filter((p) => { const k = (p.short || p.name).toLowerCase(); return !seen.has(k) && seen.add(k); }); }
     rows = xs.map((x) => ({ p: x }));
   }
   const seen = new Set();
-  rows = rows.filter((r) => !seen.has(r.p.id) && seen.add(r.p.id)).slice(0, 10);
+  rows = rows.filter((r) => !seen.has(r.p.id) && seen.add(r.p.id)).slice(0, Number(pg.top_n || 10));
   if (!rows.length) { console.warn('top10: geen producten voor', pg.slug); return null; }
   const xs = rows.map((r) => r.p);
   const cheap = xs.filter((x) => x.ppd).reduce((a, b) => (!a || b.ppd < a.ppd ? b : a), null);
@@ -566,7 +578,8 @@ function top10Html(pg) {
   const kw = esc(pg.top10_kw || pg.primary_keyword);
   const line = (r, i) => { const p = r.p; const bits = []; if (p.score) bits.push(`score ${score(p.score.total)}`); if (p.score && p.nut) bits.push(`${pct(p.nut.pDM)} eiwit`); bits.push(p.ppd ? `${eur(p.ppd)} per dag` : eur(p.best.price)); return `<li><a href="#top-${i + 1}">${esc(p.short || p.name)}</a>${r.label && i > 0 ? ` (${esc(r.label.charAt(0).toLowerCase() + r.label.slice(1))})` : ''}: ${bits.join(', ')}.</li>`; };
   const fine = (grid([rows[0].p]).match(/<p class="fine">[\s\S]*<\/p>$/) || [''])[0];
-  return `<section class="top10" aria-labelledby="top10-kop"><p class="top10-intro">Dit is mijn top ${rows.length} ${kw}, bijgewerkt op ${nlDate(CHECKED)}. ${ORDER_TXT[rows.mode] || ORDER_TXT.score}</p>
+  const keuze = pg.keuze ? `<div class="keuze"><p class="keuze-kop">Mijn keuze</p>${marked.parse(subst(pg.keuze.replace(/\{\{(top1\w*|top_n)\}\}/g, (_, x) => pg._tv[x] ?? '')))}</div>` : '';
+  return `${keuze}<section class="top10" aria-labelledby="top10-kop"><p class="top10-intro">Dit is mijn top ${rows.length} ${kw}, bijgewerkt op ${nlDate(CHECKED)}. ${ORDER_TXT[rows.mode] || ORDER_TXT.score}</p>
 <ol class="top10-tekst">${rows.map(line).join('')}</ol>
 <h2 id="top10-kop">Top ${rows.length} ${kw}</h2>
 <div class="pgrid top10-grid">${rows.map((r, i) => `<div class="top10-item" id="top-${i + 1}"><span class="top10-nr" aria-label="Plek ${i + 1}">${i + 1}</span>${card(r.p, { pick: r.label || undefined })}</div>`).join('')}</div>${fine}</section>`;
@@ -576,7 +589,8 @@ for (const p of pages) {
   p._top10 = top10Of(p);
   const t = p._top10 && p._top10[0].p;
   if (!t) continue;
-  const tv = { top1: t.short || t.name, top1_score: t.score ? score(t.score.total) : '', top1_dag: t.ppd ? eur(t.ppd) : eur(t.best.price), top1_eiwit: t.nut ? pct(t.nut.pDM) : '', top_n: String(p._top10.length) };
+  const tv = { top1: t.short || t.name, top1_score: t.score ? score(t.score.total) : '', top1_dag: t.ppd ? eur(t.ppd) : eur(t.best.price), top1_eiwit: t.nut ? pct(t.nut.pDM) : '', top_n: String(p._top10.length), top1_url: purl(t) };
+  p._tv = tv;
   for (const k of ['seo_title', 'meta_description', 'lead', 'h1']) if (typeof p[k] === 'string') p[k] = p[k].replace(/\{\{(top1\w*|top_n)\}\}/g, (_, x) => tv[x] ?? '');
   // meta binnen 160 tekens houden: eerst de productnaam inkorten, pas als laatste de slotzin weg
   const m0 = p.meta_description || '';
@@ -855,3 +869,11 @@ fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nDisall
 fs.writeFileSync(path.join(DIST, 'llms.txt'), `# Beste-kattenvoer.nl\n\n> Onafhankelijke vergelijking van kattenvoer in Nederland op prijs per kilo en prijs per dag, met een kritische blik op het etiket. Gemaakt door Robin, baasje van Mila en Nala. Elk voer is omgerekend naar eiwit in droge stof, koolhydraten en prijs per 100 gram eiwit.\n\n- [Volledige tekst van alle gidsen](${abs('/llms-full.txt')})\n- [Sitemap](${abs('/sitemap.xml')})\n\n## Gidsen en merken\n\n${indexable.filter((m) => m.template !== 'product').map((m) => `- [${m.title}](${abs(m.url)}): ${m.description}`).join('\n')}\n\n## Productanalyses\n\nAlle voer met score staat op ${abs('/kattenvoer/')}. ${indexable.filter((m) => m.template === 'product').length} producten hebben ook een eigen notitie van Robin.\n`);
 fs.writeFileSync(path.join(DIST, 'build-manifest.json'), JSON.stringify({ built: new Date().toISOString(), pages: manifest }, null, 1));
 console.log(`✓ ${manifest.length} pagina's, ${ALL.length} producten (${FOOD.length} voer), feed ${CHECKED}`);
+
+// ontwikkelhulp: PREVIEW=bestand toont mini-lijsten zonder HTML
+if (process.env.PREVIEW) {
+  for (const line of fs.readFileSync(process.env.PREVIEW, 'utf8').split('\n').filter((l) => l.trim())) {
+    if (line.startsWith('#')) { console.log('\n' + line); continue; }
+    console.log('> ' + line + '\n' + miniList(line).replace(/<\/li>/g, '\n').replace(/<[^>]+>/g, ' ').replace(/ +/g, ' ').trim());
+  }
+}
